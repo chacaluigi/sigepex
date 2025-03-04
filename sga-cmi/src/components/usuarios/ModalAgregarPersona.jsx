@@ -34,7 +34,7 @@ export const ModalAgregarPersona = ({ roles, sedes }) => {
     correo: '',
     password: '',
     rol: '',
-    sedes: []    
+    sedes: [],
   };
 
   const [indice, setIndice] = useState(initialValues);
@@ -60,14 +60,14 @@ export const ModalAgregarPersona = ({ roles, sedes }) => {
   return (
     <>
       <Button
-         bg="primary.100"
-         color="white"
-         _hover={{ bg: 'primary.200' }}
-         _dark={{
-           bg: 'primary.100',
-           color: 'white',
-           _hover: { bg: 'primary.200' },
-         }}
+        bg="primary.100"
+        color="white"
+        _hover={{ bg: 'primary.200' }}
+        _dark={{
+          bg: 'primary.100',
+          color: 'white',
+          _hover: { bg: 'primary.200' },
+        }}
         aria-label="Agregar"
         leftIcon={<Icon as={VscAdd} fontSize="lg" />}
         variant="solid"
@@ -183,8 +183,10 @@ export const ModalAgregarPersona = ({ roles, sedes }) => {
                   onChange={e => setIndice({ ...indice, rol: e.target.value })}
                   placeholder="SELECCIONE ROL DEL USUARIO"
                 >
-                  {roles.map((rol) => (
-                    <option key={rol?._id} value={rol._id}>{rol.nombre}</option>
+                  {roles.map(rol => (
+                    <option key={rol?._id} value={rol._id}>
+                      {rol.nombre}
+                    </option>
                   ))}
                 </Select>
               </FormControl>
@@ -195,13 +197,13 @@ export const ModalAgregarPersona = ({ roles, sedes }) => {
               justifyContent="space-between"
               p={4}
             >
-                <AddMultipleSelectComponent
-                  name="SEDES"
-                  data={sedes}
-                  handleSelect={e =>
-                    setIndice({ ...indice, sedes: e.map(item => item.value) })
-                  }
-                />
+              <AddMultipleSelectComponent
+                name="SEDES"
+                data={sedes}
+                handleSelect={e =>
+                  setIndice({ ...indice, sedes: e.map(item => item.value) })
+                }
+              />
             </Stack>
           </ModalBody>
           <ModalFooter>

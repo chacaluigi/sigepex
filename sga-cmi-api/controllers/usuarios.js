@@ -54,8 +54,12 @@ const getUsuario = async (req, res = response) => {
   try {
     const { id } = req.params;
 
-    // Poblar el rol para obtener toda su información
-    const usuario = await Usuario.findById(id).populate("rol", "nombre slug");
+    const usuario = await Usuario.findById(id)
+      .populate({
+        path: "rol",
+        populate: { path: "modulos" }, // Si "modulos" es otro ObjectID dentro de "rol"
+      })
+      .populate({ path: "sedes", populate: { path: "director" } });
 
     if (!usuario) {
       res.status(404).json({

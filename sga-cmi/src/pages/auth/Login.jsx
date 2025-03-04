@@ -112,10 +112,10 @@ const Header = () => (
       margin="0 auto"
     />
     <Heading fontSize="2xl" mt={4} fontWeight="black">
-      SISTEMA DE GESTIÓN ADMINISTRATIVA
+      SIGEPEX
     </Heading>
     <Text fontSize="md" color="gray.600" mt={2}>
-      Colegio Simón Bolívar
+      Unidad de Evaluación Estratégica
     </Text>
   </Box>
 );

@@ -472,14 +472,14 @@ function DrawerExample({ user }) {
                 </Stack>
               </Box>
 
-              <Box>
+              {/* <Box>
                 <Heading fontSize="xl" fontWeight="bold">
                   Support
                 </Heading>
                 <Text fontSize="md" color="gray.500">
                   Found an issue, have a question or just want to chat?
                 </Text>
-              </Box>
+              </Box> */}
             </Stack>
           </DrawerBody>
 

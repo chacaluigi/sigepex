@@ -53,7 +53,6 @@ export const updateProfile = createAsyncThunk(
   async (userData, thunkAPI) => {
     try {
       const token = thunkAPI.getState().auth.user.token;
-
       return await authService.updateProfile(userData, token);
     } catch (error) {
       const message =
@@ -159,14 +158,8 @@ export const authSlice = createSlice({
       .addCase(updateProfile.fulfilled, (state, action) => {
         state.isLoading = false;
         state.isSuccess = true;
-        state.user = {
-          ...state.user,
-          ...action.payload.usuario,
-          rol: action.payload.usuario.rol, // 🔥 Asegura que el rol se mantenga
-        };
-
-        // Guardar usuario actualizado en localStorage
-        localStorage.setItem('user', JSON.stringify(state.user));
+        state.user = action.payload;
+        state.ROLE = action.payload.usuario.rol;
       })
       .addCase(updateProfile.rejected, (state, action) => {
         state.isLoading = false;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom'; // Importar useLocation
 import {
   Box,
@@ -14,7 +14,6 @@ import {
 } from '@chakra-ui/react';
 import { useSelector } from 'react-redux';
 import logo from '../../assets/img/logoColegio.png';
-import { FaCog } from 'react-icons/fa';
 import * as RiIcons from 'react-icons/ri';
 import * as FaIcons from 'react-icons/fa';
 import * as MdIcons from 'react-icons/md';
@@ -35,7 +34,7 @@ const getIconComponent = iconName => {
 
 export const NavItem = props => {
   const bgActiveLinkColor = useColorModeValue('gray.800', 'gray.800');
-  const { icon, iconSize, children, isSelected, ...rest } = props;
+  const { icon, iconSize, children, isSelected, onClick, ...rest } = props;
 
   return (
     <Flex
@@ -49,6 +48,7 @@ export const NavItem = props => {
       }}
       role="group"
       transition=".1s ease"
+      onClick={onClick}
       {...rest}
     >
       {icon && (
@@ -73,6 +73,12 @@ function Sidebar({ isOpen }) {
   const activeLinkcolor = useColorModeValue('white', 'white');
   const bgActiveLinkColor = useColorModeValue('gray.800', 'gray.800');
 
+  const [activeMenu, setActiveMenu] = useState(null); // Estado para rastrear el menú abierto
+
+  const toggleMenu = index => {
+    setActiveMenu(activeMenu === index ? null : index); // Cerrar si se hace clic de nuevo
+  };
+
   // Función para generar rutas dinámicas
   const generateRoute = path => {
     const cleanPath = path.startsWith('/') ? path : `${path}`; // Asegurar que la ruta comience con /
@@ -83,6 +89,18 @@ function Sidebar({ isOpen }) {
   const isRouteActive = path => {
     return location.pathname === generateRoute(path);
   };
+
+  // Detectar si alguna subruta está activa para expandir el menú
+  useEffect(() => {
+    user?.usuario?.rol?.modulos?.forEach((item, index) => {
+      if (
+        isRouteActive(item.path) ||
+        item.submenus?.some(sub => isRouteActive(sub.path))
+      ) {
+        setActiveMenu(index);
+      }
+    });
+  }, [location.pathname, user, isRouteActive]);
 
   return (
     <Box
@@ -168,7 +186,7 @@ function Sidebar({ isOpen }) {
                 justifySelf={'start'}
                 textAlign="start"
               >
-                Colegio Simon Bolivar
+                SIGEPEX
               </Heading>
               <Text
                 fontSize="14px"
@@ -190,77 +208,81 @@ function Sidebar({ isOpen }) {
         {user?.usuario?.rol?.modulos?.map((item, index) => {
           const route = generateRoute(item.path); // Generar la ruta dinámica
           const isSelected = isRouteActive(item.path); // Verificar si la ruta está activa
-
           const IconComponent = getIconComponent(item.icon); // Obtener el icono dinámicamente
 
           return (
-            <Link
-              key={index}
-              as={NavLink}
-              to={route}
-              fontSize={'15px'}
-              fontWeight={'semibold'}
-              color={'gray.400'}
-              _dark={{
-                color: 'gray.400',
-              }}
-              borderRadius={'lg'}
-              mb={1}
-              _activeLink={{
-                color: activeLinkcolor,
-                bg: bgActiveLinkColor,
-                _dark: {
-                  color: 'white',
-                },
-              }}
-              _hover={{ textDecoration: 'none' }}
-            >
-              <NavItem
-                isSelected={isSelected}
-                iconSize={item.iconSize}
-                icon={IconComponent}
+            <Box key={index}>
+              <Link
+                as={NavLink}
+                to={route}
+                fontSize={'15px'}
+                fontWeight={'semibold'}
+                color={'gray.400'}
+                _dark={{ color: 'gray.400' }}
+                borderRadius={'lg'}
+                mb={1}
+                _activeLink={{
+                  color: activeLinkcolor,
+                  bg: bgActiveLinkColor,
+                  _dark: { color: 'white' },
+                }}
+                _hover={{ textDecoration: 'none' }}
               >
-                {item.name}
-              </NavItem>
-            </Link>
+                <NavItem
+                  isSelected={isSelected}
+                  //iconSize={item.iconSize}
+                  icon={IconComponent}
+                  onClick={() => {
+                    toggleMenu(index); // Cambiar estado al hacer clic
+                  }}
+                >
+                  {item.name}
+                </NavItem>
+              </Link>
+
+              {/* Renderizar submenús si existen */}
+              {activeMenu === index &&
+                item.submenus &&
+                item.submenus.length > 0 && (
+                  <Stack pl={6} spacing={1}>
+                    {item.submenus.map((submenu, subIndex) => {
+                      const subRoute = generateRoute(submenu.path);
+                      const SubIconComponent = getIconComponent(submenu.icon);
+                      return (
+                        <Link
+                          key={subIndex}
+                          as={NavLink}
+                          to={subRoute}
+                          fontSize={'14px'}
+                          fontWeight={'medium'}
+                          color={'gray.500'}
+                          _dark={{ color: 'gray.500' }}
+                          borderRadius={'lg'}
+                          mb={0.5}
+                          _activeLink={{
+                            color: activeLinkcolor,
+                            bg: bgActiveLinkColor,
+                            _dark: { color: 'white' },
+                          }}
+                          _hover={{ textDecoration: 'none' }}
+                        >
+                          <NavItem
+                            isSelected={isRouteActive(submenu.path)}
+                            iconSize="18px"
+                            icon={SubIconComponent}
+                          >
+                            {submenu.name}
+                          </NavItem>
+                        </Link>
+                      );
+                    })}
+                  </Stack>
+                )}
+            </Box>
           );
         })}
 
         <Spacer />
-
-        {/* Configuraciones (opcional) */}
-        <Stack
-          bottom={0}
-          direction="column"
-          as="nav"
-          fontSize="12px"
-          aria-label="Main Navigation"
-        >
-          <Link
-            as={NavLink}
-            to={generateRoute('/configuraciones')} // Ruta dinámica para configuraciones
-            fontSize={'15px'}
-            fontWeight={600}
-            color={'gray.400'}
-            _dark={{
-              color: 'gray.400',
-            }}
-            borderRadius={'lg'}
-            mb={1}
-            _activeLink={{
-              color: activeLinkcolor,
-              bg: bgActiveLinkColor,
-            }}
-            _hover={{ textDecoration: 'none' }}
-          >
-            <NavItem
-              isSelected={isRouteActive('/configuraciones')}
-              icon={FaCog}
-            >
-              Configuraciones
-            </NavItem>
-          </Link>
-        </Stack>
       </Flex>
     </Box>
   );

@@ -128,30 +128,7 @@ const Personas = () => {
         </div>
       ),
     },
-    {
-        name: 'SEDE ASIGNADO',
-        selector: row => row.sedes.length,
-        sortable: true,
-        cellExport: row => row.sedes.length,
-        cell: row => (
-            <div>
-                <Badge
-                    bg={'yellow.600'}
-                    variant="solid"
-                    textAlign="center"
-                    fontSize={'10px'}
-                    py={2}
-                    px={3}
-                    rounded="full"
-                    color="white"
-                    alignSelf={'center'}
-                >
-                    {row.sedes.length}
-                </Badge>
-            </div>
-        ),
-        center: true,
-    },
+
     {
       name: 'ESTADO',
       selector: row => {

@@ -10,6 +10,8 @@ const app = express();
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
+const PORT = process.env.PORT;
+
 const options = {
   definition: {
     openapi: "3.0.0",
@@ -30,7 +32,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:4000",
+        url: `http://localhost:${PORT}`,
       },
     ],
   },
@@ -89,6 +91,10 @@ app.use("/api/tramites", require("./routes/tramites"));
 app.use("/api/sedes", require("./routes/sedes"));
 app.use("/api/roles", require("./routes/roles"));
 app.use("/api/modulos", require("./routes/modulos"));
+
+// 📌 Rutas
+app.use("/api", require("./routes/report"));
+app.use("/api", require("./routes/proceso"));
 
 app.listen(process.env.PORT, () => {
   console.log(

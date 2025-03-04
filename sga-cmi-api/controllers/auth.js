@@ -124,7 +124,7 @@ const updateProfile = async (req, res = response) => {
   const id = req.params.id;
 
   try {
-    const { password, correo, ...data } = req.body;
+    const { password, modalidad, correo, ...data } = req.body;
     const usuario = await Usuario.findById(id);
 
     if (!usuario) {
@@ -165,6 +165,9 @@ const updateProfile = async (req, res = response) => {
 
     const usuarioData = await Usuario.findByIdAndUpdate(id, data, {
       new: true,
+    }).populate({
+      path: "rol",
+      populate: { path: "modulos" }, // Si "modulos" es otro ObjectID dentro de "rol"
     });
 
     const token = await generarJWT(id);
@@ -180,6 +183,7 @@ const updateProfile = async (req, res = response) => {
         img: usuarioData.img,
         brand_color: usuarioData.brand_color,
         rol: usuarioData.rol,
+        modalidad: modalidad,
       },
       token,
     });

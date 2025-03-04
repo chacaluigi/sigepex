@@ -1,0 +1,147 @@
+[
+  {
+    "tema": "El alcalde de Quillacollo desplegó equipos de emergencia para atender inundaciones causadas por las intensas lluvias.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Económico",
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "Quillacollo",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central",
+    "hecho": "El municipio de Quillacollo está experimentando intensas lluvias que han provocado inundaciones en varios sectores. El alcalde Héctor Cartagena Chacón desplegó equipos de emergencia para atender la situación, incluyendo la visita a zonas afectadas para evaluar los trabajos de limpieza de canales y bombeo de agua. Se han intensificado los trabajos con el aumento de cuadrillas de emergencia y se están implementando soluciones técnicas a largo plazo, como la construcción de un cárcamo de bombeo para desfogar el agua al río Rocha. Los distritos 3, 9 y otros se han visto afectados.",
+    "actores": [
+      {
+        "nombre": "Héctor Cartagena Chacón",
+        "cargo": "Alcalde de Quillacollo"
+      }
+    ],
+    "probable_evolucion": "Se espera una disminución de los efectos de las inundaciones a corto plazo gracias a las medidas de emergencia. La implementación del cárcamo de bombeo podría reducir el riesgo de futuras inundaciones. La población afectada podría requerir asistencia continua.",
+    "_id": "3ada35aa8c96926a71203d331bbec14fa34a84f312e03a56cb5c832e684fa98d",
+    "numero_reporte": 31,
+    "fecha": "18/02/2025",
+    "hora": "17:44",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/2/18/inundacion-quillacollo-ok.jpg?itok=iZUA8mUf"
+  },
+  {
+    "tema": "El ministro de Justicia argentino no defenderá al presidente Javier Milei ante las denuncias por el lanzamiento de la criptomoneda $LIBRA.",
+    "categoria": "Mundo",
+    "factor": [
+      "Político",
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": null,
+    "departamento": null,
+    "pais": "Argentina",
+    "fuentes": [
+      "EFE",
+      "Manuel Adorni (vocero presidencial)",
+      "Javier Milei (presidente)",
+      "Jonatan Viale (periodista)",
+      "Santiago Caputo (asesor presidencial)"
+    ],
+    "hecho": "El Gobierno argentino, a través del vocero presidencial Manuel Adorni, aclaró que el ministro de Justicia, Mariano Cúneo Liberano, no defenderá al presidente Javier Milei ante las denuncias por su participación en el lanzamiento de la criptomoneda $LIBRA. Adorni indicó que la Unidad de Tareas de Investigación (UTI) creada por el presidente solo recolectará información para presentarla a la Justicia, sin investigar. La Oficina Anticorrupción y la Justicia serían las entidades encargadas de investigar a los funcionarios y los hechos, respectivamente. Estas declaraciones se producen después de que se difundiera un fragmento de una entrevista a Milei en la que sugería que Cúneo Libarona lo defendería. Milei afirmó que la difusión de $LIBRA se hizo desde su cuenta personal. El caso $LIBRA generó crisis en el gobierno tras la promoción de la criptomoneda por Milei en su cuenta de X, seguido de su posterior retirada de apoyo, lo que derivó en denuncias y un pedido de juicio político.",
+    "actores": [
+      {
+        "nombre": "Javier Milei",
+        "cargo": "Presidente de Argentina"
+      },
+      {
+        "nombre": "Mariano Cúneo Libarona",
+        "cargo": "Ministro de Justicia"
+      },
+      {
+        "nombre": "Manuel Adorni",
+        "cargo": "Vocero Presidencial"
+      },
+      {
+        "nombre": "Santiago Caputo",
+        "cargo": "Asesor Presidencial"
+      },
+      {
+        "nombre": "Jonatan Viale",
+        "cargo": "Periodista"
+      }
+    ],
+    "probable_evolucion": "El caso $LIBRA podría intensificar la crisis política y la polarización en Argentina.  La falta de defensa del Ministro de Justicia podría debilitar la posición del presidente ante la justicia. Se anticipa un aumento en las investigaciones y posibles consecuencias legales para Milei.",
+    "_id": "2be9d6aebffd53fbb114e2caf34d950f1565a6aef08e709c79d47cdc52bc3f78",
+    "numero_reporte": 30,
+    "fecha": "18/02/2025",
+    "hora": "19:12",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2024/7/18/milei_18.jpg?itok=X5pIApy6"
+  },
+  {
+    "tema": "La Alcaldía de Cochabamba sanciona a una propietaria con una multa de 700 bolivianos por dañar árboles en la zona norte.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "zona norte",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "María José Goyzueta, Elvis Gutiérrez",
+    "hecho": "El 18 de febrero de 2025, la Alcaldía de Cochabamba, a través de su Director de Medio Ambiente, Elvis Gutiérrez, sancionó a la propietaria de una vivienda en la zona norte con una multa de 700 bolivianos por cada árbol afectado. La propietaria cubrió las raíces de los árboles con cemento, impidiendo la infiltración de agua. Trabajadores del Plan de Empleo de Emergencia (Plane) retiraron el cemento y limpiaron los escombros. Gutiérrez informó que existen más casos similares y se aplicarán sanciones correspondientes.",
+    "actores": [
+      {
+        "nombre": "Elvis Gutiérrez",
+        "cargo": "Director de Medio Ambiente de la Alcaldía de Cochabamba"
+      },
+      {
+        "nombre": "Propietaria de la vivienda",
+        "cargo": "Infractora"
+      }
+    ],
+    "probable_evolucion": "Se espera un aumento en la fiscalización y aplicación de sanciones por daños ambientales en Cochabamba. Es probable que se intensifiquen las campañas de concientización sobre el cuidado de los árboles y el medio ambiente urbano. Podría generarse un ambiente de mayor tensión entre autoridades y ciudadanos que infrinjan las normas ambientales.",
+    "_id": "8147806f0a56fc6146dd451fa1c41591aa6b4f9459267e2c86f26936c1740aa4",
+    "numero_reporte": 29,
+    "fecha": "18/02/2025",
+    "hora": "18:02",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/2/18/plantas-especies.jpg?itok=6OKfQlRJ"
+  },
+  {
+    "tema": "Estados Unidos y Rusia dan pasos hacia la normalización de relaciones y el fin de la guerra en Ucrania, iniciando negociaciones en Arabia Saudí.",
+    "categoria": "Mundo",
+    "factor": [
+      "Político",
+      "Militar",
+      "Económico"
+    ],
+    "lugar": "Arabia Saudí",
+    "departamento": null,
+    "pais": "Estados Unidos, Rusia",
+    "fuentes": "EFE, Rubio, Zelenski",
+    "hecho": "Se llevó a cabo una reunión de alto nivel entre Rusia y Estados Unidos en Arabia Saudí, con el objetivo de normalizar las relaciones diplomáticas y comenzar a negociar sobre el fin de la guerra en Ucrania. Ambas partes acordaron iniciar un plan para acabar con la guerra, considerando las implicaciones geopolíticas y económicas. Los negociadores tienen como objetivo acabar con la guerra. El gobierno de Estados Unidos enfatizó en que el presidente Trump quiere poner fin a las muertes y está utilizando su influencia para reunir a las partes. Estados Unidos espera una cooperación continua y el fin del conflicto en Ucrania. La Administración Trump ha reiterado que Ucrania debe hacer concesiones territoriales para la guerra.",
+    "actores": [
+      {
+        "nombre": "Marco Rubio",
+        "cargo": "Jefe de la diplomacia de Estados Unidos"
+      },
+      {
+        "nombre": "Serguéi Lavrov",
+        "cargo": "Jefe de la diplomacia de Rusia"
+      },
+      {
+        "nombre": "Donald Trump",
+        "cargo": "Presidente de los Estados Unidos"
+      },
+      {
+        "nombre": "Volodímir Zelenski",
+        "cargo": "Presidente de Ucrania"
+      },
+      {
+        "nombre": "Mike Waltz",
+        "cargo": "Asesor de seguridad nacional de Estados Unidos"
+      }
+    ],
+    "probable_evolucion": "Es probable que las negociaciones continúen y que se establezcan equipos negociadores para la guerra en Ucrania.  Se espera que las conversaciones se centren en las concesiones territoriales.  La diplomacia entre las naciones podría normalizarse, pero la tensión subyacente permanecerá.",
+    "_id": "96d50aa247f84b2355a228aefaa39070beed8a686150c33ec637536c53a60fc4",
+    "numero_reporte": 28,
+    "fecha": "18/02/2025",
+    "hora": "17:26",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/2/18/whatsapp_image_2025-02-18_at_17.jpg?itok=4YY_-hT2&c=4386c42ef200fd21f50eab95adc2bfdb"
+  }
+]

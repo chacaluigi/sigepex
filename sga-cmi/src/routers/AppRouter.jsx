@@ -44,6 +44,14 @@ import { TramitesPage } from '../pages/tramites';
 import { RolPage } from '../pages/RolPage';
 import { ModuloPage } from '../pages/ModuloPage';
 import SelectSede from '../pages/auth/SelectSede';
+import ProcesoPage from '../pages/proceso';
+import ReportsPage from '../pages/reports';
+import AnalisisPage from '../pages/analisis';
+import RegistrarUsuarioPage from '../pages/personas/RegistrarUsuarioPage';
+import EditarUsuarioPage from '../pages/personas/EditarUsuarioPage';
+import AsignarRolesPage from '../pages/personas/AsignarRolesPage';
+import EstadoUsuariosPage from '../pages/personas/EstadoUsuariosPage';
+import ListarUsuariosPage from '../pages/personas/ListarUsuariosPage';
 
 export default function AppRouter() {
   return (
@@ -52,7 +60,29 @@ export default function AppRouter() {
         <Route path="/:idSede/" element={<HomeContent />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/perfil" element={<MiPerfilPage />} />
-        <Route path="/usuarios" element={<PersonasPage />} />
+        <Route path="/:idSede/usuarios" element={<PersonasPage />} />
+        <Route
+          path="/:idSede/usuarios/registrar"
+          element={<RegistrarUsuarioPage />}
+        />
+        <Route
+          path="/:idSede/usuarios/editar"
+          element={<EditarUsuarioPage />}
+        />
+        <Route path="/:idSede/usuarios/roles" element={<AsignarRolesPage />} />
+        <Route
+          path="/:idSede/usuarios/estado"
+          element={<EstadoUsuariosPage />}
+        />
+        <Route
+          path="/:idSede/usuarios/lista"
+          element={<ListarUsuariosPage />}
+        />
+
+        <Route path="/:idSede/proceso" element={<ProcesoPage />} />
+        <Route path="/:idSede/reports" element={<ReportsPage />} />
+        <Route path="/:idSede/analisis" element={<AnalisisPage />} />
+
         <Route path="/periodo-escolar" element={<PeriodoEscolarPage />} />
         <Route path="/grados" element={<GradosPage />} />
         <Route path="/:idSede/roles" element={<RolPage />} />

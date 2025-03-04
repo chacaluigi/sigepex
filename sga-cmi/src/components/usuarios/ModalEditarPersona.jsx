@@ -24,9 +24,8 @@ import { VscEdit } from 'react-icons/vsc';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateUsuario } from '../../features/usuarioSlice';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
-import EditMultipleSelectComponent from '../global/EditMultipleSelectComponent';
 
-export const ModalEditarPersona = ({ row, roles, sedes }) => {
+export const ModalEditarPersona = ({ row, roles }) => {
   const dispatch = useDispatch();
 
   const user = useSelector(state => state.auth.user);
@@ -39,7 +38,6 @@ export const ModalEditarPersona = ({ row, roles, sedes }) => {
     correo: '',
     password: '',
     rol: '',
-    sedes: [],
     estado: null,
   };
 
@@ -160,7 +158,7 @@ export const ModalEditarPersona = ({ row, roles, sedes }) => {
               {user?.usuario?.rol?.slug === 'ADMIN_ROLE' ? (
                 <Stack
                   spacing={4}
-                  direction={"column"}
+                  direction={'column'}
                   alignItems="center"
                   mt={4}
                 >
@@ -171,23 +169,15 @@ export const ModalEditarPersona = ({ row, roles, sedes }) => {
                       onChange={e =>
                         setIndice({ ...indice, rol: e.target.value })
                       }
-                      colorScheme='primary'
+                      colorScheme="primary"
                     >
                       {roles.map(rol => (
-                        <option key={rol?._id} value={rol._id}>{rol.nombre}</option>
+                        <option key={rol?._id} value={rol._id}>
+                          {rol.nombre}
+                        </option>
                       ))}
                     </Select>
                   </FormControl>
-
-                  <EditMultipleSelectComponent
-                    name="SEDES"
-                    data={sedes}
-                    dataEdit={indice.sedes}
-                    handleSelect={e =>
-                      setIndice({ ...indice, sedes: e.map(item => item.value) })
-                    }
-                    // Component={<ModalAgregarPersona />}
-                  />
 
                   <FormControl>
                     <FormLabel fontWeight="semibold">ESTADO</FormLabel>
