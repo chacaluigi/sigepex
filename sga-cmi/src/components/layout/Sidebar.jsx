@@ -13,7 +13,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import { useSelector } from 'react-redux';
-import logo from '../../assets/img/logoColegio.png';
+import logo from '../../assets/img/logo.png';
 import * as RiIcons from 'react-icons/ri';
 import * as FaIcons from 'react-icons/fa';
 import * as MdIcons from 'react-icons/md';

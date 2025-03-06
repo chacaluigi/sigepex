@@ -31,7 +31,6 @@ import {
 } from '../pages/docentes';
 import CategoriasUniformePage from '../pages/uniformes/categorias';
 import { BoletaPagoPage, PagosPage, PagosPageDetalles } from '../pages/pagos';
-import { ReportesEBRPage } from '../pages/reportes';
 import '../styles/globals.css';
 import ForgotPasswordPage from '../pages/auth/ForgotPassword';
 import ResetPasswordPage from '../pages/auth/ResetPassword';
@@ -45,13 +44,17 @@ import { RolPage } from '../pages/RolPage';
 import { ModuloPage } from '../pages/ModuloPage';
 import SelectSede from '../pages/auth/SelectSede';
 import ProcesoPage from '../pages/proceso';
-import ReportsPage from '../pages/reports';
 import AnalisisPage from '../pages/analisis';
 import RegistrarUsuarioPage from '../pages/personas/RegistrarUsuarioPage';
 import EditarUsuarioPage from '../pages/personas/EditarUsuarioPage';
 import AsignarRolesPage from '../pages/personas/AsignarRolesPage';
 import EstadoUsuariosPage from '../pages/personas/EstadoUsuariosPage';
 import ListarUsuariosPage from '../pages/personas/ListarUsuariosPage';
+import ReportesPage from '../pages/reportes';
+import RegistrarReportePage from '../pages/reportes/RegistrarReportePage';
+import EditarReportePage from '../pages/reportes/EditarReportePage';
+import PalabrasClavePage from '../pages/definicion/PalabrasClavePage';
+import FiltrosBusquedaPage from '../pages/definicion/FiltrosBusquedaPage';
 
 export default function AppRouter() {
   return (
@@ -80,7 +83,27 @@ export default function AppRouter() {
         />
 
         <Route path="/:idSede/proceso" element={<ProcesoPage />} />
-        <Route path="/:idSede/reports" element={<ReportsPage />} />
+        <Route path="/:idSede/proceso/listar" element={<ProcesoPage />} />
+        <Route path="/:idSede/proceso/iniciar" element={<ProcesoPage />} />
+
+        <Route path="/:idSede/definicion" element={<PalabrasClavePage />} />
+        <Route
+          path="/:idSede/definicion/listar"
+          element={<PalabrasClavePage />}
+        />
+        <Route
+          path="/:idSede/definicion/filtros"
+          element={<FiltrosBusquedaPage />}
+        />
+
+        <Route path="/:idSede/reports" element={<ReportesPage />} />
+        <Route
+          path="/:idSede/reports/registrar"
+          element={<RegistrarReportePage />}
+        />
+        <Route path="/:idSede/reports/editar" element={<EditarReportePage />} />
+        <Route path="/:idSede/reports/listar" element={<ReportesPage />} />
+
         <Route path="/:idSede/analisis" element={<AnalisisPage />} />
 
         <Route path="/periodo-escolar" element={<PeriodoEscolarPage />} />
@@ -140,8 +163,6 @@ export default function AppRouter() {
           path="/:idSede/configuraciones"
           element={<ConceptoPagosPage />}
         />
-
-        <Route path="/reportes" element={<ReportesEBRPage />} />
 
         <Route path="/select-sede" element={<SelectSede />} />
       </Route>

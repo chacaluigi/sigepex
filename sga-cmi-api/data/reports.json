@@ -1,1188 +1,484 @@
 [
   {
-    "tema": "El Carnaval valluno en Cochabamba mantiene tradiciones como takipayanakus, comida y comparsas comunitarias, a pesar de la evolución de las actividades.",
+    "tema": "Se pronostica clima templado con lluvias dispersas en Cochabamba, Bolivia, para los próximos días.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Psicosocial"
+    ],
+    "lugar": "Cochabamba, valle alto",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Senamhi",
+    "hecho": "El pronóstico meteorológico para Cochabamba, Bolivia, indica un clima templado con temperaturas mínimas de 13 grados Celsius y máximas de 24 grados Celsius el miércoles. Se esperan lluvias dispersas durante la noche. Para el jueves y viernes, se pronostican condiciones similares con precipitaciones durante todo el día. En la región del valle alto, se prevé un descenso de temperaturas, con una mínima de 9 grados Celsius y una máxima de 20 grados Celsius, además de lluvias durante la mayor parte del día.",
+    "actores": [
+      {
+        "actor": "Redacción Central",
+        "cargo": "Autor"
+      },
+      {
+        "actor": "Servicio Nacional de Meteorología e Hidrología (Senamhi)",
+        "cargo": "Pronosticador"
+      }
+    ],
+    "probable_evolucion": "Las lluvias podrían afectar las actividades diarias y la movilidad en Cochabamba y el valle alto. La disminución de temperaturas podría generar incomodidad en la población. Se recomienda a la población tomar precauciones ante las condiciones climáticas adversas.",
+    "_id": "e71af70eb96d52aa2bb0d34647915751195475592286d858d2d5e9105fc9f024",
+    "numero_reporte": 115,
+    "fecha": "05/03/2025",
+    "hora": "8:25",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/ciudad_1_de_marzo_2024_ed_listo.jpg?itok=SMirI96B"
+  },
+  {
+    "tema": "Familias en Cochabamba celebraron el Martes de Ch'alla del Carnaval con ofrendas a la Pachamama y juegos con agua, a pesar de las lluvias intermitentes.",
     "categoria": "Cochabamba",
     "factor": [
       "Psicosocial",
       "Económico"
     ],
-    "lugar": [
-      "Cochabamba",
-      "área metropolitana",
-      "valle bajo",
-      "valle alto",
-      "cono sur",
-      "Aiquile",
-      "trópico",
-      "zona andina"
-    ],
+    "lugar": "Terminal Departamental de Buses, El Prado, barrios de la zona norte, comunidades agrarias, centro de la ciudad de Cochabamba",
     "departamento": "Cochabamba",
     "pais": "Bolivia",
-    "fuentes": [
-      "Geraldine Corrales Arandia (autor)",
-      "Juan Clavijo (historiador)",
-      "Melby Mojica (gestora cultural)",
-      "Uvaldo Romero (gestor cultural)"
-    ],
-    "hecho": "El Carnaval valluno en Cochabamba se caracteriza por la persistencia de tradiciones como los takipayanakus, la comida tradicional y las comparsas comunitarias, a pesar de la evolución de las actividades. El historiador Juan Clavijo señala que las coplas, canciones e improvisaciones creadas por el pueblo son elementos clave. La gestora cultural Melby Mojica destaca la importancia del Carnaval como el fin del proceso de producción agrícola, con una abundancia de frutas y verduras.  Uvaldo Romero explica las particularidades del Carnaval en las cinco regiones de Cochabamba: En el área metropolitana y el valle bajo, destacan entradas y corsos, el puchero y la jak’a lawa. En el valle alto, son típicas las comparsas carnavaleras con instrumentos tradicionales. En los municipios del cono sur, los q’opuyos carnavaleros son esenciales. En el trópico, se realizan festivales de música carnavalera. En la zona andina, los comunarios usan sus mejores trajes y la música tiene un tono distinto.  Clavijo menciona la paq’oma, una tradición en declive, y el qopuro, que simbolizaba la abundancia. Mojica resalta la evolución de la q’oa. El Carnaval se extiende por varias semanas con diversas actividades.",
+    "fuentes": "Cristina Cotari, Los Tiempos",
+    "hecho": "El 4 de marzo de 2025, durante el Martes de Ch'alla, familias en Cochabamba realizaron la tradicional q'oa en la Terminal Departamental de Buses y otros lugares, ofreciendo gratitud a la Pachamama por sus bienes y pidiendo protección. Choferes, comerciantes y pasajeros participaron en festejos con comida, bebidas y música. A pesar de las prohibiciones y las lluvias, niños y jóvenes jugaron con agua en las calles y El Prado. Se observaron actividades como el 'Carnaval del Fútbol Bufa' y comparsas en comunidades agrarias. La Terminal funcionó con normalidad y se anticipa el Corso de Corso el 8 de marzo con más de 80 fraternidades.",
     "actores": [
       {
-        "nombre": "Juan Clavijo",
-        "cargo": "Historiador"
+        "actor": "Choferes",
+        "cargo": "Trabajadores"
       },
       {
-        "nombre": "Melby Mojica",
-        "cargo": "Gestora cultural"
+        "actor": "Comerciantes",
+        "cargo": "Trabajadores"
       },
       {
-        "nombre": "Uvaldo Romero",
-        "cargo": "Gestor cultural"
+        "actor": "Familias cochabambinas",
+        "cargo": "Participantes en la celebración"
       }
     ],
-    "probable_evolucion": "Se espera que las tradiciones del Carnaval valluno continúen adaptándose a los cambios sociales, pero manteniendo su esencia comunitaria y cultural. La creciente urbanización y las nuevas dinámicas podrían influir en la celebración de estas tradiciones. Es posible que se observen cambios en las prácticas, pero la importancia de la comunidad y la identidad cultural permanecerán.",
-    "_id": "7132698c4f32f0d42ef8f8b3f10c5b1e2e18c44b41c5703417aef7b109a003b7",
-    "numero_reporte": 89,
-    "fecha": "02/03/2025",
-    "hora": "20:26",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/2_me_1_lopezzzzzzzzz.jpg?itok=-YybFsRI"
+    "probable_evolucion": "La celebración del Martes de Ch'alla podría continuar con la misma tradición en futuros años. La afluencia de personas en eventos como el Corso de Corso podría aumentar. Las actividades económicas relacionadas con el carnaval podrían verse afectadas o beneficiadas por las condiciones climáticas.",
+    "_id": "05c345dc8c40eb1700cc25881c54bf7494c81549cb834d9be1160e923a9e61f9",
+    "numero_reporte": 114,
+    "fecha": "05/03/2025",
+    "hora": "7:50",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/a-1_martes_de_challa-lopezzzzzzzzz.jpg?itok=vCD_4zwQ"
   },
   {
-    "tema": "Se reportan recomendaciones de seguridad para disfrutar del Carnaval de forma segura, enfocándose en la moderación del consumo de alcohol y alimentos, cuidado de la salud, protección de niños y pertenencias, y prevención de estafas y contagios de COVID-19.",
-    "categoria": "País",
-    "factor": [
-      "Psicosocial",
-      "Económico",
-      "Militar"
-    ],
-    "lugar": "Bolivia",
-    "departamento": [
-      "Cochabamba"
-    ],
-    "pais": "Bolivia",
-    "fuentes": [
-      "Alejandra Carreño",
-      "Mabel Mérida",
-      "Edwin Pérez Montaño",
-      "Carolina Díaz",
-      "Policía boliviana",
-      "Mirian Maldonado"
-    ],
-    "hecho": "El reporte presenta 10 recomendaciones de seguridad para el Carnaval en Bolivia, cubriendo diversos aspectos. Se advierte sobre los riesgos del consumo excesivo de alcohol, incluyendo accidentes, robos, y problemas de salud a corto y largo plazo. Se aconseja moderación en la alimentación y se mencionan los riesgos de exceso de exposición solar y la necesidad de proteger la piel. Se enfatiza la protección de los menores en eventos públicos, incluyendo la importancia de identificación y la responsabilidad de los adultos. Se advierte sobre estafas en línea relacionadas con la venta de entradas y servicios, con el testimonio de una víctima. Se resaltan las consecuencias de conducir bajo los efectos del alcohol, incluyendo sanciones legales y riesgos de accidentes. Se recomienda utilizar transporte seguro y se recuerda la importancia de las medidas de bioseguridad contra el COVID-19. Se aconseja cuidar las pertenencias, evitando llevar grandes sumas de dinero y no descuidar el hogar. Finalmente, se aborda la salud sexual, recomendando información y protección.",
-    "actores": [
-      {
-        "nombre": "Edwin Pérez Montaño",
-        "cargo": "Jefe de la Dirección de la Defensoría de la Niñez y Adolescencia"
-      },
-      {
-        "nombre": "Mabel Mérida",
-        "cargo": "Especialista en dermatología"
-      },
-      {
-        "nombre": "Mirian Maldonado",
-        "cargo": "Responsable del Programa ITS VIH/SIDA"
-      }
-    ],
-    "probable_evolucion": "Se espera un aumento en las medidas de seguridad y campañas de prevención durante el Carnaval. Es probable que las autoridades intensifiquen los controles de alcohol y la vigilancia en lugares de aglomeración. La población podría tomar medidas más estrictas de precaución para evitar incidentes y contagios.",
-    "_id": "5ab8951437704c884d694b8249900b1726b937281d2277b49a876ba9c8722cbf",
-    "numero_reporte": 88,
-    "fecha": "02/03/2025",
-    "hora": "20:35",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/captura_de_pantalla_2025-03-01_a_las_8.33.27_p.m.jpg?itok=fOxbv4Wu"
-  },
-  {
-    "tema": "Dos personas fallecieron por la caída de rocas en una carretera de Tarija, Bolivia, debido al mal estado de la vía.",
-    "categoria": "País",
+    "tema": "Lluvias intensas causaron el colapso del alcantarillado en Quillacollo, inundando viviendas y generando críticas a la respuesta de las autoridades.",
+    "categoria": "Cochabamba",
     "factor": [
       "Económico",
       "Psicosocial"
     ],
-    "lugar": "Palos Blancos, Entre Ríos, cuesta San Simón, Yacuiba, Tarija",
-    "departamento": "Tarija",
-    "pais": "Bolivia",
-    "fuentes": "EL DEBER, Policía Nacional, Rodrigo Altamirano (concejal del municipio de Entre Ríos)",
-    "hecho": "El 2 de marzo de 2025, a las 8:00 AM, un vehículo de la Asociación de Transporte Libre \"15 de Abril\" que se dirigía de Yacuiba a Tarija sufrió la caída de rocas en la carretera entre Palos Blancos y Entre Ríos, a la altura de la cuesta San Simón. Como consecuencia, fallecieron Benigno Barrios (53 años) y Carlos Saúl Tarraga (21 años), quienes sufrieron lesiones en la masa encefálica. Los cuerpos fueron trasladados a la morgue del hospital San Juan de Dios de Tarija. Los demás pasajeros lograron escapar. El concejal Rodrigo Altamirano denunció previamente el mal estado de la carretera y la falta de taludes para prevenir derrumbes, responsabilizando a la Administradora Boliviana de Carreteras (ABC).",
-    "actores": [
-      {
-        "nombre": "Benigno Barrios",
-        "cargo": "Víctima"
-      },
-      {
-        "nombre": "Carlos Saúl Tarraga",
-        "cargo": "Víctima"
-      },
-      {
-        "nombre": "Rodrigo Altamirano",
-        "cargo": "Concejal del municipio de Entre Ríos"
-      }
-    ],
-    "probable_evolucion": "Es probable que se intensifiquen las críticas a la ABC y se exija la reparación de la carretera. Podrían surgir protestas y reclamos por parte de la población local. Existe la posibilidad de que se inicien investigaciones para determinar responsabilidades.",
-    "_id": "88c184e56bc66cb420eeda02530bd949107476840371876b6a5a535126c00cd9",
-    "numero_reporte": 87,
-    "fecha": "02/03/2025",
-    "hora": "20:48",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/tarija.jpg?itok=m8N9QSPN"
-  },
-  {
-    "tema": "La Fuerza Especial de Lucha Contra el Narcotráfico (Felcn) destruyó una pista clandestina y laboratorios de cocaína en Villa Tunari y Entre Ríos, Cochabamba.",
-    "categoria": "Seguridad",
-    "factor": [
-      "Militar",
-      "Político",
-      "Económico"
-    ],
-    "lugar": [
-      "Villa Tunari",
-      "Entre Ríos",
-      "Las Cocas",
-      "Playa Alta"
-    ],
+    "lugar": "Villa Providencia Sud, Distrito 3",
     "departamento": "Cochabamba",
     "pais": "Bolivia",
-    "fuentes": "ABI, Eduardo Del Castillo",
-    "hecho": "La Fuerza Especial de Lucha Contra el Narcotráfico (Felcn) llevó a cabo operaciones en los municipios de Villa Tunari y Entre Ríos, Cochabamba, destruyendo una pista clandestina y varios laboratorios de cocaína. En Villa Tunari, se desmanteló un 'megalaboratorio' en el sindicato 'Las Cocas', junto con tres campamentos de 'seguridad'. En Entre Ríos, se destruyó otro laboratorio en el sindicato 'Playa Alta'. La operación fue comunicada por el ministro de Gobierno, Eduardo Del Castillo, quien destacó la efectividad de las acciones contra el narcotráfico.",
+    "fuentes": "Redacción Central",
+    "hecho": "El 05/03/2025, debido a intensas lluvias, colapsó la red de alcantarillado en la OTB Villa Providencia Sud, Distrito 3 de Quillacollo, Cochabamba, inundando más de 20 viviendas. La Unidad de Gestión de Riesgos (UGR) de Quillacollo movilizó cuadrillas de emergencia, pero los vecinos criticaron la falta de atención oportuna y trabajos preventivos. La UGR de la Gobernación y la Alcaldía de Cochabamba se movilizaron para desfogar el agua y regularizar el funcionamiento de los cárcamos de bombeo. Se están utilizando 10 motobombas para retirar el agua estancada. La zona sur de Quillacollo ha sido identificada como un punto crítico debido a las precipitaciones históricas.",
     "actores": [
       {
-        "nombre": "Eduardo Del Castillo",
-        "cargo": "Ministro de Gobierno"
-      },
-      {
-        "nombre": "Fuerza Especial de Lucha Contra el Narcotráfico (Felcn)",
-        "cargo": "Fuerza de seguridad antidrogas"
+        "nombre": "Bladimir Vargas",
+        "cargo": "Secretario de Desarrollo Productivo y Medio Ambiente de Quillacollo"
       }
     ],
-    "probable_evolucion": "Es probable que estas operaciones continúen, buscando desmantelar más estructuras de narcotráfico en la región. Podría haber represalias por parte de organizaciones criminales. El gobierno podría intensificar sus esfuerzos en la lucha contra el narcotráfico.",
-    "_id": "d940fb30dad18544e6c7e5305d39eef7dccccc3f8a3101224126c3f107daa9a1",
-    "numero_reporte": 86,
-    "fecha": "02/03/2025",
-    "hora": "20:19",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/laboratorios_droga_ed_listo.jpg?itok=iM8M9oj4"
+    "probable_evolucion": "La falta de una respuesta efectiva podría generar malestar social y demandas por indemnizaciones. Es probable que se intensifiquen las críticas a las autoridades locales por la gestión del riesgo y la falta de infraestructura adecuada. Se requerirán inversiones en la red de alcantarillado y medidas preventivas para mitigar futuros desastres.",
+    "_id": "2d09459271111de10447304134958a227e80f23756e790e1a530e08541425cd3",
+    "numero_reporte": 113,
+    "fecha": "05/03/2025",
+    "hora": "7:54",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/10_me_4_bobernacion_cbba_1.jpg?itok=9VJHt-qF"
   },
   {
-    "tema": "La Gobernación de Cochabamba promueve la atención en salud mental en el hospital Viedma, tratando seis patologías y realizando evaluaciones para trámites de discapacidad.",
+    "tema": "Mimos Dulces, un emprendimiento familiar de repostería en Cochabamba, Bolivia, utiliza las redes sociales para crecer y recibe apoyo de la Gobernación.",
     "categoria": "Cochabamba",
     "factor": [
-      "Psicosocial",
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "Cochabamba",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": [
+      "María José Goyzueta",
+      "María Marcela Eiguana",
+      "Jimena Candia",
+      "José Antonio García"
+    ],
+    "hecho": "María Marcela Eiguana, madre soltera y pastelera, fundó Mimos Dulces, un emprendimiento de repostería en Cochabamba, Bolivia. El negocio se inició de forma empírica desde su hogar y se ha expandido gracias a la promoción en redes sociales (Facebook y TikTok) y la participación en ferias productivas. Eiguana recibe apoyo de la Gobernación de Cochabamba a través del programa de fortalecimiento a las Mypes, que incluye entrevistas, publicidad y participación en ferias.  Además, Eiguana imparte clases de repostería a madres solteras para impulsarlas a emprender sus propios negocios.  La Gobernación, a través del área de promoción y apoyo a las Mypes, trabaja con más de mil emprendedores y organiza ferias para impulsar los negocios. Se ofrecen cursos y talleres especializados bajo el programa “Apoyo y Promoción a las Unidades Productivas Económicas en Cochabamba”, liderado por Jimena Candia y José Antonio García.",
+    "actores": [
+      {
+        "nombre": "María Marcela Eiguana",
+        "cargo": "Propietaria de Mimos Dulces"
+      },
+      {
+        "nombre": "Jimena Candia",
+        "cargo": "Responsable del área de promoción y apoyo a las Micro y Pequeñas Empresas (Mypes) de la Gobernación"
+      },
+      {
+        "nombre": "José Antonio García",
+        "cargo": "Secretario departamental de Desarrollo Productivo"
+      }
+    ],
+    "probable_evolucion": "El emprendimiento Mimos Dulces continuará expandiéndose a través de las redes sociales y el apoyo gubernamental.  Se espera que más emprendedoras se beneficien de los programas de capacitación y apoyo de la Gobernación.  La colaboración entre Mimos Dulces y la Gobernación probablemente se fortalecerá.",
+    "_id": "4ea6e4ff8035240371b12ff3e60af0f23ffb1a2109f1bc9e8d3e4c3d60cfcbb1",
+    "numero_reporte": 112,
+    "fecha": "05/03/2025",
+    "hora": "8:09",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/mimos_2.jpg?itok=FG_ycUwt"
+  },
+  {
+    "tema": "El alcalde de Cochabamba anuncia la puesta en marcha de un bus eléctrico de prueba a partir del 10 de marzo para que transportistas y ciudadanos evalúen sus beneficios.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Económico",
       "Político"
     ],
-    "lugar": "hospital Viedma",
+    "lugar": "Cochabamba, Plaza 14 de Septiembre, final de la avenida Heroínas, subida al Cristo de la Concordia",
     "departamento": "Cochabamba",
     "pais": "Bolivia",
-    "fuentes": "Redacción Central, Nelson Ticona, José Coba",
-    "hecho": "La Gobernación de Cochabamba, a través del hospital Viedma, está impulsando la atención en salud mental. Se atienden seis patologías principales: trastornos de depresión, ansiedad, insomnio, duelos, deterioro cognitivo y funcional, y dependencias al alcohol y drogas. También se realizan evaluaciones para trámites de discapacidad. El secretario de Salud de la Gobernación, Nelson Ticona, invita a la población a utilizar estos servicios, destacando la importancia de la atención preventiva y oportuna. Para acceder a los servicios, se requiere estar inscrito en el SUS y ser referido desde un centro de salud. El hospital cuenta con ocho psiquiatras y seis psicólogos que atienden de lunes a domingo. Se planea habilitar el servicio de internación. El especialista en salud mental, José Coba, enfatiza la importancia de las terapias psicológicas, considerando los aspectos psicológicos, biológicos y sociales. Se destaca que algunos de los cuadros psicopatológicos son secuelas de la pandemia del COVID-19. Se atienden un promedio de 50 pacientes diarios.",
-    "actores": [
-      {
-        "nombre": "Nelson Ticona",
-        "cargo": "Secretario de Salud de la Gobernación"
-      },
-      {
-        "nombre": "José Coba",
-        "cargo": "Especialista en salud mental"
-      }
-    ],
-    "probable_evolucion": "Se espera un aumento en la demanda de servicios de salud mental. La habilitación del servicio de internación podría mejorar la capacidad de atención. La promoción de la salud mental podría reducir el estigma asociado a la búsqueda de ayuda psicológica.",
-    "_id": "d946492716fd27f9dd9ddfb22dcaa7eb08df75591a464bbdad463091f2722acd",
-    "numero_reporte": 85,
-    "fecha": "02/03/2025",
-    "hora": "20:03",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/viedma_salud_ed_listo.jpg?itok=38x_wLj9"
-  },
-  {
-    "tema": "El Carnaval de Oruro recibe tres reconocimientos de la UNESCO, incluyendo el patrocinio para su celebración del Bicentenario.",
-    "categoria": "País",
-    "factor": [
-      "Político",
-      "Psicosocial"
-    ],
-    "lugar": "Oruro",
-    "departamento": "Oruro",
-    "pais": "Bolivia",
-    "fuentes": "ABI, Juan Carlos Cordero, Luis Arce",
-    "hecho": "El Carnaval de Oruro ha recibido tres reconocimientos de la UNESCO. El viceministro de Patrimonio e Industrias Culturales y Creativas, Juan Carlos Cordero, informó sobre el patrocinio de la UNESCO para la celebración del Bicentenario del país. El presidente Luis Arce anunció que el gobierno gestionó exitosamente el patrocinio, permitiendo el uso del logo de la UNESCO en el carnaval. El Carnaval de Oruro fue declarado Obra Maestra del Patrimonio Intangible y Oral de la UNESCO el 18 de mayo de 2001, e inscrito en la Lista Representativa del Patrimonio Cultural inmaterial de la humanidad en 2008. El patrocinio de la UNESCO implica un reconocimiento de la importancia cultural del Carnaval de Oruro.",
-    "actores": [
-      {
-        "nombre": "Juan Carlos Cordero",
-        "cargo": "Viceministro de Patrimonio e Industrias Culturales y Creativas"
-      },
-      {
-        "nombre": "Luis Arce",
-        "cargo": "Presidente"
-      }
-    ],
-    "probable_evolucion": "El reconocimiento de la UNESCO podría impulsar aún más el turismo y la promoción cultural de Oruro. Esto puede atraer una mayor inversión y atención internacional. Continuará fortaleciendo la identidad cultural boliviana.",
-    "_id": "d159c27856be0c384ac32ac9817493ddb1e820e169ac250347257be855879ecd",
-    "numero_reporte": 84,
-    "fecha": "02/03/2025",
-    "hora": "17:40",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/foto_2.jpg?itok=IIc1xm-9"
-  },
-  {
-    "tema": "El Corso Infantil y de Mascotas en Cochabamba fue un evento colorido y creativo, con participación de niños, mascotas y autoridades, que generó un impacto económico positivo.",
-    "categoria": "Cochabamba",
-    "factor": [
-      "Psicosocial",
-      "Económico"
-    ],
-    "lugar": "El Prado",
-    "departamento": "Cochabamba",
-    "pais": "Bolivia",
-    "fuentes": "Los Tiempos y agencias",
-    "hecho": "El domingo 2 de marzo de 2025, se llevó a cabo el Corso Infantil y de Mascotas en la zona de El Prado, Cochabamba. El evento contó con la participación de más de 250 personas, exhibiendo disfraces creativos y bailes. El alcalde Manfred Reyes Villa destacó la importancia del evento para la ciudad y su impacto económico positivo en el PIB Departamental y Nacional. El Departamento de Zoonosis lideró el Corso de Mascotas, promoviendo la tenencia responsable de animales. La Reina y Ñusta Infantil, junto a sus princesas, también participaron. El alcalde invitó a la población al Gran Corso de Corsos el 8 de marzo, donde se espera la participación de 85 fraternidades y las Fuerzas Armadas.",
+    "fuentes": "Redacción Central, Manfred Reyes Villa, José Carlos Márquez",
+    "hecho": "La Alcaldía de Cochabamba, liderada por el alcalde Manfred Reyes Villa, presenta el primer bus eléctrico de transporte urbano en Bolivia. Se habilitarán paradas para que transportistas y la población puedan probar el vehículo a partir del 10 de marzo. El bus, gestionado por la Alcaldía y la empresa Quantum, tiene un costo estimado de 60 mil dólares, se podrá adquirir a crédito, y se instalará una electrolinera en la subida al Cristo de la Concordia. El bus tiene capacidad para 14 pasajeros, seis metros de largo, aire acondicionado, y puede recorrer 200 kilómetros con una carga de una hora. La presentación del bus se llevó a cabo en la Plaza 14 de Septiembre, coincidiendo con el Martes de Ch'alla. El gerente de Quantum, José Carlos Márquez, proporcionó detalles técnicos, incluyendo una reducción del 52,3% en costos operativos.",
     "actores": [
       {
         "nombre": "Manfred Reyes Villa",
-        "cargo": "Alcalde"
+        "cargo": "Alcalde de Cochabamba"
       },
       {
-        "nombre": "Departamento de Zoonosis",
-        "cargo": "Organizador del Corso de Mascotas"
-      },
-      {
-        "nombre": "Reina y Ñusta Infantil",
-        "cargo": "Participantes"
-      },
-      {
-        "nombre": "Princesas",
-        "cargo": "Participantes"
+        "nombre": "José Carlos Márquez",
+        "cargo": "Gerente de Quantum"
       }
     ],
-    "probable_evolucion": "El éxito del Corso Infantil y de Mascotas podría impulsar una mayor participación en el Gran Corso de Corsos. Se espera un impacto económico continuo en la región. La colaboración entre las autoridades, la comunidad y las instituciones podría fortalecer los eventos culturales en Cochabamba.",
-    "_id": "bb7efa2d2251b6e888f3bc6a96d272a58a285661635c991ce7e86bbe8b28e93b",
-    "numero_reporte": 83,
-    "fecha": "02/03/2025",
-    "hora": "17:51",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/foto_1.jpg?itok=kJ1Habor"
+    "probable_evolucion": "La implementación de este bus eléctrico podría generar un cambio en la flota de transporte público, impactando la economía local y la calidad del aire.  La aceptación de este bus por transportistas y ciudadanos determinará la expansión de la iniciativa.  Podrían surgir discusiones sobre financiamiento y adaptación de la infraestructura urbana.",
+    "_id": "c7fb0952ac64b857481d01f6e661dc244e2b7fcc0ddc41df173e5ac14bf4b973",
+    "numero_reporte": 111,
+    "fecha": "05/03/2025",
+    "hora": "7:48",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/a-1_bus_electrico-lopezzzzzzzz.jpg?itok=8S0BPcSA"
   },
   {
-    "tema": "Un supuesto chofer de sicarios involucrado en el asesinato del capitán Aldunate acusa a 'El Colla' de ser el responsable y revela detalles desde la clandestinidad.",
-    "categoria": "Seguridad",
-    "factor": [
-      "Militar",
-      "Económico",
-      "Psicosocial"
-    ],
-    "lugar": [
-      "zona norte",
-      "barrio Cordecruz",
-      "casa"
-    ],
-    "departamento": "Santa Cruz",
-    "pais": "Bolivia",
-    "fuentes": "Unitel",
-    "hecho": "Erick Rueda Dávalos, supuesto chofer de los sicarios que asesinaron al capitán de policía José Carlos Aldunate, grabó un video desde la clandestinidad acusando a 'El Colla', supuesta mano derecha de Sebastián Marset, de ser el responsable del crimen y de dar órdenes. Rueda Dávalos confirma haber alquilado el inmueble donde se abandonó el vehículo utilizado en el asesinato, ubicado en la zona norte de Santa Cruz. Además, acusa a 'El Colla' de delatar a sus socios y amigos. La Policía y la Fiscalía buscan a Erick y su esposa, quienes se fugaron tras el asesinato del capitán Aldunate. La investigación sugiere que Erick formaba parte del primer anillo de seguridad de Sebastián Marset.",
-    "actores": [
-      {
-        "nombre": "Erick Rueda Dávalos",
-        "cargo": "Supuesto chofer de sicarios"
-      },
-      {
-        "nombre": "José Carlos Aldunate",
-        "cargo": "Capitán de policía (víctima)"
-      },
-      {
-        "nombre": "El Colla (Erland Ivar García)",
-        "cargo": "Supuesta mano derecha de Sebastián Marset"
-      },
-      {
-        "nombre": "Sebastián Marset",
-        "cargo": "Prófugo narcotraficante"
-      },
-      {
-        "nombre": "Christian (hermano de Erick Rueda)",
-        "cargo": "Detenido"
-      }
-    ],
-    "probable_evolucion": "La declaración de Rueda Dávalos podría redirigir la investigación, enfocándose en la participación de 'El Colla'. Esto podría llevar a nuevas detenciones y a un intento de captura de 'El Colla'. La revelación de información sobre las actividades de Marset podría intensificar la persecución contra su red criminal.",
-    "_id": "63b9fee7985a01e29b3c3221fd3dba62cba199a608ca88ea753b00cbbe4a4c79",
-    "numero_reporte": 82,
-    "fecha": "02/03/2025",
-    "hora": "19:38",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/seg.jpg?itok=-ylAvOAI"
-  },
-  {
-    "tema": "Evo Morales instruye a sus seguidores no inscribirse en el Frente Para la Victoria (FPV) a pesar de un acuerdo previo, sugiriendo la formación de un nuevo instrumento político.",
-    "categoria": "País",
+    "tema": "El presidente de Ucrania, Volodímir Zelenski, propuso una tregua parcial a Rusia y la liberación de prisioneros, buscando reanudar la cooperación con EEUU y encontrar alternativas al suministro de armamento tras la interrupción de la ayuda militar.",
+    "categoria": "Mundo",
     "factor": [
       "Político",
-      "Psicosocial"
-    ],
-    "lugar": [
-      "Lauca Ñ",
-      "Trópico de Cochabamba",
-      "radio Kawsachun Coca"
-    ],
-    "departamento": [
-      "Cochabamba"
-    ],
-    "pais": "Bolivia",
-    "fuentes": [
-      "Visión 360",
-      "Evo Morales"
-    ],
-    "hecho": "Evo Morales, expresidente de Bolivia, ha instado a sus seguidores a no afiliarse al Frente Para la Victoria (FPV), con quien previamente había establecido un acuerdo para participar en las elecciones presidenciales del 17 de agosto de 2025. Morales anunció una reunión clave para definir la nueva sigla de su instrumento político, programada para finales de marzo. El acuerdo con el FPV, liderado por Eliseo Rodríguez, establecía a Morales como único candidato a la presidencia. Este pacto se formalizó en Lauca Ñ, donde Morales se encuentra resguardado. Tras el acuerdo, varios seguidores de Morales renunciaron al MAS, y el propio Morales formalizó su renuncia a través de un poder notarial ante el Tribunal Supremo Electoral (TSE).",
-    "actores": [
-      {
-        "nombre": "Evo Morales",
-        "cargo": "Expresidente"
-      },
-      {
-        "nombre": "Eliseo Rodríguez",
-        "cargo": "Líder del Frente Para la Victoria (FPV)"
-      },
-      {
-        "nombre": "Chi Hyun CHung",
-        "cargo": "Candidato presidencial del FPV en 2020"
-      }
-    ],
-    "probable_evolucion": "La creación de un nuevo instrumento político podría fragmentar el voto de la izquierda. La incertidumbre sobre la sigla y estrategia de Morales podría generar tensiones internas y reconfiguraciones en el panorama político boliviano. El éxito de este nuevo proyecto dependerá de su capacidad para movilizar y mantener el apoyo de sus seguidores.",
-    "_id": "79e044f298910e86effc7abd3f5bdc3629affcb29a12f1cbdf3044539e6d5385",
-    "numero_reporte": 81,
-    "fecha": "02/03/2025",
-    "hora": "13:44",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/3_p2_rkc.jpg?itok=InKrutv2"
-  },
-  {
-    "tema": "El chofer responsable del accidente de bus en Uyuni, que dejó 37 muertos, falleció y se confirmó que conducía ebrio.",
-    "categoria": "Seguridad",
-    "factor": [
-      "Psicosocial",
-      "Militar"
-    ],
-    "lugar": "Uyuni",
-    "departamento": "Potosí",
-    "pais": "Bolivia",
-    "fuentes": [
-      "AGENCIAS",
-      "Malena Venegas",
-      "Augusto Russo",
-      "Omar Zegada"
-    ],
-    "hecho": "El 02/03/2025, Ramiro Martin Mamani Llave, el chofer del bus Emmanuel involucrado en un accidente que causó 37 muertes cerca de Uyuni, falleció en el hospital Bracamonte de Potosí debido a las heridas sufridas. Investigaciones preliminares revelaron que Mamani conducía bajo la influencia del alcohol, con cinco veces el límite permitido, a alta velocidad e invadiendo el carril contrario. Siete de las víctimas eran extranjeras y se iniciaron los procesos de repatriación con ayuda de autoridades de Perú y Francia. El accidente involucró a dos buses, el de la empresa Emmanuel y Flecha Bus, y dejó más de 40 heridos, algunos de los cuales fueron trasladados a hospitales en Potosí y Oruro. Otros dos heridos, Elmer Valera Laura (peruano) y Marcial Pacheco, se encuentran estables.",
-    "actores": [
-      {
-        "nombre": "Ramiro Martin Mamani Llave",
-        "cargo": "Chofer del bus Emmanuel (fallecido)"
-      },
-      {
-        "nombre": "Malena Venegas",
-        "cargo": "Médico de turno del hospital Bracamonte"
-      },
-      {
-        "nombre": "Augusto Russo",
-        "cargo": "Comandante de la Policía Boliviana"
-      },
-      {
-        "nombre": "Omar Zegada",
-        "cargo": "Director nacional de Tránsito"
-      },
-      {
-        "nombre": "Elmer Valera Laura",
-        "cargo": "Herido, nacionalidad peruana"
-      },
-      {
-        "nombre": "Marcial Pacheco",
-        "cargo": "Herido"
-      }
-    ],
-    "probable_evolucion": "El incidente podría aumentar la presión para mejorar la seguridad vial y la aplicación de la ley en Bolivia.  Se espera una intensificación de las investigaciones para determinar responsabilidades adicionales.  También podría generar un aumento de la desconfianza en el transporte público.",
-    "_id": "533e0e48ba1b84c2133896492caf7f77ff938068393e21be70670961cdd14ccf",
-    "numero_reporte": 80,
-    "fecha": "02/03/2025",
-    "hora": "17:30",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/acc_0.jpg?itok=p3iRMiNJ"
-  },
-  {
-    "tema": "Un accidente de tránsito en la ruta Oruro-Potosí causa la muerte de 37 personas, lo que lleva a Uyuni a declarar duelo y a la ATT a suspender a la empresa responsable.",
-    "categoria": "Seguridad",
-    "factor": [
-      "Psicosocial",
+      "Militar",
       "Económico"
     ],
-    "lugar": "Uyuni, carretera Oruro - Potosí",
-    "departamento": "Potosí, Oruro",
-    "pais": "Bolivia",
-    "fuentes": "OXÍGENO, Gonzalo Aparicio (Fiscal Departamental de Potosí), ATT",
-    "hecho": "El 2 de marzo de 2025, un trágico accidente de tránsito en la carretera Oruro - Potosí resultó en la muerte de 37 personas y 39 heridos. El accidente involucró a dos buses de transporte público, uno de la empresa Emmanuel, cuyo conductor, Ramiro M., de 50 años, estaba en estado de ebriedad, conducía con exceso de velocidad e invadió el carril, impactando con un bus de la empresa Flecha Norte Bus, conducido por Modesto M.M., de 61 años. El Gobierno Autónomo Municipal de Uyuni declaró duelo municipal del 1 al 3 de marzo, sin suspender las actividades del Carnaval. La ATT suspendió el servicio de la empresa Emmanuel por 15 días y anunció sanciones económicas.",
-    "actores": [
-      {
-        "nombre": "Ramiro M.",
-        "cargo": "Conductor de bus de la empresa Emmanuel"
-      },
-      {
-        "nombre": "Modesto M.M.",
-        "cargo": "Conductor de bus de la empresa Flecha Norte Bus"
-      },
-      {
-        "nombre": "Gonzalo Aparicio",
-        "cargo": "Fiscal Departamental de Potosí"
-      }
-    ],
-    "probable_evolucion": "La suspensión de la empresa infractora puede generar protestas y afectación al transporte. Las investigaciones continuarán, pudiendo derivar en cargos penales contra el conductor. Se espera un impacto emocional en la comunidad de Uyuni.",
-    "_id": "3f50a89f14b1553ada587945fedb0bd8a144af3bf6a4496e6224ce59f784b4e9",
-    "numero_reporte": 79,
-    "fecha": "02/03/2025",
-    "hora": "13:17",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/accidente.jpg?itok=5hf8aSMo"
-  },
-  {
-    "tema": "El Papa Francisco agradece desde el Hospital Gemelli de Roma las oraciones por su recuperación y pide continuar orando por la paz en diversas regiones del mundo.",
-    "categoria": "Mundo",
-    "factor": [
-      "Psicosocial",
-      "Político"
-    ],
-    "lugar": "Hospital Gemelli de Roma",
+    "lugar": "Ucrania, EEUU, Rusia, Alemania",
     "departamento": null,
-    "pais": "Italia",
-    "fuentes": "AGENCIAS, Vaticano",
-    "hecho": "El Papa Francisco, hospitalizado en el Hospital Gemelli de Roma desde el 14 de febrero, ha emitido un discurso escrito para el Ángelus agradeciendo las oraciones por su recuperación y la atención médica recibida. El discurso, publicado por el Vaticano, expresa gratitud hacia el pueblo de Dios y reitera la importancia de orar por la paz, mencionando específicamente a Ucrania, Palestina, Israel, Líbano, Myanmar, Sudán y Kivu. El Papa también ha reflexionado sobre su experiencia de enfermedad, destacando la oportunidad de compartir la condición de los enfermos y la importancia de confiar en Dios.  Después de una noche tranquila, el Papa continúa descansando y recuperándose de una crisis de broncoespasmos. El comunicado médico del sábado indica que ha alternado ventilación mecánica no invasiva con oxigenoterapia, mostrando buena respuesta al intercambio gaseoso. Se alimenta por sí mismo, realiza fisioterapia respiratoria y recibió la Eucaristía el sábado.",
+    "pais": "Ucrania, EEUU, Rusia, Alemania",
+    "fuentes": [
+      "Redacción Central",
+      "Volodímir Zelenski",
+      "Donald Trump",
+      "Dmitri Peskov",
+      "Mijailo Podoliak",
+      "Friedrich Merz"
+    ],
+    "hecho": "El presidente ucraniano, Volodímir Zelenski, propuso a Donald Trump reanudar la cooperación entre Ucrania y EEUU para avanzar hacia la paz, después de que se interrumpiera la ayuda militar de EEUU. Zelenski propuso una tregua parcial, incluyendo la liberación de prisioneros y un cese de ataques aéreos y marítimos. También reafirmó la disposición de Ucrania a firmar un acuerdo económico propuesto por Washington. Mientras tanto, Ucrania busca alternativas al suministro de armamento en Europa. La decisión de EEUU fue celebrada por Rusia, a través de su portavoz presidencial Dmitri Peskov, como un posible paso hacia la paz. Mijailo Podoliak, asesor presidencial ucraniano, indicó que Ucrania explora la producción conjunta o adquisición de armamento con otros países. Zelenski también habló con Friedrich Merz, líder conservador alemán, buscando apoyo y cooperación, especialmente en defensa aérea y estabilidad financiera.",
     "actores": [
       {
-        "nombre": "Papa Francisco",
-        "cargo": "Papa"
-      }
-    ],
-    "probable_evolucion": "Se espera que la recuperación del Papa continúe progresando favorablemente, aunque es probable que su agenda se vea afectada por un periodo de convalecencia.  La continua oración por la paz se mantendrá como un tema central en sus declaraciones públicas, y el Vaticano seguirá informando sobre su estado de salud.",
-    "_id": "f6391deaf2fc5a552801c02e1fdf9a3554abbb3d3c27310049aba147cbbc2eb1",
-    "numero_reporte": 78,
-    "fecha": "02/03/2025",
-    "hora": "7:48",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/pancho.jpg?itok=B-edN3In"
-  },
-  {
-    "tema": "Reino Unido, Francia y Ucrania acuerdan elaborar un plan de alto el fuego para la guerra en Ucrania, a pesar de las tensiones con Estados Unidos.",
-    "categoria": "Mundo",
-    "factor": [
-      "Político",
-      "Militar",
-      "Económico",
-      "Psicosocial"
-    ],
-    "lugar": [
-      "Reino Unido",
-      "Francia",
-      "Ucrania",
-      "Estados Unidos",
-      "Londres",
-      "Casa Blanca",
-      "Praga",
-      "Europa"
-    ],
-    "departamento": null,
-    "pais": [
-      "Reino Unido",
-      "Francia",
-      "Ucrania",
-      "Estados Unidos",
-      "Rusia",
-      "Alemania",
-      "Dinamarca",
-      "Italia",
-      "Holanda",
-      "Noruega",
-      "Polonia",
-      "España",
-      "Canadá",
-      "Finlandia",
-      "Suecia",
-      "República Checa",
-      "Rumanía",
-      "Turquía"
-    ],
-    "fuentes": "Agencias, Keir Starmer, Donald Trump, Volodymyr Zelenskyy, Emmanuel Macron, BBC, Rachel Ellehuus (Royal United Services Institute), Petr Fiala, Associated Press",
-    "hecho": "El Reino Unido, Francia y Ucrania han acordado desarrollar un plan de alto el fuego para la guerra en Ucrania, que se presentará a Estados Unidos.  Esta iniciativa se produce después de que el presidente de Estados Unidos, Donald Trump, criticara públicamente al presidente ucraniano, Volodymyr Zelenskyy, generando tensiones en la cumbre europea en Londres.  Keir Starmer, primer ministro británico, busca mediar para restaurar las negociaciones de paz, involucrando a Trump, Zelenskyy y Macron.  La cumbre en Londres busca fortalecer el apoyo a Ucrania y discutir la posible formación de una fuerza militar europea para respaldar el alto el fuego.  Starmer expresa confianza en Trump en la búsqueda de una paz duradera.  La cumbre contará con la participación de líderes de varios países europeos, así como representantes de la OTAN y la Comisión Europea.  Después de la visita de Zelenskyy a la Casa Blanca y la posterior reprimenda,  Europa se encuentra preocupada por las conversaciones de paz directas entre Trump y el presidente ruso, Vladímir Putin.  Se discute el aumento del gasto militar en Europa, con el Reino Unido comprometiéndose a aumentar el gasto militar al 2.5% del PIB, y otros países europeos considerando aumentarlo también. Se plantean propuestas para financiar el apoyo a Ucrania, como el uso de activos rusos confiscados. La reunión en la Casa Blanca ha generado un retroceso en el apoyo estadounidense a Ucrania.",
-    "actores": [
-      {
-        "nombre": "Keir Starmer",
-        "cargo": "Primer ministro británico"
-      },
-      {
-        "nombre": "Donald Trump",
-        "cargo": "Presidente de Estados Unidos"
-      },
-      {
-        "nombre": "Volodymyr Zelenskyy",
+        "nombre": "Volodímir Zelenski",
         "cargo": "Presidente de Ucrania"
       },
       {
-        "nombre": "Emmanuel Macron",
-        "cargo": "Presidente de Francia"
-      },
-      {
-        "nombre": "Vladímir Putin",
-        "cargo": "Presidente de Rusia"
-      },
-      {
-        "nombre": "JD Vance",
-        "cargo": "Vicepresidente (de EE. UU.)"
-      },
-      {
-        "nombre": "Rachel Ellehuus",
-        "cargo": "Directora General del Royal United Services Institute"
-      },
-      {
-        "nombre": "Petr Fiala",
-        "cargo": "Primer ministro checo"
-      }
-    ],
-    "probable_evolucion": "El plan de alto el fuego podría enfrentar dificultades debido a las tensiones entre EE. UU. y Ucrania.  Es probable que Europa asuma un papel más prominente en la financiación y apoyo militar a Ucrania.  La guerra podría prolongarse si no se logra un acuerdo de paz aceptable.",
-    "_id": "424c1641ce2d20cdd86a5f3de9cbe02777d814e969569fa417df3b54f21f6987",
-    "numero_reporte": 77,
-    "fecha": "02/03/2025",
-    "hora": "7:58",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/trump_ze_ed_listo.jpg?itok=3er64-A9"
-  },
-  {
-    "tema": "Evo Morales solicita a exmilitantes del MAS no afiliarse al FPV en espera de una nueva sigla política para su candidatura, mientras se observa un aumento de renuncias al MAS.",
-    "categoria": "País",
-    "factor": [
-      "Político",
-      "Psicosocial"
-    ],
-    "lugar": null,
-    "departamento": null,
-    "pais": "Bolivia",
-    "fuentes": "La Prensa",
-    "hecho": "Evo Morales, exmandatario de Bolivia, instruyó a los exmilitantes del Movimiento Al Socialismo (MAS) a no inscribirse en el Frente Para la Victoria (FPV), describiendo esta última como una sigla temporal. Morales planea definir una nueva sigla política entre el 29 y 31 de marzo, junto a sectores sociales afines, para lanzar su candidatura. El Tribunal Supremo Electoral (TSE) ha reportado un incremento en las renuncias de militantes del MAS, superando las 1.100 bajas en los últimos días, en el contexto de una crisis interna en el partido.",
-    "actores": [
-      {
-        "nombre": "Evo Morales",
-        "cargo": "Exmandatario"
-      },
-      {
-        "nombre": "Militantes del MAS",
-        "cargo": "Exmilitantes del Movimiento Al Socialismo"
-      }
-    ],
-    "probable_evolucion": "La situación interna del MAS podría agravarse, con posibles divisiones y fragmentación política. La creación de una nueva sigla por parte de Morales podría reconfigurar el panorama político, atrayendo a sectores descontentos del MAS y desafiando la hegemonía del partido oficialista.  La consolidación de la nueva plataforma y su aceptación por parte del electorado serán claves para determinar el futuro político de Morales.",
-    "_id": "1c52e9b0f652f9a883ab4ecd9d07078e9548667b1f839d152fb333b22d4c4227",
-    "numero_reporte": 76,
-    "fecha": "02/03/2025",
-    "hora": "13:09",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/4_p_1_apg.jpg?itok=rYQeNZ1c"
-  },
-  {
-    "tema": "Tres ciudadanos bolivianos fueron deportados desde Estados Unidos, lo que podría afectar a más compatriotas bajo la política migratoria.",
-    "categoria": "País",
-    "factor": [
-      "Político",
-      "Psicosocial"
-    ],
-    "lugar": [
-      "Santa Cruz",
-      "Cochabamba",
-      "Farmville, Virginia",
-      "Washington",
-      "Estados Unidos",
-      "Potosí"
-    ],
-    "departamento": [
-      "Santa Cruz",
-      "Cochabamba",
-      "Potosí"
-    ],
-    "pais": "Bolivia",
-    "fuentes": "Redacción Central, Rosario Monasterio, Henry Baldelomar (Encargado de negocios de la Embajada de Bolivia en Estados Unidos), Red Uno",
-    "hecho": "El viernes 2 de marzo de 2025, tres ciudadanos bolivianos fueron deportados de Estados Unidos. Dos de ellos llegaron a Santa Cruz y uno a Cochabamba. Rosario Monasterio, madre de uno de los deportados, denunció falta de asistencia consular durante la detención de su hijo. Henry Baldelomar, encargado de negocios de la Embajada de Bolivia en Estados Unidos, informó que hay 132 bolivianos en centros de detención migratoria, 15 de ellos en Farmville, Virginia. Los detenidos son mayoritariamente varones entre 25 y 36 años, provenientes principalmente de Cochabamba, sin familiares en Estados Unidos. No hay fecha definida para futuras deportaciones.",
-    "actores": [
-      {
         "nombre": "Donald Trump",
-        "cargo": "Gobierno (No especificado)"
+        "cargo": "Expresidente de EEUU"
       },
       {
-        "nombre": "Rosario Monasterio",
-        "cargo": "Madre de deportado"
+        "nombre": "Dmitri Peskov",
+        "cargo": "Portavoz presidencial ruso"
       },
       {
-        "nombre": "Henry Baldelomar",
-        "cargo": "Encargado de negocios de la Embajada de Bolivia en Estados Unidos"
+        "nombre": "Mijailo Podoliak",
+        "cargo": "Asesor presidencial ucraniano"
+      },
+      {
+        "nombre": "Friedrich Merz",
+        "cargo": "Líder conservador alemán"
       }
     ],
-    "probable_evolucion": "Se anticipa un aumento en las deportaciones de bolivianos desde Estados Unidos. La falta de apoyo consular podría generar tensiones y críticas al gobierno boliviano. Familias de los detenidos podrían intensificar sus reclamos para obtener mayor asistencia y transparencia en el proceso.",
-    "_id": "eef825f33dc6c88d06e8df09cb0c6b0979e11ffe6391730296a99a619d4df554",
-    "numero_reporte": 75,
-    "fecha": "02/03/2025",
-    "hora": "6:43",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/2_pag_3_unitel.jpg?itok=_rDRN83W"
+    "probable_evolucion": "La propuesta de Zelenski podría llevar a negociaciones de paz, aunque la postura rusa y la necesidad de apoyo externo complican el proceso. La búsqueda de armamento alternativo por parte de Ucrania podría alterar el equilibrio de poder y la duración del conflicto. La relación entre Ucrania y EEUU podría experimentar cambios significativos, dependiendo del resultado de las negociaciones y las políticas de ambas naciones.",
+    "_id": "bc04f774792f8ecb0021c167297cf7f58568cf44263741cca8a33e54bea3e130",
+    "numero_reporte": 110,
+    "fecha": "05/03/2025",
+    "hora": "7:44",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/11_mu_1_efe.jpg?itok=BZaO4uWA"
   },
   {
-    "tema": "El Carnaval de Oruro 2025, con el apoyo de la Unesco, celebró el Bicentenario de Bolivia, atrayendo a miles de participantes y espectadores, generando un importante impacto económico y cultural.",
+    "tema": "El Comité pro Santa Cruz declara emergencia regional debido a la escasez de combustible y convoca a una reunión multisectorial para tomar acciones de presión contra el Gobierno.",
     "categoria": "País",
     "factor": [
       "Político",
-      "Cultural",
       "Económico",
       "Psicosocial"
     ],
-    "lugar": "Oruro",
-    "departamento": "Oruro",
-    "pais": "Bolivia",
-    "fuentes": "Redacción Central, Luis Arce, Eduardo del Castillo",
-    "hecho": "El Carnaval de Oruro 2025, declarado Obra Maestra del Patrimonio Oral e Intangible de la Humanidad por la Unesco, celebró el Bicentenario de Bolivia. El evento contó con el patrocinio oficial de la Unesco, con la participación de más de 60,000 bailarines y 20,000 músicos. El presidente Luis Arce anunció el respaldo oficial de la Unesco. El Carnaval inició con una peregrinación religiosa y continuó con desfiles de conjuntos folklóricos. Se estima que el carnaval generó un movimiento económico superior a los 380 millones de bolivianos y atrajo a más de 350,000 visitantes. Se destaca la participación de Nansana Kids, un grupo de niños y adolescentes de Uganda. El evento reafirmó su papel como un patrimonio cultural vivo.",
-    "actores": [
-      {
-        "nombre": "Luis Arce",
-        "cargo": "Presidente del Estado"
-      },
-      {
-        "nombre": "Eduardo del Castillo",
-        "cargo": "Ministro de Gobierno"
-      },
-      {
-        "nombre": "Cristóbal Bialasik",
-        "cargo": "Obispo de la Diócesis de Oruro"
-      }
-    ],
-    "probable_evolucion": "Se espera que el Carnaval de Oruro continúe atrayendo turismo y generando ingresos económicos. El respaldo de la Unesco fortalecerá su reconocimiento internacional y promoverá la preservación cultural.  La integración cultural con otros países, como Uganda, podría expandirse.",
-    "_id": "eabc3a247776290f6422cef75db3f9f5e5b65453d911053692553d52e7ad2b40",
-    "numero_reporte": 74,
-    "fecha": "02/03/2025",
-    "hora": "6:45",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/7_pag_1_apg.jpg?itok=UkGqlACx"
-  },
-  {
-    "tema": "Tres sospechosos fueron enviados a prisión preventiva por su presunta participación en el asesinato del capitán de la Policía, José Aldunate, en Santa Cruz.",
-    "categoria": "País",
-    "factor": [
-      "Político",
-      "Militar",
-      "Psicosocial"
-    ],
-    "lugar": "Palmasola, Santa Cruz",
+    "lugar": "Santa Cruz",
     "departamento": "Santa Cruz",
     "pais": "Bolivia",
-    "fuentes": "Redacción Central, Alberto Zeballos (Fiscal Departamental de Santa Cruz)",
-    "hecho": "El fiscal departamental de Santa Cruz, Alberto Zeballos, confirmó la detención preventiva de Cristhian R.D., Dila S.S. y Elena O.P. por 180 días en el penal de Palmasola, acusados de participar en el asesinato del capitán de la Policía, José Aldunate. El Ministerio Público presentó pruebas que los vinculan al crimen como autores y cómplices. Aldunate fue asesinado dentro de su vehículo por dos sicarios, y las autoridades investigan la posible relación con su trabajo policial. El caso está bajo reserva judicial y se evaluará la convocatoria de personas a declarar.",
+    "fuentes": "Redacción Central, Agustín Zambrana",
+    "hecho": "El Comité pro Santa Cruz ha declarado emergencia regional debido al desabastecimiento de combustible, principalmente diésel y gasolina, atribuido a retrasos en los pagos del Ministerio de Economía. Se ha convocado a una reunión multisectorial para el día siguiente, con la participación de representantes de las 15 provincias de Santa Cruz y 24 sectores productivos, incluyendo transportistas y agroindustriales. El objetivo de la reunión es definir un plan de acción, que podría incluir paros, movilizaciones o bloqueos, si el Gobierno no resuelve la situación. Se enfatiza que la escasez de combustible pone en riesgo la seguridad alimentaria, la cosecha de verano y la economía regional en general. El primer vicepresidente del Comité, Agustín Zambrana, ha responsabilizado al Gobierno por la crisis.",
     "actores": [
       {
-        "nombre": "Alberto Zeballos",
-        "cargo": "Fiscal Departamental de Santa Cruz"
+        "nombre": "Agustín Zambrana",
+        "cargo": "Primer vicepresidente del Comité pro Santa Cruz"
       },
       {
-        "nombre": "José Aldunate",
-        "cargo": "Capitán de la Policía"
-      },
-      {
-        "nombre": "Cristhian R.D.",
-        "cargo": "Sospechoso"
-      },
-      {
-        "nombre": "Dila S.S.",
-        "cargo": "Sospechoso"
-      },
-      {
-        "nombre": "Elena O.P.",
-        "cargo": "Sospechoso"
+        "nombre": "Gobierno",
+        "cargo": "Órgano Ejecutivo"
       }
     ],
-    "probable_evolucion": "La investigación continuará, y se esperan nuevas detenciones. El caso podría generar presión para mejorar la seguridad y la confianza en las instituciones. La reserva judicial podría dificultar el acceso a la información pública sobre el caso.",
-    "_id": "24056138b8805d15f1e86c9b7de8596ee8f8c590696633f6b61eaa42e2ebc78a",
-    "numero_reporte": 73,
-    "fecha": "02/03/2025",
-    "hora": "6:40",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/2_pag_2_fiscalia_general_del_estado.jpg?itok=mAkpTX88"
+    "probable_evolucion": "Es probable que la situación de escasez de combustible continúe, llevando a acciones de protesta por parte del Comité y sectores productivos. Esto podría generar inestabilidad política y económica en la región, con posibles afectaciones a nivel nacional si las medidas de presión se intensifican. El Gobierno podría verse obligado a negociar y buscar soluciones para evitar mayores conflictos.",
+    "_id": "563cea9a3967245b2e593f9d176ea59aa91839b4354adddb5977b6e5ed3be70e",
+    "numero_reporte": 109,
+    "fecha": "05/03/2025",
+    "hora": "6:57",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/3_p_2_el_deberrrrrrrr.jpg?itok=SoakHItY"
   },
   {
-    "tema": "Un choque frontal entre dos buses cerca de Uyuni, Bolivia, causó la muerte de al menos 37 personas y dejó más de 30 heridas.",
+    "tema": "Productores de soya en Santa Cruz, Bolivia, adoptan biotecnología resistente a la sequía y herbicidas, impulsando la producción y buscando sostenibilidad.",
     "categoria": "País",
     "factor": [
-      "Psicosocial",
-      "Económico"
+      "Económico",
+      "Psicosocial"
     ],
-    "lugar": "Uyuni",
-    "departamento": "Potosí",
+    "lugar": "Santa Cruz, Cuatro Cañadas",
+    "departamento": "Santa Cruz",
     "pais": "Bolivia",
-    "fuentes": "Redacción Central, Wilson Flores (Comandante de la Policía Fronteriza de Uyuni), Ministerio de Obras Públicas",
-    "hecho": "El 1 de marzo de 2025, un grave accidente de tránsito ocurrió a cinco kilómetros de Uyuni, Potosí, Bolivia. Un choque frontal involucró a un bus de la empresa Emanuel, que cubría la ruta Oruro-Atocha, y a otro de la empresa Flecha Bus, que se dirigía de Uyuni a Oruro. El accidente resultó en la muerte de al menos 37 personas y más de 30 heridos, muchos en estado crítico. Las investigaciones preliminares indican invasión de carril por parte de uno de los vehículos, y se están realizando exámenes de alcoholemia. Los heridos fueron trasladados a hospitales de Oruro y Potosí. Las autoridades están identificando a las víctimas y notificando a sus familiares. El Ministerio de Obras Públicas anunció una investigación exhaustiva y apoyo a las víctimas. Este incidente resalta problemas de seguridad vial en Bolivia.",
+    "fuentes": "Cristina Cotari, Richard Trujillo (Gerente técnico de Anapo), Jaime Hernández (Presidente de Anapo)",
+    "hecho": "En Santa Cruz, Bolivia, los productores de soya están implementando biotecnología resistente a la sequía y herbicidas como el glifosato para aumentar el rendimiento y reducir costos. La 31ª versión de la Exposoya 2025 exhibió estas innovaciones, incluyendo variedades de soya, drones y maquinaria pesada. Anapo, a través de su \"Programa de mejoramiento en Soya\", trabaja en el desarrollo de variedades propias y en la optimización de la nutrición de los cultivos, con apoyo de consultores de Argentina. Se sembraron 1.200.000 hectáreas de soya, proyectando una cosecha de 2.5 millones de toneladas. Se utilizan semillas mejoradas como \"Intacta y la HB4\", aunque algunas ingresaron al país por contrabando. El gobierno aprobó el uso de la semilla de soya Intacta y biotecnología en octubre de 2024. La Exposoya reunió a 8 mil productores y 120 expositores, destacando nuevas variedades como GS 50R 48 y Patujú.",
     "actores": [
       {
-        "nombre": "Wilson Flores",
-        "cargo": "Comandante de la Policía Fronteriza de Uyuni"
+        "nombre": "Richard Trujillo",
+        "cargo": "Gerente técnico de la Asociación Nacional de Productores de Oleaginosas y Trigo (Anapo)"
       },
       {
-        "nombre": "Ministerio de Obras Públicas",
-        "cargo": "Ministerio"
+        "nombre": "Jaime Hernández",
+        "cargo": "Presidente de Anapo"
       }
     ],
-    "probable_evolucion": "Este evento probablemente generará debates sobre seguridad vial y medidas preventivas en Bolivia. Se espera una mayor fiscalización y posibles cambios en las regulaciones de tránsito. Podría haber un impacto en la confianza pública en el transporte terrestre.",
-    "_id": "f4e8e4b0cd21497c833a3f1e58ab5c630369f06f6bab6454dd8c9783885370ba",
-    "numero_reporte": 72,
-    "fecha": "02/03/2025",
-    "hora": "6:38",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/2/2_pag_1_rrss.jpg?itok=4XTPJhvW"
+    "probable_evolucion": "Se espera un aumento continuo en la adopción de biotecnología en la producción de soya. La dependencia de tecnologías extranjeras podría generar tensiones comerciales.  La validación de nuevas variedades y la adaptación a las condiciones locales serán cruciales para el éxito a largo plazo.",
+    "_id": "281bec6c5d2259e637de1e79fc5d709bca3c8203a8ef43ba552f947346ae7cdc",
+    "numero_reporte": 108,
+    "fecha": "05/03/2025",
+    "hora": "7:06",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/soyeros_1.jpg?itok=e1h3lSnP"
   },
   {
-    "tema": "Un incidente en el mercado de Quillacollo, causado por una deflagración de gas, expone fallas en el manejo de garrafas y condiciones inseguras.",
+    "tema": "El Instituto Superior de Artes Plásticas Raúl G. Prada en Cochabamba presenta grave deterioro y grietas que ponen en riesgo a estudiantes, a pesar de las promesas de solución de la Gobernación y Alcaldía.",
     "categoria": "Cochabamba",
     "factor": [
       "Económico",
+      "Político",
       "Psicosocial"
     ],
-    "lugar": "mercado Central de Quillacollo",
+    "lugar": "La Coronilla, colina San Sebastián",
     "departamento": "Cochabamba",
     "pais": "Bolivia",
-    "fuentes": [
-      "Geraldine Corrales Arandia",
-      "Roger Costas (comandante regional de la Policía del Valle Bajo)",
-      "Estela Montaño (dirigente de los comerciantes)"
-    ],
-    "hecho": "El 2 de marzo de 2025, en el mercado Central de Quillacollo, ocurrió un incidente debido a la deflagración de gas, provocando nueve heridos. La causa fue una chispa que encendió el gas en el ambiente. El incidente puso de manifiesto deficiencias en la manipulación de garrafas y condiciones inseguras en el mercado. Las comerciantes expresaron su preocupación por el estado de las garrafas, que llegan golpeadas y en mal estado. A pesar de los reclamos, las comerciantes dependen de las garrafas de gas debido a la falta de gas domiciliario. Los bomberos intentaron realizar una inspección preventiva, pero fueron rechazados, aunque los comerciantes alegan que la inspección se programó en un horario inadecuado. Las autoridades policiales, lideradas por el comandante Roger Costas, investigan las causas del incidente.",
+    "fuentes": "Ulises Cabrera, Remy Daza, Mijail Mercado, Wilson Espinoza",
+    "hecho": "El Instituto Superior de Artes Plásticas Raúl G. Prada, ubicado en La Coronilla, Cochabamba, presenta un grave deterioro en su infraestructura, con grietas en columnas, suelos y paredes, así como caída de cielos falsos. El edificio fue entregado en octubre de 2014 como parte del programa 'Bolivia cambia, Evo cumple' con una inversión de Bs 13,1 millones. A pesar de las deficiencias presentadas desde entonces, la Gobernación y la Alcaldía de Cochabamba no han tomado medidas significativas para solucionar los problemas. Inspecciones y acuerdos realizados en julio de 2024 no han resultado en acciones concretas. Los estudiantes y docentes han expresado su preocupación por la seguridad. La Alcaldía está avanzando con la transferencia de los bienes, pero la tuición administrativa y el funcionamiento del instituto están a cargo de la Gobernación.",
     "actores": [
       {
-        "nombre": "Roger Costas",
-        "cargo": "Comandante regional de la Policía del Valle Bajo"
+        "nombre": "Remy Daza",
+        "cargo": "Artista plástico y profesor del instituto"
       },
       {
-        "nombre": "Estela Montaño",
-        "cargo": "Dirigente de los comerciantes"
+        "nombre": "Mijail Mercado",
+        "cargo": "Secretario de Planificación"
       },
       {
-        "nombre": "Comerciantes (varios)",
-        "cargo": "Comerciantes del mercado"
-      },
-      {
-        "nombre": "Personal de Bomberos",
-        "cargo": "Personal de Bomberos"
+        "nombre": "Wilson Espinoza",
+        "cargo": "Director de Bienes Municipales de la Alcaldía"
       }
     ],
-    "probable_evolucion": "Es probable que se intensifiquen las inspecciones de seguridad y las regulaciones en el manejo de garrafas en mercados similares.  Podría haber cierres temporales o parciales de establecimientos que no cumplan con las normas.  Las comerciantes podrían buscar alternativas al uso de garrafas de gas, como la instalación de gas domiciliario o mejoras en las condiciones de ventilación.",
-    "_id": "6c905603b83feda350be95b19146c40e9f751c24c5d6b2b62d4b537df923dc0a",
-    "numero_reporte": 71,
-    "fecha": "02/03/2025",
-    "hora": "0:04",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/6_metro_1_jamesssss.jpg?itok=TYbFB_97"
+    "probable_evolucion": "El deterioro continuará, aumentando el riesgo para los estudiantes y docentes. La falta de acción podría llevar a protestas y posiblemente al cierre del instituto. La transferencia de bienes podría facilitar intervenciones futuras, pero su impacto es incierto.",
+    "_id": "84c4d12362cd9d26d7f9019c6e5691ace474497b54324700d842a9028ed408ad",
+    "numero_reporte": 107,
+    "fecha": "05/03/2025",
+    "hora": "7:16",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/raul_g_prada_3.jpg?itok=zilSJEUx"
   },
   {
-    "tema": "El grupo Nansana Kids de Uganda participa en el Carnaval del Bicentenario en Oruro, Bolivia, mostrando danzas bolivianas y promoviendo el intercambio cultural.",
+    "tema": "Las fuertes lluvias en Bolivia han causado 37 muertes, numerosas familias afectadas y municipios en riesgo de desaparecer, exacerbadas por factores como la minería ilegal y la falta de planificación urbana.",
     "categoria": "País",
     "factor": [
-      "Psicosocial",
-      "Cultural"
-    ],
-    "lugar": "Oruro",
-    "departamento": "Oruro",
-    "pais": "Bolivia",
-    "fuentes": [
-      "ABI"
-    ],
-    "hecho": "El grupo Nansana Kids de Uganda participó en el Carnaval del Bicentenario en Oruro el 1 de marzo de 2025. Este grupo, conocido por sus presentaciones en TikTok, interpretó danzas bolivianas y fue recibido con entusiasmo por los asistentes. Su participación, que forma parte de un proyecto de intercambio cultural, contribuyó a realzar la importancia del Carnaval de Oruro, declarado Obra Maestra del Patrimonio Oral e Intangible de la Humanidad, y atrajo la atención de medios internacionales. El gobierno boliviano espera que este evento reafirme la identidad y cultura del país.",
-    "actores": [
-      {
-        "nombre": "Nansana Kids",
-        "cargo": "Grupo de baile"
-      },
-      {
-        "nombre": "Gobierno nacional (Bolivia)",
-        "cargo": "Organizador del evento"
-      }
-    ],
-    "probable_evolucion": "La participación de Nansana Kids podría aumentar el interés internacional en el Carnaval de Oruro y promover el turismo.  Este evento fortalecería los lazos culturales entre Bolivia y Uganda. Se espera una mayor cobertura mediática del evento en el futuro.",
-    "_id": "917446b74954ee2fc6f13ea88e1d50432cff9355ed8dc2795b32b3afedda5ef8",
-    "numero_reporte": 70,
-    "fecha": "01/03/2025",
-    "hora": "18:20",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/nansana_ed_ok.jpg?itok=FnJJAvhA"
-  },
-  {
-    "tema": "La Aduana Nacional de Bolivia está modernizando sus operaciones a través de tecnología, infraestructura renovada y digitalización de trámites para agilizar el comercio exterior.",
-    "categoria": "Economía",
-    "factor": [
       "Económico",
-      "Político"
+      "Ambiental",
+      "Psicosocial"
     ],
     "lugar": [
       "Bolivia",
-      "Cochabamba"
+      "Bolívar",
+      "Cochabamba",
+      "Bajo Llojeta",
+      "La Paz",
+      "Tipuani",
+      "Guanay",
+      "Teoponte",
+      "Guatayos",
+      "Chuquisaca",
+      "Tarija"
     ],
     "departamento": [
-      "Cochabamba"
+      "Cochabamba",
+      "La Paz"
     ],
     "pais": "Bolivia",
-    "fuentes": "Windsor Salas G., Hugo Domínguez",
-    "hecho": "La Aduana Nacional de Bolivia está implementando un proceso de modernización que incluye la incorporación de tecnología avanzada, la renovación de infraestructura y la digitalización de trámites para mejorar la eficiencia y transparencia en el comercio exterior. Se ha implementado un centro de datos moderno que integra múltiples sistemas aduaneros, eliminando trámites en papel y permitiendo el acceso a servicios desde dispositivos móviles. La Ventanilla Única del Comercio Exterior (VUCE) se está expandiendo para integrar a más instituciones. En Cochabamba, la infraestructura aduanera está siendo ampliada y mejorada con un muro perimetral, nuevas balanzas y mejoras en las instalaciones para los transportistas. La modernización ha resultado en una recaudación récord de más de 18.000 millones de bolivianos en 2023, fortaleciendo las finanzas públicas.  Se identifican desafíos como la necesidad de fortalecer la difusión de los regímenes aduaneros.",
+    "fuentes": [
+      "Tatiana Castro E.",
+      "Juan Carlos Calvimontes",
+      "Servicio Nacional de Meteorología e Hidrología (Senamhi)",
+      "Solangel Murillo Garzón",
+      "Carmen Rosa Quispe"
+    ],
+    "hecho": "En Bolivia, en los últimos cuatro meses, las intensas lluvias han provocado la muerte de 37 personas y la desaparición de seis más, actualmente en búsqueda.  Ocho de los nueve departamentos del país se han visto afectados, con 95 municipios golpeados por daños a cultivos, viviendas y víctimas. 34 municipios han declarado estado de desastre debido a la sobrecarga de sus capacidades de respuesta.  El viceministro de Defensa, Juan Carlos Calvimontes, reportó 161.125 familias afectadas, 1.684 comunidades perjudicadas, 1.056 viviendas dañadas y 379 completamente destruidas (319 en La Paz).  Todo el país está en alerta hasta el 14 de marzo por el aumento del caudal de los ríos. El departamento de La Paz es el más afectado, con 25 municipios en desastre, incluyendo Tipuani, Guanay y Teoponte en riesgo de desaparición.  En Tipuani, la situación se agrava por desbordes de ríos y sedimentos de la actividad minera.  La falta de planificación urbana, deforestación, minería ilegal, y los efectos del cambio climático (lluvias intensas y sequías) son factores que exacerban los desastres.  En Tipuani, operan al menos 10 cooperativas mineras que infringen regulaciones ambientales.",
     "actores": [
       {
-        "nombre": "Hugo Domínguez",
-        "cargo": "Gerente regional de la Aduana en Cochabamba"
+        "nombre": "Juan Carlos Calvimontes",
+        "cargo": "Viceministro de Defensa"
+      },
+      {
+        "nombre": "Solangel Murillo Garzón",
+        "cargo": "Geóloga experta en gestión de riesgos de desastres"
+      },
+      {
+        "nombre": "Carmen Rosa Quispe",
+        "cargo": "Secretaria Municipal de Medio Ambiente de Tipuani"
       }
     ],
-    "probable_evolucion": "La modernización de la aduana podría atraer inversión extranjera y aumentar el volumen de comercio. La expansión de la VUCE y la digitalización completa podrían mejorar aún más la eficiencia. La falta de capacitación y difusión de los nuevos regímenes podría generar resistencia y retrasos.",
-    "_id": "98fd92dfaef9f16a343e17d74e0a022155e27ad77582e00d5b4fd62d51fc9166",
-    "numero_reporte": 69,
-    "fecha": "02/03/2025",
-    "hora": "0:03",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/esp_eco_windsor_1_lopezzzzzzz.jpg?itok=VTJuZGGl"
+    "probable_evolucion": "Se espera un aumento en las pérdidas humanas y materiales si las lluvias continúan.  La situación podría escalar a una crisis humanitaria si los municipios más afectados no reciben suficiente apoyo.  La inacción ante la minería ilegal y la falta de planificación urbana agravarán la vulnerabilidad a futuros desastres.",
+    "_id": "1f34f8c9f0aa94d98cd158b7ed941c8dbdcfbe0d5534b66ae60e1430a87926a2",
+    "numero_reporte": 106,
+    "fecha": "05/03/2025",
+    "hora": "6:42",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/mazamorra_2.jpg?itok=P-NLxIlv"
   },
   {
-    "tema": "El Órgano Electoral de Bolivia exige la aprobación urgente de leyes clave para garantizar las elecciones generales de agosto de 2025, advirtiendo sobre riesgos de postergación o intervención judicial si no se cumplen los plazos.",
-    "categoria": "País",
-    "factor": [
-      "Político",
-      "Económico",
-      "Psicosocial"
-    ],
-    "lugar": "Bolivia",
-    "departamento": null,
-    "pais": "Bolivia",
-    "fuentes": "RUDDY ORELLANA V., Tahuichi Tahuichi Quispe, William Herrera, Paúl Coca, Omar Yujra, Olivia Guachalla",
-    "hecho": "El Tribunal Supremo Electoral (TSE) de Bolivia ha establecido un plazo límite hasta finales de marzo para la aprobación de leyes consideradas fundamentales para blindar las elecciones generales del 17 de agosto de 2025. Estas leyes incluyen la ley de preclusión electoral, la incorporación de vocales del TSE a la Ley 044 (garantizando independencia y juicios de responsabilidad) y la ley de Transmisión de Resultados Electorales Preliminares (TREP). Se advierte que la falta de aprobación de estas leyes podría resultar en la postergación de las elecciones, la habilitación de candidatos por fuera de la normativa electoral, la falta de TREP y la posible prórroga de autoridades por parte del Tribunal Constitucional Plurinacional (TCP). Diferentes actores políticos y analistas expresan preocupación por la falta de acción de la Asamblea Legislativa Plurinacional (ALP), destacando la fragilidad institucional y los riesgos de inestabilidad política. Se mencionan otras leyes necesarias como la ley de cese de autoprorrogados, ley de convocatoria a elecciones, ley de debate obligatorio, y modificación al Presupuesto General del Estado. El presidente de la Cámara de Diputados, Omar Yujra, asegura el compromiso de aprobar las leyes. La presidenta de la Comisión de Constitución, Legislación y Sistema Electoral, Olivia Guachalla, confirma el tratamiento de las normas, con excepción de la aprobación del crédito de $us 100 millones de la Agencia de Cooperación Internacional de Japón (JICA).",
-    "actores": [
-      {
-        "nombre": "Tahuichi Tahuichi Quispe",
-        "cargo": "Vocal del Tribunal Supremo Electoral (TSE)"
-      },
-      {
-        "nombre": "William Herrera",
-        "cargo": "Constitucionalista"
-      },
-      {
-        "nombre": "Paúl Coca",
-        "cargo": "Analista político"
-      },
-      {
-        "nombre": "Omar Yujra",
-        "cargo": "Presidente de la Cámara de Diputados"
-      },
-      {
-        "nombre": "Olivia Guachalla",
-        "cargo": "Presidenta de la Comisión de Constitución, Legislación y Sistema Electoral"
-      },
-      {
-        "nombre": "Luis Arce",
-        "cargo": "Presidente de Bolivia"
-      },
-      {
-        "nombre": "David Choquehuanca",
-        "cargo": "Vicepresidente de Bolivia"
-      }
-    ],
-    "probable_evolucion": "Si las leyes no se aprueban, es probable que las elecciones se vean afectadas, posiblemente con su postergación o la intervención del TCP. Esto podría desencadenar una crisis política y social, con posibles consecuencias para la legitimidad de las instituciones y el gobierno.",
-    "fecha_reporte": "03/03/2025",
-    "_id": "4ac3a35a4f113997bf2266e844c34584538fe3224f9acc79396b41bc55033747",
-    "numero_reporte": 68,
-    "fecha": "02/03/2025",
-    "hora": "0:01",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/captura_de_pantalla_2025-03-01_a_las_7.55.12_p.m.jpg?itok=OGPmaM4X"
-  },
-  {
-    "tema": "El Carnaval de Oruro, reconocido por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad, se celebra con la participación de miles de bailarines y músicos y el patrocinio de la UNESCO en el marco del Bicentenario de Bolivia.",
+    "tema": "Un aumento significativo de accidentes de tránsito durante el Carnaval, principalmente en Potosí, ha resultado en la muerte de 127 personas.",
     "categoria": "País",
     "factor": [
       "Psicosocial",
-      "Económico",
       "Político"
     ],
-    "lugar": "Oruro",
-    "departamento": "Oruro",
+    "lugar": [
+      "Potosí",
+      "Oruro",
+      "Leñas",
+      "Yocalla",
+      "Pisiga",
+      "Uyuni",
+      "El Campanario",
+      "Sucre",
+      "Santa Cruz",
+      "La Paz"
+    ],
+    "departamento": [
+      "Potosí",
+      "Oruro",
+      "Sucre"
+    ],
     "pais": "Bolivia",
     "fuentes": [
-      "Los Tiempos",
-      "Luis Arce (Presidente)"
+      "Redacción Central",
+      "Ministerio Público",
+      "Azucena Fuertes",
+      "Luis Arce",
+      "Limberth Choque"
     ],
-    "hecho": "Se llevó a cabo el Carnaval de Oruro, con la participación de más de 50.000 bailarines y 20.000 músicos. El evento, reconocido como Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO desde 2001, incluyó una peregrinación al Santuario de la Virgen del Socavón, misa, procesión y presentación de danzas. La UNESCO patrocina la edición del Bicentenario del carnaval, como resultado de las gestiones del Gobierno Nacional. Se espera que el evento genere un impacto económico significativo, impulsado por el turismo.",
+    "hecho": "Durante el periodo de Carnaval (enero a marzo de 2025), se registraron múltiples accidentes de tránsito en Bolivia, con un saldo de 127 personas fallecidas y decenas de heridos. Las principales causas identificadas son el exceso de velocidad, la imprudencia, el consumo de alcohol y la precaria señalización de las rutas. Los accidentes más graves ocurrieron en Potosí, incluyendo el accidente de Leñas (Oruro-Potosí) con 31 muertos, Yocalla con 28 muertos y el choque en la ruta hacia Uyuni con 37 muertos, involucrando incluso ciudadanos peruanos y una turista alemana. Las investigaciones del Ministerio Público revelaron que uno de los conductores no tenía licencia y otro conducía bajo influencia del alcohol. Se reportaron fallas en la capacidad de respuesta del departamento de Potosí ante la magnitud de los accidentes, como la falta de médicos forenses y la saturación de la morgue, lo que dificultó la identificación de las víctimas y el proceso de duelo para las familias. El gobierno, a través del presidente Luis Arce, expresó su pesar y solicitó una investigación urgente. La Policía Departamental de Potosí anunció el reforzamiento de los controles en las carreteras, con enfoque en la detección de conductores bajo efectos del alcohol.",
     "actores": [
       {
-        "actor": "Luis Arce",
+        "nombre": "Grover P. M.",
+        "cargo": "Conductor de vagoneta"
+      },
+      {
+        "nombre": "Azucena Fuertes",
+        "cargo": "Asambleísta Departamental"
+      },
+      {
+        "nombre": "Luis Arce",
         "cargo": "Presidente"
       },
       {
-        "actor": "UNESCO",
-        "cargo": "Organización"
-      },
-      {
-        "actor": "Autoridades locales y eclesiásticas",
-        "cargo": "No especificado"
+        "nombre": "Limberth Choque",
+        "cargo": "Vocero del Comando Departamental de la Policía"
       }
     ],
-    "probable_evolucion": "El patrocinio de la UNESCO podría fortalecer la imagen internacional del Carnaval de Oruro y atraer más turismo.  La celebración del Bicentenario podría impulsar un mayor orgullo nacional y la promoción de la cultura boliviana.  El éxito del evento podría generar inversiones económicas en la región.",
-    "_id": "87eb1c0064407ac8ff0459aa173926948916037dc059a33b13aefe4ac1e8fcae",
-    "numero_reporte": 67,
-    "fecha": "01/03/2025",
-    "hora": "13:18",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/oru.jpg?itok=Yamk7hAV"
+    "probable_evolucion": "Se espera un aumento en los controles policiales, pero la falta de infraestructura y recursos podría limitar la efectividad.  La situación podría generar críticas a la gestión gubernamental y la necesidad de inversiones en seguridad vial.  El luto y el dolor podrían causar un impacto psicosocial prolongado en la región.",
+    "_id": "6c86f6a6f4fc5d1978760d636e9ed068dbfbd724f46e3a7e73b17ebde2ec7c91",
+    "numero_reporte": 105,
+    "fecha": "05/03/2025",
+    "hora": "6:53",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/3_p_1_rrss.jpg?itok=9IEph6pg"
   },
   {
-    "tema": "Un accidente en la vía Oruro-Potosí entre dos flotas causó 37 muertes y 39 heridos, con un conductor bajo la influencia del alcohol.",
-    "categoria": "Seguridad",
-    "factor": [
-      "Económico",
-      "Psicosocial"
-    ],
-    "lugar": "Vía Oruro-Potosí",
-    "departamento": "Oruro, Potosí (posiblemente)",
-    "pais": "Bolivia",
-    "fuentes": "URGENTEBO, Policía",
-    "hecho": "El 1 de marzo de 2025, a causa de una invasión de carril, ocurrió una colisión lateral entre dos flotas en la vía Oruro-Potosí. El accidente involucró un bus de la empresa Emmanuel, conducido por Ramiro Mamani, y un bus de la empresa Flecha Norte, conducido por Modesto Moreira. El conductor de la empresa Emmanuel, Ramiro Mamani, fue encontrado con grado alcohólico, mientras que el conductor de Flecha Norte, Modesto Moreira, resultó con grado cero. El accidente resultó en 37 muertes y 39 heridos. Los heridos fueron internados en diferentes hospitales: 16 en el Hospital José Eduardo Pérez, 14 en la Caja Nacional, 8 en el hospital San Pablo, y 1 en el hospital Carmelito. El bus Emmanuel cubría la ruta Oruro-Atocha, y el bus Flecha Norte viajaba de Uyuni a Oruro.",
-    "actores": [
-      {
-        "nombre": "Ramiro Mamani",
-        "cargo": "Conductor, empresa Emmanuel"
-      },
-      {
-        "nombre": "Modesto Moreira",
-        "cargo": "Conductor, empresa Flecha Norte"
-      }
-    ],
-    "probable_evolucion": "Es probable que se intensifiquen los controles de alcoholemia en carreteras. Se espera un aumento en las investigaciones sobre la seguridad vial y posibles sanciones para las empresas de transporte involucradas. Podría haber un impacto en la confianza del público en el transporte terrestre.",
-    "_id": "69844ab321f061ec58e101d9517e1ba788e4987037198ef6003539b23b4fe3a3",
-    "numero_reporte": 66,
-    "fecha": "01/03/2025",
-    "hora": "15:33",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/acc.jpg?itok=NM5rhH-3"
-  },
-  {
-    "tema": "El carnaval cruceño 2025 está a punto de comenzar, con comparsas ajustando sus carros alegóricos y preparativos finales.",
+    "tema": "El grupo Nansana Kids de Uganda visitó el complejo arqueológico de Tiwanaku en Bolivia, participando en una ofrenda a la Pachamama como parte de su recorrido turístico y cultural por el país.",
     "categoria": "País",
     "factor": [
       "Psicosocial",
-      "Económico"
+      "Económico",
+      "Cultural"
     ],
-    "lugar": "7mo anillo del Cambódromo",
-    "departamento": "Santa Cruz",
+    "lugar": "Tiwanaku",
+    "departamento": "La Paz",
     "pais": "Bolivia",
-    "fuentes": "EL DEBER, Raúl Álvarez (director operativo de Control de Actividades Económicas de la comuna)",
-    "hecho": "El carnaval cruceño 2025 está en sus últimas fases de preparación. Las comparsas están acomodando sus carros alegóricos en el Cambódromo, el lugar de inicio del corso. Los técnicos están realizando los últimos ajustes a las carrozas. Se destaca la originalidad en los diseños de los carros, incluyendo uno con la imagen de José Manuel 'Colorao' Mercado. Se están instalando sillas para los espectadores con precios variables. La Alcaldía cruceña está realizando controles a los comerciantes para verificar permisos, con la amenaza de retirar a aquellos sin permisos. Estos controles se extenderán durante los tres días del carnaval.",
-    "actores": [
-      {
-        "nombre": "Raúl Álvarez",
-        "cargo": "Director operativo de Control de Actividades Económicas de la comuna"
-      },
-      {
-        "nombre": "Comparsas carnavaleras",
-        "cargo": "Participantes del Carnaval"
-      }
-    ],
-    "probable_evolucion": "El carnaval continuará según lo planeado, atrayendo a una gran cantidad de público. Los controles de la Alcaldía podrían generar tensiones con los comerciantes informales. El éxito del evento podría impulsar la economía local y la imagen de Santa Cruz.",
-    "_id": "ef6b0fcc02689de2ccb4711ee8ce1c1990e74ccd060f2de87bc514ed25483c7e",
-    "numero_reporte": 65,
-    "fecha": "01/03/2025",
-    "hora": "16:23",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/sta.jpg?itok=BS6VFcOR"
-  },
-  {
-    "tema": "El presidente de Bolivia, Luis Arce, entregó el Bastón de Mando al vicepresidente David Choquehuanca y viajó a Uruguay para la investidura del nuevo presidente Yamandú Orsi.",
-    "categoria": "País",
-    "factor": [
-      "Político"
-    ],
-    "lugar": "Uruguay",
-    "departamento": "Canelones",
-    "pais": "Bolivia, Uruguay",
     "fuentes": "ABI",
-    "hecho": "El presidente de Bolivia, Luis Arce, entregó el Bastón de Mando al vicepresidente David Choquehuanca el 1 de marzo de 2025, antes de viajar a Uruguay para asistir a la investidura del nuevo presidente uruguayo, Yamandú Orsi. Orsi, quien fue intendente del departamento de Canelones, asumirá el cargo en reemplazo de Luis Lacalle Pou. La ceremonia de investidura está programada para las 16:00 (hora local). Su mandato se extenderá hasta 2030 y se le relaciona con el expresidente José «Pepe» Mujica.",
+    "hecho": "El grupo de danza Nansana Kids, proveniente de Uganda, realizó una visita al complejo arqueológico de Tiwanaku en Bolivia el 4 de marzo de 2025, participando en una ofrenda a la Pachamama en el Templo de Kalasasaya. Fueron recibidos por autoridades locales, comunarios y amautas. Realizaron un recorrido por el sitio, incluyendo la Puerta del Sol, la Pirámide de Akapana y los Monolitos, con explicaciones sobre la civilización tiwanakota. Esta visita forma parte de un recorrido más amplio por Bolivia, que incluyó el Salar de Uyuni, el Carnaval de Oruro, la ciudad de Sucre, Huatajata y una reunión con el presidente Luis Arce, el 27 de febrero. El objetivo de su visita es promocionar la cultura y el turismo nacional boliviano.",
     "actores": [
+      {
+        "nombre": "Nansana Kids",
+        "cargo": "Grupo de danza"
+      },
       {
         "nombre": "Luis Arce",
         "cargo": "Presidente de Bolivia"
       },
       {
-        "nombre": "David Choquehuanca",
-        "cargo": "Vicepresidente de Bolivia"
+        "nombre": "Autoridades locales",
+        "cargo": "Autoridades"
       },
       {
-        "nombre": "Yamandú Orsi",
-        "cargo": "Presidente de Uruguay"
+        "nombre": "Comunarios",
+        "cargo": "Miembros de la comunidad"
       },
       {
-        "nombre": "Luis Lacalle Pou",
-        "cargo": "Expresidente de Uruguay"
-      },
-      {
-        "nombre": "José «Pepe» Mujica",
-        "cargo": "Expresidente de Uruguay"
+        "nombre": "Amautas",
+        "cargo": "Guías espirituales"
       }
     ],
-    "probable_evolucion": "La participación de Arce en la investidura fortalece las relaciones diplomáticas entre Bolivia y Uruguay. El cambio de liderazgo en Uruguay podría influir en las políticas regionales y bilaterales. El vínculo de Orsi con Mujica podría influir en la dirección política del país.",
-    "_id": "5d51f3b27a5713e716a0b0084022ff741191b0ebb7c09b0ed7bb4b3df9791709",
-    "numero_reporte": 64,
-    "fecha": "01/03/2025",
-    "hora": "11:32",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/pre.jpg?itok=8aiekEVG"
+    "probable_evolucion": "La visita de Nansana Kids podría aumentar el interés turístico en Bolivia, especialmente en lugares como Tiwanaku y otros destinos visitados. La promoción de la cultura boliviana a través de las redes sociales del grupo podría generar un impacto positivo en la imagen del país. Este evento refuerza la importancia del turismo cultural y la colaboración internacional en la promoción del patrimonio boliviano.",
+    "_id": "99c773da03e740986b84969cf8857abb3069934b1cb4fcdf66cd6b254612dbb6",
+    "numero_reporte": 104,
+    "fecha": "04/03/2025",
+    "hora": "20:25",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/4/fb_img_1741133784676.jpg?itok=04vbgIIe"
   },
   {
-    "tema": "Tres ciudadanos bolivianos fueron deportados de Estados Unidos y llegaron al país, destacando las razones económicas detrás de su migración y las políticas migratorias de la administración Trump.",
-    "categoria": "País",
-    "factor": [
-      "Político",
-      "Económico",
-      "Psicosocial"
-    ],
-    "lugar": [
-      "Santa Cruz",
-      "Cochabamba",
-      "Texas",
-      "Luisiana",
-      "Virginia",
-      "Nueva York",
-      "México"
-    ],
-    "departamento": [
-      "Santa Cruz",
-      "Cochabamba"
-    ],
-    "pais": [
-      "Bolivia",
-      "Estados Unidos"
-    ],
-    "fuentes": [
-      "Los Tiempos",
-      "agencias",
-      "Rodrigo Flores",
-      "Madre de Rodrigo Flores",
-      "Henry Baldelomar",
-      "Cancillería boliviana"
-    ],
-    "hecho": "El 1 de marzo de 2025, tres ciudadanos bolivianos fueron deportados de Estados Unidos. Dos de ellos llegaron a Santa Cruz y uno a Cochabamba después de ser deportados. Rodrigo Flores fue detenido en la frontera con México tras intentar ingresar a Estados Unidos por razones económicas. Estuvo detenido por 17 días y luego pasó siete meses en un centro penitenciario antes de ser deportado. El encargado de negocios de la Embajada de Bolivia en EEUU, Henry Baldelomar, informó que, bajo la política migratoria de Donald Trump, 127 bolivianos fueron aprehendidos entre el 20 de enero y el 3 de febrero en diversos centros de detención en Estados Unidos. La Cancillería boliviana comunicó que solo tres de los detenidos han sido deportados hasta el momento.",
-    "actores": [
-      {
-        "nombre": "Rodrigo Flores",
-        "cargo": "Ciudadano deportado"
-      },
-      {
-        "nombre": "Henry Baldelomar",
-        "cargo": "Encargado de negocios de la Embajada de Bolivia en EEUU"
-      },
-      {
-        "nombre": "Donald Trump",
-        "cargo": "Ex Presidente de Estados Unidos (mencionado por su política migratoria)"
-      }
-    ],
-    "probable_evolucion": "Es probable que continúen las deportaciones de ciudadanos bolivianos desde Estados Unidos, dada la política migratoria implementada. La Cancillería boliviana deberá seguir gestionando los casos de los bolivianos detenidos para su posible retorno. Las razones económicas seguirán impulsando la migración irregular, aumentando el riesgo de detención y deportación.",
-    "_id": "9a3ed0143415aa3bd2ad268770eb91d53930583798700d244b3e1f7db32495de",
-    "numero_reporte": 63,
-    "fecha": "01/03/2025",
-    "hora": "12:01",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/depor.jpg?itok=grAGdzlp"
-  },
-  {
-    "tema": "El Banco Central de Bolivia (BCB) proyecta un incremento de $us 400 millones en las Reservas Internacionales Netas (RIN) durante el año 2025.",
-    "categoria": "Economía",
-    "factor": [
-      "Económico",
-      "Político"
-    ],
-    "lugar": null,
-    "departamento": null,
-    "pais": "Bolivia",
-    "fuentes": "ABI, Edwin Rojas (presidente del BCB)",
-    "hecho": "El Banco Central de Bolivia (BCB), a través de su presidente Edwin Rojas, informó sobre la proyección de un incremento de aproximadamente $us 400 millones en las Reservas Internacionales Netas (RIN) durante el año 2025.  Rojas detalló que el BCB espera un aumento de $us 200 millones a finales de febrero, superando los $us 2.000 millones. Destacó el comportamiento favorable de las RIN, que alcanzaron $us 1.976 millones a diciembre de 2024.  Rojas también hizo referencia a la falta de aprobación de créditos externos en la Asamblea Legislativa Plurinacional (ALP), que ha afectado la entrada de recursos a la economía boliviana y ha generado una salida de recursos al exterior. Las RIN, compuestas por activos líquidos externos como oro, derechos especiales de giro y activos en divisas, son cruciales para garantizar pagos internacionales, atender la deuda y respaldar préstamos externos.",
-    "actores": [
-      {
-        "nombre": "Edwin Rojas",
-        "cargo": "Presidente del Banco Central de Bolivia (BCB)"
-      }
-    ],
-    "probable_evolucion": "La falta de créditos externos podría continuar afectando la disponibilidad de recursos y la capacidad del país para cumplir compromisos financieros. El incremento proyectado de las RIN podría mitigar parcialmente estos efectos, aunque su impacto dependerá de la evolución económica global y las políticas internas. La situación podría generar debates y tensiones políticas en torno a la gestión económica del país.",
-    "_id": "8deb76488c3744e9a94452ab5750f574b202ad0e65990c9e3dcbff66e7acdbb9",
-    "numero_reporte": 62,
-    "fecha": "01/03/2025",
-    "hora": "13:10",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/bcbs_ed_listo_ok.jpg?itok=iA-koWCp"
-  },
-  {
-    "tema": "El Secretario de Estado de EE. UU., Marco Rubio, exige disculpas del presidente ucraniano Volodimir Zelenski por un altercado con Donald Trump en la Oficina Oval relacionado con un acuerdo sobre tierras raras y asistencia militar.",
-    "categoria": "Mundo",
-    "factor": [
-      "Político",
-      "Económico",
-      "Militar"
-    ],
-    "lugar": "Oficina Oval, Casa Blanca",
-    "departamento": null,
-    "pais": "Estados Unidos",
-    "fuentes": "EUROPAPRESS, CNN",
-    "hecho": "El presidente de Ucrania, Volodimir Zelenski, y el presidente de Estados Unidos, Donald Trump, protagonizaron una discusión pública en la Oficina Oval durante una reunión para finalizar un acuerdo crucial sobre las tierras raras ucranianas. El acuerdo buscaba garantizar la continuación de la asistencia estadounidense a Ucrania en contra de la invasión rusa a cambio del acceso a los recursos. Zelenski abandonó la reunión sin firmar el acuerdo y sin hacer declaraciones. El Secretario de Estado de EE. UU., Marco Rubio, calificó el incidente como un 'fiasco' y exigió disculpas a Zelenski. Rubio sugirió que la actitud agresiva de Zelenski pudo haber comprometido las negociaciones y cuestionó su compromiso con un acuerdo de paz.",
-    "actores": [
-      {
-        "nombre": "Marco Rubio",
-        "cargo": "Secretario de Estado de EE. UU."
-      },
-      {
-        "nombre": "Volodimir Zelenski",
-        "cargo": "Presidente de Ucrania"
-      },
-      {
-        "nombre": "Donald Trump",
-        "cargo": "Presidente de Estados Unidos"
-      }
-    ],
-    "probable_evolucion": "El incidente podría tensar aún más las relaciones entre Estados Unidos y Ucrania, poniendo en peligro la asistencia militar y económica.  La falta de acuerdo sobre las tierras raras podría afectar la seguridad energética y la economía de ambos países.  Podría conducir a un debilitamiento del apoyo internacional a Ucrania.",
-    "_id": "157b3373f3ef95d6ba649b5473c3a6a7501c7439a6ef9d2212dbbdf2e71a1d42",
-    "numero_reporte": 61,
-    "fecha": "01/03/2025",
-    "hora": "9:44",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/trump_ze_ed_listo.jpg?itok=jLFA9o3e"
-  },
-  {
-    "tema": "Un choque entre dos autobuses cerca de Uyuni, Potosí, resultó en la muerte de al menos 37 personas y más de 30 heridos.",
+    "tema": "Una familia reclama el dedo cercenado de un joven durante el Carnaval de Oruro para cumplir con rituales religiosos.",
     "categoria": "Seguridad",
     "factor": [
       "Psicosocial"
     ],
-    "lugar": "Uyuni",
-    "departamento": "Potosí",
+    "lugar": "Oruro",
+    "departamento": "Oruro",
     "pais": "Bolivia",
-    "fuentes": "Unitel, Wilson Flores (comandante de la Policía Fronteriza de Uyuni)",
-    "hecho": "El 1 de marzo de 2025, aproximadamente a las 10:00, dos autobuses, uno de la empresa Emanuel con ruta de Oruro a Atocha y otro de la empresa Flecha Bus con ruta de Uyuni a Oruro, colisionaron a cinco kilómetros de Uyuni, Potosí. El accidente causó la muerte de al menos 37 personas y dejó más de 30 heridos, quienes fueron trasladados a hospitales en Oruro y Potosí. La causa preliminar del accidente fue invasión de carril. Los conductores de ambos vehículos resultaron heridos, uno de ellos se encuentra en terapia intensiva. Se están realizando exámenes de alcoholemia a los conductores, presumiéndose que uno de ellos conducía bajo los efectos del alcohol. Se está verificando la identidad de las víctimas.",
+    "fuentes": "ERBOL, Aldo Morales (Fiscal departamental de Oruro)",
+    "hecho": "Durante el domingo de Carnaval en Oruro, un joven sufrió la amputación de un dedo en una gradería. Según el fiscal departamental Aldo Morales, el incidente ocurrió cuando el joven, bajo la influencia del alcohol, saltó y su anillo se enganchó, resultando en la amputación.  El joven fue atendido en un centro de salud y actualmente se encuentra estable. La madre del joven solicitó la devolución del dedo, que se encuentra formolizado, para fines religiosos, específicamente para su entierro. El fiscal Morales ha descartado la continuidad de la investigación, considerándolo un accidente fortuito.",
     "actores": [
       {
-        "nombre": "Wilson Flores",
-        "cargo": "Comandante de la Policía Fronteriza de Uyuni"
-      }
-    ],
-    "probable_evolucion": "Este evento podría generar un aumento en la demanda de seguridad vial y controles de alcoholemia. Las empresas de transporte podrían enfrentar investigaciones y posibles sanciones. El incidente podría provocar un impacto psicosocial significativo en las comunidades afectadas.",
-    "_id": "8af5e218b94637ffcf8e501b6bd8ed720d70c6f80f1853763a52719b6ecef7c5",
-    "numero_reporte": 60,
-    "fecha": "01/03/2025",
-    "hora": "10:41",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/accidente_0.jpg?itok=I1eY22Fu"
-  },
-  {
-    "tema": "El presidente Luis Arce reafirma la soberanía cultural de Bolivia durante el inicio del Carnaval del Bicentenario y convoca a la población a celebrar con orgullo, respeto y responsabilidad.",
-    "categoria": "País",
-    "factor": [
-      "Político",
-      "Psicosocial"
-    ],
-    "lugar": "Bolivia",
-    "departamento": null,
-    "pais": "Bolivia",
-    "fuentes": "ABI, Viceministerio de Comunicación",
-    "hecho": "En el marco del inicio del Carnaval del Bicentenario, el presidente Luis Arce reafirmó la soberanía cultural de Bolivia, destacando la importancia de sus danzas patrimoniales como la diablada, morenada, caporales, tinku, llamerada, cueca, taquirari, chovena y chacarera. El mandatario aseguró la defensa de estas expresiones culturales contra cualquier intento de apropiación o distorsión. Arce convocó a la población boliviana, tanto en el país como en el extranjero, y a los turistas internacionales a celebrar el Carnaval con orgullo, alegría, respeto, unidad y responsabilidad. En su discurso, resaltó la diversidad cultural de Bolivia, la importancia de la celebración como una manifestación de la identidad nacional y la necesidad de mantener vivas las tradiciones y el legado de las generaciones pasadas. Además, instó a la población a disfrutar de la festividad de manera responsable, evitando excesos y protegiendo a sus familias.",
-    "actores": [
+        "nombre": "Aldo Morales",
+        "cargo": "Fiscal departamental de Oruro"
+      },
       {
-        "nombre": "Luis Arce",
-        "cargo": "Presidente de Bolivia"
-      }
-    ],
-    "probable_evolucion": "La reafirmación de la soberanía cultural podría fortalecer el sentimiento de identidad nacional y la promoción turística de Bolivia.  Podría generar un aumento en la participación y celebración del carnaval a nivel nacional e internacional. Posibles tensiones podrían surgir si existen conflictos por la apropiación cultural de las danzas.",
-    "_id": "dab3908350b0d49fc355651c158267434de0711ee74ab263c286a20ae519deff",
-    "numero_reporte": 59,
-    "fecha": "01/03/2025",
-    "hora": "11:16",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/arce_carnaval_ed_listo.jpg?itok=N_s9yOL7"
-  },
-  {
-    "tema": "Una colisión entre dos buses en la carretera Uyuni-Potosí resultó en múltiples fallecidos y heridos.",
-    "categoria": "Seguridad",
-    "factor": [
-      "Psicosocial"
-    ],
-    "lugar": "Uyuni",
-    "departamento": "Potosí",
-    "pais": "Bolivia",
-    "fuentes": "URGENTEBO",
-    "hecho": "El 01 de marzo de 2025, aproximadamente a las 04:00, se produjo una colisión entre dos buses de las empresas Flecha Bus y Emanuel en la carretera Uyuni-Potosí. El accidente resultó en un número indeterminado de fallecidos, con reportes preliminares sugiriendo más de 10, y también causó heridos. Las autoridades aún no han confirmado el número exacto de víctimas.",
-    "actores": [
+        "nombre": "Joven (No identificado)",
+        "cargo": "Víctima"
+      },
       {
-        "nombre": "No especificado",
-        "cargo": "Autoridades (no especificadas)"
+        "nombre": "Madre (No identificada)",
+        "cargo": "Familiar"
       }
     ],
-    "probable_evolucion": "Se espera que las autoridades investiguen las causas del accidente y determinen la responsabilidad de las empresas involucradas. El incidente podría generar debates sobre las medidas de seguridad en el transporte terrestre y posibles cambios en las regulaciones. La atención pública y el impacto emocional en las familias de las víctimas son previsibles.",
-    "_id": "fac3007fe6f44242789d277c6074e14eec51183906c810d3d69ff3e9647f4377",
-    "numero_reporte": 58,
-    "fecha": "01/03/2025",
-    "hora": "9:36",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/1/accidente.jpg?itok=CMqVJz0d"
+    "probable_evolucion": "Es probable que el dedo sea entregado a la familia para su entierro. El incidente no tendrá mayores repercusiones legales.  El evento podría generar debate sobre la seguridad en eventos masivos y el consumo de alcohol.",
+    "_id": "8ce1ba1bb07c9eb9f5a4dcbb47eb6e838b8a49a9c3ea8e1827e3ac40f48b7ebe",
+    "numero_reporte": 103,
+    "fecha": "04/03/2025",
+    "hora": "20:45",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/4/fb_img_1741133784676_1.jpg?itok=7tF7tsHq"
   }
 ]

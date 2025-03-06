@@ -12,7 +12,6 @@ import docenteReducer from '../features/docenteSlice';
 import venta_uniformeReducer from '../features/venta_uniformeSlice';
 import pagoReducer from '../features/pagos/pagoSlice';
 import conceptoPagoReducer from '../features/pagos/conceptosPagoSlice';
-import reporteReducer from '../features/reporteSlice';
 import academicYearReducer from '../features/academicYearSlice';
 import matriculaReducer from '../features/matriculaSlice';
 import egresoReducer from '../features/egresoSlice';
@@ -36,7 +35,6 @@ export const store = configureStore({
     concepto_pagos: conceptoPagoReducer,
     docentes: docenteReducer,
     ventas_uniforme: venta_uniformeReducer,
-    reportes: reporteReducer,
     academic_year: academicYearReducer,
     matriculas: matriculaReducer,
     egresos: egresoReducer,

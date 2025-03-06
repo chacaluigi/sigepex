@@ -10,13 +10,20 @@ const config = (token = null) => ({
   },
 });
 
-const getReports = async token => {
+// Obtener reportes paginados
+const getReports = async (token, desde, hasta) => {
   try {
-    const response = await axios.get(`${baseURL}/reports`, config(token));
+    const response = await axios.get(`${baseURL}/reports`, {
+      ...config(token),
+      params: {
+        desde,
+        hasta,
+      },
+    });
     return response.data;
   } catch (error) {
     console.error('Error obteniendo reportes:', error);
-    return null;
+    throw error.response?.data?.msg || error.message || 'Error desconocido';
   }
 };
 

@@ -171,7 +171,7 @@ export const ModalEditarPersona = ({ row, roles }) => {
                       }
                       colorScheme="primary"
                     >
-                      {roles.map(rol => (
+                      {roles?.map(rol => (
                         <option key={rol?._id} value={rol._id}>
                           {rol.nombre}
                         </option>

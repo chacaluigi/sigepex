@@ -160,7 +160,7 @@ const Personas = () => {
       cell: row => (
         <div>
           <ModalDetallesPersona persona={row} />
-          <ModalEditarPersona row={row} roles={roles} sedes={sedes} />
+          <ModalEditarPersona row={row} roles={roles} />
           <AlertEliminarPersona row={row} />
         </div>
       ),
@@ -209,6 +209,20 @@ const Personas = () => {
         _dark={{ bg: 'primary.1000' }}
         mt={2}
         pt={2}
+        sx={{
+          select: {
+            backgroundColor: 'primary.1000', // Color de fondo
+            color: 'white', // Color del texto
+            borderColor: 'blue.700', // Color del borde
+            borderRadius: 'md', // Bordes redondeados
+            _hover: {
+              backgroundColor: 'primary.1200', // Color de fondo al hacer hover
+            },
+            _focus: {
+              borderColor: 'blue.800', // Color del borde al enfocar
+            },
+          },
+        }}
       >
         <DataTableExtensions
           {...tableData}
@@ -234,14 +248,17 @@ const Personas = () => {
               <Icon
                 as={FiChevronsRight}
                 boxSize={6}
-                _dark={{ color: 'gray.300' }}
+                _dark={{ color: 'gray.300', _hover: { color: 'white' } }}
               />
             }
             paginationIconPrevious={
               <Icon
                 as={FiChevronLeft}
                 boxSize={6}
-                _dark={{ color: 'gray.300', _hover: { color: 'white' } }}
+                _dark={{
+                  color: 'gray.300',
+                  _hover: { color: 'white' },
+                }}
               />
             }
             paginationIconNext={

@@ -8,17 +8,23 @@ const initialState = {
   isSuccess: false,
   isError: false,
   message: '',
+  currentPage: 1,
+  totalRows: 0,
 };
 
-// Obtener todos los reportes
 export const getReports = createAsyncThunk(
   'reports/getAll',
-  async (_, thunkAPI) => {
+  async ({ page, perPage }, thunkAPI) => {
     try {
-      return await reportService.getReports();
+      const token = thunkAPI.getState().auth.user.token;
+      const desde = (page - 1) * perPage;
+      const hasta = page * perPage;
+      return await reportService.getReports(token, desde, hasta);
     } catch (error) {
       const message =
-        error.response?.data?.msg || error.message || error.toString();
+        (error.response && error.response.data && error.response.data.msg) ||
+        error.message ||
+        error.toString();
       return thunkAPI.rejectWithValue(message);
     }
   }
@@ -95,6 +101,7 @@ const reportSlice = createSlice({
         state.isLoading = false;
         state.isSuccess = true;
         state.reports = action.payload;
+        state.totalRows = action.payload.total;
       })
       .addCase(getReports.rejected, (state, action) => {
         state.isLoading = false;
@@ -116,6 +123,21 @@ const reportSlice = createSlice({
       })
       .addCase(createReport.fulfilled, (state, action) => {
         state.reports.push(action.payload);
+      })
+      .addCase(updateReport.pending, state => {
+        state.isLoading = true;
+      })
+      .addCase(updateReport.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.isSuccess = true;
+        state.reports = state.reports.map(report =>
+          report._id === action.payload._id ? action.payload : report
+        );
+      })
+      .addCase(updateReport.rejected, (state, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.message = action.payload;
       })
       .addCase(deleteReport.fulfilled, (state, action) => {
         state.reports = state.reports.filter(

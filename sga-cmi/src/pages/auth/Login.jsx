@@ -7,7 +7,8 @@ import { LoginForm } from './LoginForm';
 import { ToastChakra } from '../../helpers/toast';
 import { login, setSede } from '../../features/authSlice';
 import bgGradient from '../../assets/img/gradient-bg.svg';
-import logo2 from '../../assets/img/logoColegio.png';
+import logo2 from '../../assets/img/logo.png';
+import HeaderTopBar from './HeaderTopBar';
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -18,6 +19,7 @@ const Login = () => {
   const initialValues = {
     correo: '',
     password: '',
+    captcha: '',
   };
 
   // 🔹 Esquema de validación con Yup
@@ -26,11 +28,15 @@ const Login = () => {
       .email('Ingrese un correo válido')
       .required('El correo es requerido'),
     password: Yup.string().required('La contraseña es requerida'),
+    captcha: Yup.string().required(
+      '⚠️ Debes completar el CAPTCHA antes de ingresar.'
+    ),
   });
 
   // 🔹 Manejo del login
   const handleLogin = async (values, { setSubmitting }) => {
     try {
+      console.log(values);
       const resultAction = await dispatch(login(values)).unwrap(); // 🔹 Unwrap para manejar errores correctamente
 
       // 🔹 Obtener las sedes del usuario
@@ -58,46 +64,52 @@ const Login = () => {
   };
 
   return (
-    <Formik
-      initialValues={initialValues}
-      validationSchema={validationSchema}
-      onSubmit={handleLogin}
-    >
-      {({ isSubmitting }) => (
-        <Form>
-          <Flex
-            align="center"
-            justify="center"
-            minH="100vh"
-            bgImage={bgGradient}
-            bgSize="cover"
-            bgPosition="center"
-          >
-            <Box
-              bg="white"
-              px={6}
-              py={14}
-              rounded="3xl"
-              shadow="lg"
-              maxW="xl"
-              w="full"
-              mx={4}
-              borderWidth={1}
-              borderColor="primary.100"
-              _dark={{
-                borderColor: 'primary.800',
-                bg: 'gray.800',
-              }}
+    <>
+      <HeaderTopBar />
+      <Formik
+        initialValues={initialValues}
+        validationSchema={validationSchema}
+        onSubmit={handleLogin}
+      >
+        {({ isSubmitting, setFieldValue }) => (
+          <Form>
+            <Flex
+              align="center"
+              justify="center"
+              minH="100vh"
+              bgImage={bgGradient}
+              bgSize="cover"
+              bgPosition="center"
             >
-              <Stack spacing={6}>
-                <Header />
-                <LoginForm isLoading={isSubmitting || isLoading} />
-              </Stack>
-            </Box>
-          </Flex>
-        </Form>
-      )}
-    </Formik>
+              <Box
+                bg="white"
+                px={6}
+                py={14}
+                rounded="3xl"
+                shadow="lg"
+                maxW="xl"
+                w="full"
+                mx={4}
+                borderWidth={1}
+                borderColor="primary.100"
+                _dark={{
+                  borderColor: 'primary.800',
+                  bg: 'gray.800',
+                }}
+              >
+                <Stack spacing={6}>
+                  <Header />
+                  <LoginForm
+                    isLoading={isSubmitting || isLoading}
+                    setFieldValue={setFieldValue}
+                  />
+                </Stack>
+              </Box>
+            </Flex>
+          </Form>
+        )}
+      </Formik>
+    </>
   );
 };
 
@@ -115,7 +127,7 @@ const Header = () => (
       SIGEPEX
     </Heading>
     <Text fontSize="md" color="gray.600" mt={2}>
-      Unidad de Evaluación Estratégica
+      Sistema para la Gestión de Posts en X
     </Text>
   </Box>
 );

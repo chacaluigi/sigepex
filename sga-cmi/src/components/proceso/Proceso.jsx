@@ -1,76 +1,133 @@
 import React, { useState } from 'react';
-import './proceso.css';
+import {
+  Box,
+  Button,
+  Heading,
+  Progress,
+  Spinner,
+  Stack,
+  Text,
+  VStack,
+} from '@chakra-ui/react';
+import { ProcesoFinalizado } from './ProcesoFinalizado';
 
 export default function Proceso() {
   const [loading, setLoading] = useState(false);
+
+  const [isFinished, setIsFinished] = useState(false);
+
+  const [progressSteps, setProgressSteps] = useState({
+    extract: 0,
+    clean: 0,
+    analyze: 0,
+    report: 0,
+  });
+  const [finished, setFinished] = useState(false);
+
+  // Activar modo de prueba
+  const modoPrueba = false;
+
+  // Función para llenar progresivamente una barra antes de pasar a la siguiente
+  const startProgress = (step, nextStep) => {
+    let progress = 0;
+    const interval = setInterval(() => {
+      progress += Math.floor(Math.random() * 5) + 1; // Incremento aleatorio entre 1 y 5
+      setProgressSteps(prev => ({
+        ...prev,
+        [step]: progress > 100 ? 100 : progress,
+      }));
+
+      if (progress >= 100) {
+        clearInterval(interval);
+        if (nextStep) {
+          setTimeout(() => startProgress(nextStep, getNextStep(nextStep)), 500);
+        } else {
+          setTimeout(() => setFinished(true), 500);
+          setTimeout(() => setIsFinished(true), 500);
+        }
+      }
+    }, 1000); // Se actualiza cada segundo
+  };
+
+  // Función auxiliar para obtener el siguiente paso
+  const getNextStep = step => {
+    const steps = ['extract', 'clean', 'analyze', 'report'];
+    const index = steps.indexOf(step);
+    return index !== -1 && index < steps.length - 1 ? steps[index + 1] : null;
+  };
+
+  // Iniciar el proceso
   const startAnalysis = async () => {
     setLoading(true);
-    try {
-      const response = await fetch('http://localhost:4000/api/proceso', {
-        method: 'POST',
-      });
-      const data = await response.json();
-      console.log(data.message);
-    } catch (error) {
-      console.error('❌ Error al procesar noticias:', error);
+    setFinished(false);
+    setProgressSteps({ extract: 0, clean: 0, analyze: 0, report: 0 });
+
+    if (!modoPrueba) {
+      try {
+        await fetch('http://localhost:4000/api/proceso', { method: 'POST' });
+      } catch (error) {
+        console.error('❌ Error al procesar noticias:', error);
+      }
     }
+
+    // Comenzar la primera barra
+    startProgress('extract', 'clean');
     setLoading(false);
   };
 
   return (
-    <div className="table-container">
-      <div className="main-content">
-        <section className="kpi-container">
-          <div className="kpi-card">
-            📰 <span id="total-news">345</span>
-            <p>Total noticias</p>
-          </div>
-          <div className="kpi-card">
-            📢 <span id="new-news">25</span>
-            <p>Nuevas noticias</p>
-          </div>
-          <div className="kpi-card">
-            🔥 <span id="relevant-news">7</span>
-            <p>Noticias relevantes</p>
-          </div>
-          <div className="kpi-card">
-            ⏳ <span id="freq-news">15/hora</span>
-            <p>Frecuencia</p>
-          </div>
-        </section>
+    <VStack spacing={6} align="center" w="full" py={6}>
+      {/* 📡 TÍTULO */}
+      <Box textAlign="center">
+        <Heading size="lg">🔍 Iniciar Proceso Automatizado</Heading>
+        <Text fontSize="md" color="gray.500">
+          Presiona el botón para comenzar el proceso de gestión de posts de la
+          red social X.
+        </Text>
+      </Box>
 
-        <section className="search-section">
-          <h2>🔍 Buscar y Analizar Posts</h2>
-          <p>Presiona el botón para comenzar el análisis en tiempo real.</p>
-          <button
-            id="start-analysis"
-            onClick={startAnalysis}
-            disabled={loading}
-          >
-            📡 Buscar Posts
-          </button>
-        </section>
+      {/* 📡 BOTÓN DE INICIO */}
+      <Button
+        colorScheme="blue"
+        size="lg"
+        onClick={startAnalysis}
+        isLoading={loading}
+        loadingText="Analizando..."
+        isDisabled={loading}
+      >
+        📡 Iniciar Proceso
+      </Button>
 
-        <section className="loading-section">
-          <h2>⏳ Procesando Datos...</h2>
-          <div className="loading-bar">
-            <span>📡 Extrayendo Posts...</span>
-            <div className="progress" id="progress-extract"></div>
-          </div>
-          <div className="loading-bar">
-            <span>🧹 Limpiando Datos...</span>
-            <div className="progress" id="progress-clean"></div>
-          </div>
-          <div className="loading-bar">
-            <span>📊 Analizando Posts...</span>
-            <div className="progress" id="progress-analyze"></div>
-          </div>
-          <div className="loading-bar">
-            <span>📝 Generando Reporte...</span>
-            <div className="progress" id="progress-report"></div>
-          </div>
-        </section>
-      </div>
-    </div>
-  ); // Se muestra brevemente antes de la redirección
+      {/* ⏳ PROCESO DE ANÁLISIS */}
+      <Stack spacing={4} w="80%" maxW="600px" pt="20px">
+        {loading && (
+          <Box textAlign="center">
+            <Spinner size="xl" color="blue.500" />
+            <Text fontSize="md" color="gray.500">
+              ⏳ Procesando Datos...
+            </Text>
+          </Box>
+        )}
+
+        <Text>📡 Extrayendo Posts...</Text>
+        <Progress value={progressSteps.extract} size="lg" colorScheme="blue" />
+
+        <Text>🧹 Limpiando Datos...</Text>
+        <Progress value={progressSteps.clean} size="lg" colorScheme="blue" />
+
+        <Text>📊 Analizando Posts...</Text>
+        <Progress value={progressSteps.analyze} size="lg" colorScheme="blue" />
+
+        <Text>📝 Generando Reporte...</Text>
+        <Progress value={progressSteps.report} size="lg" colorScheme="blue" />
+
+        {finished && (
+          <ProcesoFinalizado
+            isOpen={isFinished}
+            onClose={() => setIsFinished(false)}
+          />
+        )}
+      </Stack>
+    </VStack>
+  );
 }

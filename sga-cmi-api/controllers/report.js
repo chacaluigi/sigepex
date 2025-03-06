@@ -1,4 +1,5 @@
 const Report = require("../models/report"); // Importamos el modelo de Reporte
+const { response } = require("express");
 
 // 📌 Función para obtener la cantidad actual de reportes en la base de datos
 const getCurrentReportCount = async () => {
@@ -42,12 +43,41 @@ const saveReport = async (req, res) => {
 };
 
 // 📌 Obtener todos los reportes
-const getReports = async (req, res) => {
+// 📌 Obtener todos los reportes ordenados por fecha y hora DESCENDENTE
+const getReports = async (req, res = response) => {
   try {
-    const reports = await Report.find();
-    res.status(200).json(reports);
+    const desde = Math.max(0, Number(req.query.desde) || 0);
+    const hasta = Math.max(0, Number(req.query.hasta) || 10);
+
+    if (hasta <= 0 || desde >= hasta) {
+      return res.json({
+        ok: true,
+        reports: [],
+        total: 0,
+      });
+    }
+
+    const limite = hasta - desde;
+
+    const [reports, total] = await Promise.all([
+      Report.find()
+        .sort({ createdAt: -1 }) // Ordenar por fecha de creación más reciente
+        .skip(desde)
+        .limit(limite)
+        .lean(),
+      Report.countDocuments(),
+    ]);
+
+    res.json({
+      reports,
+      total,
+    });
   } catch (error) {
-    res.status(500).json({ error: "⚠️ Error al obtener los reportes" });
+    console.error(error);
+    res.status(500).json({
+      ok: false,
+      msg: "⚠️ Error al obtener los reportes",
+    });
   }
 };
 
@@ -73,6 +103,18 @@ const deleteReport = async (req, res) => {
   }
 };
 
+const downloadImage = async (req, res) => {
+  try {
+    const imageUrl = req.query.url;
+    const response = await fetch(imageUrl);
+    const buffer = await response.arrayBuffer();
+    res.set("Content-Type", "image/jpeg");
+    res.send(Buffer.from(buffer));
+  } catch (error) {
+    res.status(500).send("Error al obtener la imagen");
+  }
+};
+
 module.exports = {
   getCurrentReportCount,
   reportExists,
@@ -81,4 +123,5 @@ module.exports = {
   getReports,
   updateReport,
   deleteReport,
+  downloadImage,
 };

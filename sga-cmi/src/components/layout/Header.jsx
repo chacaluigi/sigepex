@@ -33,7 +33,7 @@ import { HamburgerIcon } from '@chakra-ui/icons';
 import { ColorModeSwitcher } from '../../theme/ColorModeSwitcher';
 import { logout } from '../../features/authSlice';
 import { RiMenuFoldLine, RiMenuUnfoldLine } from 'react-icons/ri';
-import logo2 from '../../assets/img/logoColegio.png';
+import logo2 from '../../assets/img/logo.png';
 
 function Header({ onToggle, isOpen }) {
   const sidebar = useDisclosure();
