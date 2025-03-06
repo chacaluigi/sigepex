@@ -1,5 +1,10 @@
 import React from 'react';
-import { useColorMode, useColorModeValue, IconButton } from '@chakra-ui/react';
+import {
+  useColorMode,
+  useColorModeValue,
+  IconButton,
+  Tooltip,
+} from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 export const ColorModeSwitcher = props => {
@@ -8,14 +13,16 @@ export const ColorModeSwitcher = props => {
   const SwitchIcon = useColorModeValue(MoonIcon, SunIcon);
 
   return (
-    <IconButton
-      rounded={'full'}
-      fontSize="xl"
-      aria-label={`Switch to ${text} mode`}
-      onClick={toggleColorMode}
-      icon={<SwitchIcon />}
-      variant={'ghost'}
-      {...props}
-    />
+    <Tooltip label={`Cambiar a modo ${text}`} hasArrow>
+      <IconButton
+        rounded={'full'}
+        fontSize="xl"
+        aria-label={`Switch to ${text} mode`}
+        onClick={toggleColorMode}
+        icon={<SwitchIcon />}
+        variant={'ghost'}
+        {...props}
+      />
+    </Tooltip>
   );
 };

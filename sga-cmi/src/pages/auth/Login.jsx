@@ -28,9 +28,7 @@ const Login = () => {
       .email('Ingrese un correo válido')
       .required('El correo es requerido'),
     password: Yup.string().required('La contraseña es requerida'),
-    captcha: Yup.string().required(
-      '⚠️ Debes completar el CAPTCHA antes de ingresar.'
-    ),
+    captcha: Yup.string().required('Completar el CAPTCHA antes de ingresar.'),
   });
 
   // 🔹 Manejo del login

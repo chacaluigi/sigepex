@@ -167,7 +167,7 @@ function Header({ onToggle, isOpen }) {
                     justifySelf={'start'}
                     textAlign="start"
                   >
-                    Simon Bolivarc
+                    SIGEPEX
                   </Heading>
                   <Text
                     fontSize="14px"
@@ -292,21 +292,23 @@ function Header({ onToggle, isOpen }) {
         display="inline-flex"
       >
         <HStack spacing={4}>
-          <IconButton
-            aria-label="Full Screen"
-            fontSize="xl"
-            variant="ghost"
-            rounded={'full'}
-            icon={
-              isSpanded === true ? (
-                <RiFullscreenExitLine />
-              ) : (
-                <RiFullscreenFill />
-              )
-            }
-            colorScheme="gray"
-            onClick={handleFullScreen}
-          />
+          <Tooltip label="Pantalla completa" hasArrow>
+            <IconButton
+              aria-label="Full Screen"
+              fontSize="xl"
+              variant="ghost"
+              rounded={'full'}
+              icon={
+                isSpanded === true ? (
+                  <RiFullscreenExitLine />
+                ) : (
+                  <RiFullscreenFill />
+                )
+              }
+              colorScheme="gray"
+              onClick={handleFullScreen}
+            />
+          </Tooltip>
           <ColorModeSwitcher />
           <DrawerExample user={user?.usuario} />
         </HStack>
@@ -372,19 +374,32 @@ function DrawerExample({ user }) {
 
   return (
     <>
-      <Avatar
-        // src={user?.img}
-        name={user?.nombre}
-        ignoreFallback={true}
-        onClick={onOpen}
-        borderColor={bgColorModified}
-        color={'white'}
-        fontWeight={'bold'}
-        fontSize={'md'}
-        size={'sm'}
-        rounded="full"
-        cursor={'pointer'}
-      />
+      <Text
+        fontSize="18px"
+        fontWeight="600"
+        _dark={{
+          color: 'gray.400',
+        }}
+        alignSelf={'center'}
+        justifySelf={'start'}
+      >
+        {user?.nombre}
+      </Text>
+      <Tooltip label={`Perfil de ${user?.nombre}`} hasArrow>
+        <Avatar
+          src={user?.img}
+          name={user?.nombre}
+          ignoreFallback={true}
+          onClick={onOpen}
+          borderColor={bgColorModified}
+          color={'white'}
+          fontWeight={'bold'}
+          fontSize={'md'}
+          size={'sm'}
+          rounded="full"
+          cursor={'pointer'}
+        />
+      </Tooltip>
 
       <Drawer
         isOpen={isOpen}
@@ -444,6 +459,7 @@ function DrawerExample({ user }) {
                     label="Editar y Ver Detalles"
                     aria-label="Editar y Ver Detalles"
                     alignSelf={'center'}
+                    hasArrow
                   >
                     <Link as={NavLink} to={'/perfil'}>
                       <IconButton
@@ -488,28 +504,21 @@ function DrawerExample({ user }) {
             _dark={{ bg: 'primary.1100' }}
             display="flex"
           >
-            <Tooltip
-              label="Cerrar Sesión"
-              aria-label="Cerrar Sesión"
-              alignSelf={'center'}
-              placement={'top'}
+            <Button
+              rightIcon={<FiLogOut />}
+              w="full"
+              bg="red.500"
+              _hover={{ bg: 'red.700', color: 'white' }}
+              color="white"
+              _dark={{
+                bg: 'red.500',
+                _hover: { bg: 'red.700', color: 'white' },
+              }}
+              rounded={'xl'}
+              onClick={handleLogout}
             >
-              <Button
-                rightIcon={<FiLogOut />}
-                w="full"
-                bg="red.500"
-                _hover={{ bg: 'red.700', color: 'white' }}
-                color="white"
-                _dark={{
-                  bg: 'red.500',
-                  _hover: { bg: 'red.700', color: 'white' },
-                }}
-                rounded={'xl'}
-                onClick={handleLogout}
-              >
-                Cerrar Sesión
-              </Button>
-            </Tooltip>
+              Cerrar Sesión
+            </Button>
           </DrawerFooter>
         </DrawerContent>
       </Drawer>
