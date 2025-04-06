@@ -298,7 +298,7 @@ function generateEmailHTML(userData, ipAddress, codigoRecuperacion) {
                 </div>
             </div>
             <div class="footer">
-                <p>© ${new Date().getFullYear()} Colegio Simon Bolivar</p>
+                <p>© ${new Date().getFullYear()} Unidad de Evaluación Estratégica</p>
                 <p> Asoc. Campo Sol Mz J Lt 16 D | Carapongo </p>
                 <p>Si no solicitaste este cambio de contraseña omite este mensaje</p>
                 <p>y no proporciones el codigo de validación</p>

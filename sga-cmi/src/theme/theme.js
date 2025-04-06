@@ -1,6 +1,6 @@
 import { extendTheme } from '@chakra-ui/react';
-import "@fontsource/public-sans";
-import "@fontsource/rubik"
+import '@fontsource/public-sans';
+import '@fontsource/rubik';
 
 const theme = extendTheme({
   fonts: {
@@ -14,7 +14,7 @@ const theme = extendTheme({
       200: '#5252F8',
       300: '#4141F7',
       400: '#2020F6',
-      500: '#0A0AE9', 
+      500: '#0A0AE9',
       600: '#060696',
       700: '#ffffff1f',
       800: '#ffffff33',
@@ -23,6 +23,14 @@ const theme = extendTheme({
       1100: '#0b0f19',
     },
   },
-})
+  styles: {
+    global: {
+      html: {
+        scrollPaddingTop: '80px', // Igual a la altura de tu header
+        scrollBehavior: 'smooth',
+      },
+    },
+  },
+});
 
-export default theme
+export default theme;

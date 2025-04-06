@@ -73,21 +73,7 @@ app.get("/", function (req, res) {
 app.use("/api/login", require("./routes/auth"));
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/usuarios", require("./routes/usuarios"));
-app.use("/api/grados", require("./routes/grados"));
-app.use("/api/tipos_activo", require("./routes/tipos_activo"));
-app.use("/api/activos", require("./routes/activos"));
-app.use("/api/categoria_uniforme", require("./routes/categoria_uniforme"));
-app.use("/api/uniformes", require("./routes/uniformes"));
-app.use("/api/docentes", require("./routes/docentes"));
-app.use("/api/estudiantes", require("./routes/estudiantes"));
-app.use("/api/pagos", require("./routes/pagos"));
-app.use("/api/concepto_pago", require("./routes/concepto_pago"));
-app.use("/api/reportes", require("./routes/reportes"));
 app.use("/api/email", require("./routes/sendEmailRoutes"));
-app.use("/api/academic_year", require("./routes/academic_year"));
-app.use("/api/matriculas", require("./routes/matriculas"));
-app.use("/api/egresos", require("./routes/egresos"));
-app.use("/api/tramites", require("./routes/tramites"));
 app.use("/api/sedes", require("./routes/sedes"));
 app.use("/api/roles", require("./routes/roles"));
 app.use("/api/modulos", require("./routes/modulos"));
@@ -95,6 +81,7 @@ app.use("/api/modulos", require("./routes/modulos"));
 // 📌 Rutas
 app.use("/api", require("./routes/report"));
 app.use("/api", require("./routes/proceso"));
+app.use("/api", require("./routes/solicitud"));
 
 app.listen(process.env.PORT, () => {
   console.log(

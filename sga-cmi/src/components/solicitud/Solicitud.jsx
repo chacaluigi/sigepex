@@ -5,15 +5,15 @@ import {
   Stack,
   Text,
   Icon,
-  useColorModeValue,
   Badge,
+  useColorModeValue,
 } from '@chakra-ui/react';
 import DataTable from 'react-data-table-component';
 import DataTableExtensions from 'react-data-table-component-extensions';
 import 'react-data-table-component-extensions/dist/index.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { getReports, reset } from '../../features/reportSlice';
+import { getSolicitudes, reset } from '../../features/solicitudSlice';
 import { ToastChakra } from '../../helpers/toast';
 import {
   FiChevronLeft,
@@ -23,29 +23,27 @@ import {
 } from 'react-icons/fi';
 import { customStyles } from '../../helpers/customStyles';
 import { Loading } from '../../helpers/Loading';
-import { ModalEditarReporte } from './ModalEditarReporte';
-import { ModalDetallesReporte } from './ModalDetallesReporte';
-import { ModalDescargar } from './ModalDescargar';
-import { format, parseISO } from 'date-fns';
+import ModalEditarSolicitud from './ModalEditarSolicitud';
+import ModalDetallesSolicitud from './ModalDetallesSolicitud';
+import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 
-const Reportes = () => {
+const Solicitudes = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const themeTable = useColorModeValue('default', 'solarized');
 
   const { user } = useSelector(state => state.auth);
-  const { reports, isLoading, isError, message, currentPage, totalRows } =
-    useSelector(state => state.reports);
-
-  const [perPage, setPerPage] = useState(40);
+  const { solicitudes, isLoading, isError, message, currentPage, totalRows } =
+    useSelector(state => state.solicitudes);
+  const [perPage, setPerPage] = useState(10);
   const [page, setPage] = useState(1);
 
   useEffect(() => {
     if (!user) {
       navigate('/login');
     }
-    dispatch(getReports({ page: currentPage, perPage }));
+    dispatch(getSolicitudes({ page: currentPage, perPage }));
 
     return () => {
       dispatch(reset());
@@ -57,127 +55,91 @@ const Reportes = () => {
     console.error(message);
   }
 
-  // Función para convertir fecha y hora del reporte a objeto Date
-  const parseFechaHoraReporte = (fechaStr, horaStr) => {
-    try {
-      if (!fechaStr || !horaStr) return new Date(0);
-
-      const [dia, mes, anio] = fechaStr.split('/').map(Number);
-      const [horas, minutos] = horaStr.includes(':')
-        ? horaStr.split(':').map(Number)
-        : [0, 0]; // Manejo básico si no tiene formato HH:mm
-
-      return new Date(anio, mes - 1, dia, horas, minutos);
-    } catch (error) {
-      console.error('Error parseando fecha/hora del reporte:', error);
-      return new Date(0);
-    }
-  };
-
-  // Función para formatear fecha y hora
-  const formatDateTime = (dateString, fechaReporte, horaReporte) => {
-    try {
-      // Priorizar la fecha/hora del reporte si existe
-      if (fechaReporte && horaReporte) {
-        const date = parseFechaHoraReporte(fechaReporte, horaReporte);
-        return {
-          date: fechaReporte, // Mantener formato original dd/MM/yyyy
-          time: horaReporte, // Mantener formato original HH:mm
-          fullDate: format(date, "dd 'de' MMMM 'de' yyyy", { locale: es }),
-          fullDateTime: format(date, "dd 'de' MMMM 'de' yyyy 'a las' HH:mm", {
-            locale: es,
-          }),
-          timestamp: date.getTime(),
-        };
-      }
-
-      // Si no hay fecha/hora de reporte, usar createdAt
-      if (dateString) {
-        const date = parseISO(dateString);
-        return {
-          date: format(date, 'dd/MM/yyyy', { locale: es }),
-          time: format(date, 'HH:mm', { locale: es }),
-          fullDate: format(date, "dd 'de' MMMM 'de' yyyy", { locale: es }),
-          fullDateTime: format(date, "dd 'de' MMMM 'de' yyyy 'a las' HH:mm", {
-            locale: es,
-          }),
-          timestamp: date.getTime(),
-        };
-      }
-
-      return {
-        date: '--/--/----',
-        time: '--:--',
-        fullDate: 'Fecha inválida',
-        fullDateTime: 'Fecha y hora inválidas',
-        timestamp: 0,
-      };
-    } catch (error) {
-      console.error('Error formateando fecha:', error);
-      return {
-        date: '--/--/----',
-        time: '--:--',
-        fullDate: 'Fecha inválida',
-        fullDateTime: 'Fecha y hora inválidas',
-        timestamp: 0,
-      };
+  const getBadgeColor = estado => {
+    switch (estado) {
+      case 'Pendiente':
+        return 'yellow';
+      case 'En Proceso':
+        return 'blue';
+      case 'Completado':
+        return 'green';
+      default:
+        return 'gray';
     }
   };
 
   const columns = [
     {
       name: 'FECHA CREACIÓN',
-      selector: row => formatDateTime(row.createdAt).date,
+      selector: row =>
+        format(new Date(row.fecha_creacion), 'dd MMM yyyy', { locale: es }),
       sortable: true,
+      width: '150px',
       center: true,
-      width: '100px',
+      cellExport: row => format(new Date(row.fecha_creacion), 'dd/MM/yyyy'),
+    },
+    {
+      name: 'TÍTULO',
+      selector: row => row.titulo,
+      sortable: true,
+      cellExport: row => row.titulo,
+    },
+    {
+      name: 'ESTADO',
+      selector: row => row.estado,
+      sortable: true,
+      width: '150px',
+      center: true,
       cell: row => (
         <Badge
-          colorScheme="purple"
+          colorScheme={getBadgeColor(row.estado)}
           variant="subtle"
-          px={2}
+          px={3}
           py={1}
-          borderRadius="md"
+          rounded="full"
         >
-          {formatDateTime(row.createdAt).date}
+          {row.estado}
         </Badge>
       ),
-      cellExport: row => formatDateTime(row.createdAt).date,
+      cellExport: row => row.estado,
     },
     {
-      name: 'NRO.',
-      selector: row => row.numero_reporte,
+      name: 'USUARIO',
+      selector: row => row.usuario?.nombre || 'No asignado',
       sortable: true,
-      width: '80px',
-      center: true,
-      cellExport: row => row.numero_reporte,
+      cellExport: row => row.usuario?.nombre || 'No asignado',
     },
     {
-      name: 'TEMA',
-      selector: row => row.tema,
+      name: 'ASIGNADO A',
+      selector: row => row.asignadoA?.nombre || 'No asignado',
       sortable: true,
-      cellExport: row => row.tema,
-      minWidth: '200px',
+      cellExport: row => row.asignadoA?.nombre || 'No asignado',
     },
     {
-      name: 'FACTOR',
-      selector: row => (Array.isArray(row.factor) ? row.factor.join(', ') : ''),
-      sortable: false,
-      center: true,
+      name: 'FECHA FINALIZACIÓN',
+      selector: row =>
+        row.fecha_finalizacion
+          ? format(new Date(row.fecha_finalizacion), 'dd MMM yyyy', {
+              locale: es,
+            })
+          : 'No completado',
+      sortable: true,
       width: '180px',
+      center: true,
       cellExport: row =>
-        Array.isArray(row.factor) ? row.factor.join(', ') : '',
+        row.fecha_finalizacion
+          ? format(new Date(row.fecha_finalizacion), 'dd/MM/yyyy')
+          : 'No completado',
     },
     {
       name: 'ACCIONES',
       export: false,
       center: true,
-      width: '180px',
+      width: '200px',
       cell: row => (
-        <Stack direction="row" spacing={2} justify="center">
-          <ModalEditarReporte row={row} />
-          <ModalDetallesReporte reporte={row} />
-          <ModalDescargar row={row} />
+        <Stack direction="row" spacing={2} justifyContent="center">
+          <ModalEditarSolicitud solicitud={row} />
+          <ModalDetallesSolicitud solicitud={row} />
         </Stack>
       ),
     },
@@ -185,31 +147,15 @@ const Reportes = () => {
 
   const handlePageChange = page => {
     setPage(page);
-    dispatch(getReports({ page, perPage }));
+    dispatch(getSolicitudes({ page, perPage }));
   };
 
   const handleRowsPerPageChange = newPerPage => {
     setPerPage(newPerPage);
-    dispatch(getReports({ page: 1, perPage: newPerPage }));
+    dispatch(getSolicitudes({ page: 1, perPage: newPerPage }));
   };
 
-  // Ordenar los datos por fecha/hora del reporte antes de pasarlos a la tabla
-  const sortedReports =
-    reports?.reports?.slice().sort((a, b) => {
-      const dateA = parseFechaHoraReporte(a.fecha, a.hora);
-      const dateB = parseFechaHoraReporte(b.fecha, b.hora);
-      return dateB - dateA; // Orden descendente
-    }) || [];
-
-  const tableData = {
-    columns: columns,
-    data: sortedReports.map(report => ({
-      ...report,
-      fechaHoraReporte: formatDateTime(null, report.fecha, report.hora)
-        .fullDateTime,
-      fechaCreacionFormatted: formatDateTime(report.createdAt).date,
-    })),
-  };
+  const tableData = { columns: columns, data: solicitudes || [] };
 
   if (isLoading) {
     return <Loading />;
@@ -224,7 +170,7 @@ const Reportes = () => {
         py={4}
         px={0}
       >
-        <Heading size="lg">Reportes</Heading>
+        <Heading size="lg">Solicitud de Análisis</Heading>
       </Stack>
       <Box
         borderRadius="2xl"
@@ -259,11 +205,12 @@ const Reportes = () => {
             exportHeaders={true}
             filterPlaceholder="BUSCAR"
             numberOfColumns={columns.length}
-            fileName={`REPORTES_${format(new Date(), 'yyyy-MM-dd')}`}
+            fileName={'SOLICITUDES_' + new Date().toLocaleDateString()}
           >
             <DataTable
-              defaultSortField="FECHA/HORA REPORTE"
+              defaultSortField="fecha_creacion"
               defaultSortAsc={false}
+              defaultSortOrder="desc"
               pagination
               paginationServer
               paginationTotalRows={totalRows}
@@ -313,7 +260,7 @@ const Reportes = () => {
               responsive
               noDataComponent={
                 <Text mb={4} fontSize="lg">
-                  ⚠️ No hay reportes disponibles.
+                  ⚠️ No hay solicitudes registradas.
                 </Text>
               }
             />
@@ -324,4 +271,4 @@ const Reportes = () => {
   );
 };
 
-export default Reportes;
+export default Solicitudes;

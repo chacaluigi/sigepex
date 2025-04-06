@@ -1,92 +1,30 @@
 [
   {
-    "tema": "Se pronostica clima templado con lluvias dispersas en Cochabamba, Bolivia, para los próximos días.",
-    "categoria": "Cochabamba",
+    "tema": "El Hotel Radisson Bolivia renueva su contrato, asegurando su permanencia en el país hasta el año 2033.",
+    "categoria": "País",
     "factor": [
-      "Psicosocial"
-    ],
-    "lugar": "Cochabamba, valle alto",
-    "departamento": "Cochabamba",
-    "pais": "Bolivia",
-    "fuentes": "Redacción Central, Senamhi",
-    "hecho": "El pronóstico meteorológico para Cochabamba, Bolivia, indica un clima templado con temperaturas mínimas de 13 grados Celsius y máximas de 24 grados Celsius el miércoles. Se esperan lluvias dispersas durante la noche. Para el jueves y viernes, se pronostican condiciones similares con precipitaciones durante todo el día. En la región del valle alto, se prevé un descenso de temperaturas, con una mínima de 9 grados Celsius y una máxima de 20 grados Celsius, además de lluvias durante la mayor parte del día.",
-    "actores": [
-      {
-        "actor": "Redacción Central",
-        "cargo": "Autor"
-      },
-      {
-        "actor": "Servicio Nacional de Meteorología e Hidrología (Senamhi)",
-        "cargo": "Pronosticador"
-      }
-    ],
-    "probable_evolucion": "Las lluvias podrían afectar las actividades diarias y la movilidad en Cochabamba y el valle alto. La disminución de temperaturas podría generar incomodidad en la población. Se recomienda a la población tomar precauciones ante las condiciones climáticas adversas.",
-    "_id": "e71af70eb96d52aa2bb0d34647915751195475592286d858d2d5e9105fc9f024",
-    "numero_reporte": 115,
-    "fecha": "05/03/2025",
-    "hora": "8:25",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/ciudad_1_de_marzo_2024_ed_listo.jpg?itok=SMirI96B"
-  },
-  {
-    "tema": "Familias en Cochabamba celebraron el Martes de Ch'alla del Carnaval con ofrendas a la Pachamama y juegos con agua, a pesar de las lluvias intermitentes.",
-    "categoria": "Cochabamba",
-    "factor": [
-      "Psicosocial",
       "Económico"
     ],
-    "lugar": "Terminal Departamental de Buses, El Prado, barrios de la zona norte, comunidades agrarias, centro de la ciudad de Cochabamba",
-    "departamento": "Cochabamba",
+    "lugar": "Bolivia",
+    "departamento": null,
     "pais": "Bolivia",
-    "fuentes": "Cristina Cotari, Los Tiempos",
-    "hecho": "El 4 de marzo de 2025, durante el Martes de Ch'alla, familias en Cochabamba realizaron la tradicional q'oa en la Terminal Departamental de Buses y otros lugares, ofreciendo gratitud a la Pachamama por sus bienes y pidiendo protección. Choferes, comerciantes y pasajeros participaron en festejos con comida, bebidas y música. A pesar de las prohibiciones y las lluvias, niños y jóvenes jugaron con agua en las calles y El Prado. Se observaron actividades como el 'Carnaval del Fútbol Bufa' y comparsas en comunidades agrarias. La Terminal funcionó con normalidad y se anticipa el Corso de Corso el 8 de marzo con más de 80 fraternidades.",
+    "fuentes": "Redacción Central, José María Reyes (Gerente de Radisson Bolivia), Unitel",
+    "hecho": "El Hotel Radisson Bolivia ha renovado su contrato, garantizando la continuidad de la franquicia en el país hasta el año 2033. José María Reyes, gerente de Radisson Bolivia, confirmó la renovación, desmintiendo rumores de salida. La renovación del contrato se firmó en 2023. Reyes explicó que los rumores podrían estar relacionados con la adquisición de Radisson América por Choice de Estados Unidos en 2022 y la compatibilización de sistemas informáticos.  La gerencia destaca la importancia estratégica de la ubicación geográfica de Bolivia.",
     "actores": [
       {
-        "actor": "Choferes",
-        "cargo": "Trabajadores"
-      },
-      {
-        "actor": "Comerciantes",
-        "cargo": "Trabajadores"
-      },
-      {
-        "actor": "Familias cochabambinas",
-        "cargo": "Participantes en la celebración"
+        "nombre": "José María Reyes",
+        "cargo": "Gerente de Radisson Bolivia"
       }
     ],
-    "probable_evolucion": "La celebración del Martes de Ch'alla podría continuar con la misma tradición en futuros años. La afluencia de personas en eventos como el Corso de Corso podría aumentar. Las actividades económicas relacionadas con el carnaval podrían verse afectadas o beneficiadas por las condiciones climáticas.",
-    "_id": "05c345dc8c40eb1700cc25881c54bf7494c81549cb834d9be1160e923a9e61f9",
-    "numero_reporte": 114,
-    "fecha": "05/03/2025",
-    "hora": "7:50",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/a-1_martes_de_challa-lopezzzzzzzzz.jpg?itok=vCD_4zwQ"
+    "probable_evolucion": "La renovación del contrato fortalece la inversión extranjera en el sector hotelero boliviano.  Es probable que el hotel continúe operando con normalidad.  Podría haber un aumento en la confianza de otros inversores en el mercado.",
+    "_id": "edbaf0e3bc3b5e73cd5cb5c559852557214c1c42c6bbf2103efc53b86a49816d",
+    "numero_reporte": 174,
+    "fecha": "02/04/2025",
+    "hora": "1:04",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/2_p_3_cortizocom.jpg?itok=G3wQoitO"
   },
   {
-    "tema": "Lluvias intensas causaron el colapso del alcantarillado en Quillacollo, inundando viviendas y generando críticas a la respuesta de las autoridades.",
-    "categoria": "Cochabamba",
-    "factor": [
-      "Económico",
-      "Psicosocial"
-    ],
-    "lugar": "Villa Providencia Sud, Distrito 3",
-    "departamento": "Cochabamba",
-    "pais": "Bolivia",
-    "fuentes": "Redacción Central",
-    "hecho": "El 05/03/2025, debido a intensas lluvias, colapsó la red de alcantarillado en la OTB Villa Providencia Sud, Distrito 3 de Quillacollo, Cochabamba, inundando más de 20 viviendas. La Unidad de Gestión de Riesgos (UGR) de Quillacollo movilizó cuadrillas de emergencia, pero los vecinos criticaron la falta de atención oportuna y trabajos preventivos. La UGR de la Gobernación y la Alcaldía de Cochabamba se movilizaron para desfogar el agua y regularizar el funcionamiento de los cárcamos de bombeo. Se están utilizando 10 motobombas para retirar el agua estancada. La zona sur de Quillacollo ha sido identificada como un punto crítico debido a las precipitaciones históricas.",
-    "actores": [
-      {
-        "nombre": "Bladimir Vargas",
-        "cargo": "Secretario de Desarrollo Productivo y Medio Ambiente de Quillacollo"
-      }
-    ],
-    "probable_evolucion": "La falta de una respuesta efectiva podría generar malestar social y demandas por indemnizaciones. Es probable que se intensifiquen las críticas a las autoridades locales por la gestión del riesgo y la falta de infraestructura adecuada. Se requerirán inversiones en la red de alcantarillado y medidas preventivas para mitigar futuros desastres.",
-    "_id": "2d09459271111de10447304134958a227e80f23756e790e1a530e08541425cd3",
-    "numero_reporte": 113,
-    "fecha": "05/03/2025",
-    "hora": "7:54",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/10_me_4_bobernacion_cbba_1.jpg?itok=9VJHt-qF"
-  },
-  {
-    "tema": "Mimos Dulces, un emprendimiento familiar de repostería en Cochabamba, Bolivia, utiliza las redes sociales para crecer y recibe apoyo de la Gobernación.",
+    "tema": "Una densa neblina cubre la ciudad de Cochabamba, obligando a suspender las operaciones en el aeropuerto Jorge Wilstermann.",
     "categoria": "Cochabamba",
     "factor": [
       "Económico",
@@ -96,389 +34,879 @@
     "departamento": "Cochabamba",
     "pais": "Bolivia",
     "fuentes": [
-      "María José Goyzueta",
-      "María Marcela Eiguana",
-      "Jimena Candia",
-      "José Antonio García"
+      "Redacción Central",
+      "Naabol"
     ],
-    "hecho": "María Marcela Eiguana, madre soltera y pastelera, fundó Mimos Dulces, un emprendimiento de repostería en Cochabamba, Bolivia. El negocio se inició de forma empírica desde su hogar y se ha expandido gracias a la promoción en redes sociales (Facebook y TikTok) y la participación en ferias productivas. Eiguana recibe apoyo de la Gobernación de Cochabamba a través del programa de fortalecimiento a las Mypes, que incluye entrevistas, publicidad y participación en ferias.  Además, Eiguana imparte clases de repostería a madres solteras para impulsarlas a emprender sus propios negocios.  La Gobernación, a través del área de promoción y apoyo a las Mypes, trabaja con más de mil emprendedores y organiza ferias para impulsar los negocios. Se ofrecen cursos y talleres especializados bajo el programa “Apoyo y Promoción a las Unidades Productivas Económicas en Cochabamba”, liderado por Jimena Candia y José Antonio García.",
+    "hecho": "Una densa neblina cubrió gran parte de la ciudad de Cochabamba el 2 de abril de 2025, a partir de las 7:00, lo que resultó en la suspensión de las operaciones de despegue y aterrizaje en el aeropuerto Jorge Wilstermann. La suspensión fue comunicada por Naabol debido a la reducción de visibilidad, un fenómeno meteorológico poco usual en la ciudad. La neblina se formó debido a la condensación del vapor de agua en el aire, afectando la visibilidad, especialmente para los conductores.",
     "actores": [
       {
-        "nombre": "María Marcela Eiguana",
-        "cargo": "Propietaria de Mimos Dulces"
-      },
-      {
-        "nombre": "Jimena Candia",
-        "cargo": "Responsable del área de promoción y apoyo a las Micro y Pequeñas Empresas (Mypes) de la Gobernación"
-      },
-      {
-        "nombre": "José Antonio García",
-        "cargo": "Secretario departamental de Desarrollo Productivo"
+        "actor": "Naabol",
+        "cargo": "Empresa de Navegación Aérea y Aeropuertos Bolivianos"
       }
     ],
-    "probable_evolucion": "El emprendimiento Mimos Dulces continuará expandiéndose a través de las redes sociales y el apoyo gubernamental.  Se espera que más emprendedoras se beneficien de los programas de capacitación y apoyo de la Gobernación.  La colaboración entre Mimos Dulces y la Gobernación probablemente se fortalecerá.",
-    "_id": "4ea6e4ff8035240371b12ff3e60af0f23ffb1a2109f1bc9e8d3e4c3d60cfcbb1",
-    "numero_reporte": 112,
-    "fecha": "05/03/2025",
-    "hora": "8:09",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/mimos_2.jpg?itok=FG_ycUwt"
+    "probable_evolucion": "La suspensión de operaciones aéreas podría generar retrasos y afectar el transporte de pasajeros y mercancías.  La duración de la suspensión dependerá de la disipación de la neblina y la mejora de las condiciones de visibilidad.  Podrían surgir quejas de pasajeros y pérdidas económicas para aerolíneas y negocios locales.",
+    "_id": "ecd802413b9890f85b4285b9e763d27f793749507fb63501f637230e1bc07f7e",
+    "numero_reporte": 173,
+    "fecha": "02/04/2025",
+    "hora": "8:51",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/ciudad_neblina_ed_listo.jpg?itok=cecvdURT"
   },
   {
-    "tema": "El alcalde de Cochabamba anuncia la puesta en marcha de un bus eléctrico de prueba a partir del 10 de marzo para que transportistas y ciudadanos evalúen sus beneficios.",
-    "categoria": "Cochabamba",
-    "factor": [
-      "Económico",
-      "Político"
-    ],
-    "lugar": "Cochabamba, Plaza 14 de Septiembre, final de la avenida Heroínas, subida al Cristo de la Concordia",
-    "departamento": "Cochabamba",
-    "pais": "Bolivia",
-    "fuentes": "Redacción Central, Manfred Reyes Villa, José Carlos Márquez",
-    "hecho": "La Alcaldía de Cochabamba, liderada por el alcalde Manfred Reyes Villa, presenta el primer bus eléctrico de transporte urbano en Bolivia. Se habilitarán paradas para que transportistas y la población puedan probar el vehículo a partir del 10 de marzo. El bus, gestionado por la Alcaldía y la empresa Quantum, tiene un costo estimado de 60 mil dólares, se podrá adquirir a crédito, y se instalará una electrolinera en la subida al Cristo de la Concordia. El bus tiene capacidad para 14 pasajeros, seis metros de largo, aire acondicionado, y puede recorrer 200 kilómetros con una carga de una hora. La presentación del bus se llevó a cabo en la Plaza 14 de Septiembre, coincidiendo con el Martes de Ch'alla. El gerente de Quantum, José Carlos Márquez, proporcionó detalles técnicos, incluyendo una reducción del 52,3% en costos operativos.",
-    "actores": [
-      {
-        "nombre": "Manfred Reyes Villa",
-        "cargo": "Alcalde de Cochabamba"
-      },
-      {
-        "nombre": "José Carlos Márquez",
-        "cargo": "Gerente de Quantum"
-      }
-    ],
-    "probable_evolucion": "La implementación de este bus eléctrico podría generar un cambio en la flota de transporte público, impactando la economía local y la calidad del aire.  La aceptación de este bus por transportistas y ciudadanos determinará la expansión de la iniciativa.  Podrían surgir discusiones sobre financiamiento y adaptación de la infraestructura urbana.",
-    "_id": "c7fb0952ac64b857481d01f6e661dc244e2b7fcc0ddc41df173e5ac14bf4b973",
-    "numero_reporte": 111,
-    "fecha": "05/03/2025",
-    "hora": "7:48",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/a-1_bus_electrico-lopezzzzzzzz.jpg?itok=8S0BPcSA"
-  },
-  {
-    "tema": "El presidente de Ucrania, Volodímir Zelenski, propuso una tregua parcial a Rusia y la liberación de prisioneros, buscando reanudar la cooperación con EEUU y encontrar alternativas al suministro de armamento tras la interrupción de la ayuda militar.",
-    "categoria": "Mundo",
+    "tema": "El Ministro de Gobierno de Bolivia, Eduardo Del Castillo, justificó la aprehensión de un ciudadano colombiano en el trópico de Cochabamba, relacionado con la producción de drogas.",
+    "categoria": "País",
     "factor": [
       "Político",
-      "Militar",
-      "Económico"
+      "Militar"
     ],
-    "lugar": "Ucrania, EEUU, Rusia, Alemania",
-    "departamento": null,
-    "pais": "Ucrania, EEUU, Rusia, Alemania",
-    "fuentes": [
-      "Redacción Central",
-      "Volodímir Zelenski",
-      "Donald Trump",
-      "Dmitri Peskov",
-      "Mijailo Podoliak",
-      "Friedrich Merz"
-    ],
-    "hecho": "El presidente ucraniano, Volodímir Zelenski, propuso a Donald Trump reanudar la cooperación entre Ucrania y EEUU para avanzar hacia la paz, después de que se interrumpiera la ayuda militar de EEUU. Zelenski propuso una tregua parcial, incluyendo la liberación de prisioneros y un cese de ataques aéreos y marítimos. También reafirmó la disposición de Ucrania a firmar un acuerdo económico propuesto por Washington. Mientras tanto, Ucrania busca alternativas al suministro de armamento en Europa. La decisión de EEUU fue celebrada por Rusia, a través de su portavoz presidencial Dmitri Peskov, como un posible paso hacia la paz. Mijailo Podoliak, asesor presidencial ucraniano, indicó que Ucrania explora la producción conjunta o adquisición de armamento con otros países. Zelenski también habló con Friedrich Merz, líder conservador alemán, buscando apoyo y cooperación, especialmente en defensa aérea y estabilidad financiera.",
+    "lugar": "trópico de Cochabamba, Chapare",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Eduardo Del Castillo",
+    "hecho": "El Ministro de Gobierno de Bolivia, Eduardo Del Castillo, informó sobre la aprehensión de un ciudadano colombiano en el trópico de Cochabamba durante operativos antinarcóticos. El ministro señaló que el ciudadano colombiano no estaba involucrado en actividades culturales, sino en la producción de drogas. Del Castillo destacó la constante vigilancia policial en la zona y el plan de operaciones para desmantelar fábricas de drogas. Además, se mencionaron imágenes filtradas en redes sociales de ciudadanos colombianos en el Chapare, presuntamente protegiendo al expresidente Evo Morales, y el hallazgo de 19 colombianos indocumentados en un alojamiento. Del Castillo también abordó temas relacionados con su candidatura.",
     "actores": [
       {
-        "nombre": "Volodímir Zelenski",
-        "cargo": "Presidente de Ucrania"
+        "nombre": "Eduardo Del Castillo",
+        "cargo": "Ministro de Gobierno"
       },
       {
-        "nombre": "Donald Trump",
-        "cargo": "Expresidente de EEUU"
-      },
-      {
-        "nombre": "Dmitri Peskov",
-        "cargo": "Portavoz presidencial ruso"
-      },
-      {
-        "nombre": "Mijailo Podoliak",
-        "cargo": "Asesor presidencial ucraniano"
-      },
-      {
-        "nombre": "Friedrich Merz",
-        "cargo": "Líder conservador alemán"
+        "nombre": "Evo Morales",
+        "cargo": "Expresidente"
       }
     ],
-    "probable_evolucion": "La propuesta de Zelenski podría llevar a negociaciones de paz, aunque la postura rusa y la necesidad de apoyo externo complican el proceso. La búsqueda de armamento alternativo por parte de Ucrania podría alterar el equilibrio de poder y la duración del conflicto. La relación entre Ucrania y EEUU podría experimentar cambios significativos, dependiendo del resultado de las negociaciones y las políticas de ambas naciones.",
-    "_id": "bc04f774792f8ecb0021c167297cf7f58568cf44263741cca8a33e54bea3e130",
-    "numero_reporte": 110,
-    "fecha": "05/03/2025",
-    "hora": "7:44",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/11_mu_1_efe.jpg?itok=BZaO4uWA"
+    "probable_evolucion": "Es probable que se intensifiquen los operativos antinarcóticos en el trópico de Cochabamba.  La conexión de ciudadanos colombianos con figuras políticas podría generar tensiones políticas.  Se espera un aumento en la vigilancia y control fronterizo.",
+    "_id": "09913f935921d4cb16f414ba8aeb0d4f9b54ced59be9a8c73870e9416c66257b",
+    "numero_reporte": 172,
+    "fecha": "02/04/2025",
+    "hora": "1:02",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/2_p_2_rrss.jpg?itok=l2OV4Yz6"
   },
   {
-    "tema": "El Comité pro Santa Cruz declara emergencia regional debido a la escasez de combustible y convoca a una reunión multisectorial para tomar acciones de presión contra el Gobierno.",
+    "tema": "La publicación de encuestas electorales ha generado tensiones y críticas entre políticos, aumentando la intensidad de las campañas electorales.",
     "categoria": "País",
+    "factor": [
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "Cochabamba",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": [
+      "Redacción Central",
+      "Renán Cabezas",
+      "Chi Hyun Chung",
+      "Jaime Dunn",
+      "Henry Párraga",
+      "Unitel",
+      "Panterra"
+    ],
+    "hecho": "La publicación de encuestas electorales en Bolivia ha desatado polémica y críticas entre diferentes facciones políticas. El diputado Renán Cabezas acusó al presidente de la Cámara de Senadores, Andrónico Rodríguez, de traición y de ser un candidato de la derecha, sugiriendo que Rodríguez está trabajando para impulsar su candidatura, especialmente tras figurar como favorito en dos encuestas. El precandidato Chi Hyun Chung cuestionó al alcalde de Cochabamba, Manfred Reyes Villa, sobre si retirará su candidatura tras los resultados de una encuesta que lo ubica por debajo de Chi. El especialista financiero Jaime Dunn anunció su intención de postularse a la presidencia. El analista político Henry Párraga señaló que la oposición se ha visto desvalorizada y que Andrónico Rodríguez emerge como una figura clave en la izquierda.",
+    "actores": [
+      {
+        "nombre": "Renán Cabezas",
+        "cargo": "Diputado"
+      },
+      {
+        "nombre": "Andrónico Rodríguez",
+        "cargo": "Presidente de la Cámara de Senadores"
+      },
+      {
+        "nombre": "Chi Hyun Chung",
+        "cargo": "Precandidato"
+      },
+      {
+        "nombre": "Manfred Reyes Villa",
+        "cargo": "Alcalde de Cochabamba y precandidato"
+      },
+      {
+        "nombre": "Jaime Dunn",
+        "cargo": "Especialista financiero"
+      },
+      {
+        "nombre": "Henry Párraga",
+        "cargo": "Analista político"
+      },
+      {
+        "nombre": "Marcelo Claure",
+        "cargo": "Empresario"
+      }
+    ],
+    "probable_evolucion": "La polarización política podría intensificarse a medida que se acercan las elecciones. Las disputas internas dentro de las alianzas y partidos podrían derivar en rupturas. La percepción pública sobre la fiabilidad de las encuestas y los candidatos podría influir en el voto.",
+    "_id": "b3e4c3422f08a6c329e43913746ce303e158d1d6e4cf45345af488d0c502a07e",
+    "numero_reporte": 171,
+    "fecha": "02/04/2025",
+    "hora": "0:59",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/3_p_2_apg.jpg?itok=inamBLC6"
+  },
+  {
+    "tema": "Las inundaciones en Beni, Bolivia, han afectado a miles de familias, causando daños significativos y requiriendo ayuda humanitaria.",
+    "categoria": "País",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "Beni, La Paz, Marban, San Julián",
+    "departamento": "Beni",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Wilson Ávila, David Guachalla, Celinda Sosa",
+    "hecho": "Las inundaciones en Beni, Bolivia, han afectado a al menos 7.000 familias, con el caudal de los ríos aún en aumento. Los municipios de Baures y Loreto se han sumado a la declaratoria de emergencia. El sector ganadero y arrocero son los más afectados, con pérdidas de cultivos en Marban y San Julián. A nivel nacional, 217 municipios están afectados, con 136 en estado de emergencia o desastre. Se estima que 452.067 familias se han visto afectadas por las lluvias, y se requieren Bs 722 millones para atender la situación. El gobierno boliviano solicitó ayuda al cuerpo diplomático para abordar la emergencia nacional, que ha causado la muerte de 52 personas. La canciller Celinda Sosa solicitó cooperación y ayuda humanitaria para cubrir las necesidades básicas de las familias afectadas.",
+    "actores": [
+      {
+        "nombre": "Wilson Ávila",
+        "cargo": "Director del Comité de Operaciones de Emergencia Departamental (COED)"
+      },
+      {
+        "nombre": "David Guachalla",
+        "cargo": "Viceministro de Planificación y Coordinación"
+      },
+      {
+        "nombre": "Celinda Sosa",
+        "cargo": "Canciller boliviana"
+      }
+    ],
+    "probable_evolucion": "Las inundaciones podrían extenderse, aumentando el número de damnificados y el daño a la infraestructura y la producción. La falta de recursos podría dificultar la respuesta a la emergencia y la recuperación de las áreas afectadas. La situación podría generar inestabilidad social y económica en la región.",
+    "_id": "cbe2c31b9d733fc48ddf21a5df1a891a7181d77e61bfd3a00d05ddc0c5d5bf9a",
+    "numero_reporte": 170,
+    "fecha": "02/04/2025",
+    "hora": "1:00",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/2_p_1_fundacion_unzueta.jpg?itok=2rx47ikc"
+  },
+  {
+    "tema": "La Confederación Sindical de Choferes de Bolivia suspendió un paro nacional tras lograr acuerdos parciales con el gobierno, aunque advierten sobre posibles futuras acciones.",
+    "categoria": "Economía",
     "factor": [
       "Político",
       "Económico",
       "Psicosocial"
+    ],
+    "lugar": "Bolivia, Santa Cruz",
+    "departamento": "Santa Cruz",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Lucio Gómez",
+    "hecho": "La Confederación Sindical de Choferes de Bolivia suspendió el paro nacional indefinido tras negociaciones con el gobierno. Las demandas clave atendidas incluyen la destitución del presidente de la Administradora Boliviana de Carreteras (ABC), Marcel Claure, y compromisos para garantizar el abastecimiento de combustibles, como el aumento de la distribución y la adquisición de cilindros para GNV. El Ministerio de Economía mediará en la reestructuración de deudas financieras del sector. A pesar de estos avances, el paro fue suspendido en \"cuarto intermedio\", quedando pendientes la renuncia del viceministro de Defensa del Consumidor, Jorge Silva, y la garantía de un suministro estable de combustibles.  El sector mostró divisiones internas, pero la presión unificada logró compromisos gubernamentales. Los choferes evaluarán el cumplimiento de los acuerdos y advierten sobre la posibilidad de retomar las medidas de fuerza. El gobierno busca contener el conflicto ante el descontento social y dificultades económicas, incluyendo el desabastecimiento de combustible.",
+    "actores": [
+      {
+        "nombre": "Marcel Claure",
+        "cargo": "Presidente de la Administradora Boliviana de Carreteras (ABC) (destituido)"
+      },
+      {
+        "nombre": "Lucio Gómez",
+        "cargo": "Ejecutivo del gremio"
+      },
+      {
+        "nombre": "Jorge Silva",
+        "cargo": "Viceministro de Defensa del Consumidor"
+      }
+    ],
+    "probable_evolucion": "La suspensión del paro es temporal; el cumplimiento de los acuerdos determinará si se retoman las protestas. El descontento social y las dificultades económicas podrían agravarse si no se resuelven las demandas pendientes. La estabilidad política y económica de Bolivia se encuentra en riesgo.",
+    "_id": "9b2d262aefeb07ecd00efc14cc59017ac86c3ec77d2114dc888d6971f5a8d617",
+    "numero_reporte": 169,
+    "fecha": "02/04/2025",
+    "hora": "0:54",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/4_eco_1_apg.jpg?itok=wdNKyCZm"
+  },
+  {
+    "tema": "El Tribunal Supremo Electoral (TSE) estableció plazos para la inscripción de candidaturas y actividades electorales en Bolivia, incluyendo empadronamiento y sorteo de jurados, además de revisar la vigencia de personarías jurídicas de dos partidos políticos.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Económico"
     ],
     "lugar": "Santa Cruz",
     "departamento": "Santa Cruz",
     "pais": "Bolivia",
-    "fuentes": "Redacción Central, Agustín Zambrana",
-    "hecho": "El Comité pro Santa Cruz ha declarado emergencia regional debido al desabastecimiento de combustible, principalmente diésel y gasolina, atribuido a retrasos en los pagos del Ministerio de Economía. Se ha convocado a una reunión multisectorial para el día siguiente, con la participación de representantes de las 15 provincias de Santa Cruz y 24 sectores productivos, incluyendo transportistas y agroindustriales. El objetivo de la reunión es definir un plan de acción, que podría incluir paros, movilizaciones o bloqueos, si el Gobierno no resuelve la situación. Se enfatiza que la escasez de combustible pone en riesgo la seguridad alimentaria, la cosecha de verano y la economía regional en general. El primer vicepresidente del Comité, Agustín Zambrana, ha responsabilizado al Gobierno por la crisis.",
+    "fuentes": "Redacción Central, Tahuichi Tahuchi Quispe, Peter Erlwein Beckhauser",
+    "hecho": "El Tribunal Supremo Electoral (TSE) anunció el calendario electoral para las elecciones nacionales del 17 de agosto. Los partidos políticos tienen plazo del 14 al 19 de mayo para inscribir candidaturas presidenciales y listas de diputados y senadores. El empadronamiento permanente comenzó el 25 de marzo y finalizará el 13 de abril, mientras que el empadronamiento masivo será del 18 de abril al 7 de mayo, con actividades en 17 países.  El sorteo de jurados electorales se realizará un mes antes de las elecciones. La jornada electoral está programada para el 17 de agosto y la segunda vuelta el 19 de octubre. El TSE revisa la vigencia de las personarías jurídicas de los partidos políticos Frente Para la Victoria (FPV) y Partido de Acción Nacional Boliviano (PAN-BOL) debido a no haber alcanzado el 3% de los votos en elecciones pasadas. La convocatoria a elecciones se emitirá esta semana. Las alianzas políticas pueden inscribirse desde el 5 de marzo hasta el 18 de abril.",
     "actores": [
       {
-        "nombre": "Agustín Zambrana",
-        "cargo": "Primer vicepresidente del Comité pro Santa Cruz"
+        "nombre": "Tahuichi Tahuchi Quispe",
+        "cargo": "Vocal del Tribunal Supremo Electoral (TSE)"
       },
       {
-        "nombre": "Gobierno",
-        "cargo": "Órgano Ejecutivo"
+        "nombre": "Peter Erlwein Beckhauser",
+        "cargo": "Denunciante"
       }
     ],
-    "probable_evolucion": "Es probable que la situación de escasez de combustible continúe, llevando a acciones de protesta por parte del Comité y sectores productivos. Esto podría generar inestabilidad política y económica en la región, con posibles afectaciones a nivel nacional si las medidas de presión se intensifican. El Gobierno podría verse obligado a negociar y buscar soluciones para evitar mayores conflictos.",
-    "_id": "563cea9a3967245b2e593f9d176ea59aa91839b4354adddb5977b6e5ed3be70e",
-    "numero_reporte": 109,
-    "fecha": "05/03/2025",
-    "hora": "6:57",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/3_p_2_el_deberrrrrrrr.jpg?itok=SoakHItY"
+    "probable_evolucion": "La definición de candidaturas y la revisión de las personarías jurídicas podrían generar disputas políticas y legales.  El proceso electoral y los resultados podrían verse afectados por impugnaciones y el resultado de la revisión de las personarías jurídicas. El cumplimiento de los plazos y la participación ciudadana serán factores determinantes en el desarrollo del proceso electoral.",
+    "_id": "cfb1edad46c7ddbdd77d6aaeacd86d5e6e7f33d122ed0870d7a780e8134a282c",
+    "numero_reporte": 168,
+    "fecha": "02/04/2025",
+    "hora": "0:57",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/3_p_1_rochaaaaaaaa.jpg?itok=mNpG9_hk"
   },
   {
-    "tema": "Productores de soya en Santa Cruz, Bolivia, adoptan biotecnología resistente a la sequía y herbicidas, impulsando la producción y buscando sostenibilidad.",
-    "categoria": "País",
+    "tema": "Intensas lluvias en Bolivia causan inundaciones que afectan a más de 500,000 hectáreas de cultivos, generando pérdidas económicas significativas y poniendo en riesgo el abastecimiento de alimentos.",
+    "categoria": "Economía",
     "factor": [
       "Económico",
       "Psicosocial"
     ],
-    "lugar": "Santa Cruz, Cuatro Cañadas",
-    "departamento": "Santa Cruz",
+    "lugar": "Santa Cruz, Beni",
+    "departamento": [
+      "Santa Cruz",
+      "Beni"
+    ],
     "pais": "Bolivia",
-    "fuentes": "Cristina Cotari, Richard Trujillo (Gerente técnico de Anapo), Jaime Hernández (Presidente de Anapo)",
-    "hecho": "En Santa Cruz, Bolivia, los productores de soya están implementando biotecnología resistente a la sequía y herbicidas como el glifosato para aumentar el rendimiento y reducir costos. La 31ª versión de la Exposoya 2025 exhibió estas innovaciones, incluyendo variedades de soya, drones y maquinaria pesada. Anapo, a través de su \"Programa de mejoramiento en Soya\", trabaja en el desarrollo de variedades propias y en la optimización de la nutrición de los cultivos, con apoyo de consultores de Argentina. Se sembraron 1.200.000 hectáreas de soya, proyectando una cosecha de 2.5 millones de toneladas. Se utilizan semillas mejoradas como \"Intacta y la HB4\", aunque algunas ingresaron al país por contrabando. El gobierno aprobó el uso de la semilla de soya Intacta y biotecnología en octubre de 2024. La Exposoya reunió a 8 mil productores y 120 expositores, destacando nuevas variedades como GS 50R 48 y Patujú.",
+    "fuentes": "Redacción Central, Klaus Frerking (CAO y Confeagro), Unitel",
+    "hecho": "Las intensas lluvias en Bolivia han provocado graves inundaciones que afectan a la producción agropecuaria. En Santa Cruz, 50,000 hectáreas de soya están completamente anegadas y 500,000 hectáreas de diversos cultivos están en riesgo. En Beni, se han perdido 25,000 hectáreas de arroz, representando el 30% de la producción. La situación se ve agravada por la escasez de diésel, la falta de dólares para importación de insumos, dos años de sequía y ahora lluvias extemporáneas, lo que ha sido descrito como una 'tormenta perfecta'. Estos factores combinados impactarán en el abastecimiento de alimentos y el incremento de precios.",
     "actores": [
       {
-        "nombre": "Richard Trujillo",
-        "cargo": "Gerente técnico de la Asociación Nacional de Productores de Oleaginosas y Trigo (Anapo)"
-      },
-      {
-        "nombre": "Jaime Hernández",
-        "cargo": "Presidente de Anapo"
+        "nombre": "Klaus Frerking",
+        "cargo": "Presidente de la Cámara Agropecuaria del Oriente (CAO) y de la Confederación Agropecuaria Nacional (Confeagro)"
       }
     ],
-    "probable_evolucion": "Se espera un aumento continuo en la adopción de biotecnología en la producción de soya. La dependencia de tecnologías extranjeras podría generar tensiones comerciales.  La validación de nuevas variedades y la adaptación a las condiciones locales serán cruciales para el éxito a largo plazo.",
-    "_id": "281bec6c5d2259e637de1e79fc5d709bca3c8203a8ef43ba552f947346ae7cdc",
-    "numero_reporte": 108,
-    "fecha": "05/03/2025",
-    "hora": "7:06",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/soyeros_1.jpg?itok=e1h3lSnP"
+    "probable_evolucion": "Se espera una disminución en el suministro de alimentos y un aumento en los precios de la canasta familiar. La crisis podría generar inestabilidad económica y social, afectando a la población boliviana en general. Las autoridades podrían verse obligadas a tomar medidas para mitigar los efectos de la crisis.",
+    "_id": "cb6049edb2c325c2acf14a5d4a8d109fd624fcd1291b699ab2636642cb960fda",
+    "numero_reporte": 167,
+    "fecha": "02/04/2025",
+    "hora": "0:56",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/4_eco_2_rrss.jpg?itok=ybOfwXTC"
   },
   {
-    "tema": "El Instituto Superior de Artes Plásticas Raúl G. Prada en Cochabamba presenta grave deterioro y grietas que ponen en riesgo a estudiantes, a pesar de las promesas de solución de la Gobernación y Alcaldía.",
+    "tema": "La Alcaldía de Cochabamba sancionó a vehículos por estacionamiento en doble fila en la avenida Siles, en cumplimiento del Decreto Municipal No. 408.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Económico",
+      "Político"
+    ],
+    "lugar": "avenida Siles",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Hever Rojas, Javier Alcocer",
+    "hecho": "La Dirección de Movilidad Urbana de la Alcaldía de Cochabamba, en cumplimiento del Decreto Municipal No. 408, intensificó los controles en la avenida Siles y sancionó a vehículos estacionados en doble fila. La multa por esta infracción es de Bs 150, además de la inmovilización del vehículo. Durante los operativos, se detectó que algunos comerciantes reservan espacios de parqueo, lo cual también es objeto de sanción. Se realizaron controles adicionales para asegurar que las aceras estén despejadas. El cobro de parqueo tarifado continúa vigente según horario establecido.",
+    "actores": [
+      {
+        "cargo": "Director de Movilidad Urbana",
+        "nombre": "Hever Rojas"
+      },
+      {
+        "cargo": "Jefe del Departamento de Control de Vías y Circulación de Movilidad Urbana",
+        "nombre": "Javier Alcocer"
+      }
+    ],
+    "probable_evolucion": "Se espera un aumento en los operativos de control en otras áreas de la ciudad para asegurar el cumplimiento del decreto municipal.  La intensificación de las sanciones podría generar resistencia por parte de los infractores.  Se podría observar una disminución temporal en las infracciones, aunque la persistencia de malas prácticas podría requerir medidas adicionales.",
+    "_id": "33b21e642be6a7de95af9841a833b003da7bdd17ba2ea5ab68c55fa092914965",
+    "numero_reporte": 166,
+    "fecha": "02/04/2025",
+    "hora": "0:48",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/6_me_4_rochaaaaaaaa.jpg?itok=vdCzSubN"
+  },
+  {
+    "tema": "Un grupo de personas emboscó a policías en Yapacaní después de un decomiso de gasolina, utilizando explosivos.",
+    "categoria": "Seguridad",
+    "factor": [
+      "Militar",
+      "Económico"
+    ],
+    "lugar": "Yapacaní",
+    "departamento": "Santa Cruz",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Unitel, fiscal Julio César Porras, Umopar",
+    "hecho": "El 02/04/2025, a las 0:49, agentes de Umopar realizaron un operativo en Yapacaní, donde intentaron evadir el punto de control tres vehículos. Uno fue revisado, encontrando 16 bidones de gasolina (aproximadamente 1000 litros). Tras el decomiso, un grupo atacó a los policías con explosivos, intentando recuperar el combustible. Se produjo un enfrentamiento durante el traslado del combustible, con aprehensiones y arrestos. El caso está en investigación, relacionado con el mercado negro de combustible.",
+    "actores": [
+      {
+        "actor": "Policías de Umopar",
+        "cargo": "Agentes de la ley"
+      },
+      {
+        "actor": "Julio César Porras",
+        "cargo": "Fiscal"
+      },
+      {
+        "actor": "Personas involucradas en el ataque",
+        "cargo": "Desconocido"
+      }
+    ],
+    "probable_evolucion": "Es probable que aumenten los incidentes similares debido a la escasez de combustible y el mercado negro. La investigación podría revelar una red de contrabando de combustible. La situación podría escalar si no se toman medidas para controlar la situación.",
+    "_id": "1d36ca825ea2906072c553c4312a958a2f5fce71f98072a96d51f806bbfa614f",
+    "numero_reporte": 165,
+    "fecha": "02/04/2025",
+    "hora": "0:49",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/5_se_1_unitel.jpg?itok=yMXLweLE"
+  },
+  {
+    "tema": "Un accidente de tráfico en San Julián, Santa Cruz, causado por una mala maniobra tras el reventón de una llanta de una volqueta, resultó en la muerte de 12 personas.",
+    "categoria": "Seguridad",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "San Julián, Villa Paraíso, San Javier",
+    "departamento": "Santa Cruz",
+    "pais": "Bolivia",
+    "fuentes": "Red Uno, Amílcar Saravia, Redacción Central",
+    "hecho": "El 1 de abril de 2025, en la carretera de ingreso a Villa Paraíso, municipio de San Julián, departamento de Santa Cruz, ocurrió un trágico accidente de tráfico. Una volqueta, que se dirigía a San Javier cargada de arena, sufrió el reventón de una llanta delantera, lo que provocó una mala maniobra por parte del conductor. Esto resultó en el vuelco de la volqueta sobre un minibús, causando la muerte de 12 personas, incluyendo un niño de cuatro años. Las autoridades policiales de San Julián, lideradas por el comandante Amílcar Saravia, iniciaron las investigaciones.",
+    "actores": [
+      {
+        "actor": "Amílcar Saravia",
+        "cargo": "Comandante de la Policía de San Julián"
+      },
+      {
+        "actor": "Conductor de la volqueta",
+        "cargo": "Conductor"
+      }
+    ],
+    "probable_evolucion": "Se espera que las investigaciones continúen para determinar las causas exactas del accidente y las responsabilidades. Podría haber una mayor fiscalización de las condiciones de los vehículos de carga y un aumento de las medidas de seguridad vial en la zona. Es probable que este evento genere debate público sobre la seguridad vial y la infraestructura en el departamento de Santa Cruz.",
+    "_id": "e404ab528f755acdde518c5c2e34dad9a9aebb76207152af40b2723812165c6c",
+    "numero_reporte": 164,
+    "fecha": "02/04/2025",
+    "hora": "0:53",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/5_se_2_rrss.jpg?itok=Mx_0cUnC"
+  },
+  {
+    "tema": "Un ataque a una mina de oro en Perú por presuntos mineros ilegales resultó en la muerte de cinco personas.",
+    "categoria": "Mundo",
+    "factor": [
+      "Económico",
+      "Militar",
+      "Político"
+    ],
+    "lugar": "mina de oro Poderosa, provincia de Pataz, ciudad de Trujillo",
+    "departamento": "La Libertad",
+    "pais": "Perú",
+    "fuentes": [
+      "AGENCIAS",
+      "coronel Javier Arana",
+      "agencia estatal Andina",
+      "Pablo de la Flor",
+      "emisora RPP"
+    ],
+    "hecho": "Dos ataques perpetrados por presuntos mineros ilegales contra la mina de oro Poderosa en Perú resultaron en la muerte de cinco personas. El primer ataque ocurrió después de la destrucción de una torre de alta tensión, donde un grupo de criminales dispararon contra los trabajadores, causando una muerte. El segundo ataque, una emboscada contra una furgoneta que transportaba a 14 pasajeros, causó la muerte de cuatro personas. La provincia de Pataz, donde se ubica la mina, ha sido declarada en emergencia. Se ha desplegado personal policial y militar, incluyendo 100 agentes de la Dirección Nacional Operaciones Especiales (Dinoes) y 100 miembros del Ejército del Perú, para investigar y controlar la situación. Además, se reportaron diez trabajadores heridos de bala.",
+    "actores": [
+      {
+        "nombre": "Javier Arana",
+        "cargo": "Jefe de la División de Orden Público y Seguridad de la Policía Nacional"
+      },
+      {
+        "nombre": "Pablo de la Flor",
+        "cargo": "Gerente de Asuntos Corporativos de Poderosa"
+      }
+    ],
+    "probable_evolucion": "Es probable que la situación de seguridad en la zona empeore, con posibles nuevos enfrentamientos. La presencia de fuerzas de seguridad podría escalar y generar tensiones. La minería ilegal podría intensificarse, afectando la estabilidad económica y social de la región.",
+    "_id": "0e547393c2f0d686b570eab3804f40b87cdb0ad4af0e8a17b495ab80ce5dae51",
+    "numero_reporte": 163,
+    "fecha": "02/04/2025",
+    "hora": "0:39",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/8_mu_3_andina.jpg?itok=Elxg2NNV"
+  },
+  {
+    "tema": "Un tráiler colisionó con el puente Antezana en Cochabamba, causando daños estructurales y el cierre parcial del paso vehicular.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "Puente Antezana",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Miroslav Morant",
+    "hecho": "El 1 de abril de 2025, aproximadamente a las 20:00, un tráiler impactó contra el puente Antezana en Cochabamba, debido a que el contenedor excedía la altura permitida. El incidente causó daños significativos a las vigas y estructuras del puente, incluyendo el desprendimiento de hormigón y fierros. Como resultado, el carril en dirección este que conecta la avenida Antezana con la avenida Santa Cruz fue cerrado. La Secretaría de Infraestructura del Gobierno Autónomo Municipal de Cochabamba (GAMC) está realizando una evaluación técnica para cuantificar los daños y definir un plan de reparación, con una estimación de finalización de las refacciones en cuatro a cinco días.",
+    "actores": [
+      {
+        "nombre": "Miroslav Morant",
+        "cargo": "Jefe de Puentes y Estructuras"
+      },
+      {
+        "nombre": "Personal de la Secretaría de Infraestructura",
+        "cargo": "Gobierno Autónomo Municipal de Cochabamba (GAMC)"
+      }
+    ],
+    "probable_evolucion": "El cierre parcial del puente afectará el flujo vehicular y podría generar congestión en la zona.  Los costos de reparación y posibles desvíos implicarán gastos adicionales.  La falta de cumplimiento de las normas de altura podría ocasionar más accidentes similares.",
+    "_id": "3d8d8665f43d1ff516dff51cacaf3a14406b5b60eeb83e4a1fcbf8198b4c8792",
+    "numero_reporte": 162,
+    "fecha": "02/04/2025",
+    "hora": "0:41",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/7_me_1_jamessssssss.jpg?itok=dJZC1u8M"
+  },
+  {
+    "tema": "La crisis de la basura en Cochabamba, causada por el bloqueo del vertedero de K’ara K’ara, está afectando gravemente a hospitales y centros de salud.",
     "categoria": "Cochabamba",
     "factor": [
       "Económico",
       "Político",
       "Psicosocial"
     ],
-    "lugar": "La Coronilla, colina San Sebastián",
+    "lugar": "K’ara K’ara, Cochabamba, Cámara Agropecuaria de Cochabamba (CAC)",
     "departamento": "Cochabamba",
     "pais": "Bolivia",
-    "fuentes": "Ulises Cabrera, Remy Daza, Mijail Mercado, Wilson Espinoza",
-    "hecho": "El Instituto Superior de Artes Plásticas Raúl G. Prada, ubicado en La Coronilla, Cochabamba, presenta un grave deterioro en su infraestructura, con grietas en columnas, suelos y paredes, así como caída de cielos falsos. El edificio fue entregado en octubre de 2014 como parte del programa 'Bolivia cambia, Evo cumple' con una inversión de Bs 13,1 millones. A pesar de las deficiencias presentadas desde entonces, la Gobernación y la Alcaldía de Cochabamba no han tomado medidas significativas para solucionar los problemas. Inspecciones y acuerdos realizados en julio de 2024 no han resultado en acciones concretas. Los estudiantes y docentes han expresado su preocupación por la seguridad. La Alcaldía está avanzando con la transferencia de los bienes, pero la tuición administrativa y el funcionamiento del instituto están a cargo de la Gobernación.",
+    "fuentes": "Pedro Figueroa, Jimmy Montaño (Sirmes), Marioly Álvarez (Defensoría del Pueblo), Gustavo Camargo (Alcaldía)",
+    "hecho": "El vertedero de basura de K’ara K’ara lleva 11 días bloqueado por las Organizaciones Territoriales de Base (OTB), impidiendo el acceso al relleno sanitario. Esta situación ha provocado el colapso de hospitales y centros de salud en Cochabamba debido a la acumulación de residuos infecciosos. El representante del Sindicato de Ramas Médicas de Salud Pública (Sirmes) Cochabamba, Jimmy Montaño, alertó sobre la gravedad de la situación, mencionando la acumulación de residuos peligrosos. La delegada departamental de la Defensoría del Pueblo, Marioly Álvarez, convocó a una reunión de emergencia en la Cámara Agropecuaria de Cochabamba (CAC), a la cual asistieron autoridades de la Alcaldía y la Gobernación, pero no los dirigentes de K’ara K’ara. El secretario de Gobernabilidad de la Alcaldía, Gustavo Camargo, indicó que la Alcaldía busca el diálogo y trabaja en una segunda opción para la industrialización de residuos. Un grupo de concejales intentó acceder al vertedero con camiones de basura, pero se retiraron sin dialogar con los dirigentes. Los pobladores niegan que el bloqueo sea político y exigen la presencia del alcalde Manfred Reyes Villa.",
     "actores": [
       {
-        "nombre": "Remy Daza",
-        "cargo": "Artista plástico y profesor del instituto"
+        "nombre": "Jimmy Montaño",
+        "cargo": "Representante del Sindicato de Ramas Médicas de Salud Pública (Sirmes) Cochabamba"
       },
       {
-        "nombre": "Mijail Mercado",
-        "cargo": "Secretario de Planificación"
+        "nombre": "Marioly Álvarez",
+        "cargo": "Delegada departamental de la Defensoría del Pueblo"
       },
       {
-        "nombre": "Wilson Espinoza",
-        "cargo": "Director de Bienes Municipales de la Alcaldía"
+        "nombre": "Gustavo Camargo",
+        "cargo": "Secretario de Gobernabilidad de la Alcaldía"
+      },
+      {
+        "nombre": "Manfred Reyes Villa",
+        "cargo": "Alcalde"
       }
     ],
-    "probable_evolucion": "El deterioro continuará, aumentando el riesgo para los estudiantes y docentes. La falta de acción podría llevar a protestas y posiblemente al cierre del instituto. La transferencia de bienes podría facilitar intervenciones futuras, pero su impacto es incierto.",
-    "_id": "84c4d12362cd9d26d7f9019c6e5691ace474497b54324700d842a9028ed408ad",
-    "numero_reporte": 107,
-    "fecha": "05/03/2025",
-    "hora": "7:16",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/raul_g_prada_3.jpg?itok=zilSJEUx"
+    "probable_evolucion": "La crisis podría agravarse si no se llega a un acuerdo pronto, con un riesgo mayor de propagación de enfermedades infecciosas. La falta de diálogo y las tensiones entre las partes podrían escalar el conflicto. Se espera una mayor presión sobre las autoridades para resolver la situación.",
+    "_id": "dcbc802abe82e95026c1b851d8d67cb1398029898118415836926f38ee6c8185",
+    "numero_reporte": 161,
+    "fecha": "02/04/2025",
+    "hora": "0:42",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/6_me_1_jamessssssss.jpg?itok=AQhGON4r"
   },
   {
-    "tema": "Las fuertes lluvias en Bolivia han causado 37 muertes, numerosas familias afectadas y municipios en riesgo de desaparecer, exacerbadas por factores como la minería ilegal y la falta de planificación urbana.",
-    "categoria": "País",
+    "tema": "Estados Unidos, bajo la presidencia de Donald Trump, se prepara para implementar aranceles que podrían intensificar las guerras comerciales a nivel global.",
+    "categoria": "Mundo",
     "factor": [
       "Económico",
-      "Ambiental",
+      "Político"
+    ],
+    "lugar": "Estados Unidos, Wall Street, Europa, Brasil",
+    "departamento": null,
+    "pais": "Estados Unidos",
+    "fuentes": "AGENCIAS, The Washington Post",
+    "hecho": "El presidente de Estados Unidos, Donald Trump, planea implementar aranceles 'recíprocos' a las importaciones, denominando el día como el 'Día de la Liberación'. Se espera que los detalles de las medidas se anuncien hoy a las 16:00, hora de Washington, después del cierre de Wall Street. La Casa Blanca anticipó que se impondrán aranceles del 25% a las importaciones de automóviles y asesores han propuesto aranceles del 20% a la mayoría de los productos importados. La Unión Europea, liderada por Von der Leyen, planea responder unida y proteger sus intereses si es necesario. Estados Unidos también ha citado las políticas tributarias de Brasil sobre etanol, bebidas alcohólicas y producciones audiovisuales como justificación para los aranceles.",
+    "actores": [
+      {
+        "nombre": "Donald Trump",
+        "cargo": "Presidente de Estados Unidos"
+      },
+      {
+        "nombre": "Von der Leyen",
+        "cargo": "Representante de la UE"
+      }
+    ],
+    "probable_evolucion": "La imposición de aranceles podría desencadenar represalias por parte de la UE y otros países, intensificando las guerras comerciales globales. Esto podría afectar negativamente a las empresas, los consumidores y los inversores, así como a las relaciones comerciales internacionales. Se espera una mayor volatilidad en los mercados financieros.",
+    "_id": "5dfbd91a1181c4bea8cf11fa7bdea46b8b992f6c8e91ea40be67557dfb5a5ae8",
+    "numero_reporte": 160,
+    "fecha": "02/04/2025",
+    "hora": "0:36",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/8_mu_1_walterpackcom.jpg?itok=zWacKnmO"
+  },
+  {
+    "tema": "El número de fallecidos por el terremoto en Birmania asciende a 2.719, según la junta militar, mientras que el Gobierno de Unidad Nacional reporta 8.5 millones de personas afectadas.",
+    "categoria": "Mundo",
+    "factor": [
+      "Militar",
       "Psicosocial"
     ],
     "lugar": [
-      "Bolivia",
-      "Bolívar",
-      "Cochabamba",
-      "Bajo Llojeta",
+      "Birmania",
+      "centro-norte",
+      "Naipyidó",
+      "Mandalay"
+    ],
+    "departamento": null,
+    "pais": "Birmania",
+    "fuentes": [
+      "AGENCIAS",
+      "Zaw Min Tun (portavoz del régimen)",
+      "Servicio de Bomberos"
+    ],
+    "hecho": "El 2 de abril de 2025, la junta militar de Birmania informó que el número de fallecidos por el terremoto de magnitud 7.7 que sacudió el centro-norte del país el viernes ascendió a 2.719, con 4.521 heridos. El portavoz del régimen, Zaw Min Tun, confirmó la cifra oficial. El Gobierno de Unidad Nacional (NUG) prodemocrático reportó que 8,5 millones de personas se han visto directamente afectadas. El Servicio de Bomberos rescató a una mujer de unos sesenta años en Naipyidó que estuvo atrapada durante 91 horas entre los escombros. Adicionalmente, un sismo de magnitud 5.0 golpeó cerca de la ciudad de Mandalay.",
+    "actores": [
+      {
+        "nombre": "Zaw Min Tun",
+        "cargo": "Portavoz del régimen"
+      }
+    ],
+    "probable_evolucion": "Es probable que la situación humanitaria se deteriore a medida que aumentan los números de víctimas y la población afectada.  La respuesta a la emergencia podría verse obstaculizada por la inestabilidad política entre la junta militar y el Gobierno de Unidad Nacional.  La falta de coordinación podría agravar la crisis.",
+    "_id": "271cb482422ba343e1701902914bc778dac2a8b6f30206d59b0ebfb38e44d369",
+    "numero_reporte": 159,
+    "fecha": "02/04/2025",
+    "hora": "0:38",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/2/8_mu_2_gnlmcommm.jpg?itok=QSyAKS1c"
+  },
+  {
+    "tema": "Los ministros de Relaciones Exteriores de China y Rusia acordaron fortalecer las relaciones bilaterales y la cooperación, comprometiéndose a salvaguardar el orden internacional.",
+    "categoria": "Mundo",
+    "factor": [
+      "Político",
+      "Económico",
+      "Militar"
+    ],
+    "lugar": "Moscú",
+    "departamento": null,
+    "pais": "Rusia",
+    "fuentes": "Xinhua",
+    "hecho": "El ministro de Relaciones Exteriores de China, Wang Yi, y su homólogo ruso, Sergey Lavrov, se reunieron en Moscú para discutir el fortalecimiento de las relaciones bilaterales y la cooperación en diversos ámbitos. Acordaron impulsar el desarrollo de las relaciones bilaterales y la cooperación en todos los ámbitos, en línea con el consenso alcanzado por los presidentes Xi Jinping y Vladimir Putin. Wang Yi destacó la importancia de la comunicación estratégica entre los dos líderes y la necesidad de profundizar la coordinación estratégica integral. Ambas partes expresaron su compromiso de salvaguardar los resultados de la Segunda Guerra Mundial y de promover un mundo multipolar y una mayor democracia en las relaciones internacionales. Se acordó fortalecer la coordinación entre las dos cancillerías, prepararse para intercambios en todos los niveles, profundizar la cooperación práctica y consolidar la base material de las relaciones bilaterales. Rusia apoya la postura de China en la cuestión de Taiwán.",
+    "actores": [
+      {
+        "nombre": "Wang Yi",
+        "cargo": "Ministro de Relaciones Exteriores de China, miembro del Buró Político del Comité Central del Partido Comunista de China"
+      },
+      {
+        "nombre": "Sergey Lavrov",
+        "cargo": "Ministro de Relaciones Exteriores de Rusia"
+      },
+      {
+        "nombre": "Xi Jinping",
+        "cargo": "Presidente de China"
+      },
+      {
+        "nombre": "Vladimir Putin",
+        "cargo": "Presidente de Rusia"
+      }
+    ],
+    "probable_evolucion": "Se espera un aumento en la cooperación bilateral en diversos sectores, incluyendo economía y posiblemente defensa.  La alianza podría influir en la dinámica geopolítica global, especialmente en relación a la ONU y temas de seguridad. Las tensiones con otros países podrían intensificarse debido al alineamiento estratégico entre China y Rusia.",
+    "_id": "7e88c27d178cc295b802cfc05c66d8b8539275fcff056fb95e8c22aede6f81e7",
+    "numero_reporte": 158,
+    "fecha": "01/04/2025",
+    "hora": "21:43",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/ruso_y_chino_0.jpg?itok=vb2Qa09J"
+  },
+  {
+    "tema": "El senador demócrata Cory Booker rompe el récord del discurso más largo en el Senado de Estados Unidos, criticando las políticas del presidente Donald Trump.",
+    "categoria": "Mundo",
+    "factor": [
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "Senado de Estados Unidos",
+    "departamento": null,
+    "pais": "Estados Unidos",
+    "fuentes": [
+      "Deutsche Welle"
+    ],
+    "hecho": "El senador demócrata Cory Booker pronunció un discurso de 25 horas y 5 minutos en el Senado de Estados Unidos, superando el récord anterior. El discurso se centró en criticar las acciones del presidente Donald Trump, a quien acusó de acciones inconstitucionales y de poner en peligro la democracia estadounidense. Booker arremetió contra las políticas de recorte de gastos de Trump y mencionó cómo estas políticas afectaban a los estadounidenses. El discurso, aunque no impidió las votaciones del Senado, sirvió para inspirar a la oposición demócrata.",
+    "actores": [
+      {
+        "nombre": "Cory Booker",
+        "cargo": "Senador demócrata"
+      },
+      {
+        "nombre": "Donald Trump",
+        "cargo": "Presidente de Estados Unidos"
+      },
+      {
+        "nombre": "Elon Musk",
+        "cargo": "Principal asesor de Trump"
+      }
+    ],
+    "probable_evolucion": "El discurso de Booker podría intensificar la oposición demócrata a las políticas de Trump.  Es probable que aumente la tensión política entre demócratas y republicanos.  La popularidad de Booker podría aumentar dentro del partido demócrata.",
+    "_id": "506f22977bef58e3f038c0ffcb6b2ae2f69a9d30b969de427c6ccd95605c7d88",
+    "numero_reporte": 157,
+    "fecha": "01/04/2025",
+    "hora": "23:00",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/cory_0.jpg?itok=YItnu612"
+  },
+  {
+    "tema": "El Tribunal Supremo Electoral (TSE) otorgó ocho días a los partidos políticos FPV y PAN-BOL para defender su personería jurídica debido a una denuncia por no alcanzar el porcentaje mínimo de votos en las elecciones de 2020.",
+    "categoria": "País",
+    "factor": [
+      "Político"
+    ],
+    "lugar": "Bolivia",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "URGENTEBO, TSE",
+    "hecho": "El Tribunal Supremo Electoral (TSE) ha abierto un plazo probatorio de ocho días hábiles para que los partidos políticos Frente Para la Victoria (FPV) y Partido de Acción Nacional Boliviano (PAN-BOL) presenten pruebas en defensa de su personería jurídica. Esta acción es el resultado de una denuncia presentada por Peter Erlwein Beckhauser, quien alegó que ambos partidos no obtuvieron al menos el 3% de los votos válidos en las elecciones generales de 2020, incumpliendo el artículo 58 de la Ley 1096 de Organizaciones Políticas. El TSE admitió la denuncia el 13 de marzo y ahora requiere que tanto los partidos como el denunciante presenten pruebas. El FPV busca participar con Evo Morales en las próximas elecciones y PAN-BOL tiene como líder a Luis Revilla, quien públicamente apoya al precandidato Samuel Doria Medina.",
+    "actores": [
+      {
+        "nombre": "Evo Morales",
+        "cargo": "Representante del FPV"
+      },
+      {
+        "nombre": "Luis Revilla",
+        "cargo": "Líder de PAN-BOL"
+      },
+      {
+        "nombre": "Samuel Doria Medina",
+        "cargo": "Precandidato presidencial (apoyado por Luis Revilla)"
+      },
+      {
+        "nombre": "Peter Erlwein Beckhauser",
+        "cargo": "Ciudadano denunciante"
+      }
+    ],
+    "probable_evolucion": "La falta de pruebas o la desestimación de las presentadas por FPV y PAN-BOL podría llevar a la cancelación de su personería jurídica, impidiéndoles participar en futuras elecciones. Esto podría afectar el panorama político, especialmente considerando las aspiraciones de Evo Morales y la postura de PAN-BOL. La decisión del TSE podría influir en alianzas políticas y el apoyo electoral.",
+    "_id": "90f9bfcf7baff32727bee925f0796ca3575cf753f1cb2841334dcf7fba2c97cf",
+    "numero_reporte": 156,
+    "fecha": "01/04/2025",
+    "hora": "20:02",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/ocho_dias.jpg?itok=kKYYtZQf"
+  },
+  {
+    "tema": "El Hotel Radisson Bolivia renueva su contrato y asegura su permanencia en el país hasta el 2033, desmintiendo rumores de salida.",
+    "categoria": "Economía",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "Bolivia",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "Unitel, José María Reyes (Gerente de Radisson Bolivia)",
+    "hecho": "El Hotel Radisson Bolivia, a través de su gerente José María Reyes, desmiente los rumores sobre su salida del país y confirma la renovación de su contrato hasta el año 2033.  La renovación del contrato fue firmada en 2023. Reyes atribuye los rumores a la adquisición de Radisson América por parte de la cadena Choice de Estados Unidos en 2022, lo cual provocó un periodo de compatibilidad de sistemas informáticos que afectó la visualización de la presencia de la marca en algunos países.",
+    "actores": [
+      {
+        "nombre": "José María Reyes",
+        "cargo": "Gerente de Radisson Bolivia"
+      }
+    ],
+    "probable_evolucion": "La renovación del contrato por un periodo extendido refuerza la confianza en la economía boliviana y la inversión extranjera.  Podría generar una mayor estabilidad en el sector hotelero y turístico.  Es probable que la cadena Radisson continúe operando sin mayores cambios hasta el 2033.",
+    "_id": "05d4466eaec707bb7815e3915c164b259e4df253175d2f826f037a70b1d59c95",
+    "numero_reporte": 155,
+    "fecha": "01/04/2025",
+    "hora": "20:23",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/radisson_ed_ok.jpg?itok=JiAhFtpk"
+  },
+  {
+    "tema": "El gobierno de Bolivia solicita Bs 722 millones para atender los desastres causados por las inundaciones, afectando a cientos de municipios y familias.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "Bolivia",
+    "departamento": [
       "La Paz",
-      "Tipuani",
-      "Guanay",
-      "Teoponte",
-      "Guatayos",
+      "Cochabamba",
+      "Oruro",
+      "Potosí",
+      "Pando",
+      "Beni",
+      "Santa Cruz",
       "Chuquisaca",
       "Tarija"
     ],
-    "departamento": [
-      "Cochabamba",
-      "La Paz"
-    ],
     "pais": "Bolivia",
     "fuentes": [
-      "Tatiana Castro E.",
-      "Juan Carlos Calvimontes",
-      "Servicio Nacional de Meteorología e Hidrología (Senamhi)",
-      "Solangel Murillo Garzón",
-      "Carmen Rosa Quispe"
+      "OXÍGENO",
+      "David Guachalla",
+      "Yamil Flores"
     ],
-    "hecho": "En Bolivia, en los últimos cuatro meses, las intensas lluvias han provocado la muerte de 37 personas y la desaparición de seis más, actualmente en búsqueda.  Ocho de los nueve departamentos del país se han visto afectados, con 95 municipios golpeados por daños a cultivos, viviendas y víctimas. 34 municipios han declarado estado de desastre debido a la sobrecarga de sus capacidades de respuesta.  El viceministro de Defensa, Juan Carlos Calvimontes, reportó 161.125 familias afectadas, 1.684 comunidades perjudicadas, 1.056 viviendas dañadas y 379 completamente destruidas (319 en La Paz).  Todo el país está en alerta hasta el 14 de marzo por el aumento del caudal de los ríos. El departamento de La Paz es el más afectado, con 25 municipios en desastre, incluyendo Tipuani, Guanay y Teoponte en riesgo de desaparición.  En Tipuani, la situación se agrava por desbordes de ríos y sedimentos de la actividad minera.  La falta de planificación urbana, deforestación, minería ilegal, y los efectos del cambio climático (lluvias intensas y sequías) son factores que exacerban los desastres.  En Tipuani, operan al menos 10 cooperativas mineras que infringen regulaciones ambientales.",
+    "hecho": "En Bolivia, 217 municipios se encuentran afectados por inundaciones, con 136 declarados en emergencia o desastre debido a las intensas lluvias. Más de 452 mil familias se han visto perjudicadas, y miles de hectáreas de cultivos se encuentran anegadas. El gobierno requiere 722 millones de bolivianos para atender la situación. El viceministro de Planificación y Coordinación, David Guachalla, instó a la Asamblea Legislativa a aprobar créditos, incluyendo uno de 75 millones de dólares aprobado previamente. Los departamentos más afectados son La Paz, Cochabamba, Oruro, Potosí, Pando, Beni, Santa Cruz, Chuquisaca y Tarija. Se están solicitando dos créditos por 350 millones de dólares (250 millones del BID y 100 millones de JICA). El ministro de Desarrollo Rural y Tierras, Yamil Flores, informó que las lluvias han afectado el 3.5% de las hectáreas de cultivos.",
     "actores": [
       {
-        "nombre": "Juan Carlos Calvimontes",
-        "cargo": "Viceministro de Defensa"
+        "nombre": "David Guachalla",
+        "cargo": "Viceministro de Planificación y Coordinación"
       },
       {
-        "nombre": "Solangel Murillo Garzón",
-        "cargo": "Geóloga experta en gestión de riesgos de desastres"
-      },
-      {
-        "nombre": "Carmen Rosa Quispe",
-        "cargo": "Secretaria Municipal de Medio Ambiente de Tipuani"
+        "nombre": "Yamil Flores",
+        "cargo": "Ministro de Desarrollo Rural y Tierras"
       }
     ],
-    "probable_evolucion": "Se espera un aumento en las pérdidas humanas y materiales si las lluvias continúan.  La situación podría escalar a una crisis humanitaria si los municipios más afectados no reciben suficiente apoyo.  La inacción ante la minería ilegal y la falta de planificación urbana agravarán la vulnerabilidad a futuros desastres.",
-    "_id": "1f34f8c9f0aa94d98cd158b7ed941c8dbdcfbe0d5534b66ae60e1430a87926a2",
-    "numero_reporte": 106,
-    "fecha": "05/03/2025",
-    "hora": "6:42",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/mazamorra_2.jpg?itok=P-NLxIlv"
+    "probable_evolucion": "La falta de aprobación de los créditos por la Asamblea Legislativa podría agravar la situación de emergencia. La escasez de recursos económicos podría afectar la atención a las familias damnificadas y el sector agrícola.  El gobierno podría verse en la necesidad de buscar financiamiento alternativo o reducir sus planes de apoyo.",
+    "_id": "129221e6869aa84ad0a1298793deca086e986f2d8a58e5996a83e9c3315ed47c",
+    "numero_reporte": 154,
+    "fecha": "01/04/2025",
+    "hora": "21:02",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/inundacion_en_reyes_0.jpg?itok=xcknl2y6"
   },
   {
-    "tema": "Un aumento significativo de accidentes de tránsito durante el Carnaval, principalmente en Potosí, ha resultado en la muerte de 127 personas.",
-    "categoria": "País",
+    "tema": "YPFB negocia con empresas internacionales para la inversión privada en el campo hidrocarburífero Mayaya en Bolivia.",
+    "categoria": "Economía",
     "factor": [
-      "Psicosocial",
+      "Económico",
       "Político"
     ],
-    "lugar": [
-      "Potosí",
-      "Oruro",
-      "Leñas",
-      "Yocalla",
-      "Pisiga",
-      "Uyuni",
-      "El Campanario",
-      "Sucre",
-      "Santa Cruz",
-      "La Paz"
+    "lugar": "Campo Mayaya",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "ERBOL, Armin Dorgathen",
+    "hecho": "El presidente de YPFB, Armin Dorgathen, informó sobre negociaciones con empresas internacionales interesadas en invertir en el campo hidrocarburífero Mayaya. Empresas como Repsol, Petrobras y Fluxus, que ya operan en Bolivia, han mostrado interés y solicitado más información. Las negociaciones se llevan a cabo bajo la Ley de Hidrocarburos vigente, dado que la Asamblea Legislativa no apoya las reformas legales propuestas para incentivar la participación privada en el sector.",
+    "actores": [
+      {
+        "nombre": "Armin Dorgathen",
+        "cargo": "Presidente de YPFB"
+      },
+      {
+        "nombre": "Repsol",
+        "cargo": "Empresa"
+      },
+      {
+        "nombre": "Petrobras",
+        "cargo": "Empresa"
+      },
+      {
+        "nombre": "Fluxus",
+        "cargo": "Empresa"
+      }
     ],
-    "departamento": [
-      "Potosí",
-      "Oruro",
-      "Sucre"
+    "probable_evolucion": "La entrada de inversión privada podría impulsar la producción de hidrocarburos en el campo Mayaya.  Las negociaciones podrían ser lentas, dependiendo de las condiciones y el marco legal.  La falta de apoyo legislativo podría limitar la flexibilidad de las negociaciones.",
+    "_id": "8407c0643f20a54bff3dba63291f14a6355f6a7706fe7df89a7550f03b1a3046",
+    "numero_reporte": 153,
+    "fecha": "01/04/2025",
+    "hora": "18:38",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/campo_mayaya.jpg?itok=h0PQrZ8C"
+  },
+  {
+    "tema": "YPFB, Grupo Matrix Energía y Total Energies inician el tránsito de gas argentino a Brasil a través de la infraestructura boliviana.",
+    "categoria": "Economía",
+    "factor": [
+      "Económico",
+      "Político"
     ],
+    "lugar": "Bolivia",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Armin Dorgathen Tapia (presidente de YPFB), Oscar Claros Dulón (gerente de Contratos de Exportación de Gas Natural de YPFB)",
+    "hecho": "El 1 de abril de 2025, YPFB, el Grupo Matrix Energía de Brasil y Total Energies iniciaron la operación de tránsito de gas natural argentino hacia Brasil a través de la infraestructura de transporte boliviana. Se espera un volumen inicial de hasta 4.5 millones de metros cúbicos.  Esta operación se basa en un contrato operativo internacional firmado en noviembre del año anterior. YPFB actúa como Agregador y Transportador Internacional, facultado por el Decreto Supremo 5206 de agosto de 2024. El proyecto busca integrar la región energéticamente, utilizando el Sistema Integrado de Transporte (SIT) de Bolivia, conectando centros de producción de gas en Argentina con centros de consumo en Brasil. La operación se considera eficiente y una solución comercial para el gas producido en Vaca Muerta.",
+    "actores": [
+      {
+        "nombre": "Armin Dorgathen Tapia",
+        "cargo": "Presidente de YPFB"
+      },
+      {
+        "nombre": "Oscar Claros Dulón",
+        "cargo": "Gerente de Contratos de Exportación de Gas Natural de YPFB"
+      }
+    ],
+    "probable_evolucion": "El éxito de esta operación podría fortalecer la posición de Bolivia como un centro clave para la integración energética regional.  Se espera un aumento en el volumen de gas transportado y una mayor colaboración entre los países involucrados.  Esto podría conducir a nuevas inversiones en infraestructura y a una mayor estabilidad en el suministro de gas en la región.",
+    "_id": "7a6d70230c695613adc681566d1aee57a014deb0f81c7e7b100932773cb0a3a0",
+    "numero_reporte": 152,
+    "fecha": "01/04/2025",
+    "hora": "19:56",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/ypfb_edificio.jpg?itok=Te42ui5Z"
+  },
+  {
+    "tema": "El secretario ejecutivo de la COB, Juan Carlos Huarachi, anuncia el fin de su liderazgo y la convocatoria a un congreso para la renovación de la directiva.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Económico"
+    ],
+    "lugar": null,
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "ERBOL",
+    "hecho": "Juan Carlos Huarachi, secretario ejecutivo de la Central Obrera Boliviana (COB), anunció el fin de su liderazgo y la realización de un congreso para renovar la directiva. Esta declaración se produce tras la demanda de cambio de la directiva por parte de la Federación Sindical de Trabajadores Mineros de Bolivia (Fstmb). Huarachi, quien fue elegido en 2018 y cuyo mandato fue extendido, reconoció que su ciclo ha concluido. La Federación de Mineros, con una nueva directiva, ha adoptado una postura de independencia partidaria, cuestionando la representatividad de Huarachi. Huarachi mencionó la importancia de respetar los estatutos y destacó logros durante su gestión, como la aprobación de decretos y leyes, así como enfrentar el 'golpe de Estado', la pandemia y dificultades económicas. Se convocará un ampliado de la COB para definir la fecha del congreso.",
+    "actores": [
+      {
+        "nombre": "Juan Carlos Huarachi",
+        "cargo": "Secretario Ejecutivo de la COB"
+      },
+      {
+        "nombre": null,
+        "cargo": "Directiva de la Federación Sindical de Trabajadores Mineros de Bolivia (Fstmb)"
+      }
+    ],
+    "probable_evolucion": "La convocatoria al congreso de la COB podría generar tensiones internas y reconfigurar la estructura de poder sindical. El cambio en la dirección podría influir en las relaciones políticas y las negociaciones laborales.  La nueva directiva podría afectar la postura política del sindicato.",
+    "_id": "c06a035c6e4e23a1f72b3e30e97db8b2456e4b9348e1545a4d48e1fd84ebc9ba",
+    "numero_reporte": 151,
+    "fecha": "01/04/2025",
+    "hora": "18:02",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/huarachi_de_la_cob.jpg?itok=393WQPS2"
+  },
+  {
+    "tema": "El economista Jaime Dunn anuncia su candidatura a la presidencia de Bolivia en las próximas elecciones generales.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "Bolivia",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": [
+      "VISIÓN 360",
+      "RED UNO",
+      "Jaime Dunn"
+    ],
+    "hecho": "Jaime Dunn, economista y ex operador bursátil, anunció su candidatura a la presidencia de Bolivia en las elecciones generales. Dunn confirmó su decisión utilizando una metáfora sobre la necesidad de 'conseguir boleto' y 'vehículo' para la campaña, refiriéndose a la búsqueda de una sigla política.  Previamente, Dunn había expresado su interés en postularse, criticando la situación de la oposición y el 'bloque de unidad'.  Dunn está involucrado en el proyecto Bolivia 360 y tiene su propio programa de gobierno que aborda temas económicos, sociales, políticos, institucionales, de comercio exterior, relaciones internacionales, defensa y seguridad. Dunn es Magíster de la Universidad Católica Boliviana y Harvard, con experiencia en la Bolsa de Valores de Nueva York, y coautor de la Ley de Mercado de Valores de Bolivia.",
+    "actores": [
+      {
+        "nombre": "Jaime Dunn",
+        "cargo": "Precandidato a la presidencia"
+      },
+      {
+        "nombre": "Marcelo Claure",
+        "cargo": "Empresario, Proyecto Bolivia 360"
+      }
+    ],
+    "probable_evolucion": "La candidatura de Dunn podría polarizar el panorama político boliviano, especialmente si logra consolidar una plataforma alternativa a los bloques existentes. Su éxito dependerá de su capacidad para asegurar el apoyo de una sigla y comunicar efectivamente sus propuestas a la población.  La participación de Dunn podría influir en el debate sobre temas económicos y sociales, y su propuesta podría desplazar a algunos votantes.",
+    "_id": "7cb611ee4187a37efae61bc966edfdb435952d549aeb176355303e394b84cdfb",
+    "numero_reporte": 150,
+    "fecha": "01/04/2025",
+    "hora": "17:15",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/dunn_icam.jpg?itok=oKm99qba"
+  },
+  {
+    "tema": "Alicorp implementó una estrategia de marketing para apoyar a los maestros salteñeros en Bolivia durante el Día del Padre, utilizando embalajes especiales para impulsar las ventas de salteñas.",
+    "categoria": "Economía",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "eje troncal, principales ciudades",
+    "departamento": null,
     "pais": "Bolivia",
     "fuentes": [
       "Redacción Central",
-      "Ministerio Público",
-      "Azucena Fuertes",
-      "Luis Arce",
-      "Limberth Choque"
+      "Bernardo Inarra"
     ],
-    "hecho": "Durante el periodo de Carnaval (enero a marzo de 2025), se registraron múltiples accidentes de tránsito en Bolivia, con un saldo de 127 personas fallecidas y decenas de heridos. Las principales causas identificadas son el exceso de velocidad, la imprudencia, el consumo de alcohol y la precaria señalización de las rutas. Los accidentes más graves ocurrieron en Potosí, incluyendo el accidente de Leñas (Oruro-Potosí) con 31 muertos, Yocalla con 28 muertos y el choque en la ruta hacia Uyuni con 37 muertos, involucrando incluso ciudadanos peruanos y una turista alemana. Las investigaciones del Ministerio Público revelaron que uno de los conductores no tenía licencia y otro conducía bajo influencia del alcohol. Se reportaron fallas en la capacidad de respuesta del departamento de Potosí ante la magnitud de los accidentes, como la falta de médicos forenses y la saturación de la morgue, lo que dificultó la identificación de las víctimas y el proceso de duelo para las familias. El gobierno, a través del presidente Luis Arce, expresó su pesar y solicitó una investigación urgente. La Policía Departamental de Potosí anunció el reforzamiento de los controles en las carreteras, con enfoque en la detección de conductores bajo efectos del alcohol.",
+    "hecho": "Alicorp, a través de su marca de manteca Gordito, implementó una estrategia de marketing dirigida a los maestros salteñeros en Bolivia con motivo del Día del Padre. La estrategia consistió en proporcionar embalajes y presentaciones especiales con dedicatorias para papá, con el objetivo de impulsar las ventas de salteñas. Se estima que las ventas de los maestros salteñeros se incrementan significativamente en esta fecha, llegando a comercializar entre 3,000 y 4,000 salteñas en comparación con las 700-800 vendidas en un día normal. Bernardo Inarra, gerente de Negocio B2B y Materias Primas de Alicorp, destacó el apoyo de la empresa a este sector económico.  Además, se menciona la importancia de los maestros salteñeros como custodios de la tradición gastronómica, quienes innovan en la elaboración de diferentes tipos de salteñas. Alicorp opera en Bolivia ofreciendo productos B2B como manteca Gordito y productos de consumo masivo. Alicorp es una empresa con operaciones en varios países.",
     "actores": [
       {
-        "nombre": "Grover P. M.",
-        "cargo": "Conductor de vagoneta"
+        "cargo": "Gerente de Negocio B2B y Materias Primas",
+        "nombre": "Bernardo Inarra",
+        "organizacion": "Alicorp"
       },
       {
-        "nombre": "Azucena Fuertes",
-        "cargo": "Asambleísta Departamental"
-      },
-      {
-        "nombre": "Luis Arce",
-        "cargo": "Presidente"
-      },
-      {
-        "nombre": "Limberth Choque",
-        "cargo": "Vocero del Comando Departamental de la Policía"
+        "cargo": "Maestros Salteñeros",
+        "nombre": "N/A",
+        "organizacion": "Emprendimientos"
       }
     ],
-    "probable_evolucion": "Se espera un aumento en los controles policiales, pero la falta de infraestructura y recursos podría limitar la efectividad.  La situación podría generar críticas a la gestión gubernamental y la necesidad de inversiones en seguridad vial.  El luto y el dolor podrían causar un impacto psicosocial prolongado en la región.",
-    "_id": "6c86f6a6f4fc5d1978760d636e9ed068dbfbd724f46e3a7e73b17ebde2ec7c91",
-    "numero_reporte": 105,
-    "fecha": "05/03/2025",
-    "hora": "6:53",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/5/3_p_1_rrss.jpg?itok=9IEph6pg"
+    "probable_evolucion": "La iniciativa de Alicorp podría fortalecer la lealtad del cliente hacia las marcas de la empresa y aumentar sus ventas en el mercado boliviano.  Podría inspirar a otras empresas a apoyar emprendimientos locales. A largo plazo, se podría observar un crecimiento en el sector de la gastronomía local.",
+    "_id": "f1dd02fead02e8b5977bb3d8b30edc8745b3ebd5f7ab048d4fc75f9296b779b3",
+    "numero_reporte": 149,
+    "fecha": "01/04/2025",
+    "hora": "17:22",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/saltenas_ed_listo.jpg?itok=u9mQvUEJ"
   },
   {
-    "tema": "El grupo Nansana Kids de Uganda visitó el complejo arqueológico de Tiwanaku en Bolivia, participando en una ofrenda a la Pachamama como parte de su recorrido turístico y cultural por el país.",
+    "tema": "La Armada Boliviana despliega recursos para asistir a la población afectada por inundaciones en municipios de Santa Cruz.",
     "categoria": "País",
     "factor": [
-      "Psicosocial",
-      "Económico",
-      "Cultural"
-    ],
-    "lugar": "Tiwanaku",
-    "departamento": "La Paz",
-    "pais": "Bolivia",
-    "fuentes": "ABI",
-    "hecho": "El grupo de danza Nansana Kids, proveniente de Uganda, realizó una visita al complejo arqueológico de Tiwanaku en Bolivia el 4 de marzo de 2025, participando en una ofrenda a la Pachamama en el Templo de Kalasasaya. Fueron recibidos por autoridades locales, comunarios y amautas. Realizaron un recorrido por el sitio, incluyendo la Puerta del Sol, la Pirámide de Akapana y los Monolitos, con explicaciones sobre la civilización tiwanakota. Esta visita forma parte de un recorrido más amplio por Bolivia, que incluyó el Salar de Uyuni, el Carnaval de Oruro, la ciudad de Sucre, Huatajata y una reunión con el presidente Luis Arce, el 27 de febrero. El objetivo de su visita es promocionar la cultura y el turismo nacional boliviano.",
-    "actores": [
-      {
-        "nombre": "Nansana Kids",
-        "cargo": "Grupo de danza"
-      },
-      {
-        "nombre": "Luis Arce",
-        "cargo": "Presidente de Bolivia"
-      },
-      {
-        "nombre": "Autoridades locales",
-        "cargo": "Autoridades"
-      },
-      {
-        "nombre": "Comunarios",
-        "cargo": "Miembros de la comunidad"
-      },
-      {
-        "nombre": "Amautas",
-        "cargo": "Guías espirituales"
-      }
-    ],
-    "probable_evolucion": "La visita de Nansana Kids podría aumentar el interés turístico en Bolivia, especialmente en lugares como Tiwanaku y otros destinos visitados. La promoción de la cultura boliviana a través de las redes sociales del grupo podría generar un impacto positivo en la imagen del país. Este evento refuerza la importancia del turismo cultural y la colaboración internacional en la promoción del patrimonio boliviano.",
-    "_id": "99c773da03e740986b84969cf8857abb3069934b1cb4fcdf66cd6b254612dbb6",
-    "numero_reporte": 104,
-    "fecha": "04/03/2025",
-    "hora": "20:25",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/4/fb_img_1741133784676.jpg?itok=04vbgIIe"
-  },
-  {
-    "tema": "Una familia reclama el dedo cercenado de un joven durante el Carnaval de Oruro para cumplir con rituales religiosos.",
-    "categoria": "Seguridad",
-    "factor": [
+      "Militar",
       "Psicosocial"
     ],
-    "lugar": "Oruro",
-    "departamento": "Oruro",
+    "lugar": "Ascensión de Guarayos, El Puente",
+    "departamento": "Santa Cruz",
     "pais": "Bolivia",
-    "fuentes": "ERBOL, Aldo Morales (Fiscal departamental de Oruro)",
-    "hecho": "Durante el domingo de Carnaval en Oruro, un joven sufrió la amputación de un dedo en una gradería. Según el fiscal departamental Aldo Morales, el incidente ocurrió cuando el joven, bajo la influencia del alcohol, saltó y su anillo se enganchó, resultando en la amputación.  El joven fue atendido en un centro de salud y actualmente se encuentra estable. La madre del joven solicitó la devolución del dedo, que se encuentra formolizado, para fines religiosos, específicamente para su entierro. El fiscal Morales ha descartado la continuidad de la investigación, considerándolo un accidente fortuito.",
+    "fuentes": "Redacción Central",
+    "hecho": "La Armada Boliviana ha desplegado efectivos navales y embarcaciones del Área Naval No.2 'Santa Cruz de la Sierra' y del Batallón de Policía Militar Naval No. 3 'CC. Calamani' en respuesta a las inundaciones causadas por fuertes lluvias en los municipios de Ascensión de Guarayos y El Puente, Santa Cruz. Las acciones incluyen reconocimiento de la zona, traslado de personal, rastrillaje y coordinación con autoridades locales. El objetivo principal es la evacuación de familias afectadas, el rescate de pertenencias y ganado, y brindar asistencia a la población vulnerable.",
     "actores": [
       {
-        "nombre": "Aldo Morales",
-        "cargo": "Fiscal departamental de Oruro"
-      },
-      {
-        "nombre": "Joven (No identificado)",
-        "cargo": "Víctima"
-      },
-      {
-        "nombre": "Madre (No identificada)",
-        "cargo": "Familiar"
+        "actor": "Comando General de la Armada Boliviana",
+        "cargo": "Desplegó efectivos y recursos"
       }
     ],
-    "probable_evolucion": "Es probable que el dedo sea entregado a la familia para su entierro. El incidente no tendrá mayores repercusiones legales.  El evento podría generar debate sobre la seguridad en eventos masivos y el consumo de alcohol.",
-    "_id": "8ce1ba1bb07c9eb9f5a4dcbb47eb6e838b8a49a9c3ea8e1827e3ac40f48b7ebe",
-    "numero_reporte": 103,
-    "fecha": "04/03/2025",
-    "hora": "20:45",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/3/4/fb_img_1741133784676_1.jpg?itok=7tF7tsHq"
+    "probable_evolucion": "Se espera que la asistencia de la Armada continúe mientras persistan las condiciones climáticas adversas. La coordinación con las autoridades locales será crucial para la efectividad de las operaciones de rescate y ayuda humanitaria. Es posible que se requieran recursos adicionales si las inundaciones se agravan.",
+    "_id": "50f4911aec5a46170d1fc44a264e932cae87daef27ef4f7e4cd1c803c98441c6",
+    "numero_reporte": 148,
+    "fecha": "01/04/2025",
+    "hora": "17:53",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/guarayos_ed_listo.jpg?itok=fGxn4_BS"
+  },
+  {
+    "tema": "Alicorp promociona las pastas Don Vittorio en Bolivia, enfocándose en la preparación casera para celebrar a los padres.",
+    "categoria": "Economía",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "Bolivia",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Gabriela de Rada (Gerente de Marketing de Alicorp en Bolivia)",
+    "hecho": "Alicorp, a través de su marca Don Vittorio, lanzó una campaña en Bolivia promoviendo la preparación de comidas caseras para celebrar a los padres. La campaña busca fomentar la unión familiar en la cocina, destacando la facilidad y calidad de las pastas Don Vittorio. La gerente de marketing de Alicorp en Bolivia, Gabriela de Rada, enfatizó la importancia de la comida como un momento para compartir y expresar afecto.  Se menciona que Don Vittorio está hecha con la mejor selección de trigos, no se pegan y quedan siempre perfectos. Se proporciona información sobre la presencia de Alicorp en Bolivia y sus otras marcas como Regia, Fino, Sabrosa y Sao.",
+    "actores": [
+      {
+        "nombre": "Gabriela de Rada",
+        "cargo": "Gerente de Marketing de Alicorp en Bolivia"
+      }
+    ],
+    "probable_evolucion": "La campaña de Alicorp podría aumentar las ventas de pastas Don Vittorio en Bolivia.  Se espera un fortalecimiento de la imagen de la marca y un aumento en el consumo de productos alimenticios de la empresa.  La estrategia de marketing podría inspirar a otras empresas a seguir tendencias similares enfocadas en la unión familiar.",
+    "_id": "c7877b06932d64bb966ce21d96565d2fb0c1abd6ae9dbca6bdb7775d7aa10c75",
+    "numero_reporte": 147,
+    "fecha": "01/04/2025",
+    "hora": "17:09",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/1/tallarin_ed_listo.jpg?itok=8woHQWRV"
   }
 ]

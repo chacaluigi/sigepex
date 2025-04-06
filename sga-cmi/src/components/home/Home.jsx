@@ -29,14 +29,14 @@ const Home = () => {
           <div className="dashboard-icon">
             <i className="bx bx-search-alt"></i>
           </div>
-          <div className="dashboard-text">Definición de Palabras Clave</div>
+          <div className="dashboard-text">Criterios de Búsqueda</div>
         </a>
 
         <a href="/" className="dashboard-item">
           <div className="dashboard-icon">
             <i className="bx bxs-analyse"></i>
           </div>
-          <div className="dashboard-text">Ejecución de Proceso</div>
+          <div className="dashboard-text">Análisis de Datos</div>
         </a>
 
         <a href="/" className="dashboard-item">

@@ -8,7 +8,6 @@ import { ToastChakra } from '../../helpers/toast';
 import { login, setSede } from '../../features/authSlice';
 import bgGradient from '../../assets/img/gradient-bg.svg';
 import logo2 from '../../assets/img/logo.png';
-import HeaderTopBar from './HeaderTopBar';
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -63,7 +62,6 @@ const Login = () => {
 
   return (
     <>
-      <HeaderTopBar />
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
