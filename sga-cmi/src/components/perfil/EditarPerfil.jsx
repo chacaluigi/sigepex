@@ -44,7 +44,7 @@ const EditarPerfil = ({ userData }) => {
 
   useEffect(() => {
     if (!user) {
-      navigate('/login');
+      navigate('/uee');
     }
 
     dispatch(getUsuario(userData.id)).then(res => {

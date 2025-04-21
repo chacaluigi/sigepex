@@ -11,8 +11,7 @@ const ReportSchema = Schema(
     departamento: [String],
     pais: [String],
     fuentes: [String],
-    fecha: String,
-    hora: String,
+    fechaHora: { type: Date, required: true },
     hecho: String,
     actores: [
       {
@@ -22,6 +21,11 @@ const ReportSchema = Schema(
     ],
     probable_evolucion: String,
     image: String,
+    solicitud: {
+      type: Schema.Types.ObjectId,
+      ref: "Solicitud",
+      required: false,
+    },
   },
   { collection: "reports", timestamps: true, versionKey: false }
 );

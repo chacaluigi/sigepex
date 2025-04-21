@@ -3,6 +3,7 @@ import reportService from '../services/report.service';
 
 const initialState = {
   reports: [],
+  reportsBySolicitud: [], // Nuevo campo
   report: null,
   isLoading: false,
   isSuccess: false,
@@ -86,6 +87,23 @@ export const deleteReport = createAsyncThunk(
   }
 );
 
+// Nueva acción asíncrona
+export const getReportsBySolicitud = createAsyncThunk(
+  'reports/getBySolicitud',
+  async (_, thunkAPI) => {
+    try {
+      const token = thunkAPI.getState().auth.user.token;
+      return await reportService.getReportsBySolicitud(token);
+    } catch (error) {
+      const message =
+        (error.response && error.response.data && error.response.data.msg) ||
+        error.message ||
+        error.toString();
+      return thunkAPI.rejectWithValue(message);
+    }
+  }
+);
+
 const reportSlice = createSlice({
   name: 'reports',
   initialState,
@@ -143,6 +161,19 @@ const reportSlice = createSlice({
         state.reports = state.reports.filter(
           report => report._id !== action.payload
         );
+      })
+      .addCase(getReportsBySolicitud.pending, state => {
+        state.isLoading = true;
+      })
+      .addCase(getReportsBySolicitud.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.isSuccess = true;
+        state.reportsBySolicitud = action.payload.reports;
+      })
+      .addCase(getReportsBySolicitud.rejected, (state, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.message = action.payload;
       });
   },
 });

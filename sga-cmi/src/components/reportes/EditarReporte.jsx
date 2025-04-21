@@ -55,7 +55,7 @@ const EditarReporte = () => {
   }
 
   const columns = [
-    {
+    /* {
       name: 'FECHA',
       selector: row => row.fecha,
       center: true,
@@ -70,7 +70,7 @@ const EditarReporte = () => {
       width: '120px',
       center: true,
       cellExport: row => row.hora, // ✅ Se agrega exportación
-    },
+    }, */
     {
       name: 'NRO.',
       selector: row => row.numero_reporte,

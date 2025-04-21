@@ -115,6 +115,29 @@ const downloadImage = async (req, res) => {
   }
 };
 
+// 📌 Obtener reportes agrupados por solicitud
+const getReportsBySolicitud = async (req, res = response) => {
+  try {
+    const reports = await Report.find({
+      solicitud: { $exists: true, $ne: null },
+    })
+      .populate("solicitud", "titulo palabrasClave rangoFechaHora")
+      .sort({ fechaHora: -1 })
+      .lean();
+
+    res.json({
+      ok: true,
+      reports,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      ok: false,
+      msg: "Error al obtener los reportes por solicitud",
+    });
+  }
+};
+
 module.exports = {
   getCurrentReportCount,
   reportExists,
@@ -124,4 +147,5 @@ module.exports = {
   updateReport,
   deleteReport,
   downloadImage,
+  getReportsBySolicitud,
 };

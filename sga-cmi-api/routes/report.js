@@ -6,6 +6,7 @@ const {
   updateReport,
   deleteReport,
   downloadImage,
+  getReportsBySolicitud,
 } = require("../controllers/report.js");
 
 const router = Router();
@@ -16,5 +17,7 @@ router.get("/reports", getReports); // Obtener todos los reportes
 router.put("/reports/:id", updateReport); // Modificar un reporte
 router.delete("/reports/:id", deleteReport); // Eliminar un reporte
 router.get("/proxy-image", downloadImage);
+// Añadir nueva ruta
+router.get("/reports/by-solicitud", getReportsBySolicitud);
 
 module.exports = router;

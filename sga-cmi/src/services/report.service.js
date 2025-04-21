@@ -101,12 +101,27 @@ const deleteReport = async (id, token) => {
   }
 };
 
+// Obtener reportes agrupados por solicitud
+const getReportsBySolicitud = async token => {
+  try {
+    const response = await axios.get(
+      `${baseURL}/reports/by-solicitud`,
+      config(token)
+    );
+    return response.data;
+  } catch (error) {
+    console.error('Error obteniendo reportes por solicitud:', error);
+    throw error.response?.data?.msg || error.message || 'Error desconocido';
+  }
+};
+
 const reportService = {
   getReports,
   getReport,
   createReport,
   updateReport,
   deleteReport,
+  getReportsBySolicitud,
 };
 
 export default reportService;

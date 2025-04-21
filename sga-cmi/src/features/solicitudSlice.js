@@ -37,21 +37,21 @@ export const getSolicitudes = createAsyncThunk(
 
 export const actualizarSolicitud = createAsyncThunk(
   'solicitudes/update',
-  async ({ id, ...solicitudData }, thunkAPI) => {
+  async ({ id, solicitudData }, thunkAPI) => {
     try {
+      const token = thunkAPI.getState().auth.user.token;
       const response = await solicitudService.actualizarSolicitud(
         id,
-        solicitudData
+        solicitudData,
+        token
       );
-      return response.data;
+
+      // Actualización optimista
+      thunkAPI.dispatch(updateSolicitudOptimista(response.solicitud));
+
+      return response.solicitud;
     } catch (error) {
-      const message =
-        (error.response &&
-          error.response.data &&
-          error.response.data.message) ||
-        error.message ||
-        error.toString();
-      return thunkAPI.rejectWithValue(message);
+      return thunkAPI.rejectWithValue(error.message);
     }
   }
 );
@@ -96,16 +96,20 @@ const solicitudSlice = createSlice({
         state.isError = true;
         state.message = action.payload;
       })
+      .addCase(actualizarSolicitud.pending, state => {
+        state.isLoading = true;
+        state.isError = false;
+        state.message = '';
+      })
       .addCase(actualizarSolicitud.fulfilled, (state, action) => {
-        if (action.payload && action.payload._id) {
-          state.solicitudes = state.solicitudes.map(solicitud =>
-            solicitud._id === action.payload._id
-              ? { ...solicitud, ...action.payload }
-              : solicitud
-          );
-        }
+        state.isLoading = false;
+        state.isSuccess = true;
+        state.solicitudes = state.solicitudes.map(solicitud =>
+          solicitud._id === action.payload._id ? action.payload : solicitud
+        );
       })
       .addCase(actualizarSolicitud.rejected, (state, action) => {
+        state.isLoading = false;
         state.isError = true;
         state.message = action.payload;
       })

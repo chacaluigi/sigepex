@@ -18,19 +18,42 @@ const getSolicitudes = async (page = 1, perPage = 10) => {
   return response.data;
 };
 
-const actualizarSolicitud = async (id, solicitudData) => {
+const actualizarSolicitud = async (id, solicitudData, token) => {
   try {
+    // Función para convertir a ISO string solo si es una fecha válida
+    const toSafeISOString = date => {
+      if (!date) return undefined;
+      const d = new Date(date);
+      return isNaN(d.getTime()) ? undefined : d.toISOString();
+    };
+
+    const dataToSend = {
+      ...solicitudData,
+      rangoFechaHora: solicitudData.rangoFechaHora
+        ? {
+            inicio: toSafeISOString(solicitudData.rangoFechaHora.inicio),
+            fin: toSafeISOString(solicitudData.rangoFechaHora.fin),
+          }
+        : undefined,
+    };
+
     const response = await axios.put(
       `${baseURL}/solicitudes/${id}`,
-      solicitudData
+      dataToSend,
+      config(token)
     );
+
     return response.data;
   } catch (error) {
-    // Mejor manejo de errores
-    console.error('Error en actualizarSolicitud:', error);
-    throw error; // Esto permitirá que el slice capture el error
+    const errorMessage =
+      error.response?.data?.msg ||
+      error.response?.data?.message ||
+      error.message ||
+      'Error al actualizar la solicitud';
+    throw new Error(errorMessage);
   }
 };
+
 const createSolicitud = async (solicitud, token) => {
   console.log('Enviando solicitud:', solicitud); // Depuración
   try {

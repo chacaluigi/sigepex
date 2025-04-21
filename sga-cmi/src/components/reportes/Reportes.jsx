@@ -4,23 +4,26 @@ import {
   Heading,
   Stack,
   Text,
-  Icon,
   useColorModeValue,
   Badge,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
 } from '@chakra-ui/react';
 import DataTable from 'react-data-table-component';
 import DataTableExtensions from 'react-data-table-component-extensions';
 import 'react-data-table-component-extensions/dist/index.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { getReports, reset } from '../../features/reportSlice';
-import { ToastChakra } from '../../helpers/toast';
 import {
-  FiChevronLeft,
-  FiChevronRight,
-  FiChevronsLeft,
-  FiChevronsRight,
-} from 'react-icons/fi';
+  getReports,
+  getReportsBySolicitud,
+  reset,
+} from '../../features/reportSlice';
+import { getSolicitudes } from '../../features/solicitudSlice';
+import { ToastChakra } from '../../helpers/toast';
 import { customStyles } from '../../helpers/customStyles';
 import { Loading } from '../../helpers/Loading';
 import { ModalEditarReporte } from './ModalEditarReporte';
@@ -35,82 +38,78 @@ const Reportes = () => {
   const themeTable = useColorModeValue('default', 'solarized');
 
   const { user } = useSelector(state => state.auth);
-  const { reports, isLoading, isError, message, currentPage, totalRows } =
-    useSelector(state => state.reports);
+  const {
+    reports,
+    reportsBySolicitud,
+    isLoading,
+    isError,
+    message,
+    currentPage,
+    totalRows,
+  } = useSelector(state => state.reports);
+
+  const { solicitudes } = useSelector(state => state.solicitudes);
 
   const [perPage, setPerPage] = useState(40);
   const [page, setPage] = useState(1);
+  const [viewMode, setViewMode] = useState('bySolicitud'); // 'all' or 'bySolicitud'
 
   useEffect(() => {
     if (!user) {
       navigate('/login');
     }
+
+    // Cargar datos iniciales
     dispatch(getReports({ page: currentPage, perPage }));
+    dispatch(getSolicitudes());
 
     return () => {
       dispatch(reset());
     };
-  }, [user, navigate, dispatch, currentPage, perPage]);
+  }, [user, navigate, dispatch]);
+
+  useEffect(() => {
+    if (viewMode === 'bySolicitud') {
+      dispatch(getReportsBySolicitud());
+    }
+  }, [viewMode, dispatch]);
 
   if (isError) {
     ToastChakra('Error', message, 'error', 1500);
     console.error(message);
   }
 
-  // Función para convertir fecha y hora del reporte a objeto Date
-  const parseFechaHoraReporte = (fechaStr, horaStr) => {
-    try {
-      if (!fechaStr || !horaStr) return new Date(0);
-
-      const [dia, mes, anio] = fechaStr.split('/').map(Number);
-      const [horas, minutos] = horaStr.includes(':')
-        ? horaStr.split(':').map(Number)
-        : [0, 0]; // Manejo básico si no tiene formato HH:mm
-
-      return new Date(anio, mes - 1, dia, horas, minutos);
-    } catch (error) {
-      console.error('Error parseando fecha/hora del reporte:', error);
-      return new Date(0);
-    }
-  };
-
   // Función para formatear fecha y hora
   const formatDateTime = (dateString, fechaReporte, horaReporte) => {
     try {
-      // Priorizar la fecha/hora del reporte si existe
-      if (fechaReporte && horaReporte) {
-        const date = parseFechaHoraReporte(fechaReporte, horaReporte);
-        return {
-          date: fechaReporte, // Mantener formato original dd/MM/yyyy
-          time: horaReporte, // Mantener formato original HH:mm
-          fullDate: format(date, "dd 'de' MMMM 'de' yyyy", { locale: es }),
-          fullDateTime: format(date, "dd 'de' MMMM 'de' yyyy 'a las' HH:mm", {
-            locale: es,
-          }),
-          timestamp: date.getTime(),
-        };
-      }
+      let date;
 
-      // Si no hay fecha/hora de reporte, usar createdAt
-      if (dateString) {
-        const date = parseISO(dateString);
+      if (fechaReporte && horaReporte) {
+        const [dia, mes, anio] = fechaReporte.split('/').map(Number);
+        const [horas, minutos] = horaReporte.includes(':')
+          ? horaReporte.split(':').map(Number)
+          : [0, 0];
+        date = new Date(anio, mes - 1, dia, horas, minutos);
+      } else if (dateString) {
+        date = parseISO(dateString);
+      } else {
         return {
-          date: format(date, 'dd/MM/yyyy', { locale: es }),
-          time: format(date, 'HH:mm', { locale: es }),
-          fullDate: format(date, "dd 'de' MMMM 'de' yyyy", { locale: es }),
-          fullDateTime: format(date, "dd 'de' MMMM 'de' yyyy 'a las' HH:mm", {
-            locale: es,
-          }),
-          timestamp: date.getTime(),
+          date: '--/--/----',
+          time: '--:--',
+          fullDate: 'Fecha inválida',
+          fullDateTime: 'Fecha y hora inválidas',
+          timestamp: 0,
         };
       }
 
       return {
-        date: '--/--/----',
-        time: '--:--',
-        fullDate: 'Fecha inválida',
-        fullDateTime: 'Fecha y hora inválidas',
-        timestamp: 0,
+        date: format(date, 'dd/MM/yyyy', { locale: es }),
+        time: format(date, 'HH:mm', { locale: es }),
+        fullDate: format(date, "dd 'de' MMMM 'de' yyyy", { locale: es }),
+        fullDateTime: format(date, "dd 'de' MMMM 'de' yyyy 'a las' HH:mm", {
+          locale: es,
+        }),
+        timestamp: date.getTime(),
       };
     } catch (error) {
       console.error('Error formateando fecha:', error);
@@ -126,8 +125,8 @@ const Reportes = () => {
 
   const columns = [
     {
-      name: 'FECHA CREACIÓN',
-      selector: row => formatDateTime(row.createdAt).date,
+      name: 'FECHA',
+      selector: row => formatDateTime(row.createdAt, row.fecha, row.hora).date,
       sortable: true,
       center: true,
       width: '100px',
@@ -139,10 +138,9 @@ const Reportes = () => {
           py={1}
           borderRadius="md"
         >
-          {formatDateTime(row.createdAt).date}
+          {formatDateTime(row.createdAt, row.fecha, row.hora).date}
         </Badge>
       ),
-      cellExport: row => formatDateTime(row.createdAt).date,
     },
     {
       name: 'NRO.',
@@ -150,13 +148,11 @@ const Reportes = () => {
       sortable: true,
       width: '80px',
       center: true,
-      cellExport: row => row.numero_reporte,
     },
     {
       name: 'TEMA',
       selector: row => row.tema,
       sortable: true,
-      cellExport: row => row.tema,
       minWidth: '200px',
     },
     {
@@ -165,8 +161,6 @@ const Reportes = () => {
       sortable: false,
       center: true,
       width: '180px',
-      cellExport: row =>
-        Array.isArray(row.factor) ? row.factor.join(', ') : '',
     },
     {
       name: 'ACCIONES',
@@ -193,22 +187,14 @@ const Reportes = () => {
     dispatch(getReports({ page: 1, perPage: newPerPage }));
   };
 
-  // Ordenar los datos por fecha/hora del reporte antes de pasarlos a la tabla
-  const sortedReports =
-    reports?.reports?.slice().sort((a, b) => {
-      const dateA = parseFechaHoraReporte(a.fecha, a.hora);
-      const dateB = parseFechaHoraReporte(b.fecha, b.hora);
-      return dateB - dateA; // Orden descendente
-    }) || [];
+  const toggleViewMode = () => {
+    setViewMode(viewMode === 'all' ? 'bySolicitud' : 'all');
+  };
 
+  // Datos para la tabla normal
   const tableData = {
-    columns: columns,
-    data: sortedReports.map(report => ({
-      ...report,
-      fechaHoraReporte: formatDateTime(null, report.fecha, report.hora)
-        .fullDateTime,
-      fechaCreacionFormatted: formatDateTime(report.createdAt).date,
-    })),
+    columns,
+    data: reports?.reports || [],
   };
 
   if (isLoading) {
@@ -225,35 +211,30 @@ const Reportes = () => {
         px={0}
       >
         <Heading size="lg">Reportes</Heading>
+        <Badge
+          colorScheme={viewMode === 'all' ? 'blue' : 'green'}
+          cursor="pointer"
+          onClick={toggleViewMode}
+          px={3}
+          py={1}
+          borderRadius="md"
+        >
+          {viewMode === 'all' ? 'Ver por solicitud' : 'Ver todos'}
+        </Badge>
       </Stack>
-      <Box
-        borderRadius="2xl"
-        borderTop={'2px'}
-        borderTopColor={'primary.100'}
-        overflow="hidden"
-        boxShadow={'base'}
-        bg="white"
-        _dark={{ bg: 'primary.1000' }}
-        mt={2}
-        pt={2}
-        sx={{
-          select: {
-            backgroundColor: 'primary.1000',
-            color: 'white',
-            borderColor: 'blue.700',
-            borderRadius: 'md',
-            _hover: {
-              backgroundColor: 'primary.1200',
-            },
-            _focus: {
-              borderColor: 'blue.800',
-            },
-          },
-        }}
-      >
-        {isLoading ? (
-          <Loading />
-        ) : (
+      {}
+      {viewMode === 'all' ? (
+        <Box
+          borderRadius="2xl"
+          borderTop={'2px'}
+          borderTopColor={'primary.100'}
+          overflow="hidden"
+          boxShadow={'base'}
+          bg="white"
+          _dark={{ bg: 'primary.1000' }}
+          mt={2}
+          pt={2}
+        >
           <DataTableExtensions
             {...tableData}
             exportHeaders={true}
@@ -262,7 +243,7 @@ const Reportes = () => {
             fileName={`REPORTES_${format(new Date(), 'yyyy-MM-dd')}`}
           >
             <DataTable
-              defaultSortField="FECHA/HORA REPORTE"
+              defaultSortField="createdAt"
               defaultSortAsc={false}
               pagination
               paginationServer
@@ -271,44 +252,9 @@ const Reportes = () => {
               paginationDefaultPage={page}
               onChangePage={handlePageChange}
               onChangeRowsPerPage={handleRowsPerPageChange}
-              paginationRowsPerPageOptions={[5, 10, 15, 20, 25, 30, 50]}
-              paginationComponentOptions={{
-                rowsPerPageText: 'Filas por página:',
-                rangeSeparatorText: 'de',
-                noRowsPerPage: false,
-                selectAllRowsItem: true,
-                selectAllRowsItemText: 'Todos',
-              }}
-              paginationIconFirstPage={
-                <Icon
-                  as={FiChevronsLeft}
-                  boxSize={6}
-                  _dark={{ color: 'gray.300', _hover: { color: 'white' } }}
-                />
-              }
-              paginationIconLastPage={
-                <Icon
-                  as={FiChevronsRight}
-                  boxSize={6}
-                  _dark={{ color: 'gray.300', _hover: { color: 'white' } }}
-                />
-              }
-              paginationIconPrevious={
-                <Icon
-                  as={FiChevronLeft}
-                  boxSize={6}
-                  _dark={{ color: 'gray.300', _hover: { color: 'white' } }}
-                />
-              }
-              paginationIconNext={
-                <Icon
-                  as={FiChevronRight}
-                  boxSize={6}
-                  _dark={{ color: 'gray.300', _hover: { color: 'white' } }}
-                />
-              }
-              theme={themeTable}
+              paginationRowsPerPageOptions={[10, 20, 30, 40, 50]}
               customStyles={customStyles}
+              theme={themeTable}
               pointerOnHover
               responsive
               noDataComponent={
@@ -318,8 +264,93 @@ const Reportes = () => {
               }
             />
           </DataTableExtensions>
-        )}
-      </Box>
+        </Box>
+      ) : (
+        <Box
+          borderRadius="2xl"
+          borderTop={'2px'}
+          borderTopColor={'primary.100'}
+          overflow="hidden"
+          boxShadow={'base'}
+          bg="white"
+          _dark={{
+            bg: 'primary.1000',
+            borderTopColor: 'primary.800',
+          }}
+          mt={2}
+          p={4}
+        >
+          <Accordion allowMultiple>
+            {reportsBySolicitud
+              ?.reduce((acc, report) => {
+                if (!report.solicitud) return acc;
+
+                const existingIndex = acc.findIndex(
+                  item => item.solicitudId === report.solicitud._id.toString()
+                );
+
+                if (existingIndex >= 0) {
+                  acc[existingIndex].reports.push(report);
+                } else {
+                  acc.push({
+                    solicitudId: report.solicitud._id.toString(),
+                    solicitudTitle: report.solicitud.titulo,
+                    reports: [report],
+                  });
+                }
+                return acc;
+              }, [])
+              .map(group => (
+                <AccordionItem
+                  key={group.solicitudId}
+                  mb={3}
+                  border="1px"
+                  borderColor="gray.200"
+                  _dark={{ borderColor: 'gray.700' }}
+                  borderRadius="lg"
+                >
+                  <AccordionButton
+                    _hover={{ bg: 'gray.50' }}
+                    _dark={{
+                      _hover: { bg: 'primary.900' },
+                      bg: 'primary.900',
+                    }}
+                  >
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      color="gray.800"
+                      _dark={{ color: 'white' }}
+                    >
+                      {group.solicitudTitle} ({group.reports.length} reportes)
+                    </Box>
+                    <AccordionIcon
+                      color="gray.600"
+                      _dark={{ color: 'gray.300' }}
+                    />
+                  </AccordionButton>
+                  <AccordionPanel
+                    pb={4}
+                    bg="white"
+                    _dark={{ bg: 'primary.800' }}
+                  >
+                    <DataTable
+                      columns={columns}
+                      data={group.reports}
+                      customStyles={customStyles}
+                      theme={themeTable} // Asegúrate de pasar themeTable
+                      noDataComponent={
+                        <Text color="gray.600" _dark={{ color: 'gray.300' }}>
+                          No hay reportes para esta solicitud
+                        </Text>
+                      }
+                    />
+                  </AccordionPanel>
+                </AccordionItem>
+              ))}
+          </Accordion>
+        </Box>
+      )}
     </>
   );
 };

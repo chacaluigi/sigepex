@@ -87,7 +87,7 @@ export default function Proceso() {
           }, 500);
         }
       }
-    }, 800); // Se actualiza cada 0.8 segundos
+    }, 1500); // Se actualiza cada 0.8 segundos
   };
 
   // Función auxiliar para obtener el siguiente paso
@@ -169,7 +169,7 @@ export default function Proceso() {
           justifyContent="center"
         >
           <Icon as={FiPlay} mr={3} color="blue.500" />
-          Proceso Automatizado de Análisis
+          Análisis de Datos
         </Heading>
         <Text fontSize="lg" color="gray.500">
           Ejecuta el proceso completo de extracción, limpieza, análisis y

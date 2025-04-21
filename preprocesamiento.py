@@ -94,3 +94,13 @@ for post in posts_list[:5]:  # Muestra de los primeros cinco posts procesados
 
 
 
+
+
+from pymongo import MongoClient
+
+client = MongoClient('mongodb://localhost:27017/')
+db = client['sigepex']
+posts = db['posts'].find()
+
+
+

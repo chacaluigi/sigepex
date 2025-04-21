@@ -3,9 +3,15 @@ const { Schema, model } = require("mongoose");
 const SolicitudSchema = Schema(
   {
     usuario: { type: Schema.Types.ObjectId, ref: "Usuario", required: false },
-    asignadoA: { type: Schema.Types.ObjectId, ref: "Usuario", required: false }, // Nuevo campo agregado
+    asignadoA: { type: Schema.Types.ObjectId, ref: "Usuario", required: false },
     titulo: { type: String, required: true },
     descripcion: { type: String, required: true },
+    palabrasClave: { type: [String], default: [] }, // Nuevo campo: conjunto de palabras clave
+    rangoFechaHora: {
+      // Nuevo campo: rango de fecha y hora
+      inicio: { type: Date },
+      fin: { type: Date },
+    },
     estado: {
       type: String,
       enum: ["Pendiente", "En Proceso", "Completado"],

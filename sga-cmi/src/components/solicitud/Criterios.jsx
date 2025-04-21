@@ -7,6 +7,8 @@ import {
   Icon,
   Badge,
   useColorModeValue,
+  Button,
+  useDisclosure,
 } from '@chakra-ui/react';
 import DataTable from 'react-data-table-component';
 import DataTableExtensions from 'react-data-table-component-extensions';
@@ -20,19 +22,23 @@ import {
   FiChevronRight,
   FiChevronsLeft,
   FiChevronsRight,
+  FiFilter,
 } from 'react-icons/fi';
 import { customStyles } from '../../helpers/customStyles';
 import { Loading } from '../../helpers/Loading';
 import ModalEditarSolicitud from './ModalEditarSolicitud';
 import ModalDetallesSolicitud from './ModalDetallesSolicitud';
+import ModalConfigurarBusqueda from './ModalConfigurarBusqueda'; // Nuevo componente
 import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { ModuleHeader } from '../global/ModuleHeader';
 
-const Solicitudes = () => {
+const Criterios = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const themeTable = useColorModeValue('default', 'solarized');
+  const { isOpen, onOpen, onClose } = useDisclosure(); // Para el modal
+  const [selectedSolicitud, setSelectedSolicitud] = useState(null); // Para almacenar la solicitud seleccionada
 
   const { user } = useSelector(state => state.auth);
   const { solicitudes, isLoading, isError, message, currentPage, totalRows } =
@@ -67,6 +73,11 @@ const Solicitudes = () => {
       default:
         return 'gray';
     }
+  };
+
+  const handleConfigurarBusqueda = solicitud => {
+    setSelectedSolicitud(solicitud);
+    onOpen();
   };
 
   const columns = [
@@ -105,18 +116,6 @@ const Solicitudes = () => {
       cellExport: row => row.estado,
     },
     {
-      name: 'USUARIO',
-      selector: row => row.usuario?.nombre || 'No asignado',
-      sortable: true,
-      cellExport: row => row.usuario?.nombre || 'No asignado',
-    },
-    {
-      name: 'ASIGNADO A',
-      selector: row => row.asignadoA?.nombre || 'No asignado',
-      sortable: true,
-      cellExport: row => row.asignadoA?.nombre || 'No asignado',
-    },
-    {
       name: 'FECHA FINALIZACIÓN',
       selector: row =>
         row.fecha_finalizacion
@@ -131,6 +130,22 @@ const Solicitudes = () => {
         row.fecha_finalizacion
           ? format(new Date(row.fecha_finalizacion), 'dd/MM/yyyy')
           : 'No completado',
+    },
+    {
+      name: 'CRITERIOS BÚSQUEDA',
+      width: '200px',
+      center: true,
+      cell: row => (
+        <Button
+          size="sm"
+          colorScheme="blue"
+          variant="outline"
+          leftIcon={<FiFilter />}
+          onClick={() => handleConfigurarBusqueda(row)}
+        >
+          Configurar
+        </Button>
+      ),
     },
     {
       name: 'ACCIONES',
@@ -166,8 +181,16 @@ const Solicitudes = () => {
     <>
       <ModuleHeader
         moduleName="Gestión de Solicitudes de Análisis"
-        submoduleName="Listar Solicitudes"
+        submoduleName="Criterios de Búsqueda"
       />
+
+      {/* Modal para configurar búsqueda */}
+      <ModalConfigurarBusqueda
+        isOpen={isOpen}
+        onClose={onClose}
+        solicitud={selectedSolicitud}
+      />
+
       <Box
         borderRadius="2xl"
         borderTop={'2px'}
@@ -267,4 +290,4 @@ const Solicitudes = () => {
   );
 };
 
-export default Solicitudes;
+export default Criterios;

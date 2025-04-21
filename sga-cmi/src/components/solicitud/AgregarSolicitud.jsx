@@ -17,6 +17,7 @@ import { createSolicitud } from '../../features/solicitudSlice';
 import { getAllUsuarios } from '../../features/usuarioSlice';
 import { ArrowBackIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { FaSave, FaTimes } from 'react-icons/fa';
+import { ModuleHeader } from '../global/ModuleHeader';
 
 const AgregarSolicitud = () => {
   const dispatch = useDispatch();
@@ -73,26 +74,10 @@ const AgregarSolicitud = () => {
 
   return (
     <>
-      <Stack
-        spacing={4}
-        direction="row"
-        justifyContent="flex-start"
-        alignItems="center"
-        py={4}
-        px={0}
-      >
-        <IconButton
-          icon={<ArrowBackIcon boxSize={8} />}
-          onClick={() => navigate(-1)}
-          aria-label="Volver"
-          variant="ghost"
-        />
-        <Heading size="md" color="gray.600">
-          Solicitud de Análisis
-        </Heading>
-        <Icon as={ChevronRightIcon} color="gray.500" boxSize={8} />
-        <Heading size="lg">Nueva Solicitud</Heading>
-      </Stack>
+      <ModuleHeader
+        moduleName="Gestión de Solicitudes de Análisis"
+        submoduleName="Nueva Solicitud"
+      />
       <form onSubmit={handleSave}>
         <Stack
           spacing={5}

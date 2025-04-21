@@ -29,6 +29,8 @@ import '../styles/globals.css';
 import SolicitudPage from '../pages/solicitud';
 import AgregarSolicitudPage from '../pages/solicitud/AgregarSolicitudPage';
 import PaginaInstitucional from '../pages/paginaInstitucional/PaginaInstitucional';
+import CriteriosPage from '../pages/definicion';
+import ListarPostsPage from '../pages/reportes/ListarPostsPage';
 
 export default function AppRouter() {
   return (
@@ -62,12 +64,20 @@ export default function AppRouter() {
           element={<AgregarSolicitudPage />}
         />
         <Route path="/:idSede/solicitud/listar" element={<SolicitudPage />} />
+        <Route
+          path="/:idSede/solicitud/criterios"
+          element={<CriteriosPage />}
+        />
+        <Route
+          path="/:idSede/solicitud/palabras"
+          element={<PalabrasClavePage />}
+        />
 
         <Route path="/:idSede/proceso" element={<ProcesoPage />} />
         <Route path="/:idSede/proceso/listar" element={<ProcesoPage />} />
         <Route path="/:idSede/proceso/iniciar" element={<ProcesoPage />} />
 
-        <Route path="/:idSede/definicion" element={<PalabrasClavePage />} />
+        <Route path="/:idSede/definicion" element={<CriteriosPage />} />
         <Route
           path="/:idSede/definicion/listar"
           element={<PalabrasClavePage />}
@@ -83,6 +93,7 @@ export default function AppRouter() {
         />
         <Route path="/:idSede/reports/editar" element={<EditarReportePage />} />
         <Route path="/:idSede/reports/listar" element={<ReportesPage />} />
+        <Route path="/:idSede/reports/posts" element={<ListarPostsPage />} />
         <Route path="/:idSede/roles" element={<RolPage />} />
         <Route path="/:idSede/modulos" element={<ModuloPage />} />
         <Route path="/select-sede" element={<SelectSede />} />

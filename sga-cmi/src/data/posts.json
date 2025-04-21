@@ -1,0 +1,441 @@
+[
+  {
+    "fuente": "Periódico La Patria (Bolivia)",
+    "contenido": "Los choferes de La Paz y del servicio de transporte interciudad declararon un cuarto intermedio en el paro indefinido que mantenían desde el martes, para evitar la promulgación de una ley que anule el incremento en el costo de pasajes.",
+    "link": "https://x.com/LaPatriaDigital/status/1910770918604800273",
+    "fecha_publicacion": { "$date": "2025-04-11T08:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoMmmuxWAAAxLps?format=jpg&name=large",
+    "cantidad_replies": 45,
+    "cantidad_likes": 120,
+    "cantidad_views": 1500
+  },
+  {
+    "fuente": "Bolivia Tv Oficial",
+    "contenido": "Transportistas de #LaPaz declaran un cuarto intermedio en sus medidas de presión, pero advierten con radicalizar las protestas si se promulga la ley que congela el pasaje en Bs 2.",
+    "link": "https://x.com/Canal_BoliviaTV/status/1910757330485911713",
+    "fecha_publicacion": { "$date": "2025-04-11T08:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoMmmuxWAAAxLps?format=jpg&name=large",
+    "cantidad_replies": 45,
+    "cantidad_likes": 120,
+    "cantidad_views": 1500
+  },
+  {
+    "fuente": "ATB",
+    "contenido": "Choferes declaran cuarto intermedio en el paro de transporte 🛑La Confederación de Choferes de Bolivia anunció un cuarto intermedio en el paro de transporte que inició este miércoles al mediodía.",
+    "link": "https://x.com/ATBDigital/status/1910757248193737137",
+    "fecha_publicacion": { "$date": "2025-04-11T08:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoMmmuxWAAAxLps?format=jpg&name=large",
+    "cantidad_replies": 45,
+    "cantidad_likes": 120,
+    "cantidad_views": 1500
+  },
+  {
+    "fuente": "Radio SPLENDID",
+    "contenido": "Choferes determinan un cuarto intermedio al paro de transporte en La Paz",
+    "link": "https://x.com/RadioSplendid/status/1910755879269388672",
+    "fecha_publicacion": { "$date": "2025-04-11T08:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoMmmuxWAAAxLps?format=jpg&name=large",
+    "cantidad_replies": 45,
+    "cantidad_likes": 120,
+    "cantidad_views": 1500
+  },
+  {
+    "fuente": "Visión 360",
+    "contenido": "Este viernes los choferes instalaron bloqueos en diferentes puntos de la urbe, en su segundo día de paro indefinido. APG ",
+    "link": "https://x.com/vision360_bo/status/1910748666672857194",
+    "fecha_publicacion": { "$date": "2025-04-11T08:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoMmmuxWAAAxLps?format=jpg&name=large",
+    "cantidad_replies": 45,
+    "cantidad_likes": 120,
+    "cantidad_views": 1500
+  },
+  {
+    "fuente": "El Potosí",
+    "contenido": "Los chóferes del transporte público sindicalizado protagonizan este viernes su segundo día de paro y bloqueos en calles, avenidas y conexiones con la ciudad de El Alto, dejando imposibilitada a la ciudadanía a transportarse.",
+    "link": "https://x.com/elpotosinet/status/1910726984964911331",
+    "fecha_publicacion": { "$date": "2025-04-11T08:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoMmmuxWAAAxLps?format=jpg&name=large",
+    "cantidad_replies": 45,
+    "cantidad_likes": 120,
+    "cantidad_views": 1500
+  },
+  {
+    "fuente": "El Diario (Bolivia)",
+    "contenido": "Gobierno anuncia diálogo con transportistas tras cuarto intermedio en protestas por aumento de pasajes.",
+    "link": "https://x.com/eldiariobo/status/1910770918604800274",
+    "fecha_publicacion": { "$date": "2025-04-11T09:15:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoNnnvyXoAAMmJp.jpg",
+    "cantidad_replies": 32,
+    "cantidad_likes": 210,
+    "cantidad_views": 3200
+  },
+  {
+    "fuente": "Red Uno Noticias",
+    "contenido": "Alcaldía de La Paz anuncia operativos de control ante posibles bloqueos de transportistas este lunes.",
+    "link": "https://x.com/redunonoticias/status/1910770918604800275",
+    "fecha_publicacion": { "$date": "2025-04-11T10:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoOooozWkAANnKq.png",
+    "cantidad_replies": 28,
+    "cantidad_likes": 150,
+    "cantidad_views": 2800
+  },
+  {
+    "fuente": "Los Tiempos",
+    "contenido": "Transportistas de Cochabamba se suman al cuarto intermedio pero mantienen vigilancia ante posible ley.",
+    "link": "https://x.com/lostiempos/status/1910770918604800276",
+    "fecha_publicacion": { "$date": "2025-04-11T11:20:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoPpppzXcAAQqLr.jpg",
+    "cantidad_replies": 41,
+    "cantidad_likes": 180,
+    "cantidad_views": 4100
+  },
+  {
+    "fuente": "Página Siete",
+    "contenido": "Comerciantes afectados por bloqueos exigen indemnización tras pérdidas económicas.",
+    "link": "https://x.com/paginasiete/status/1910770918604800277",
+    "fecha_publicacion": { "$date": "2025-04-11T12:45:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoQqqqyWwAARmMs.jpg",
+    "cantidad_replies": 56,
+    "cantidad_likes": 230,
+    "cantidad_views": 5400
+  },
+  {
+    "fuente": "Radio Fides",
+    "contenido": "Confederación de Choferes advierte con radicalizar medidas si no hay respuesta gubernamental en 48 horas.",
+    "link": "https://x.com/radiofides/status/1910770918604800278",
+    "fecha_publicacion": { "$date": "2025-04-11T13:10:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoRrrrzXkAASnNt.jpg",
+    "cantidad_replies": 39,
+    "cantidad_likes": 190,
+    "cantidad_views": 3900
+  },
+  {
+    "fuente": "Erbol Digital",
+    "contenido": "Estudiantes universitarios protestan por falta de transporte público en la sede de gobierno.",
+    "link": "https://x.com/erbol/status/1910770918604800279",
+    "fecha_publicacion": { "$date": "2025-04-11T14:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoSssszYAAAUnOu.jpg",
+    "cantidad_replies": 67,
+    "cantidad_likes": 310,
+    "cantidad_views": 6700
+  },
+  {
+    "fuente": "La Razón",
+    "contenido": "Ministro de Obras Públicas convoca a reunión urgente con líderes de transportistas.",
+    "link": "https://x.com/la_razon/status/1910770918604800280",
+    "fecha_publicacion": { "$date": "2025-04-11T15:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoTttt0W8AAVvPv.jpg",
+    "cantidad_replies": 45,
+    "cantidad_likes": 220,
+    "cantidad_views": 4500
+  },
+  {
+    "fuente": "Unitel",
+    "contenido": "Reportan desabastecimiento de productos en mercados de El Alto debido a bloqueos.",
+    "link": "https://x.com/unitelbo/status/1910770918604800281",
+    "fecha_publicacion": { "$date": "2025-04-11T16:15:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoUuuu1X0AAWwQw.jpg",
+    "cantidad_replies": 52,
+    "cantidad_likes": 240,
+    "cantidad_views": 5200
+  },
+  {
+    "fuente": "Canal 7",
+    "contenido": "Gobierno descarta congreso extraordinario y pide paciencia a transportistas.",
+    "link": "https://x.com/canal7bolivia/status/1910770918604800282",
+    "fecha_publicacion": { "$date": "2025-04-11T17:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoVvvv2YkAAXxRy.jpg",
+    "cantidad_replies": 38,
+    "cantidad_likes": 170,
+    "cantidad_views": 3800
+  },
+  {
+    "fuente": "Radio Panamericana",
+    "contenido": "Transportistas rurales anuncian que no se sumarán a protestas en ciudades capitales.",
+    "link": "https://x.com/radiopanamericana/status/1910770918604800283",
+    "fecha_publicacion": { "$date": "2025-04-11T18:45:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoWwww3ZAAAYySz.jpg",
+    "cantidad_replies": 29,
+    "cantidad_likes": 130,
+    "cantidad_views": 2900
+  },
+  {
+    "fuente": "Abya Yala TV",
+    "contenido": "Analistas políticos critican falta de estrategia del gobierno para resolver conflicto del transporte.",
+    "link": "https://x.com/abyayalatv/status/1910770918604800284",
+    "fecha_publicacion": { "$date": "2025-04-11T19:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoXxxx4aEAAZzTa.jpg",
+    "cantidad_replies": 63,
+    "cantidad_likes": 290,
+    "cantidad_views": 6300
+  },
+  {
+    "fuente": "Radio Kollasuyo",
+    "contenido": "Vecinos de la zona Sur de La Paz organizan caravanas solidarias para traslado de enfermos.",
+    "link": "https://x.com/radiokollasuyo/status/1910770918604800285",
+    "fecha_publicacion": { "$date": "2025-04-11T20:20:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoYyyy5bIAAa0Ub.jpg",
+    "cantidad_replies": 47,
+    "cantidad_likes": 260,
+    "cantidad_views": 4700
+  },
+  {
+    "fuente": "Bolivia Verifica",
+    "contenido": "Desmienten rumor sobre supuesto acuerdo entre gobierno y transportistas para aumentar pasajes.",
+    "link": "https://x.com/boliviaverifica/status/1910770918604800286",
+    "fecha_publicacion": { "$date": "2025-04-11T21:10:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoZzzz6cMAAb1Vc.jpg",
+    "cantidad_replies": 34,
+    "cantidad_likes": 200,
+    "cantidad_views": 3400
+  },
+  {
+    "fuente": "Radio Compañera",
+    "contenido": "Sindicato de maestros anuncia posible paro en apoyo a transportistas si no hay solución.",
+    "link": "https://x.com/radiocompanera/status/1910770918604800287",
+    "fecha_publicacion": { "$date": "2025-04-11T22:05:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoAAAA7dQAAc2Wd.jpg",
+    "cantidad_replies": 58,
+    "cantidad_likes": 270,
+    "cantidad_views": 5800
+  },
+  {
+    "fuente": "La Voz de El Alto",
+    "contenido": "Alcalde alteño pide calma y anuncia refuerzo de buses municipales durante conflicto.",
+    "link": "https://x.com/lavozdeelalto/status/1910770918604800288",
+    "fecha_publicacion": { "$date": "2025-04-11T23:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoBBBB8eUAAc3Xe.jpg",
+    "cantidad_replies": 42,
+    "cantidad_likes": 180,
+    "cantidad_views": 4200
+  },
+  {
+    "fuente": "Radio Metropolitana",
+    "contenido": "Empresarios del turismo reportan cancelación masiva de reservas por bloqueos.",
+    "link": "https://x.com/radiometro/status/1910770918604800289",
+    "fecha_publicacion": { "$date": "2025-04-11T23:45:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoCCCC9fVAAc4Yf.jpg",
+    "cantidad_replies": 36,
+    "cantidad_likes": 160,
+    "cantidad_views": 3600
+  },
+  {
+    "fuente": "El Deber",
+    "contenido": "Transportistas de Santa Cruz anuncian asamblea para definir posición frente a conflicto nacional.",
+    "link": "https://x.com/eldeber/status/1910770918604800290",
+    "fecha_publicacion": { "$date": "2025-04-13T00:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoDDDD9gWAAc5Zh.jpg",
+    "cantidad_replies": 51,
+    "cantidad_likes": 230,
+    "cantidad_views": 5100
+  },
+  {
+    "fuente": "Correo del Sur",
+    "contenido": "Sucre: Transporte interprovincial opera al 30% por temor a bloqueos en carreteras.",
+    "link": "https://x.com/correodelsur/status/1910770918604800291",
+    "fecha_publicacion": { "$date": "2025-04-13T01:15:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoEEEE9hXAAc6ai.jpg",
+    "cantidad_replies": 27,
+    "cantidad_likes": 140,
+    "cantidad_views": 2700
+  },
+  {
+    "fuente": "Radio Patria Nueva",
+    "contenido": "Presidente Arce anuncia comisión de alto nivel para atender demandas del sector transporte.",
+    "link": "https://x.com/radiopatrianueva/status/1910770918604800292",
+    "fecha_publicacion": { "$date": "2025-04-13T02:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoFFFF9iYAAc7bj.jpg",
+    "cantidad_replies": 73,
+    "cantidad_likes": 350,
+    "cantidad_views": 7300
+  },
+  {
+    "fuente": "Red ERBOL",
+    "contenido": "ONGs reportan vulneración de derechos humanos en controles policiales durante bloqueos.",
+    "link": "https://x.com/rederbol/status/1910770918604800293",
+    "fecha_publicacion": { "$date": "2025-04-13T03:20:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoGGGG9jZAAc8ck.jpg",
+    "cantidad_replies": 49,
+    "cantidad_likes": 210,
+    "cantidad_views": 4900
+  },{
+    "fuente": "El Diario (Bolivia)",
+    "contenido": "Gobierno anuncia diálogo con transportistas tras cuarto intermedio en protestas por aumento de pasajes.",
+    "link": "https://x.com/eldiariobo/status/1910770918604800274",
+    "fecha_publicacion": { "$date": "2025-04-11T09:15:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoNnnvyXoAAMmJp.jpg",
+    "cantidad_replies": 32,
+    "cantidad_likes": 210,
+    "cantidad_views": 3200
+  },
+  {
+    "fuente": "Red Uno Noticias",
+    "contenido": "Alcaldía de La Paz anuncia operativos de control ante posibles bloqueos de transportistas este lunes.",
+    "link": "https://x.com/redunonoticias/status/1910770918604800275",
+    "fecha_publicacion": { "$date": "2025-04-11T10:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoOooozWkAANnKq.png",
+    "cantidad_replies": 28,
+    "cantidad_likes": 150,
+    "cantidad_views": 2800
+  },
+  {
+    "fuente": "Los Tiempos",
+    "contenido": "Transportistas de Cochabamba se suman al cuarto intermedio pero mantienen vigilancia ante posible ley.",
+    "link": "https://x.com/lostiempos/status/1910770918604800276",
+    "fecha_publicacion": { "$date": "2025-04-11T11:20:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoPpppzXcAAQqLr.jpg",
+    "cantidad_replies": 41,
+    "cantidad_likes": 180,
+    "cantidad_views": 4100
+  },
+  {
+    "fuente": "Página Siete",
+    "contenido": "Comerciantes afectados por bloqueos exigen indemnización tras pérdidas económicas.",
+    "link": "https://x.com/paginasiete/status/1910770918604800277",
+    "fecha_publicacion": { "$date": "2025-04-11T12:45:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoQqqqyWwAARmMs.jpg",
+    "cantidad_replies": 56,
+    "cantidad_likes": 230,
+    "cantidad_views": 5400
+  },
+  {
+    "fuente": "Radio Fides",
+    "contenido": "Confederación de Choferes advierte con radicalizar medidas si no hay respuesta gubernamental en 48 horas.",
+    "link": "https://x.com/radiofides/status/1910770918604800278",
+    "fecha_publicacion": { "$date": "2025-04-11T13:10:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoRrrrzXkAASnNt.jpg",
+    "cantidad_replies": 39,
+    "cantidad_likes": 190,
+    "cantidad_views": 3900
+  },
+  {
+    "fuente": "Erbol Digital",
+    "contenido": "Estudiantes universitarios protestan por falta de transporte público en la sede de gobierno.",
+    "link": "https://x.com/erbol/status/1910770918604800279",
+    "fecha_publicacion": { "$date": "2025-04-11T14:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoSssszYAAAUnOu.jpg",
+    "cantidad_replies": 67,
+    "cantidad_likes": 310,
+    "cantidad_views": 6700
+  },
+  {
+    "fuente": "La Razón",
+    "contenido": "Ministro de Obras Públicas convoca a reunión urgente con líderes de transportistas.",
+    "link": "https://x.com/la_razon/status/1910770918604800280",
+    "fecha_publicacion": { "$date": "2025-04-11T15:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoTttt0W8AAVvPv.jpg",
+    "cantidad_replies": 45,
+    "cantidad_likes": 220,
+    "cantidad_views": 4500
+  },
+  {
+    "fuente": "Unitel",
+    "contenido": "Reportan desabastecimiento de productos en mercados de El Alto debido a bloqueos.",
+    "link": "https://x.com/unitelbo/status/1910770918604800281",
+    "fecha_publicacion": { "$date": "2025-04-11T16:15:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoUuuu1X0AAWwQw.jpg",
+    "cantidad_replies": 52,
+    "cantidad_likes": 240,
+    "cantidad_views": 5200
+  },
+  {
+    "fuente": "Canal 7",
+    "contenido": "Gobierno descarta congreso extraordinario y pide paciencia a transportistas.",
+    "link": "https://x.com/canal7bolivia/status/1910770918604800282",
+    "fecha_publicacion": { "$date": "2025-04-11T17:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoVvvv2YkAAXxRy.jpg",
+    "cantidad_replies": 38,
+    "cantidad_likes": 170,
+    "cantidad_views": 3800
+  },
+  {
+    "fuente": "Radio Panamericana",
+    "contenido": "Transportistas rurales anuncian que no se sumarán a protestas en ciudades capitales.",
+    "link": "https://x.com/radiopanamericana/status/1910770918604800283",
+    "fecha_publicacion": { "$date": "2025-04-11T18:45:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoWwww3ZAAAYySz.jpg",
+    "cantidad_replies": 29,
+    "cantidad_likes": 130,
+    "cantidad_views": 2900
+  },
+  {
+    "fuente": "Abya Yala TV",
+    "contenido": "Analistas políticos critican falta de estrategia del gobierno para resolver conflicto del transporte.",
+    "link": "https://x.com/abyayalatv/status/1910770918604800284",
+    "fecha_publicacion": { "$date": "2025-04-11T19:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoXxxx4aEAAZzTa.jpg",
+    "cantidad_replies": 63,
+    "cantidad_likes": 290,
+    "cantidad_views": 6300
+  },
+  {
+    "fuente": "Radio Kollasuyo",
+    "contenido": "Vecinos de la zona Sur de La Paz organizan caravanas solidarias para traslado de enfermos.",
+    "link": "https://x.com/radiokollasuyo/status/1910770918604800285",
+    "fecha_publicacion": { "$date": "2025-04-11T20:20:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoYyyy5bIAAa0Ub.jpg",
+    "cantidad_replies": 47,
+    "cantidad_likes": 260,
+    "cantidad_views": 4700
+  },
+  {
+    "fuente": "Bolivia Verifica",
+    "contenido": "Desmienten rumor sobre supuesto acuerdo entre gobierno y transportistas para aumentar pasajes.",
+    "link": "https://x.com/boliviaverifica/status/1910770918604800286",
+    "fecha_publicacion": { "$date": "2025-04-11T21:10:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoZzzz6cMAAb1Vc.jpg",
+    "cantidad_replies": 34,
+    "cantidad_likes": 200,
+    "cantidad_views": 3400
+  },
+  {
+    "fuente": "Radio Compañera",
+    "contenido": "Sindicato de maestros anuncia posible paro en apoyo a transportistas si no hay solución.",
+    "link": "https://x.com/radiocompanera/status/1910770918604800287",
+    "fecha_publicacion": { "$date": "2025-04-11T22:05:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoAAAA7dQAAc2Wd.jpg",
+    "cantidad_replies": 58,
+    "cantidad_likes": 270,
+    "cantidad_views": 5800
+  },
+  {
+    "fuente": "La Voz de El Alto",
+    "contenido": "Alcalde alteño pide calma y anuncia refuerzo de buses municipales durante conflicto.",
+    "link": "https://x.com/lavozdeelalto/status/1910770918604800288",
+    "fecha_publicacion": { "$date": "2025-04-11T23:00:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoBBBB8eUAAc3Xe.jpg",
+    "cantidad_replies": 42,
+    "cantidad_likes": 180,
+    "cantidad_views": 4200
+  },
+  {
+    "fuente": "Radio Metropolitana",
+    "contenido": "Empresarios del turismo reportan cancelación masiva de reservas por bloqueos.",
+    "link": "https://x.com/radiometro/status/1910770918604800289",
+    "fecha_publicacion": { "$date": "2025-04-11T23:45:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoCCCC9fVAAc4Yf.jpg",
+    "cantidad_replies": 36,
+    "cantidad_likes": 160,
+    "cantidad_views": 3600
+  },
+  {
+    "fuente": "El Deber",
+    "contenido": "Transportistas de Santa Cruz anuncian asamblea para definir posición frente a conflicto nacional.",
+    "link": "https://x.com/eldeber/status/1910770918604800290",
+    "fecha_publicacion": { "$date": "2025-04-13T00:30:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoDDDD9gWAAc5Zh.jpg",
+    "cantidad_replies": 51,
+    "cantidad_likes": 230,
+    "cantidad_views": 5100
+  },
+  {
+    "fuente": "Correo del Sur",
+    "contenido": "Sucre: Transporte interprovincial opera al 30% por temor a bloqueos en carreteras.",
+    "link": "https://x.com/correodelsur/status/1910770918604800291",
+    "fecha_publicacion": { "$date": "2025-04-13T01:15:00Z" },
+    "imagenes": "https://pbs.twimg.com/media/GoEEEE9hXAAc6ai.jpg",
+    "cantidad_replies": 27,
+    "cantidad_likes": 140,
+    "cantidad_views": 2700
+  }
+]
