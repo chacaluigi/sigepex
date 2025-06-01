@@ -54,6 +54,32 @@ const actualizarSolicitud = async (id, solicitudData, token) => {
   }
 };
 
+// services/solicitud.service.js
+const editarSolicitud = async (id, updateData, token) => {
+  try {
+    // Preparar datos para la petición (similar al controller)
+    const dataToSend = {
+      ...updateData,
+      // Si estado es "Completado" y no viene fecha_finalizacion, el backend la agregará
+    };
+
+    const response = await axios.put(
+      `${baseURL}/solicitudes/${id}`,
+      dataToSend,
+      config(token)
+    );
+
+    return response.data;
+  } catch (error) {
+    const errorMessage =
+      error.response?.data?.msg ||
+      error.response?.data?.message ||
+      error.message ||
+      'Error al editar la solicitud';
+    throw new Error(errorMessage);
+  }
+};
+
 const createSolicitud = async (solicitud, token) => {
   console.log('Enviando solicitud:', solicitud); // Depuración
   try {
@@ -79,6 +105,7 @@ const createSolicitud = async (solicitud, token) => {
 const solicitudService = {
   getSolicitudes,
   actualizarSolicitud,
+  editarSolicitud,
   createSolicitud,
 };
 

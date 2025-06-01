@@ -1,238 +1,1232 @@
 [
   {
-    "tema": "Una cuarta persona fue aprehendida en Tarija en relación al caso Zúñiga, mientras que una persona permanece fugitiva, según el ministro de Gobierno Eduardo del Castillo.",
-    "categoria": "País",
+    "tema": "El gobierno boliviano denuncia ocultamiento y especulación en la venta de aceite, con precios que superan el valor regulado.",
+    "categoria": "Economía",
     "factor": [
-      "Político",
-      "Judicial"
+      "Económico",
+      "Político"
     ],
-    "lugar": "Tarija, La Paz",
+    "lugar": "La Paz",
+    "departamento": "La Paz",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central",
+    "hecho": "El gobierno boliviano, a través del Ministerio de Desarrollo Productivo y Economía Plural, denuncia que los comerciantes en La Paz están vendiendo aceite a precios inflados, hasta Bs 25 por litro, cuando el precio regulado es de Bs 14. El Ministro Zenón Mamani informó que la producción nacional de aceite refinado es suficiente para abastecer el mercado interno, con una producción de 19.994 toneladas hasta abril. Se sospecha que intermediarios están ocultando el producto para especular con los precios.  Las industrias oleaginosas venden el litro por debajo del precio regulado, entre Bs 11.50 y Bs 13.40. El gobierno está ejecutando controles contra el contrabando a través del Viceministerio de Lucha Contra el Contrabando.",
+    "actores": [
+      {
+        "nombre": "Zenón Mamani",
+        "cargo": "Ministro de Desarrollo Productivo y Economía Plural"
+      }
+    ],
+    "probable_evolucion": "Es probable que el gobierno intensifique los controles para frenar la especulación y el ocultamiento de productos. Esto podría resultar en sanciones a los comerciantes que no cumplan con los precios regulados. Si la situación persiste, podría generar desabastecimiento y tensiones sociales.",
+    "_id": "c502da7d3b58aa0d21f6cc02a53630322d4080c697a039323f44b3e423a91884",
+    "numero_reporte": 350,
+    "fecha": "16/05/2025",
+    "hora": "9:11",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/2_eco_2_rochaaaaaaaaa.jpg?itok=0DuxYBrO"
+  },
+  {
+    "tema": "Vías Bolivia implementa un registro masivo para la activación del sistema de telepeaje TAG Televías en La Paz, Cochabamba y Santa Cruz.",
+    "categoria": "Economía",
+    "factor": [
+      "Económico",
+      "Político"
+    ],
+    "lugar": [
+      "La Paz",
+      "Cochabamba",
+      "Santa Cruz",
+      "El Alto",
+      "Ciudad Satélite",
+      "Tupuraya",
+      "Suticollo",
+      "Ruta norte"
+    ],
     "departamento": [
-      "Tarija",
-      "La Paz"
+      "La Paz",
+      "Cochabamba",
+      "Santa Cruz"
     ],
-    "pais": "Bolivia",
-    "fuentes": [
-      "Unitel",
-      "Eduardo del Castillo (Ministro de Gobierno)"
-    ],
-    "hecho": "El ministro de Gobierno, Eduardo del Castillo, informó sobre la aprehensión de una cuarta persona en Tarija en relación al caso Zúñiga. Esta aprehensión se suma a las tres ya realizadas, quienes se encuentran en el departamento de La Paz. El Ministerio Público emitió cinco mandamientos de aprehensión. El ministro confirmó que una persona se encuentra fugitiva de la justicia boliviana y se espera su captura en las próximas horas. La identidad del aprehendido en Tarija se dará a conocer el sábado.",
-    "actores": [
-      {
-        "nombre": "Eduardo del Castillo",
-        "cargo": "Ministro de Gobierno"
-      }
-    ],
-    "probable_evolucion": "La búsqueda del fugitivo continuará y se espera que su captura sea inminente. El caso Zúñiga podría generar mayor inestabilidad política y atención mediática. Se anticipa un proceso judicial que determinará el futuro de los involucrados.",
-    "_id": "b368f800390ecabd2cd2ea45cccde2468eac56638f03d6e7975b601c1e29a90c",
-    "numero_reporte": 270,
-    "fecha": "12/04/2025",
-    "hora": "12:15",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/12/eduardo_del_castillo.jpg?itok=9AV6ZtPA"
-  },
-  {
-    "tema": "Más de 200 ciclistas participaron en el 'Desafío Tunari', una carrera organizada por el Gobierno Autónomo Municipal de Cochabamba con fines deportivos, turísticos, ambientales y solidarios.",
-    "categoria": "Cochabamba",
-    "factor": [
-      "Psicosocial",
-      "Económico"
-    ],
-    "lugar": "Parque Nacional Tunari",
-    "departamento": "Cochabamba",
-    "pais": "Bolivia",
-    "fuentes": "Redacción Central, Carola Loma (Directora de Deportes)",
-    "hecho": "El 12 de abril de 2025, se llevó a cabo la carrera 'Desafío Tunari' en el Parque Nacional Tunari, Cochabamba, Bolivia. Participaron más de 200 ciclistas de diferentes departamentos del país. La competencia fue organizada por el Gobierno Autónomo Municipal de Cochabamba (GAMC) con el objetivo de fomentar el deporte, promover el turismo sostenible y fortalecer la conciencia ambiental. La carrera contó con dos rutas principales (10K y 23K) y diversas categorías para damas y varones. Los recursos recaudados se destinaron al 'Refugio Ladridos'.",
-    "actores": [
-      {
-        "nombre": "Carola Loma",
-        "cargo": "Directora de Deportes"
-      },
-      {
-        "nombre": "Gobierno Autónomo Municipal de Cochabamba (GAMC)",
-        "cargo": "Organizador"
-      }
-    ],
-    "probable_evolucion": "Se espera que el evento continúe creciendo y fortaleciendo la conciencia ambiental y el turismo en la región. La participación podría aumentar en futuras ediciones, atrayendo a más ciclistas y generando mayores ingresos para el refugio y la economía local. Se podría observar un mayor interés en la preservación del Parque Tunari.",
-    "_id": "50387a53d766343c60e7ff74694baebd9220cebd3eb3c7b9ea416e3aa8cca692",
-    "numero_reporte": 269,
-    "fecha": "12/04/2025",
-    "hora": "11:54",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/12/ciclistas_ed_ok.jpg?itok=2uOntE-t"
-  },
-  {
-    "tema": "El Concejo Municipal de Cochabamba realizó una sesión simbólica con niños concejales en el Día del Niño para abordar problemáticas infantiles y aprobar una resolución municipal.",
-    "categoria": "Cochabamba",
-    "factor": [
-      "Político",
-      "Psicosocial"
-    ],
-    "lugar": "Cochabamba",
-    "departamento": "Cochabamba",
     "pais": "Bolivia",
     "fuentes": "Redacción Central",
-    "hecho": "En el marco de la celebración del Día del Niño Boliviano, el 12 de abril de 2025, el Concejo Municipal de Cochabamba llevó a cabo una sesión especial con niños concejales. La iniciativa fue organizada por la Comisión Especial de la Mujer Niñez y Adolescencia, con el apoyo del Consejo Consultivo de Niños, Niñas y Adolescentes del programa Tejiendo Redes Seguras – Educo y el Comité Municipal de la Niñez y Adolescencia. Durante la sesión, 11 niños concejales y un Oficial Mayor Legislativo (12 en total) analizaron problemáticas que les afectan y aprobaron una Resolución Municipal institucionalizando la actividad 'SESIÓN ESPECIAL DE CONCEJALITOS EN EL CONCEJO MUNICIPAL DE COCHABAMBA', que se realizará cada 12 de abril. Se abordaron temas como la prevención de la violencia y la difusión de los derechos de los niños. Participaron autoridades municipales, incluyendo el presidente del Concejo Municipal, Diego Murillo, y la concejal Marilyn Rivera, presidente de la Comisión Especial de la Mujer, Niñez y Adolescencia. La sesión estuvo presidida por Cristhian Misto Quispe.",
+    "hecho": "Vías Bolivia inició el registro masivo de usuarios para el sistema de telepeaje TAG Televías en La Paz, Cochabamba y Santa Cruz. El registro se lleva a cabo en puntos estratégicos como la Oficina Nacional de Vías Bolivia en La Paz, la avenida General Galindo y Melgarejo en Cochabamba, y la regional Santa Cruz en el Segundo Anillo. El proyecto, desarrollado por Vías Bolivia, responde a la directiva del presidente Luis Arce Catacora para una gestión de cobro más eficiente, segura y transparente. Los requisitos para el registro incluyen la presencia del vehículo, cédula de identidad y NIT (para empresas e instituciones).",
     "actores": [
       {
-        "actor": "Diego Murillo",
-        "cargo": "Presidente del Concejo Municipal"
+        "nombre": "Germán Veliz",
+        "cargo": "Director ejecutivo de Vías Bolivia",
+        "rol": "Anuncia e implementa el sistema de telepeaje"
       },
       {
-        "actor": "Marilyn Rivera",
-        "cargo": "Presidente de la Comisión Especial de la Mujer, Niñez y Adolescencia"
-      },
-      {
-        "actor": "Cristhian Misto Quispe",
-        "cargo": "Presidente de la sesión especial de concejalitos"
+        "nombre": "Luis Arce Catacora",
+        "cargo": "Presidente",
+        "rol": "Promueve la implementación del sistema de telepeaje"
       }
     ],
-    "probable_evolucion": "Se espera que esta iniciativa impulse la participación infantil en la vida política local y fortalezca la atención a las problemáticas de la niñez. La institucionalización de la sesión podría conducir a una mayor visibilidad de los temas infantiles y a la implementación de políticas públicas enfocadas en este sector. Podría generar un impacto positivo en la comunidad al aumentar la conciencia sobre los derechos y necesidades de los niños.",
-    "_id": "5944b0852922db481ddab596a7eed5085398f1f4e4db762ab582bde4e5917f05",
-    "numero_reporte": 268,
-    "fecha": "12/04/2025",
-    "hora": "12:53",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/12/concejalitos_ninos_ed_ed_ok.jpg?itok=RdMOm4ra"
+    "probable_evolucion": "La implementación del telepeaje podría mejorar la eficiencia en el cobro de peajes y agilizar el tráfico en las estaciones. Se espera una mayor adopción del sistema a medida que se completa el registro masivo. Esto podría generar cambios en la infraestructura vial y en la experiencia de los usuarios.",
+    "_id": "f83f0b218ee1bb2ef637d6dbc1e7c185fde98b9653fd62020f1db8ea9b8ab335",
+    "numero_reporte": 349,
+    "fecha": "16/05/2025",
+    "hora": "9:13",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/2_eco_3_vias_bolivia_0.jpg?itok=IyJCuELw"
   },
   {
-    "tema": "El Concejo Municipal de Cochabamba reconoció a 20 niños destacados en diversas categorías en el marco de la Ley Municipal N° 1286/2023.",
-    "categoria": "Cochabamba",
+    "tema": "China se convierte en el principal socio comercial de Bolivia, con un crecimiento significativo en el intercambio y nuevas oportunidades de cooperación.",
+    "categoria": "Economía",
     "factor": [
-      "Psicosocial"
-    ],
-    "lugar": "Casona Santivañez",
-    "departamento": "Cochabamba",
-    "pais": "Bolivia",
-    "fuentes": "Redacción Central",
-    "hecho": "El 12 de abril de 2025, el Concejo Municipal de Cochabamba llevó a cabo un acto de reconocimiento a 20 niños destacados en diversas categorías, incluyendo excelencia estudiantil, cultura, deporte, niños con discapacidad y talento extraordinario. La selección fue difícil debido a la gran cantidad de postulantes (más de 60). Se destacaron las trayectorias, el esfuerzo y el talento de los niños. Estefano Borda Tapia, de 12 años, fue reconocido por su talento como guitarrista. El evento contó con la participación de la presidente de la Comisión Especial de la Mujer, Niñez y Adolescencia, Marilyn Rivera, quien destacó la calidad de los niños. El presidente del Concejo Municipal, Diego Murillo, clausuró el acto, enfatizando el compromiso del municipio con los niños y la importancia de este reconocimiento como incentivo para la superación.",
-    "actores": [
-      {
-        "nombre": "Marilyn Rivera",
-        "cargo": "Presidente de la Comisión Especial de la Mujer, Niñez y Adolescencia"
-      },
-      {
-        "nombre": "Diego Murillo",
-        "cargo": "Presidente del Concejo Municipal"
-      },
-      {
-        "nombre": "Estefano Borda Tapia",
-        "cargo": "Niño reconocido por su talento musical"
-      }
-    ],
-    "probable_evolucion": "Se espera que el reconocimiento impulse a los niños a continuar con su desarrollo y a mantener su compromiso con sus talentos. El evento podría fortalecer la imagen del Concejo Municipal y promover la importancia de apoyar a la niñez en la comunidad. Podría llevar a iniciativas similares en el futuro.",
-    "_id": "976d45ece94633332d6a9fb73d623e6cc910337c1389a5c315028ac71891483f",
-    "numero_reporte": 267,
-    "fecha": "12/04/2025",
-    "hora": "8:42",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/12/dia_del_nino_concejo_ok.jpg?itok=An_tInC9"
-  },
-  {
-    "tema": "Declaraciones de Valda y Bracamonte corroboran investigación sobre intento de golpe de Estado en Bolivia.",
-    "categoria": "País",
-    "factor": [
-      "Político",
-      "Militar"
+      "Económico",
+      "Político"
     ],
     "lugar": "Bolivia",
     "departamento": null,
     "pais": "Bolivia",
-    "fuentes": "ABI, Eduardo Del Castillo (Ministro de Gobierno)",
-    "hecho": "El Ministerio Público emitió mandamientos de aprehensión contra Fernando Hamdan y Marco Bracamonte, relacionados con el intento de golpe de Estado del 26 de junio de 2024, liderado por Juan José Zúñiga. Las declaraciones de Valda y Bracamonte corroboran la investigación de 10 meses realizada por el IITCUP y fiscales. El ministro de Gobierno, Eduardo Del Castillo, declaró que las declaraciones aportan al proceso judicial y que se está recopilando evidencia adicional, incluyendo videos y pruebas que confirman el golpe fallido. Se revisaron numerosos teléfonos celulares y declaraciones, identificando la participación activa de Hamdan y la sugerencia de Elio Sanjinez a Zúñiga sobre un supuesto autogolpe. Del Castillo instó a los presuntos beneficiarios de altos cargos en un futuro gabinete de Zúñiga a declarar ante la justicia. Se presentó un documental sobre el caso, producido por el Ministerio de Gobierno.",
+    "fuentes": [
+      "Wang Liang",
+      "Jiang Yan",
+      "Redacción Central"
+    ],
+    "hecho": "China se ha convertido en el principal socio comercial de Bolivia. El intercambio comercial entre ambos países ha crecido significativamente desde 1985, pasando de 880 mil dólares a 3.500 millones de dólares en 2024. Las exportaciones bolivianas a China aumentaron de 300 millones de dólares en 2020 a 1.300 millones de dólares en el último año.  Se destacan las ventas de carne vacuna y semillas de chía. China ha presentado medidas para fortalecer las relaciones con la región, incluyendo un programa de intercambio para cuadros políticos, la Iniciativa para el Desarrollo Global y becas educativas.  Bolivia busca formar parte del corredor ferroviario bioceánico Santos-Chancay.",
+    "actores": [
+      {
+        "nombre": "Wang Liang",
+        "cargo": "Embajador de China en Bolivia"
+      },
+      {
+        "nombre": "Jiang Yan",
+        "cargo": "Director de la Oficina Regional para América Latina de la Agencia de Noticias Xinhua"
+      }
+    ],
+    "probable_evolucion": "Se espera un aumento continuo en el intercambio comercial y la inversión china en Bolivia. La participación en el corredor bioceánico y la implementación de los programas de cooperación podrían fortalecer aún más los lazos bilaterales. Esto podría llevar a una mayor dependencia económica de Bolivia hacia China.",
+    "_id": "e2d3714c4b60b4bcc0631ba420995e4966dc7423500cd9ac0d7e21a8a86eafb2",
+    "numero_reporte": 348,
+    "fecha": "16/05/2025",
+    "hora": "9:15",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/4_eco_1_tiempossssss.jpg?itok=fUpvzdsm"
+  },
+  {
+    "tema": "Se rindió homenaje a Constantino Klaric por su contribución al desarrollo de la aviación civil y el comercio en Bolivia.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Político",
+      "Económico"
+    ],
+    "lugar": "Berenguela",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central",
+    "hecho": "El Ministerio de Obras Públicas, la Cámara de Diputados y Boliviana de Aviación (BoA) realizaron un homenaje a Constantino Klaric, asesor aeronáutico, en reconocimiento a su aporte al desarrollo de la aviación civil y el comercio en Bolivia. La ceremonia contó con la presencia de autoridades nacionales, representantes del sector aeronáutico, invitados especiales y familiares. Klaric, nacido en Berenguela, se destacó en aerolíneas como el Lloyd Aéreo Boliviano (LAB) y en el sector minero como gerente del Grupo Cerro Grande. Su legado se centra en la modernización, la formación de personal técnico y la consolidación institucional de la aviación nacional.",
+    "actores": [
+      {
+        "nombre": "Constantino Klaric",
+        "cargo": "Asesor aeronáutico"
+      }
+    ],
+    "probable_evolucion": "El reconocimiento a Klaric podría impulsar iniciativas para fortalecer la aviación nacional, a través de la modernización y la formación de personal. Se podría generar un mayor interés en la historia y el legado de la aviación civil boliviana, fomentando el debate sobre estrategias futuras.",
+    "_id": "51d15f5a508b071750219947074809ba55a96b2c61158ccd7c687c4546b061ef",
+    "numero_reporte": 347,
+    "fecha": "16/05/2025",
+    "hora": "9:07",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/6_metro_2_andiaaaaaaaaaa.jpg?itok=O69iZUCF"
+  },
+  {
+    "tema": "El dólar digital en Bolivia muestra una tendencia a la baja después de alcanzar un pico histórico de Bs 20, mientras que el tipo de cambio oficial se mantiene estable.",
+    "categoria": "Economía",
+    "factor": [
+      "Económico",
+      "Político"
+    ],
+    "lugar": "Bolivia",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": [
+      "Redacción Central",
+      "Germán Molina",
+      "Juan Subirana",
+      "Álvaro Obando",
+      "Gary Rodríguez",
+      "El Deber",
+      "Unitel"
+    ],
+    "hecho": "El 16 de mayo de 2025, el dólar digital en Bolivia experimentó una baja después de alcanzar un máximo histórico de Bs 20. Al mediodía, la cotización era de Bs 18,77. El tipo de cambio oficial se mantuvo en Bs 6,96 para la venta y Bs 9,86 para la compra. Factores como la caída de exportaciones, el déficit fiscal y la fuga de dólares contribuyen a la inestabilidad. Economistas sugieren que grandes compradores estatales o privados influenciaron el alza. Se sugiere liberar las exportaciones y destrabar créditos para estabilizar la economía. Se resalta la necesidad de divisas para la importación de combustibles e insumos.",
+    "actores": [
+      {
+        "nombre": "Germán Molina",
+        "cargo": "Economista"
+      },
+      {
+        "nombre": "Juan Subirana",
+        "cargo": "Economista"
+      },
+      {
+        "nombre": "Álvaro Obando",
+        "cargo": "Presidente de la Cámara de Despachantes de la Aduana"
+      },
+      {
+        "nombre": "Gary Rodríguez",
+        "cargo": "Gerente del Instituto Boliviano de Comercio Exterior (IBCE)"
+      }
+    ],
+    "probable_evolucion": "La volatilidad del dólar digital podría continuar. Las políticas gubernamentales y la confianza en la moneda nacional se verán afectadas.  Las medidas tomadas, como la liberación de exportaciones, podrían tener un impacto en la estabilización del mercado.",
+    "_id": "1f1f8dc030dd9f29138fa0e3df70fa8d5ee759621c26a4c55ae399aef10518a2",
+    "numero_reporte": 346,
+    "fecha": "16/05/2025",
+    "hora": "9:10",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/2_eco_1_rochaaaaaaa.jpg?itok=huczXG71"
+  },
+  {
+    "tema": "La Alcaldía de Cochabamba denuncia presiones externas y bloqueos relacionados con el cierre del vertedero K’ara K’ara.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Económico",
+      "Político"
+    ],
+    "lugar": "K’ara K’ara",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Juan José Ayaviri (Director de Prensa de la Alcaldía de Cochabamba)",
+    "hecho": "El Director de Prensa de la Alcaldía de Cochabamba, Juan José Ayaviri, denunció presiones externas e intereses económicos para impedir el cierre técnico de las celdas N.º 2 y 3 del vertedero K’ara K’ara, ordenado por el Tribunal Agroambiental y la normativa ambiental. Se identifica un interés económico de una empresa por mantener el control del relleno sanitario y los fondos asociados (3 millones de bolivianos). Un sector de la población bloqueó el ingreso de los carros de EMSA al vertedero.",
+    "actores": [
+      {
+        "actor": "Juan José Ayaviri",
+        "cargo": "Director de Prensa de la Alcaldía de Cochabamba"
+      },
+      {
+        "actor": "Empresa interesada",
+        "cargo": "Empresa con intereses económicos en el vertedero"
+      },
+      {
+        "actor": "Pobladores",
+        "cargo": "Sector de la población que bloqueó el ingreso al vertedero"
+      },
+      {
+        "actor": "Tribunal Agroambiental",
+        "cargo": "Emisor del fallo de cierre técnico"
+      }
+    ],
+    "probable_evolucion": "La tensión podría escalar con nuevos bloqueos y enfrentamientos. La Alcaldía podría enfrentar acciones legales por parte de la empresa interesada. Se espera una negociación o resolución judicial para definir el futuro del vertedero y su gestión.",
+    "_id": "8fd342b31dc7c7532cd45b15eec9d07df93117fc186fb302d75d201445a82356",
+    "numero_reporte": 345,
+    "fecha": "16/05/2025",
+    "hora": "9:06",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/6_metro_1_lopezzzzzzzzzz.jpg?itok=-lhC-Hv2"
+  },
+  {
+    "tema": "El precandidato presidencial Jaime Dunn hace un llamado a la oposición boliviana para formar un frente común antes de las elecciones generales.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "Bolivia",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central",
+    "hecho": "Jaime Dunn, precandidato presidencial, instó a la oposición boliviana a unirse para formar un frente común antes del cierre de inscripciones para las elecciones generales del 17 de agosto. A través de un video en redes sociales, Dunn llamó a dejar de lado los intereses personales y construir una alternativa sólida. Se dirigió específicamente a Tuto Quiroga, Manfred Reyes Villa, Samuel Doria Medina, Rodrigo Paz, y figuras emergentes como Edman Lara, Fausto Ardaya y Edgar Morales. Dunn, quien recientemente formó una alianza con Edgar Uriona de Nueva Generación Patriótica (NGP), considera que la inhabilitación de Luis Arce y la sentencia contra la reelección de Evo Morales crean una oportunidad política.",
+    "actores": [
+      {
+        "nombre": "Jaime Dunn",
+        "cargo": "Precandidato presidencial"
+      },
+      {
+        "nombre": "Tuto Quiroga",
+        "cargo": "Líder opositor"
+      },
+      {
+        "nombre": "Manfred Reyes Villa",
+        "cargo": "Líder opositor"
+      },
+      {
+        "nombre": "Samuel Doria Medina",
+        "cargo": "Líder opositor"
+      },
+      {
+        "nombre": "Rodrigo Paz",
+        "cargo": "Líder opositor"
+      },
+      {
+        "nombre": "Edman Lara",
+        "cargo": "Figura emergente"
+      },
+      {
+        "nombre": "Fausto Ardaya",
+        "cargo": "Figura emergente"
+      },
+      {
+        "nombre": "Edgar Morales",
+        "cargo": "Figura emergente"
+      },
+      {
+        "nombre": "Edgar Uriona",
+        "cargo": "Líder de Nueva Generación Patriótica (NGP)"
+      },
+      {
+        "nombre": "Luis Arce",
+        "cargo": "Ex candidato"
+      },
+      {
+        "nombre": "Evo Morales",
+        "cargo": "Ex presidente"
+      }
+    ],
+    "probable_evolucion": "La unificación de la oposición podría alterar significativamente el panorama electoral, compitiendo de manera más efectiva contra otras facciones políticas. La respuesta de los líderes opositores mencionados y la formación de alianzas determinarán el éxito o fracaso de la propuesta de Dunn.  La inhabilitación de Arce y Morales intensifican las tensiones políticas y pueden llevar a inestabilidad.",
+    "_id": "fb7f13051ef541c4007c6643118b72b23b73c91184f7f2ea6d59342f39ceece8",
+    "numero_reporte": 344,
+    "fecha": "16/05/2025",
+    "hora": "8:58",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/6_p_3_prensa_ngp_0.jpg?itok=_hACl3zm"
+  },
+  {
+    "tema": "En el Día de la Familia, se realizaron actividades en Cochabamba para fortalecer los lazos familiares y se solicitó la implementación de políticas públicas para abordar los desafíos que enfrentan.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Psicosocial",
+      "Político"
+    ],
+    "lugar": "avenida Costanera, coliseo Grover Suárez",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Jenny Rivero, Marylin Rivera, Asamblea General de las Naciones Unidas",
+    "hecho": "En el marco del Día Internacional de las Familias, se llevaron a cabo celebraciones en Cochabamba, con actividades recreativas y concursos. La secretaria de Desarrollo Humano, Jenny Rivero, destacó la importancia de fortalecer las familias. La concejala Marylin Rivera resaltó la necesidad de políticas públicas para combatir la desintegración familiar, la violencia, la pobreza y la falta de acceso a servicios esenciales. La Ley Municipal N.º 0096/2015 declara el 15 de mayo como Día Internacional de las Familias en Cochabamba.",
+    "actores": [
+      {
+        "cargo": "Secretaria de Desarrollo Humano",
+        "nombre": "Jenny Rivero"
+      },
+      {
+        "cargo": "Concejala",
+        "nombre": "Marylin Rivera"
+      }
+    ],
+    "probable_evolucion": "Se espera un aumento en la discusión y posible debate sobre la implementación de políticas públicas de apoyo familiar.  Podría haber mayor atención en la asignación de recursos para abordar los problemas identificados, incluyendo la posibilidad de nuevas leyes o modificaciones a las existentes. El debate público podría intensificarse en torno a temas relacionados con la familia.",
+    "_id": "5f3d342850c22b5407255501f797528b13f0a67fc2374770bbd8172c5b4300bb",
+    "numero_reporte": 343,
+    "fecha": "16/05/2025",
+    "hora": "9:02",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/5_me_1_lopezzzzz.jpg?itok=DQPmAA4w"
+  },
+  {
+    "tema": "Juan Pablo Velasco es designado como candidato a la vicepresidencia por la alianza Libre, acompañando a Jorge Tuto Quiroga en las elecciones generales de 2025, con propuestas enfocadas en tecnología, empleo y estabilidad económica.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Económico"
+    ],
+    "lugar": "La Paz",
+    "departamento": "La Paz",
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central",
+    "hecho": "Juan Pablo Velasco fue presentado como candidato a la vicepresidencia por la alianza Libre, formando el binomio con Jorge Tuto Quiroga para las Elecciones Generales de 2025. Quiroga destacó la experiencia de Velasco en el mundo de las startups y emprendimientos digitales, mencionando sus logros con aplicaciones como Yango y su experiencia en la creación de la primera tarjeta de crédito digital en Bolivia. Velasco, nacido en Santa Cruz y con 37 años de edad, propone generar empleo, convertir a Bolivia en un referente tecnológico, utilizar la tecnología contra la corrupción, estabilizar el tipo de cambio del dólar e impulsar las criptomonedas. Velasco es cofundador de Netcomidas, adquirida por PedidosYa, y fundador de MOBI Latam, una empresa de energía limpia.",
+    "actores": [
+      {
+        "nombre": "Juan Pablo Velasco",
+        "cargo": "Candidato a la Vicepresidencia por la alianza Libre"
+      },
+      {
+        "nombre": "Jorge Tuto Quiroga",
+        "cargo": "Candidato a la Presidencia por la alianza Libre"
+      }
+    ],
+    "probable_evolucion": "La alianza Libre podría ganar apoyo electoral atrayendo votantes jóvenes y del sector tecnológico. Las propuestas de Velasco podrían generar debate y condicionar la agenda política en torno a la tecnología y la economía. El éxito o fracaso de estas propuestas podría depender de la viabilidad de los proyectos y la aceptación del electorado.",
+    "_id": "32a5271e41d1a91a523451a839b79e2c6aea7ad60a84de69c5e9bedb9e99f43c",
+    "numero_reporte": 342,
+    "fecha": "16/05/2025",
+    "hora": "9:01",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/5_p_1_apg.jpg?itok=WCarFb-d"
+  },
+  {
+    "tema": "Seguidores de Andrónico Rodríguez anuncian la presentación del candidato a la vicepresidencia y descartan alianza con el Movimiento Al Socialismo (MAS).",
+    "categoria": "País",
+    "factor": [
+      "Político"
+    ],
+    "lugar": [
+      "Santa Cruz",
+      "Cercado (Cochabamba)"
+    ],
+    "departamento": [
+      "Santa Cruz",
+      "Cochabamba"
+    ],
+    "pais": "Bolivia",
+    "fuentes": [
+      "Redacción Central",
+      "Darwin Choquerive",
+      "Willy Vargas"
+    ],
+    "hecho": "El bando de seguidores de Andrónico Rodríguez, presidente del Senado, descarta una alianza con el Movimiento Al Socialismo (MAS) para las elecciones presidenciales del 17 de agosto. Se espera que el anuncio de la sigla y el binomio se realice el domingo. Darwin Choquerive, presidente de una regional urbana de Santa Cruz, confirmó que la alianza con el MAS está descartada.  La Alianza Popular ha ofrecido su sigla.  Willy Vargas, presidente del MAS en Cercado (Cochabamba), instó a Andrónico, al presidente Luis Arce y al Pacto de Unidad a consolidar la unidad del bloque de izquierda.",
+    "actores": [
+      {
+        "nombre": "Andrónico Rodríguez",
+        "cargo": "Presidente del Senado"
+      },
+      {
+        "nombre": "Darwin Choquerive",
+        "cargo": "Presidente de una regional urbana de Santa Cruz"
+      },
+      {
+        "nombre": "Luis Arce",
+        "cargo": "Presidente"
+      },
+      {
+        "nombre": "Willy Vargas",
+        "cargo": "Presidente del MAS en Cercado (Cochabamba)"
+      }
+    ],
+    "probable_evolucion": "La decisión de Andrónico Rodríguez de no aliarse con el MAS podría fragmentar el voto de la izquierda. La presentación del binomio y la sigla definirá el escenario político y las alianzas posibles.  Esto podría generar tensiones internas en el MAS y entre otros partidos políticos.",
+    "_id": "423ae5ebaee754672f35eb1e169f5ad48290234bca9398ff10c701cc7200e7ef",
+    "numero_reporte": 341,
+    "fecha": "16/05/2025",
+    "hora": "8:51",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/6_p_1_rrss.jpg?itok=GHwrShG8"
+  },
+  {
+    "tema": "El Movimiento Al Socialismo (MAS) ratifica a Luis Arce y Deysi Choque como su binomio presidencial para las elecciones generales de agosto de 2025.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Económico"
+    ],
+    "lugar": "Bolivia",
+    "departamento": [
+      "No especificado"
+    ],
+    "pais": "Bolivia",
+    "fuentes": [
+      "Redacción Central",
+      "Urgente.bo",
+      "Grover García"
+    ],
+    "hecho": "El Movimiento Al Socialismo (MAS), con el apoyo del Pacto de Unidad y la Central Obrera Boliviana (COB), ha decidido presentar a Luis Arce como candidato a la Presidencia y a Deysi Choque como candidata a la Vicepresidencia para las elecciones generales del 17 de agosto de 2025. Esta decisión se tomó en consenso, tras una supuesta declinación inicial de Arce y tras masivas proclamaciones en los nueve departamentos del país. Grover García, representante del MAS, indicó que los militantes deben acatar la decisión de la directiva.",
+    "actores": [
+      {
+        "nombre": "Luis Alberto Arce Catacora",
+        "cargo": "Presidente del Estado (actualmente) y candidato a la Presidencia"
+      },
+      {
+        "nombre": "Deysi Choque",
+        "cargo": "Diputada y candidata a la Vicepresidencia"
+      },
+      {
+        "nombre": "Grover García",
+        "cargo": "Representante del MAS"
+      },
+      {
+        "nombre": "No especificado",
+        "cargo": "Directiva Nacional del MAS-IPSP"
+      },
+      {
+        "nombre": "No especificado",
+        "cargo": "Pacto de Unidad"
+      },
+      {
+        "nombre": "No especificado",
+        "cargo": "Central Obrera Boliviana (COB)"
+      }
+    ],
+    "probable_evolucion": "La ratificación de Arce como candidato presidencial consolida la presencia del MAS en la contienda electoral. Esta decisión podría influir en la dinámica política del país, generando reacciones y posibles estrategias por parte de otros partidos y movimientos políticos. Se espera una intensificación de la campaña electoral y un aumento en la polarización política.",
+    "_id": "70037476cfa9bdf6f5ca32f2507f6b7e1d26fa85fd2d64943fff503acfa7252d",
+    "numero_reporte": 340,
+    "fecha": "16/05/2025",
+    "hora": "8:56",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/6_p_2_abi_2.jpg?itok=d3_knHNE"
+  },
+  {
+    "tema": "Una movilización de seguidores del expresidente Evo Morales en protesta por su inhabilitación como candidato presidencial, genera un despliegue policial en La Paz.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Militar",
+      "Psicosocial"
+    ],
+    "lugar": "La Paz, Caracollo, Parotani",
+    "departamento": [
+      "Oruro",
+      "Cochabamba"
+    ],
+    "pais": "Bolivia",
+    "fuentes": "Redacción Central, Evo Morales, Gladys Quispe, Omar Ramírez, César Siles",
+    "hecho": "Una caravana de seguidores del expresidente Evo Morales se moviliza desde Caracollo (Oruro) hacia La Paz en protesta por una sentencia constitucional que lo inhabilita como candidato presidencial para las elecciones de 2025. La Policía ha desplegado un operativo de resguardo de instituciones públicas y puntos clave en el recorrido de la caravana.  Evo Morales y dirigentes del 'evismo' aseguran que la movilización es pacífica y culminará en el Tribunal Supremo Electoral (TSE).  Sin embargo, se han emitido amenazas de tomar la Casa Grande del Pueblo y acusaciones de amedrentamiento y posible intervención militar por parte del gobierno. El ministro de Justicia menciona una orden de aprehensión vigente contra Morales.  Se especula sobre la presencia de Evo Morales en la marcha, manteniendo su ubicación en secreto por razones de seguridad.  Los dirigentes del 'evismo' advierten sobre la posibilidad de 'francotiradores' y prometen una respuesta del pueblo en caso de agresión.",
+    "actores": [
+      {
+        "nombre": "Evo Morales",
+        "cargo": "Expresidente"
+      },
+      {
+        "nombre": "Gladys Quispe",
+        "cargo": "Diputada evista"
+      },
+      {
+        "nombre": "Omar Ramírez",
+        "cargo": "Dirigente departamental del evismo"
+      },
+      {
+        "nombre": "César Siles",
+        "cargo": "Ministro de Justicia"
+      }
+    ],
+    "probable_evolucion": "La tensión podría escalar dependiendo de la respuesta policial y las acciones de los manifestantes, con riesgo de enfrentamientos.  La situación podría derivar en una crisis política, afectando la estabilidad del gobierno y el proceso electoral.  El intento de aprehensión de Evo Morales o un incidente violento podrían desencadenar una crisis de mayor envergadura.",
+    "_id": "b8ff4cef10b3b6aa22f0528287792ca40e03078fc3e59420ea02a0e838ee5c61",
+    "numero_reporte": 339,
+    "fecha": "16/05/2025",
+    "hora": "8:53",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/16/7_p_1_apg1.jpg?itok=xFh3bv-0"
+  },
+  {
+    "tema": "La Asamblea de la Cruceñidad convocó a una cumbre nacional para unificar a los candidatos de oposición de cara a las elecciones generales.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "Nacional",
+    "departamento": "Santa Cruz",
+    "pais": "Bolivia",
+    "fuentes": "ERBOL, Stello Cochamanidis",
+    "hecho": "La Asamblea de la Cruceñidad, liderada por Stello Cochamanidis, presidente del Comité pro Santa Cruz, resolvió convocar a una cumbre nacional para lograr la unidad de los candidatos de oposición que participarán en las elecciones generales. El objetivo es promover la designación de un único candidato opositor. Se faculta a Cochamanidis para organizar este encuentro, invitando a todos los candidatos presidenciales de oposición y a los comités cívicos nacionales.  La cumbre aún no tiene fecha ni lugar definidos. Se insta a todos los sectores del departamento de Santa Cruz, incluyendo los comités cívicos provinciales y la ciudadanía en general, a apoyar esta iniciativa.  La falta de unidad entre los precandidatos, como Tuto Quiroga, Samuel Doria Medina, Manfred Reyes Villa, Rodrigo Paz y Jaime Dunn, es un obstáculo reconocido. Cochamanidis ha advertido que la división favorecerá al Movimiento al Socialismo (MAS).",
+    "actores": [
+      {
+        "nombre": "Stello Cochamanidis",
+        "cargo": "Presidente del Comité pro Santa Cruz"
+      },
+      {
+        "nombre": "Tuto Quiroga",
+        "cargo": "Precandidato"
+      },
+      {
+        "nombre": "Samuel Doria Medina",
+        "cargo": "Precandidato"
+      },
+      {
+        "nombre": "Manfred Reyes Villa",
+        "cargo": "Precandidato"
+      },
+      {
+        "nombre": "Rodrigo Paz",
+        "cargo": "Precandidato"
+      },
+      {
+        "nombre": "Jaime Dunn",
+        "cargo": "Precandidato"
+      }
+    ],
+    "probable_evolucion": "La cumbre podría generar un proceso de negociación y posibles alianzas entre los candidatos de oposición, o fracasar en su intento de unificación. El éxito de la cumbre influirá en el panorama electoral, pudiendo afectar las posibilidades del MAS. El resultado de esta iniciativa podría generar tensiones y divisiones dentro de la oposición.",
+    "_id": "1633e9da50c52691ec7d130e319987303b05dd2c3b0dd18e301984e56b502f48",
+    "numero_reporte": 338,
+    "fecha": "15/05/2025",
+    "hora": "22:38",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/crucenidad-lista.jpg?itok=fxGR7jFk"
+  },
+  {
+    "tema": "El Ministro de Gobierno de Bolivia, Eduardo del Castillo, ordenó la aprehensión del expresidente Evo Morales en La Paz, ante la inminente movilización de sus seguidores.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Militar",
+      "Psicosocial"
+    ],
+    "lugar": [
+      "La Paz",
+      "El Alto",
+      "Senkata",
+      "Oruro"
+    ],
+    "departamento": [
+      "La Paz",
+      "Cochabamba",
+      "Oruro"
+    ],
+    "pais": "Bolivia",
+    "fuentes": [
+      "URGENTEBO",
+      "Eduardo del Castillo"
+    ],
+    "hecho": "El Ministro de Gobierno de Bolivia, Eduardo del Castillo, anunció públicamente la orden de aprehensión contra el expresidente Evo Morales si es avistado en las calles de La Paz. Esta medida se basa en acusaciones de violación y en la percepción de que la presencia de Morales y sus seguidores podría perturbar el orden público. La Policía Boliviana ha sido instruida para intervenir, con la prohibición de usar armamento letal, y se encuentra en alerta ante una marcha convocada por seguidores de Morales desde El Alto y otras regiones, como Cochabamba, hacia La Paz.  Adicionalmente, 22 personas fueron detenidas en la ruta Oruro-La Paz por transportar gasolina y petardos, y serán imputadas por el Ministerio Público.",
+    "actores": [
+      {
+        "nombre": "Eduardo del Castillo",
+        "cargo": "Ministro de Gobierno"
+      },
+      {
+        "nombre": "Evo Morales",
+        "cargo": "Expresidente"
+      }
+    ],
+    "probable_evolucion": "La tensión política en Bolivia se intensificará, con posibles enfrentamientos entre la policía y los seguidores de Morales.  La aprehensión de Morales podría desencadenar protestas y movilizaciones a nivel nacional.  La situación podría generar inestabilidad política y social, afectando el proceso electoral.",
+    "_id": "825309259f650ba8ae29a0b2d18c0c240ea55cea7e614b03fd28b8db5d2c5860",
+    "numero_reporte": 337,
+    "fecha": "16/05/2025",
+    "hora": "8:15",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2024/12/24/4_p_2_apg.jpg?itok=dxortnAN"
+  },
+  {
+    "tema": "El ministro de Gobierno, Eduardo Del Castillo, acusó a Evo Morales de buscar generar inestabilidad en La Paz y advirtió que será arrestado si es interceptado.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "La Paz",
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": "ERBOL",
+    "hecho": "El ministro de Gobierno, Eduardo Del Castillo, acusó a Evo Morales de intentar generar disturbios en La Paz, específicamente buscando confrontar a la Policía Boliviana con el objetivo de suspender las elecciones. Del Castillo anunció que Morales será arrestado en cumplimiento de una orden judicial de captura vigente desde el año anterior, relacionada con un caso de trata de personas. La caravana de organizaciones sociales que apoyan a Morales se dirige a La Paz para inscribir su candidatura ante el Tribunal Supremo Electoral (TSE), a pesar de un fallo del Tribunal Constitucional Plurinacional (TCP) que podría impedir su postulación.",
     "actores": [
       {
         "nombre": "Eduardo Del Castillo",
         "cargo": "Ministro de Gobierno"
       },
       {
-        "nombre": "Juan José Zúñiga",
-        "cargo": "Exjefe del Ejército de Bolivia"
-      },
-      {
-        "nombre": "Fernando Hamdan",
-        "cargo": "Activista"
-      },
-      {
-        "nombre": "Marco Bracamonte",
-        "cargo": null
-      },
-      {
-        "nombre": "Jorge Valda",
-        "cargo": "Abogado"
-      },
-      {
-        "nombre": "Elio Sanjinez",
-        "cargo": null
-      },
-      {
-        "nombre": "José Daniel Llorenti",
-        "cargo": "Director de Comunicación (Ministerio de Gobierno)"
+        "nombre": "Evo Morales",
+        "cargo": "Expresidente"
       }
     ],
-    "probable_evolucion": "El juicio por el intento de golpe de Estado continuará, con la posible presentación de más evidencia y testimonios.  La credibilidad y el alcance de la investigación se fortalecerán con las declaraciones de los arrestados. Podrían surgir nuevas acusaciones y la investigación podría extenderse a otros involucrados.",
-    "_id": "2080732a625d1e8ad349e17be53f3fced9222e84be130625450fde85d299eae9",
-    "numero_reporte": 266,
-    "fecha": "12/04/2025",
-    "hora": "11:11",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/12/caso_golpe_fallido_ed_ok.jpg?itok=wFNgEx9-"
+    "probable_evolucion": "Se espera un aumento de la tensión política en La Paz con la llegada de la caravana y la posible aprehensión de Morales. Esto podría desencadenar protestas y conflictos, afectando el proceso electoral y la estabilidad del país. La situación podría intensificarse dependiendo de la reacción de los seguidores de Morales y de la respuesta de las autoridades.",
+    "_id": "074235b8ff4a43e4b962713650d3013a2e0bb302f85a5992c27310a360836b90",
+    "numero_reporte": 336,
+    "fecha": "15/05/2025",
+    "hora": "22:13",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/delcas_advierte.jpg?itok=-jMTGVwE"
   },
   {
-    "tema": "Estados Unidos niega su involucramiento en la asonada militar del 26 de junio de 2024 en Bolivia y exige al gobierno del MAS cesar las acusaciones.",
+    "tema": "El partido Autonomía Para Bolivia (APB - Súmate) inició el registro de sus candidatos para las elecciones generales del 17 de agosto, siendo el primer partido en hacerlo.",
+    "categoria": "País",
+    "factor": [
+      "Político"
+    ],
+    "lugar": null,
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": [
+      "Eerbol",
+      "Tahuichi Tahuichi"
+    ],
+    "hecho": "El partido político Autonomía Para Bolivia (APB - Súmate), liderado por Manfred Reyes Villa, inició el registro de sus candidatos para las elecciones generales del 17 de agosto de 2025. Este proceso, que comenzó el 14 de mayo, se realiza a través del sistema virtual del Tribunal Supremo Electoral (TSE). El vocal Tahuichi Tahuichi confirmó que APB - Súmate fue el primer partido en iniciar el registro. Una vez completado el registro digital, se imprimirán las listas y se enviarán junto con las carpetas de cada candidato. El plazo para la inscripción de candidaturas finaliza el 19 de mayo. El día de la inscripción, podrán ingresar hasta cinco personas.",
+    "actores": [
+      {
+        "nombre": "Manfred Reyes Villa",
+        "cargo": "Presidente de APB - Súmate"
+      },
+      {
+        "nombre": "Tahuichi Tahuichi",
+        "cargo": "Vocal del TSE"
+      }
+    ],
+    "probable_evolucion": "Otros partidos políticos probablemente seguirán el ejemplo de APB - Súmate e iniciarán el registro de sus candidatos en los próximos días.  El proceso de registro de candidaturas se completará y se preparará para las elecciones generales. Se espera que el TSE supervise y valide las inscripciones.",
+    "_id": "e4f44498e42f36cd8794bbfa9ff2bbfc8d309b48a5ddd2ee2cecd30cdfea6f42",
+    "numero_reporte": 335,
+    "fecha": "15/05/2025",
+    "hora": "19:57",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/apb_sumate_proclama.jpg?itok=hz4hq0BQ"
+  },
+  {
+    "tema": "Los presidentes de Brasil y Chile, junto a miles de uruguayos, rindieron homenaje póstumo al expresidente uruguayo José Mujica en Montevideo.",
+    "categoria": "Mundo",
+    "factor": [
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "Montevideo",
+    "departamento": null,
+    "pais": "Uruguay",
+    "fuentes": "AGENCIAS",
+    "hecho": "El presidente brasileño, Luiz Inácio Lula da Silva, y el presidente chileno, Gabriel Boric, asistieron al velatorio del expresidente uruguayo José Mujica en el Palacio Legislativo de Montevideo. El evento, que comenzó el miércoles, contó con la presencia de decenas de miles de uruguayos. Lula destacó la influencia de Mujica en la juventud y su intento de cambiar el mundo. Boric expresó su pesar y resaltó el legado de Mujica, mencionando su preocupación por la situación global y su esperanza en la lucha contra la injusticia. Boric también mencionó un olivo plantado en la granja de Mujica.",
+    "actores": [
+      {
+        "nombre": "Luiz Inácio Lula da Silva",
+        "cargo": "Presidente de Brasil"
+      },
+      {
+        "nombre": "Gabriel Boric",
+        "cargo": "Presidente de Chile"
+      },
+      {
+        "nombre": "José Mujica",
+        "cargo": "Expresidente de Uruguay"
+      },
+      {
+        "nombre": "Lucía Topolansky",
+        "cargo": "Viuda de Mujica y exvicepresidenta de Uruguay"
+      },
+      {
+        "nombre": "Yamandú Orsi",
+        "cargo": "Mandatario uruguayo"
+      }
+    ],
+    "probable_evolucion": "El evento fortalece los lazos diplomáticos entre Brasil, Chile y Uruguay.  La figura de Mujica seguirá siendo un símbolo de inspiración política en la región.  Podría intensificarse el debate sobre su legado y su impacto en la política latinoamericana.",
+    "_id": "749c3d0f7441b323c5583ada101fd61cbaca7fd21298fca45f1d1c84014bc718",
+    "numero_reporte": 334,
+    "fecha": "15/05/2025",
+    "hora": "21:50",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/velorio_final.jpg?itok=ioPrFqjJ"
+  },
+  {
+    "tema": "Juan Pablo Velasco, un emprendedor tecnológico, es designado candidato a vicepresidente por la Alianza Libre.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Económico"
+    ],
+    "lugar": "La Paz",
+    "departamento": "La Paz",
+    "pais": "Bolivia",
+    "fuentes": "REDACCIÓN CENTRAL, Jorge Tuto Quiroga Ramírez, ecommerceday.bo",
+    "hecho": "La Alianza Libre, liderada por Jorge Tuto Quiroga Ramírez, presentó a Juan Pablo Velasco Dalence como su candidato a vicepresidente. Velasco, un emprendedor cruceño de 35 años con experiencia en el sector tecnológico, ha fundado varias empresas y es conocido por su trabajo en el ámbito de la tecnología financiera y la movilidad urbana. Quiroga destacó la experiencia empresarial de Velasco y su capacidad para generar empleo. Velasco, por su parte, prometió enfocar sus esfuerzos en estabilizar la economía, promover el desarrollo y mejorar las condiciones de vida en Bolivia para evitar la emigración.",
+    "actores": [
+      {
+        "nombre": "Juan Pablo Velasco Dalence",
+        "cargo": "Candidato a vicepresidente de la Alianza Libre"
+      },
+      {
+        "nombre": "Jorge Tuto Quiroga Ramírez",
+        "cargo": "Líder de la Alianza Libre"
+      }
+    ],
+    "probable_evolucion": "La designación de Velasco podría fortalecer la Alianza Libre al atraer votantes jóvenes y del sector tecnológico. Su enfoque en la economía y el desarrollo podría influir en el discurso político y las propuestas electorales.  La recepción de esta candidatura dependerá de la estrategia de campaña de la Alianza Libre y la aceptación de Velasco por parte del electorado.",
+    "_id": "35c005b51c0fc23d453fa355810f945a30a69fb9734923be54e213ebc6e9893f",
+    "numero_reporte": 333,
+    "fecha": "15/05/2025",
+    "hora": "21:20",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/presenta_jp.jpg?itok=621ccEqF"
+  },
+  {
+    "tema": "La Policía Boliviana desplegará efectivos en La Paz para resguardar instituciones públicas ante las movilizaciones anunciadas por seguidores de Evo Morales.",
     "categoria": "País",
     "factor": [
       "Político",
       "Militar"
     ],
+    "lugar": "La Paz",
+    "departamento": "La Paz",
+    "pais": "Bolivia",
+    "fuentes": "ERBOL, Gunther Agudo",
+    "hecho": "La Policía Boliviana está preparando un despliegue de efectivos en La Paz, incluyendo áreas clave como la Plaza Murillo, el Tribunal Electoral Departamental y el Tribunal Supremo Electoral, en respuesta a las movilizaciones anunciadas por seguidores de Evo Morales. Estas movilizaciones, que parten de Parotani, Cochabamba, tienen como objetivo principal demostrar apoyo a la eventual candidatura de Evo Morales. El comandante departamental de La Paz, Gunther Agudo, informó que el objetivo principal es garantizar la seguridad de las instituciones públicas y el normal desarrollo de sus actividades. La llegada de manifestantes a La Paz está prevista para el 16 de mayo, y la inscripción de la candidatura de Morales fue postergada hasta el lunes debido a desacuerdos internos.",
+    "actores": [
+      {
+        "actor": "Gunther Agudo",
+        "cargo": "Comandante Departamental de La Paz"
+      },
+      {
+        "actor": "Evo Morales",
+        "cargo": "Ex Presidente/Líder político"
+      }
+    ],
+    "probable_evolucion": "Es probable que se produzcan enfrentamientos entre manifestantes y fuerzas del orden. La concentración de personas en lugares sensibles podría generar tensiones y alterar el orden público, especialmente si se intenta acceder a instituciones gubernamentales. El retraso en la inscripción de la candidatura podría generar más protestas y divisiones internas.",
+    "_id": "bd18326de39c01efd0cc490852fd271f569ee827a76d14d61cba82f0a2e0cb70",
+    "numero_reporte": 332,
+    "fecha": "15/05/2025",
+    "hora": "16:10",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/canas_y_evistas_en_parotani.jpg?itok=5R615ZI7"
+  },
+  {
+    "tema": "Pescadores descubren el cuerpo sin vida de un hombre dentro de una maleta flotando en el río Piraí, lo que llevó a la intervención policial y la apertura de una investigación.",
+    "categoria": "Seguridad",
+    "factor": [
+      "Psicosocial",
+      "Militar"
+    ],
+    "lugar": "río Piraí, puente del Urubó",
+    "departamento": "Santa Cruz",
+    "pais": "Bolivia",
+    "fuentes": "Unitel",
+    "hecho": "El 15 de mayo de 2025, a las 18:31, un grupo de pescadores descubrió el cuerpo sin vida de un hombre dentro de una maleta flotando en el río Piraí, cerca del puente del Urubó, en Santa Cruz de la Sierra. El cuerpo estaba maniatado. La Policía Boliviana fue alertada y se espera un informe oficial sobre la causa de la muerte, el tiempo que la víctima estuvo en el río y la identidad del fallecido. Se desconoce la identidad de la víctima. Las autoridades se encuentran realizando las investigaciones pertinentes.",
+    "actores": [
+      {
+        "actor": "Pescadores",
+        "cargo": "Testigos y descubridores del cuerpo"
+      },
+      {
+        "actor": "Policía Boliviana",
+        "cargo": "Investigadores"
+      }
+    ],
+    "probable_evolucion": "La investigación policial continuará para determinar la causa de la muerte, la identidad de la víctima y a los posibles responsables. Se espera que este hallazgo genere temor y preocupación en la comunidad, así como una mayor vigilancia policial en la zona. Es probable que el caso se judicialice y genere impacto mediático.",
+    "_id": "a96511e3a2a7b5dd31ea21cc6cfeac9339581b55184d247b31f7d17b63b70d9d",
+    "numero_reporte": 331,
+    "fecha": "15/05/2025",
+    "hora": "18:31",
+    "image": "No image"
+  },
+  {
+    "tema": "La Cámara de Diputados aprobó la ley de preclusión electoral para 'blindar' las elecciones generales, postergando el proyecto de paridad de género.",
+    "categoria": "País",
+    "factor": [
+      "Político"
+    ],
+    "lugar": null,
+    "departamento": null,
+    "pais": null,
+    "fuentes": [
+      "AGENCIAS",
+      "Omar Yujra",
+      "Walter Villagra",
+      "Lidia Tupa",
+      "Alejandra Camargo",
+      "Tribunal Supremo Electoral (TSE)"
+    ],
+    "hecho": "La Cámara de Diputados aprobó el proyecto de ley de preclusión electoral, que impide la revisión de etapas concluidas del proceso electoral. El proyecto fue aprobado con el objetivo de 'blindar' las elecciones generales del 17 de agosto de 2025. El proyecto pasó al Senado para su consideración. El proyecto de ley sobre paridad de género en binomios fue aplazado debido a divergencias en su contenido. La oposición cuestionó la aprobación de la ley de preclusión, argumentando que podría impedir la investigación de posibles fraudes electorales. La ley de preclusión fue redactada por el TSE y se basa en acuerdos previos con el mismo.",
+    "actores": [
+      {
+        "cargo": "Presidente de la Cámara Baja",
+        "nombre": "Omar Yujra"
+      },
+      {
+        "cargo": "Diputado de Comunidad Ciudadana (CC)",
+        "nombre": "Walter Villagra"
+      },
+      {
+        "cargo": "Diputada del Movimiento al Socialismo (MAS)",
+        "nombre": "Lidia Tupa"
+      },
+      {
+        "cargo": "Diputada de Comunidad Ciudadana (CC)",
+        "nombre": "Alejandra Camargo"
+      }
+    ],
+    "probable_evolucion": "La aprobación de la ley de preclusión podría generar controversias sobre la transparencia electoral. El aplazamiento de la ley de paridad de género indica tensiones políticas sobre cuestiones de género. Se espera un debate intenso en el Senado sobre la ley de preclusión, pudiendo modificar o rechazar la misma.",
+    "_id": "2d1e1c059d3c96be9a95a1c89395c7d6db3e28e4d96fda5ea27d5ca0a5b98066",
+    "numero_reporte": 330,
+    "fecha": "15/05/2025",
+    "hora": "17:08",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/diputs_jueves_15-5.jpg?itok=wtJXUxRg"
+  },
+  {
+    "tema": "La construcción de la Planta Procesadora de Papa en Cochabamba alcanza el 90% de avance, con la inversión del gobierno, beneficiando a familias productoras.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Económico",
+      "Político"
+    ],
+    "lugar": "Cochabamba, Tiquipaya",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": [
+      "ABI",
+      "Luis Arce"
+    ],
+    "hecho": "La construcción de la Planta Procesadora de Papa en Cochabamba ha alcanzado un avance del 90%. El presidente Luis Arce informó que la planta, con una inversión superior a Bs 17.6 millones, operará inicialmente con cuatro líneas de producción: almidón de papa, puré de papa, hojuelas de papa frita y papa en bastones. Se espera que la planta genere más de Bs 3 millones anuales, con una producción de 3 toneladas diarias, beneficiando a más de 1.790 familias productoras y a más de 10.750 habitantes de Tiquipaya. La planta es parte de un proyecto de industrialización y sustitución de importaciones impulsado por el gobierno.",
+    "actores": [
+      {
+        "nombre": "Luis Arce",
+        "cargo": "Presidente"
+      }
+    ],
+    "probable_evolucion": "La finalización de la planta impulsará la economía local y reducirá la dependencia de importaciones. Se espera un incremento en la producción de alimentos procesados y la creación de empleo.  La planta podría atraer inversiones futuras y expandir su capacidad productiva.",
+    "_id": "a11c81ca4aa311bddae65f87552f1bca91534840f4f67f144f4803a15326a36e",
+    "numero_reporte": 329,
+    "fecha": "15/05/2025",
+    "hora": "13:44",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/papa.jpg?itok=5AQWzu0F"
+  },
+  {
+    "tema": "El gobierno boliviano asegura que la producción de aceite refinado es suficiente para el mercado interno y establece un precio máximo para evitar especulación.",
+    "categoria": "País",
+    "factor": [
+      "Económico",
+      "Político"
+    ],
     "lugar": "Bolivia",
     "departamento": null,
     "pais": "Bolivia",
-    "fuentes": "ERBOL, Oficina de Asuntos del Hemisferio Occidental del Departamento de Estado, Karine Jean-Pierre (ex Secretaria de Prensa de la Casa Blanca)",
-    "hecho": "El Gobierno de Estados Unidos, a través de la Oficina de Asuntos del Hemisferio Occidental del Departamento de Estado, emitió un comunicado negando su participación en la asonada militar del 26 de junio de 2024 en Bolivia y calificando las acusaciones del gobierno boliviano como falsas y ofensivas. El comunicado se emitió en respuesta a un documental gubernamental que implicaba a Estados Unidos en el golpe, mencionando una supuesta reunión de la Encargada de Negocios en Bolivia con Juan José Zúñiga y vínculos de Fernando Handam, colaborador del general, con Estados Unidos. Previamente, en julio de 2024, la Casa Blanca ya había negado cualquier participación en los eventos.",
+    "fuentes": "OXÍGENO, Zenón Mamani (Ministro de Desarrollo Productivo y Economía Plural)",
+    "hecho": "El Ministro de Desarrollo Productivo y Economía Plural de Bolivia, Zenón Mamani, informó que la producción de aceite refinado en el país alcanza las 19.994 toneladas a abril, superando la demanda interna de 4.470 toneladas. El gobierno reguló el precio del litro de aceite envasado en 14 bolivianos y a granel en 13 bolivianos. Se denunció especulación y ocultamiento de aceite por parte de intermediarios. Las industrias oleaginosas están vendiendo el litro por debajo del precio regulado. Se están implementando controles contra el contrabando a través del Viceministerio de Lucha Contra el Contrabando.",
     "actores": [
       {
-        "nombre": "Juan José Zúñiga",
-        "cargo": "General (en la asonada militar)"
-      },
-      {
-        "nombre": "Fernando Handam",
-        "cargo": "Presunto colaborador de Juan José Zúñiga"
-      },
-      {
-        "nombre": "Karine Jean-Pierre",
-        "cargo": "Ex Secretaria de Prensa de la Casa Blanca"
+        "nombre": "Zenón Mamani",
+        "cargo": "Ministro de Desarrollo Productivo y Economía Plural"
       }
     ],
-    "probable_evolucion": "Las acusaciones continuas del gobierno boliviano podrían deteriorar las relaciones bilaterales con Estados Unidos. Esto podría resultar en un aumento de la tensión política y posibles sanciones o medidas diplomáticas por parte de Estados Unidos. La situación podría ser utilizada para justificar un mayor aislamiento internacional de Bolivia.",
-    "_id": "73f12c0453967f0e60e34895035063568c43a901e73ee55c60035044f4f516bc",
-    "numero_reporte": 265,
-    "fecha": "11/04/2025",
-    "hora": "20:42",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/11/putazo-gringo.jpg?itok=uDG9r2_h"
+    "probable_evolucion": "Es probable que el gobierno intensifique los controles para evitar la especulación y el contrabando. La situación podría generar tensiones entre el gobierno, los intermediarios y las industrias oleaginosas. El éxito de las medidas dependerá de la capacidad del gobierno para hacer cumplir los precios regulados.",
+    "_id": "cafe45b23bdb183059619b04ae2535f0bf55ca1d65c78df3a390f57f719d4c9f",
+    "numero_reporte": 328,
+    "fecha": "15/05/2025",
+    "hora": "14:03",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/aceite.jpg?itok=76hNWp-O"
   },
   {
-    "tema": "Argentina anuncia el fin del control de cambios y la implementación de un sistema de flotación de bandas cambiarias a partir del lunes, como parte de un programa económico respaldado por el FMI.",
+    "tema": "La escasez de combustible en La Paz ha reducido el flujo del transporte público en un 20% y ha generado largas filas en las estaciones de servicio.",
+    "categoria": "País",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "La Paz, Obrajes, San Pedro, El Alto",
+    "departamento": "La Paz",
+    "pais": "Bolivia",
+    "fuentes": "URGENTEBO, Limbert Tancara, Alejandro Gallardo",
+    "hecho": "Se reporta una escasez de combustible en La Paz que ha reducido en un 20% el flujo del transporte público. Las estaciones de servicio presentan largas filas, con el transporte pesado y flotas esperando hasta 20 horas para cargar diésel. Limbert Tancara, dirigente de la Asociación de Transporte Libre (ATL), denuncia la falta de combustible y la falta de respuesta de las instituciones encargadas del abastecimiento. El ministro de Hidrocarburos, Alejandro Gallardo, asegura que el abastecimiento comenzaría a las 13:00 horas del jueves. Se observa congestión vehicular en la calle 0 de Obrajes, San Pedro y en la avenida 6 de marzo de El Alto. Tancara advierte que, de no solucionarse el problema, el 40% del transporte urbano podría verse afectado, limitando el servicio a un 60%.",
+    "actores": [
+      {
+        "nombre": "Limbert Tancara",
+        "cargo": "Dirigente de la Asociación de Transporte Libre (ATL)"
+      },
+      {
+        "nombre": "Alejandro Gallardo",
+        "cargo": "Ministro de Hidrocarburos"
+      }
+    ],
+    "probable_evolucion": "La situación podría deteriorarse si el desabastecimiento persiste, afectando la movilidad urbana y generando malestar social.  La falta de combustible podría provocar un aumento de precios en el transporte y otros bienes y servicios.  Es probable que se intensifiquen las protestas y reclamos si no se toman medidas inmediatas.",
+    "_id": "aae913d32f2fda5013be78b7bd1df0ddd9badf8953d77aabe6f1822bd0c88828",
+    "numero_reporte": 327,
+    "fecha": "15/05/2025",
+    "hora": "14:19",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/gas.jpg?itok=pPueanMP"
+  },
+  {
+    "tema": "Seguidores de Evo Morales inician una marcha desde Parotani hacia La Paz para inscribir su candidatura presidencial, a pesar de la inhabilitación del Tribunal Constitucional Plurinacional.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "Parotani, La Paz, Trópico de Cochabamba",
+    "departamento": [
+      "Cochabamba",
+      "La Paz"
+    ],
+    "pais": "Bolivia",
+    "fuentes": "OXÍGENO, Radio Kawsachun Coca, Yván Espada, Evo Morales",
+    "hecho": "Un grupo de seguidores de Evo Morales, conocidos como 'evistas', iniciaron una marcha desde Parotani, en la ruta entre Cochabamba y Santa Cruz, con el objetivo de llegar a La Paz para inscribir la candidatura de Evo Morales a la presidencia. La marcha se realiza a pesar de que el Tribunal Constitucional Plurinacional (TCP) ha emitido fallos que inhabilitan a Morales para postularse a la presidencia. La movilización es transmitida en vivo por Radio Kawsachun Coca. Evo Morales no participa en la marcha y se encuentra en el Trópico de Cochabamba para evitar ser aprehendido. Los manifestantes planean presentar la candidatura de Morales en La Paz, aunque no se ha especificado la sigla ni el candidato a la vicepresidencia. Morales mencionó previamente que, debido a 'problemas internos', la movilización se convirtió en una 'marcha por la democracia'. Se reportó la presencia de un fuerte contingente policial en Parotani, sin enfrentamientos. La Sala Plena del TCP oficializó la sentencia 007/2025 que establece que nadie puede ejercer la presidencia por más de dos periodos, tanto continuos como discontinuos, aplicable a todos los candidatos. El decano del TCP, Yván Espada, aclaró la aplicabilidad de la sentencia a las candidaturas actuales. A pesar de la sentencia, el equipo jurídico de Morales ratificó la presentación de su candidatura, quedando la decisión final en manos del TSE. Morales advirtió sobre posibles 'convulsiones' en el país si es inhabilitado.",
+    "actores": [
+      {
+        "nombre": "Evo Morales",
+        "cargo": "Ex-Presidente, Líder cocalero"
+      },
+      {
+        "nombre": "Yván Espada",
+        "cargo": "Decano del Tribunal Constitucional Plurinacional (TCP)"
+      }
+    ],
+    "probable_evolucion": "La tensión política podría escalar si el TSE decide inhabilitar la candidatura de Morales, aumentando las protestas y posibles enfrentamientos.  La situación podría generar inestabilidad social y política, dependiendo de la respuesta de los seguidores de Morales y de las fuerzas de seguridad. La decisión del TSE será crucial para el futuro político de Bolivia.",
+    "_id": "c236f69e4ee87ddc36f07e9c1b7f9537bf3bf9a4dba903a80d7c8ca248aa1f83",
+    "numero_reporte": 326,
+    "fecha": "15/05/2025",
+    "hora": "12:08",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/marcha.jpg?itok=_PrY9cWq"
+  },
+  {
+    "tema": "Las intensas lluvias en Bolivia desde noviembre de 2024 han afectado a más de 919,000 familias y destruido 2,443 viviendas, con críticas a las gobernaciones de La Paz y Cochabamba por no declarar desastre departamental.",
+    "categoria": "País",
+    "factor": [
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": "Bolivia",
+    "departamento": [
+      "La Paz",
+      "Cochabamba",
+      "Chuquisaca",
+      "Potosí",
+      "Oruro"
+    ],
+    "pais": "Bolivia",
+    "fuentes": "ABI, Juan Carlos Calvimontes",
+    "hecho": "Desde noviembre de 2024, Bolivia ha experimentado intensas lluvias que han afectado a 919,732 familias, de las cuales 278,393 son damnificadas y 641,339 afectadas. Un total de 2,443 viviendas han sido destruidas y 7,509 afectadas. Se registran 59 personas fallecidas y 10 desaparecidas, con 103 familias evacuadas. 293 municipios se han visto afectados, de los cuales 239 se declararon en desastre y 25 en emergencia. El viceministro de Defensa Civil, Juan Carlos Calvimontes, criticó a las gobernaciones de La Paz y Cochabamba por no declarar desastre departamental, lo que limita el acceso a recursos y retrasa la atención a los municipios afectados. Los departamentos más perjudicados son La Paz, Chuquisaca, Potosí, Cochabamba y Oruro.",
+    "actores": [
+      {
+        "nombre": "Juan Carlos Calvimontes",
+        "cargo": "Viceministro de Defensa Civil"
+      }
+    ],
+    "probable_evolucion": "La falta de declaración de desastre en La Paz y Cochabamba podría agravar la situación al limitar la llegada de recursos. La persistencia de las lluvias y la falta de respuesta adecuada podrían aumentar el número de afectados y la destrucción de viviendas.  Se espera una mayor presión sobre el gobierno para agilizar la ayuda y la rehabilitación de las zonas afectadas.",
+    "_id": "17ba4ad7d2b706b0c1056eedebb2b95a321583b4471986762eb1a501d75108e3",
+    "numero_reporte": 325,
+    "fecha": "15/05/2025",
+    "hora": "12:25",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/inundaciones.jpg?itok=HcDzErBs"
+  },
+  {
+    "tema": "Mineros de La Paz marchan hacia el centro paceño exigiendo al gobierno el cumplimiento de acuerdos pendientes en temas tributarios y contractuales.",
+    "categoria": "País",
+    "factor": [
+      "Económico",
+      "Político"
+    ],
+    "lugar": "La Paz",
+    "departamento": "La Paz",
+    "pais": "Bolivia",
+    "fuentes": "URGENTEBO, Ramiro Balmaceda (dirigente minero)",
+    "hecho": "La Federación Regional de Cooperativas Mineras Auríferas del Norte de La Paz (Fecoman) realizó una marcha desde El Alto hacia el centro de La Paz. Los mineros tomaron las principales avenidas de la ciudad, buscando reunirse con las autoridades gubernamentales. Sus demandas se centran en el cumplimiento de acuerdos previos, especialmente en temas tributarios, contratos y la implementación de un régimen impositivo consensuado del 4.8%. El dirigente Ramiro Balmaceda informó sobre la exigencia de 100 gramos de oro físico como multa para las cooperativas que no participen en la movilización.",
+    "actores": [
+      {
+        "nombre": "Ramiro Balmaceda",
+        "cargo": "Dirigente minero"
+      },
+      {
+        "nombre": "Autoridades de Gobierno",
+        "cargo": "No especificado"
+      }
+    ],
+    "probable_evolucion": "Es probable que las negociaciones entre los mineros y el gobierno se intensifiquen. La falta de acuerdo podría llevar a una escalada de las protestas y afectar la actividad económica en la región.  La imposición de multas podría generar tensiones internas dentro de las cooperativas.",
+    "_id": "3e4fd8703b535f2b2f89e3b09048832f9d1db65cd69e34260fd1cc7ac690d26b",
+    "numero_reporte": 324,
+    "fecha": "15/05/2025",
+    "hora": "11:16",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/mineros.jpg?itok=p4xmQ5zd"
+  },
+  {
+    "tema": "El IBCE insta al gobierno a liberar las exportaciones y destrabar créditos para contrarrestar la subida del dólar y la escasez de divisas en Bolivia.",
+    "categoria": "Economía",
+    "factor": [
+      "Económico",
+      "Político"
+    ],
+    "lugar": null,
+    "departamento": null,
+    "pais": "Bolivia",
+    "fuentes": [
+      "Unitel",
+      "Gary Rodríguez (IBCE)"
+    ],
+    "hecho": "Se registra una subida histórica del dólar digital y paralelo en Bolivia. Gary Rodríguez, gerente del IBCE, señala que la situación se debe a la necesidad de divisas y que el Gobierno debe liberar y fortalecer las exportaciones para el ingreso de divisas. El aumento del dólar perjudica a la población debido a la dependencia de importaciones y el consiguiente aumento de precios. Rodríguez critica el veto a las exportaciones y sugiere destrabar créditos en la Asamblea Legislativa como solución, además de facilitar las exportaciones y coordinar las entidades estatales para agilizar el proceso.",
+    "actores": [
+      {
+        "nombre": "Gary Rodríguez",
+        "cargo": "Gerente del Instituto Boliviano de Comercio Exterior (IBCE)"
+      },
+      {
+        "nombre": "Gobierno de Bolivia",
+        "cargo": "Ejecutivo"
+      }
+    ],
+    "probable_evolucion": "La persistencia de la subida del dólar podría agravar la inflación y el descontento social. La falta de divisas podría llevar a restricciones en importaciones y afectar la producción interna. La implementación de las medidas propuestas podría estabilizar la situación económica, pero dependerá de la voluntad política y la eficiencia de las instituciones.",
+    "_id": "9936321f9ce72e90af86601ccfadb4a8d7912332b67746796d531373d0d66244",
+    "numero_reporte": 323,
+    "fecha": "15/05/2025",
+    "hora": "11:52",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/ibce_ed_listo.jpg?itok=HH-7ws9G"
+  },
+  {
+    "tema": "Se reporta un incremento en los casos de varicela en Cochabamba, Bolivia, según el director de Epidemiología del Sedes.",
+    "categoria": "Cochabamba",
+    "factor": [
+      "Psicosocial"
+    ],
+    "lugar": "Cochabamba",
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": "Unitel, Rubén Castillo (Director de Epidemiología del Sedes)",
+    "hecho": "Se ha detectado un incremento en los casos de varicela en Cochabamba. En la última semana epidemiológica (del 4 al 10 de mayo) se registraron 169 contagios, de los cuales 127 corresponden a la población infantil. El director de Epidemiología del Servicio Departamental de Salud (Sedes) de Cochabamba, Rubén Castillo, expresó preocupación por el aumento, aunque el porcentaje inicial del 98% está siendo revisado. Los síntomas incluyen fiebre, dolor de cabeza, malestar general y erupciones en la piel. Se recomienda a la población buscar atención médica y aislamiento domiciliario en caso de presentar síntomas.",
+    "actores": [
+      {
+        "nombre": "Rubén Castillo",
+        "cargo": "Director de Epidemiología del Sedes Cochabamba"
+      }
+    ],
+    "probable_evolucion": "Se espera que los casos de varicela continúen aumentando en los próximos meses, especialmente durante el invierno. Se anticipa una mayor demanda de atención médica y posibles brotes localizados. Las autoridades podrían implementar medidas de prevención y control para mitigar la propagación.",
+    "_id": "6188108031cdb5d6deb0abe540ba329fdfe1d51a19d4294056bcb9fb11fee9d0",
+    "numero_reporte": 322,
+    "fecha": "15/05/2025",
+    "hora": "11:57",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/varicela_lt_apro_ed_listo.jpg?itok=XOzRrOAL"
+  },
+  {
+    "tema": "China implementará una política de exención de visado para ciudadanos de Brasil, Argentina, Chile, Perú y Uruguay por un periodo de prueba.",
     "categoria": "Mundo",
     "factor": [
       "Económico",
       "Político"
     ],
-    "lugar": "Casa Rosada",
+    "lugar": "China",
     "departamento": null,
-    "pais": "Argentina",
-    "fuentes": "Xinhua",
-    "hecho": "El ministro de Economía de Argentina, Luis Caputo, anunció el levantamiento de las restricciones cambiarias a partir del lunes. El régimen cambiario pasará a un sistema de flotación de bandas entre 1,000 y 1,400 pesos por dólar. Esta medida forma parte de la fase 3 del programa económico del gobierno de Javier Milei, orientada a recapitalizar el Banco Central. Se elimina el dólar 'blend' y las restricciones para comprar dólares en el Mercado Libre de Cambios.  Se elimina la percepción impositiva en la compra de divisas, salvo en turismo y pagos con tarjeta en el exterior. Se autoriza el giro de utilidades al exterior para empresas a partir de 2025. Se flexibilizan los plazos para el pago de importaciones y se permite mayor libertad en pagos por servicios y bienes de capital.  El BCRA intervendrá solo cuando el tipo de cambio toque los extremos de la banda. Esta transición está respaldada por un acuerdo con el FMI y otros organismos internacionales.",
+    "pais": "China",
+    "fuentes": [
+      "Xinhua",
+      "Lin Jian (portavoz del Ministerio de Relaciones Exteriores de China)"
+    ],
+    "hecho": "El Ministerio de Relaciones Exteriores de China anunció una política de exención de visado para ciudadanos de Brasil, Argentina, Chile, Perú y Uruguay. Esta medida entrará en vigor el 1 de junio de 2025 y se extenderá hasta el 31 de mayo de 2026. Los ciudadanos con pasaportes ordinarios de los países mencionados podrán ingresar a China sin visado por motivos de negocios, turismo, visitas familiares o de amigos, intercambio o tránsito, con una estancia máxima de 30 días. El portavoz Lin Jian declaró que esta política busca facilitar los intercambios de personal y fomentar visitas a China.",
     "actores": [
       {
-        "nombre": "Luis Caputo",
-        "cargo": "Ministro de Economía de Argentina"
-      },
-      {
-        "nombre": "Javier Milei",
-        "cargo": "Presidente de Argentina"
+        "nombre": "Lin Jian",
+        "cargo": "Portavoz del Ministerio de Relaciones Exteriores de China"
       }
     ],
-    "probable_evolucion": "La eliminación del cepo cambiario podría atraer inversiones y reducir la inflación. Sin embargo, la fluctuación del tipo de cambio podría generar inestabilidad económica en el corto plazo.  El éxito de la medida dependerá de la capacidad del gobierno para gestionar la transición y mantener la estabilidad macroeconómica.",
-    "_id": "52bb3bf2edc07c02df4c76580283042f6289d16e99691dc8d7e725aad8edab10",
-    "numero_reporte": 264,
-    "fecha": "11/04/2025",
-    "hora": "21:10",
-    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/4/11/buenos_aires.jpg?itok=rcQr2O25"
+    "probable_evolucion": "Esta política podría aumentar significativamente el turismo y los intercambios comerciales entre China y los países beneficiados. Se espera que impulse las relaciones diplomáticas y económicas, y podría llevar a la implementación de políticas similares con otros países en el futuro.  El éxito de esta medida podría influir en futuras políticas de visado chinas.",
+    "_id": "07eb73ccb4a81b6b3cf18ae077045bd89ce10137ef033bbc697628876b94787b",
+    "numero_reporte": 321,
+    "fecha": "15/05/2025",
+    "hora": "10:49",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/visas_china_ed_listo.jpg?itok=o5Twp9kw"
+  },
+  {
+    "tema": "El senador Leonardo Loza anuncia que la ubicación de Evo Morales durante la caravana hacia La Paz no será revelada por razones de seguridad.",
+    "categoria": "País",
+    "factor": [
+      "Político",
+      "Psicosocial"
+    ],
+    "lugar": "La Paz, Parotani, Trópico, Tarija",
+    "departamento": [
+      "La Paz",
+      "Tarija"
+    ],
+    "pais": "Bolivia",
+    "fuentes": "ERBOL, Leonardo Loza",
+    "hecho": "El senador Leonardo Loza anunció durante el inicio de una caravana 'evista' hacia La Paz que la ubicación de Evo Morales no sería revelada por motivos de seguridad.  Morales, quien forma parte de la movilización, tiene una orden de aprehensión en su contra.  Loza denunció presencia policial en la caravana, considerándola un intento de amedrentamiento, argumentando que la movilización es pacífica. La caravana partió de Parotani con la intención de llegar a La Paz para mostrar apoyo a la candidatura de Morales, aunque la inscripción de su candidatura fue postergada hasta el 19 de mayo debido a la falta de consenso.",
+    "actores": [
+      {
+        "nombre": "Leonardo Loza",
+        "cargo": "Senador"
+      },
+      {
+        "nombre": "Evo Morales",
+        "cargo": "Expresidente"
+      }
+    ],
+    "probable_evolucion": "La decisión de no revelar la ubicación de Morales podría aumentar la tensión y especulación. La presencia policial y las denuncias de amedrentamiento sugieren un clima político polarizado. La postergación de la inscripción de la candidatura podría generar divisiones internas y retrasos en el proceso político.",
+    "_id": "0582c6ee2542b30cd0e1108d3344a1ec0d1903c77f382f8f0cb92bd0479c50a8",
+    "numero_reporte": 320,
+    "fecha": "15/05/2025",
+    "hora": "10:43",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/loza.jpg?itok=3-xOC6B4"
+  },
+  {
+    "tema": "Cochabamba enfrenta una crisis de basura debido al cierre del vertedero K’ara K’ara, generando conflictos y exigiendo soluciones urgentes.",
+    "categoria": "Actualidad",
+    "factor": [
+      "Político",
+      "Económico",
+      "Psicosocial"
+    ],
+    "lugar": [
+      "Cochabamba",
+      "K’ara K’ara",
+      "Cotapachi",
+      "Colcapirhua",
+      "Quillacollo",
+      "Bogotá"
+    ],
+    "departamento": "Cochabamba",
+    "pais": "Bolivia",
+    "fuentes": [
+      "Marcelo Paz Soldán",
+      "Alcaldías de Cochabamba y Colcapirhua",
+      "Gobernación de Cochabamba",
+      "Diario Los Tiempos",
+      "Documento Cochabamba: Desafíos urbanos y sociales"
+    ],
+    "hecho": "La ciudad de Cochabamba se encuentra en una crisis de gestión de residuos tras el cierre del vertedero de K’ara K’ara debido a su colapso ambiental. El municipio declaró emergencia ambiental, pero los intentos de trasladar la basura a una celda de emergencia en Cotapachi encontraron la oposición de los municipios vecinos de Colcapirhua y Quillacollo, quienes bloquearon el paso de los camiones y exigieron una licencia ambiental. La empresa Complejo Industrial Cochabamba, contratada para gestionar la basura, enfrenta problemas legales y políticos, lo que agrava la situación. El artículo destaca la falta de planificación a largo plazo y la necesidad de un enfoque metropolitano para la gestión de residuos, incluyendo separación en origen, reciclaje, compostaje y un nuevo relleno sanitario metropolitano. Se enfatiza la importancia de la voluntad política, la coordinación interinstitucional y la participación ciudadana para lograr una gestión sostenible de residuos.",
+    "actores": [
+      {
+        "actor": "Alcaldía de Cochabamba",
+        "cargo": "Responsable de la gestión de residuos"
+      },
+      {
+        "actor": "Nelson Gallinate",
+        "cargo": "Alcalde de Colcapirhua"
+      },
+      {
+        "actor": "Gustavo Camargo",
+        "cargo": "Secretario de Gobernabilidad de Cochabamba"
+      },
+      {
+        "actor": "Humberto Sánchez",
+        "cargo": "Gobernador de Cochabamba"
+      },
+      {
+        "actor": "Juan José Ayaviri",
+        "cargo": "Vocero municipal"
+      }
+    ],
+    "probable_evolucion": "La persistencia de la crisis podría llevar a un deterioro de la salud pública y el medio ambiente en Cochabamba. Los conflictos intermunicipales podrían agravarse, obstaculizando cualquier solución a corto plazo. La falta de consenso y la inacción podrían generar más protestas ciudadanas y agravar la situación de emergencia ambiental.",
+    "_id": "9c55f1f7c98148d8d3156a43db4e0c81b82ca296d269b71ff9ea7b782d2e34f8",
+    "numero_reporte": 319,
+    "fecha": "15/05/2025",
+    "hora": "10:20",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/_dsc2308_1.jpg?itok=3U0NeNTe"
+  },
+  {
+    "tema": "Seis presuntos policías de El Alto fueron aprehendidos por extorsionar a una mujer, exigiéndole dinero a cambio de no detener a sus familiares y precintar su vivienda.",
+    "categoria": "Seguridad",
+    "factor": [
+      "Político",
+      "Económico"
+    ],
+    "lugar": "El Alto",
+    "departamento": "La Paz",
+    "pais": "Bolivia",
+    "fuentes": "ERBOL, Fiscal Lilian Tirado",
+    "hecho": "El 11 de mayo de 2025, seis presuntos efectivos policiales de la Dirección de Prevención e Investigación de Robo de Vehículos (Diprove) de El Alto ingresaron a un domicilio en la zona Villa Bolívar “D” de El Alto, donde extorsionaron a una mujer.  Los individuos, bajo el pretexto de un supuesto operativo por robo de vehículo, amenazaron con precintar la vivienda y detener a sus familiares si no entregaba una suma de dinero. La víctima entregó Bs 800.000 y $us 3.000.  La fiscalía dispuso la aprehensión de los sospechosos. Se llevó a cabo un desfile identificativo donde la víctima reconoció a los presuntos policías.  El caso está siendo investigado por los delitos de extorsión, robo y coacción. Los aprehendidos fueron identificados como José L. I. C., Jhonny D.C.CH., Marcelo S. H., Ronald R. P. A., Miguel V. F. y Rosa L. S. Q.",
+    "actores": [
+      {
+        "nombre": "Lilian Tirado",
+        "cargo": "Fiscal"
+      },
+      {
+        "nombre": "José L. I. C.",
+        "cargo": "Presunto policía aprehendido"
+      },
+      {
+        "nombre": "Jhonny D.C.CH.",
+        "cargo": "Presunto policía aprehendido"
+      },
+      {
+        "nombre": "Marcelo S. H.",
+        "cargo": "Presunto policía aprehendido"
+      },
+      {
+        "nombre": "Ronald R. P. A.",
+        "cargo": "Presunto policía aprehendido"
+      },
+      {
+        "nombre": "Miguel V. F.",
+        "cargo": "Presunto policía aprehendido"
+      },
+      {
+        "nombre": "Rosa L. S. Q.",
+        "cargo": "Presunto policía aprehendido"
+      }
+    ],
+    "probable_evolucion": "La investigación podría conducir a la acusación formal y juicio de los aprehendidos.  El caso podría afectar la confianza pública en la policía y provocará una mayor supervisión de las operaciones policiales.  Podría desencadenar una revisión interna en la Diprove y posibles sanciones disciplinarias y legales.",
+    "_id": "2f2e13c98fb5238d360cf914ccde303a3e4d877df2f066b23990e50fec279471",
+    "numero_reporte": 318,
+    "fecha": "15/05/2025",
+    "hora": "10:27",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/diprove_ed_va.jpg?itok=-Tcf6h5N"
+  },
+  {
+    "tema": "Se reportan los riesgos de la deshidratación y la sobrehidratación, con especial atención a los efectos de consumir cantidades excesivas de agua.",
+    "categoria": "Tendencias",
+    "factor": [
+      "Psicosocial",
+      "Económico"
+    ],
+    "lugar": [
+      "Londres",
+      "Escocia",
+      "Aberdeen",
+      "23 países"
+    ],
+    "departamento": null,
+    "pais": [
+      "Reino Unido"
+    ],
+    "fuentes": [
+      "BBC",
+      "Nidia Rodríguez-Sánchez",
+      "Universidad de Stirling (Escocia)",
+      "Facultad de Medicina de Harvard",
+      "Organización Mundial de la Salud (OMS)",
+      "Autoridad Europea de Seguridad Alimentaria",
+      "Profesor John Speakman, de la Universidad de Aberdeen (Escocia)"
+    ],
+    "hecho": "El reporte analiza los peligros de la deshidratación y la sobrehidratación, destacando la importancia del equilibrio hídrico. Se presenta el caso de Johanna Perry, quien sufrió hiponatremia (intoxicación hídrica) durante el maratón de Londres al consumir demasiada agua. Se explican los síntomas de la deshidratación, como orina oscura, mareos y fatiga, y de la hiponatremia, como náuseas, dolor de cabeza y convulsiones.  Se mencionan las recomendaciones generales sobre la ingesta de agua, con énfasis en que las necesidades varían según factores como edad, actividad física y condiciones ambientales. Se cita un estudio global que sugiere ingestas promedio, pero se enfatiza la importancia de la sed y el color de la orina como indicadores de hidratación. El informe resalta que el agua es un nutriente esencial y que su consumo debe ser equilibrado.",
+    "actores": [
+      {
+        "actor": "Johanna Perry",
+        "cargo": "Participante en maratón"
+      },
+      {
+        "actor": "Nidia Rodríguez-Sánchez",
+        "cargo": "Experta en hidratación"
+      },
+      {
+        "actor": "Profesor John Speakman",
+        "cargo": "Profesor de la Universidad de Aberdeen"
+      }
+    ],
+    "probable_evolucion": "La concienciación sobre la hidratación podría aumentar, promoviendo prácticas más informadas sobre el consumo de agua.  Se podrían observar cambios en las recomendaciones oficiales y una mayor atención a las señales corporales de sed y deshidratación.  Podría haber un impacto en la industria de las bebidas y el deporte, con un enfoque más sofisticado en la hidratación en eventos y actividades.",
+    "_id": "0bebb0166e123aac73a587ccafeb4548673d6c7f5da5c4544c3df3d9bc5c0d29",
+    "numero_reporte": 317,
+    "fecha": "15/05/2025",
+    "hora": "10:11",
+    "image": "https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2025/5/15/agua-potable-de-mujer-de-tiro-medio_copia.jpg?itok=ImMK4rOQ"
   }
 ]

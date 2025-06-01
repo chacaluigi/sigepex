@@ -167,11 +167,12 @@ const actualizarSolicitud = async (req, res = response) => {
       ok: false,
       msg: "Error al actualizar la solicitud",
       error: error.message,
+      s,
     });
   }
 };
 
-/* const actualizarSolicitud = async (req, res = response) => {
+const editarSolicitud = async (req, res = response) => {
   try {
     const { id } = req.params;
     const updateData = {
@@ -211,11 +212,11 @@ const actualizarSolicitud = async (req, res = response) => {
     console.error(error);
     res.status(500).json({
       ok: false,
-      msg: "Error al actualizar la solicitud",
+      msg: "Error al editar la solicitud",
       error: error.message,
     });
   }
-}; */
+};
 
 const eliminarSolicitud = async (req, res = response) => {
   try {
@@ -247,5 +248,6 @@ module.exports = {
   getSolicitud,
   crearSolicitud,
   actualizarSolicitud,
+  editarSolicitud,
   eliminarSolicitud,
 };

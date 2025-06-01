@@ -45,8 +45,31 @@ export const actualizarSolicitud = createAsyncThunk(
         solicitudData,
         token
       );
+      console.log(response);
 
       // Actualización optimista
+      thunkAPI.dispatch(updateSolicitudOptimista(response.solicitud));
+
+      return response.solicitud;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  }
+);
+
+// features/solicitudSlice.js
+export const editarSolicitud = createAsyncThunk(
+  'solicitudes/editar',
+  async ({ id, updateData }, thunkAPI) => {
+    try {
+      const token = thunkAPI.getState().auth.user?.token;
+      const response = await solicitudService.editarSolicitud(
+        id,
+        updateData,
+        token
+      );
+
+      // Actualización optimista (opcional)
       thunkAPI.dispatch(updateSolicitudOptimista(response.solicitud));
 
       return response.solicitud;
@@ -109,6 +132,20 @@ const solicitudSlice = createSlice({
         );
       })
       .addCase(actualizarSolicitud.rejected, (state, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.message = action.payload;
+      })
+      .addCase(editarSolicitud.pending, state => {
+        state.isLoading = true;
+      })
+      .addCase(editarSolicitud.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.solicitudes = state.solicitudes.map(solicitud =>
+          solicitud._id === action.payload._id ? action.payload : solicitud
+        );
+      })
+      .addCase(editarSolicitud.rejected, (state, action) => {
         state.isLoading = false;
         state.isError = true;
         state.message = action.payload;

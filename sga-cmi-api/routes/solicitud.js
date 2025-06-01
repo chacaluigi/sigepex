@@ -6,6 +6,7 @@ const {
   getSolicitudes,
   getSolicitud,
   actualizarSolicitud,
+  editarSolicitud,
   eliminarSolicitud,
 } = require("../controllers/solicitud");
 
@@ -16,6 +17,7 @@ router.post("/solicitudes", crearSolicitud); // Crear una solicitud
 router.get("/solicitudes", getSolicitudes); // get todas las solicitudes
 router.get("/solicitudes/:id", getSolicitud); // get una solicitud por ID
 router.put("/solicitudes/:id", actualizarSolicitud); // Modificar una solicitud
+router.put("/solicitudes/:id", editarSolicitud); // Modificar una solicitud
 router.delete("/solicitudes/:id", eliminarSolicitud); // Eliminar una solicitud
 
 module.exports = router;

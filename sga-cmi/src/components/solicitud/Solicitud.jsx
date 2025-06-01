@@ -45,16 +45,14 @@ const Solicitudes = () => {
       navigate('/uee');
     }
     dispatch(getSolicitudes({ page: currentPage, perPage }));
-
+    if (isError) {
+      ToastChakra('Error', message, 'error', 1500);
+      console.error(message);
+    }
     return () => {
       dispatch(reset());
     };
   }, [user, navigate, dispatch, currentPage, perPage]);
-
-  if (isError) {
-    //ToastChakra('Error', message, 'error', 1500);
-    console.error(message);
-  }
 
   const getBadgeColor = estado => {
     switch (estado) {

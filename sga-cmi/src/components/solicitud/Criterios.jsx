@@ -16,7 +16,6 @@ import 'react-data-table-component-extensions/dist/index.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { getSolicitudes, reset } from '../../features/solicitudSlice';
-import { ToastChakra } from '../../helpers/toast';
 import {
   FiChevronLeft,
   FiChevronRight,

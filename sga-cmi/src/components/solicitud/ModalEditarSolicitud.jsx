@@ -20,7 +20,7 @@ import { FiEdit } from 'react-icons/fi';
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
-  actualizarSolicitud,
+  editarSolicitud,
   updateSolicitudOptimista,
 } from '../../features/solicitudSlice';
 import { getAllUsuarios } from '../../features/usuarioSlice';
@@ -54,46 +54,31 @@ const ModalEditarSolicitud = ({ solicitud }) => {
 
   const handleSubmit = async () => {
     try {
-      // Preparar datos para actualización
       const updateData = {
         estado: formData.estado,
         ...(formData.asignadoA && { asignadoA: formData.asignadoA }),
       };
 
-      // Agregar fecha de finalización si cambia a Completado
-      if (
-        formData.estado === 'Completado' &&
-        solicitud.estado !== 'Completado'
-      ) {
-        updateData.fecha_finalizacion = new Date();
-      }
-
-      // Crear objeto para actualización optimista
+      // Optimistic update
       const optimisticUpdate = {
         ...solicitud,
         ...updateData,
-        ...(updateData.fecha_finalizacion && {
-          fecha_finalizacion: updateData.fecha_finalizacion,
-        }),
-        // Mantener los objetos populate si existen
         usuario: solicitud.usuario,
         asignadoA: formData.asignadoA
           ? usuarios.find(u => u._id === formData.asignadoA)
           : null,
       };
-
-      // Dispatch de la actualización optimista
       dispatch(updateSolicitudOptimista(optimisticUpdate));
 
-      // Dispatch de la llamada API real
+      // Llamada API con la nueva acción
       const resultAction = await dispatch(
-        actualizarSolicitud({
+        editarSolicitud({
           id: solicitud._id,
-          ...updateData,
+          updateData, // Envía el objeto directamente (el backend maneja la lógica)
         })
       );
 
-      if (actualizarSolicitud.fulfilled.match(resultAction)) {
+      if (editarSolicitud.fulfilled.match(resultAction)) {
         toast({
           title: 'Solicitud actualizada',
           status: 'success',
@@ -102,18 +87,14 @@ const ModalEditarSolicitud = ({ solicitud }) => {
         });
         onClose();
       } else {
-        // Si falla, revertir la actualización optimista
-        dispatch(updateSolicitudOptimista(solicitud));
+        dispatch(updateSolicitudOptimista(solicitud)); // Revertir si falla
         throw resultAction.error;
       }
     } catch (error) {
-      console.error('Error al actualizar:', error);
       toast({
-        title: 'Error al actualizar',
-        description: error.message || 'Error desconocido',
+        title: 'Error al editar',
+        description: error.message,
         status: 'error',
-        duration: 3000,
-        isClosable: true,
       });
     }
   };
