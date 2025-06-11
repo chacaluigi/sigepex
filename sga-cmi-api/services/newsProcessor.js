@@ -39,6 +39,51 @@ async function processNews() {
     });
   }
 
+  //REPORTES HUERFANOS
+
+  async function limpiarReportesHuerfanos() {
+    try {
+      const Solicitud = require("../models/solicitud");
+      const Report = require("../models/report");
+
+      console.log("🔍 Buscando reportes con solicitudes que ya no existen...");
+
+      // Obtener todos los IDs de solicitudes existentes
+      const solicitudesExistentes = await Solicitud.find({}, { _id: 1 });
+      const idsSolicitudesExistentes = new Set(
+        solicitudesExistentes.map((s) => s._id.toString())
+      );
+
+      // Buscar reportes que tienen solicitud pero la solicitud no existe
+      const reportesConSolicitud = await Report.find({
+        solicitud: { $exists: true, $ne: null },
+      });
+
+      const reportesHuerfanos = reportesConSolicitud.filter(
+        (reporte) => !idsSolicitudesExistentes.has(reporte.solicitud.toString())
+      );
+
+      if (reportesHuerfanos.length === 0) {
+        console.log("✅ No hay reportes huérfanos para limpiar");
+        return;
+      }
+
+      console.log(
+        `🔄 Encontrados ${reportesHuerfanos.length} reportes huérfanos, limpiando...`
+      );
+
+      // Eliminar la referencia a solicitudes que no existen
+      await Report.updateMany(
+        { _id: { $in: reportesHuerfanos.map((r) => r._id) } },
+        { $unset: { solicitud: "" } }
+      );
+
+      console.log("✅ Limpieza de reportes huérfanos completada");
+    } catch (error) {
+      console.error("⚠️ Error en limpiarReportesHuerfanos:", error);
+    }
+  }
+
   async function asociarReportesASolicitudes() {
     try {
       const Solicitud = require("../models/solicitud");
@@ -156,6 +201,11 @@ async function processNews() {
     } else {
       console.log("📌 No hay noticias nuevas para guardar.");
     }
+
+    // 📌 Limpiar reportes huérfanos antes de asociar nuevos
+    console.log("🧹 Limpiando reportes huérfanos...");
+    await limpiarReportesHuerfanos();
+
     // 📌 Asociar reportes a solicitudes
     console.log("🔗 Asociando reportes a solicitudes...");
     await asociarReportesASolicitudes();

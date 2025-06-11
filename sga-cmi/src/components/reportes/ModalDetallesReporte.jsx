@@ -125,11 +125,11 @@ export const ModalDetallesReporte = ({ reporte }) => {
                 ))}
               </Stack>
               <Divider />
-              <Stack direction="column">
+              {/* <Stack direction="column">
                 <Text fontWeight="bold">PROBABLE EVOLUCIÓN:</Text>
                 <Text>{reporte?.probable_evolucion}</Text>
               </Stack>
-              <Divider />
+              <Divider /> */}
             </Stack>
           </DrawerBody>
 

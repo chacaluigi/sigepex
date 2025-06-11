@@ -169,7 +169,7 @@ export const ModalDescargar = ({ row }) => {
                     }),
                   ],
                 }),
-                new TableRow({
+                /* new TableRow({
                   children: [
                     new TableCell({
                       columnSpan: 2,
@@ -179,7 +179,7 @@ export const ModalDescargar = ({ row }) => {
                       ],
                     }),
                   ],
-                }),
+                }), */
               ],
             }),
           ],

@@ -1,0 +1,646 @@
+[
+  {
+    "id": "15ba162f-c75b-47f5-834d-a4e94a5d2a4d",
+    "nombre": "Bolivia TV",
+    "usuario": "Canal_BoliviaTV",
+    "descripcion": "Canal estatal.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "73d7184b-f167-4bf9-bd85-75508e0f15b8",
+    "nombre": "ATB",
+    "usuario": "ATBDigital",
+    "descripcion": "Uno de los más antiguos y populares.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "d147b2ca-2e23-47ce-a6eb-97ded2e03ebf",
+    "nombre": "Red Uno",
+    "usuario": "RedUnoTv",
+    "descripcion": "Canal privado con amplia audiencia.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "0eb37f06-721e-4ea3-8014-c92bd9b4bcab",
+    "nombre": "Red Bolivisión",
+    "usuario": "redbolivision",
+    "descripcion": "Somos parte de ti.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "bbcb879a-d7f5-43dd-bc90-e439c9b40568",
+    "nombre": "PAT",
+    "usuario": "patboliviatv",
+    "descripcion": "Canal nacional.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "4dacebed-6c2f-453e-9cad-bf72defa9c6e",
+    "nombre": "RTP",
+    "usuario": "rtp_bolivia",
+    "descripcion": "Enfocado en cultura y noticias.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "9762be1d-13ea-4ced-939b-2adf009ce255",
+    "nombre": "Gigavisión",
+    "usuario": "RedGigavision",
+    "descripcion": "Canal privado con énfasis en noticias.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "8290354c-45b5-4b97-8192-a1bb27b2a3e6",
+    "nombre": "Abya Yala Televisión",
+    "usuario": "AbyaYalaBolivia",
+    "descripcion": "Canal con enfoque indígena y cultural.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "869bc2c4-2387-4691-a2eb-3e4a4b509211",
+    "nombre": "eju.tv",
+    "usuario": "ejutv",
+    "descripcion": "Monitoreo de radio, televisión y prensa de Bolivia.  Noticias, entretenimiento, clasificados, opinión y debate x escrito y en videos.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "869bc2c4-2387-4691-a2eb-3e4a4b509236",
+    "nombre": "Que No Me Pierda",
+    "usuario": "QueNoMePierdaBo",
+    "descripcion": "Información de primera mano, de lunes a viernes a partir de las 22:00hrs por la señal HD de @RedUnoTv.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "de2fba5f-30d8-4e57-8f57-0bd2d20a5be1",
+    "nombre": "XTO TV",
+    "usuario": "XTOTVBolivia",
+    "descripcion": "La cadena de televisión cristiana más importante de Bolivia, 24 horas de programación.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "62c9833a-1b1c-4b13-99d9-00c5214898f7",
+    "nombre": "Novedades de Bolivia",
+    "usuario": "notibolivia",
+    "descripcion": "Lea y Escuche las Mejores Novedades y NsoticiasBolivia",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "7dfc79ea-a622-4bd7-a7dd-b9dd8655836c",
+    "nombre": "Radio Fides",
+    "usuario": "GrupoFides",
+    "descripcion": "Con fuerte presencia noticiosa (fundada por jesuitas).",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "3bed0a62-fae8-45be-b78b-9d5545a3c458",
+    "nombre": "Erbol",
+    "usuario": "ErbolDigital",
+    "descripcion": "Enfocada en el área rural e indígena.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "e8ebf129-2001-4143-bde2-ea6c93ea7020",
+    "nombre": "Radio Patria Nueva",
+    "usuario": "PatriaNuevaFM",
+    "descripcion": "Radio estatal.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "2f3140d3-2f91-42f2-a6a5-69d4e3609bef",
+    "nombre": "Radio San Gabriel",
+    "usuario": "RadioSanGabrie1",
+    "descripcion": "Emite en aimara y español.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "65d40ed5-9db6-4437-a888-75459d64aefd",
+    "nombre": "Radio Éxito",
+    "usuario": "ExitoNoticias",
+    "descripcion": "Con programación variada.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "c7a8a8db-2470-4bc4-90a7-82bc63c2a85c",
+    "nombre": "Radio Qhana",
+    "usuario": null,
+    "descripcion": "Emisora cultural en aimara y español.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "940003b8-9915-4e8a-9dc5-65b6ee647532",
+    "nombre": "Radio Loyola",
+    "usuario": null,
+    "descripcion": "Vinculada a la Iglesia Católica.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "fb9826a7-c179-4639-9227-d061e4ac6aea",
+    "nombre": "Radio Alternativa",
+    "usuario": null,
+    "descripcion": "Popular en el norte del país.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "562d4e81-cac0-4ea2-9931-e47c4a953f52",
+    "nombre": "La Razón",
+    "usuario": "LaRazon_Bolivia",
+    "descripcion": "Diario nacional con sede en La Paz.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "ed2821cd-796e-4f45-878e-9cc52ae3ddbb",
+    "nombre": "El Deber",
+    "usuario": "grupoeldeber",
+    "descripcion": "Diario líder de Santa Cruz.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "a510ce79-e469-46ed-bc5d-452255f93e4d",
+    "nombre": "Página Siete",
+    "usuario": null,
+    "descripcion": "Diario independiente (suspendido en 2023, pero influyente).",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "7b0085e9-e6d1-420e-97bf-05662d6c3844",
+    "nombre": "Los Tiempos",
+    "usuario": "LosTiemposBol",
+    "descripcion": "Diario de Cochabamba.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "2f94fb48-49e8-4572-a710-902cb4af9f5b",
+    "nombre": "El Diario",
+    "usuario": "eldiario_net",
+    "descripcion": "Uno de los más antiguos del país.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "9adba243-1307-443a-aac1-3c09f37847f0",
+    "nombre": "Opinión",
+    "usuario": "Opinion_Bolivia",
+    "descripcion": "Diario cochabambino de gran circulación.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "af74bb2a-a594-48e2-ad37-15f33dc3a53a",
+    "nombre": "Correo del Sur",
+    "usuario": "correodelsurcom",
+    "descripcion": "Diario de Sucre.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "2f0a7f09-ee6c-43d7-80de-fe1f234b0e99",
+    "nombre": "La Patria",
+    "usuario": "LaPatriaDigital",
+    "descripcion": "Diario de Oruro.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "38857c9f-fa51-4447-ae4f-e4645ab5b3f0",
+    "nombre": "Agencia de Noticias Fides",
+    "usuario": "noticiasfides",
+    "descripcion": "Es la primera agencia de noticias del país, fundada en 1963 por el P. José Gramunt  SJ. Es una obra de la Compañía de Jesús en Bolivia.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "561070fa-cf6f-4670-8587-3bf5314fff5a",
+    "nombre": "Urgente.bo",
+    "usuario": "Urgentebo",
+    "descripcion": "Medio digital centrado en noticias breves y urgentes.",
+    "tipo": "Medio de comunicación"
+  },
+  {
+    "id": "646bfce4-2d73-4f40-b8ea-82a73b6bf11c",
+    "nombre": "Luis Arce Catacora",
+    "usuario": "LuchoXBolivia",
+    "descripcion": "Presidente de Bolivia desde 2020, del MAS (Movimiento al Socialismo).",
+    "tipo": "Político"
+  },
+  {
+    "id": "68cae743-076e-4526-b45d-3210033e8266",
+    "nombre": "David Choquehuanca",
+    "usuario": "LaramaDavid",
+    "descripcion": "Vicepresidente actual, también del MAS.",
+    "tipo": "Político"
+  },
+  {
+    "id": "93df3f0b-3f41-4500-b177-a7b44a8f292e",
+    "nombre": "Evo Morales Ayma",
+    "usuario": "evoespueblo",
+    "descripcion": "Expresidente (2006–2019), líder histórico del MAS.",
+    "tipo": "Político"
+  },
+  {
+    "id": "89f8b4f2-4a74-4f64-bb5d-393ac34a9cdd",
+    "nombre": "Andrónico Rodríguez",
+    "usuario": "AndronicoRod",
+    "descripcion": "Presidente del Senado, joven líder del MAS.",
+    "tipo": "Político"
+  },
+  {
+    "id": "353e4052-cd4a-4cbb-80a3-8a52a4e6a851",
+    "nombre": "María Nela Prada",
+    "usuario": null,
+    "descripcion": "Ministra de la Presidencia, figura clave del gobierno de Arce.",
+    "tipo": "Político"
+  },
+  {
+    "id": "2dafe3d1-4b2e-4042-8a39-08ba229c4234",
+    "nombre": "Eduardo del Castillo",
+    "usuario": "EDelCastilloDC",
+    "descripcion": "Ministro de Gobierno, cercano al ala renovadora del MAS.",
+    "tipo": "Político"
+  },
+  {
+    "id": "23ef8f36-3b57-42b0-93b2-10c1401d5675",
+    "nombre": "Iván Lima",
+    "usuario": "ivanlimamagne",
+    "descripcion": "Ministro de Justicia, relevante en temas judiciales y constitucionales.",
+    "tipo": "Político"
+  },
+  {
+    "id": "5f09cabe-04f3-4dcf-9249-c371a2c3d742",
+    "nombre": "Fernando Camacho",
+    "usuario": "LuisFerCamachoV",
+    "descripcion": "Gobernador de Santa Cruz (actualmente detenido), líder de Creemos.",
+    "tipo": "Político"
+  },
+  {
+    "id": "640ee430-06d4-4cec-8361-fb34992a5160",
+    "nombre": "Luis Fernando Valverde",
+    "usuario": null,
+    "descripcion": "Asambleísta cruceño, crítico del MAS.",
+    "tipo": "Político"
+  },
+  {
+    "id": "d6064ea8-fb2e-47a8-98cd-11a2da998309",
+    "nombre": "Eva Copa",
+    "usuario": null,
+    "descripcion": "Alcaldesa de El Alto, exsenadora del MAS, ahora independiente (Jallalla).",
+    "tipo": "Político"
+  },
+  {
+    "id": "2149840f-b8f9-4c33-bf6a-0e492c5365fa",
+    "nombre": "Adriana Salvatierra",
+    "usuario": "Adriana1989sa",
+    "descripcion": "Exsenadora, joven figura influyente del MAS.",
+    "tipo": "Político"
+  },
+  {
+    "id": "19515590-c0ad-43d8-bd68-374f10a80b1f",
+    "nombre": "Carlos Romero Bonifaz",
+    "usuario": null,
+    "descripcion": "Exministro de Gobierno, figura legal clave del MAS.",
+    "tipo": "Político"
+  },
+  {
+    "id": "a0ac98e4-1b2d-448a-88a3-39286792de10",
+    "nombre": "Rómulo Calvo",
+    "usuario": null,
+    "descripcion": "Exlíder del Comité Cívico Pro Santa Cruz.",
+    "tipo": "Político"
+  },
+  {
+    "id": "8d322258-ea0d-451c-9415-3dbc997dab7c",
+    "nombre": "Samuel Doria Medina",
+    "usuario": "SDoriaMedina",
+    "descripcion": "Empresario y político, líder de Unidad Nacional (UN).",
+    "tipo": "Político"
+  },
+  {
+    "id": "cb74b28f-a8a5-4462-9992-d43591d37925",
+    "nombre": "Manfred Reyes Villa",
+    "usuario": "ManfredBolivia",
+    "descripcion": "Alcalde de Cochabamba, excandidato presidencial y militar retirado.",
+    "tipo": "Político"
+  },
+  {
+    "id": "3553220c-32d1-4ed8-9226-aad6c857bf86",
+    "nombre": "Carlos Mesa Gisbert",
+    "usuario": "carlosdmesag",
+    "descripcion": "Expresidente (2003–2005), líder de Comunidad Ciudadana.",
+    "tipo": "Político"
+  },
+  {
+    "id": "1d98706a-de30-42cb-a835-3ef7d1b507e0",
+    "nombre": "Jorge Quiroga Ramírez (Tuto)",
+    "usuario": "tutoquiroga",
+    "descripcion": "Expresidente (2001–2002), exlíder de ADN.",
+    "tipo": "Político"
+  },
+  {
+    "id": "f5566971-70b3-4df7-acb7-8c7b5a66650d",
+    "nombre": "Jeanine Áñez Chávez",
+    "usuario": "JeanineAnez",
+    "descripcion": "Expresidenta transitoria (2019–2020), actualmente detenida.",
+    "tipo": "Político"
+  },
+  {
+    "id": "1700ec5f-2144-49ac-8605-bd23ec8dd3f2",
+    "nombre": "Wálter Chávez",
+    "usuario": null,
+    "descripcion": "Estratega político, exasesor de Evo Morales.",
+    "tipo": "Político"
+  },
+  {
+    "id": "0bd9ae61-5fd5-4316-b707-6737d51d57fc",
+    "nombre": "Marcelo Arce Moscoso",
+    "usuario": null,
+    "descripcion": "Viceministro de Coordinación con Movimientos Sociales, figura emergente.",
+    "tipo": "Político"
+  },
+  {
+    "id": "68a7ae90-5177-43d3-a1dd-dba8aff6bc86",
+    "nombre": "Amalia Pando",
+    "usuario": "AmaliaPando",
+    "descripcion": "Reconocida por su trayectoria crítica en radio y medios digitales; fundadora de Cabildeo Digital.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "5623f06e-09b1-45e8-973b-6d7a70864e69",
+    "nombre": "Carlos Valverde Bravo",
+    "usuario": "CFValverde",
+    "descripcion": "Periodista de investigación radicado en Santa Cruz, crítico de todos los gobiernos.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "db482c70-632f-4a5e-a12f-1c6a63b0e10d",
+    "nombre": "Raúl Peñaranda",
+    "usuario": "RaulPenaranda1",
+    "descripcion": "Fundador de Página Siete; escritor y analista político.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "7f0c5f87-2c4c-4ce5-b985-db8dbe4394d8",
+    "nombre": "Andrés Gómez Vela",
+    "usuario": "AndrsGomezV",
+    "descripcion": "Periodista y abogado; activo en análisis político en redes sociales.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "422e9465-270e-45e7-bd32-fb8b4b66cd3f",
+    "nombre": "Mercedes Fernández (Meche)",
+    "usuario": null,
+    "descripcion": "Periodista con trabajo enfocado en derechos humanos y justicia.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "56fb36c1-d81e-437b-ad4b-74f444d7de6a",
+    "nombre": "John Arandia",
+    "usuario": "JohnArandia",
+    "descripcion": "Exconductor de televisión y radio; voz respetada del periodismo nacional.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "e29d1082-24d0-4e50-967c-c16480f9b4a7",
+    "nombre": "Tuffí Aré Vázquez",
+    "usuario": null,
+    "descripcion": "Exeditor de El Deber, actual director de Asuntos Centrales.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "31777b31-1318-4b00-af7c-bbb37b9257ea",
+    "nombre": "Maggy Talavera",
+    "usuario": null,
+    "descripcion": "Periodista cruceña con columnas críticas; dirige Semanario Uno.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "254735d9-bd85-4bad-a1e6-22ca42308c9f",
+    "nombre": "Mery Vaca",
+    "usuario": null,
+    "descripcion": "Cofundadora de La Pública; periodista de investigación.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "b8e02352-6c58-4f68-a324-1c4916fcba38",
+    "nombre": "Roberto Navia",
+    "usuario": null,
+    "descripcion": "Premio Ortega y Gasset; cronista y documentalista de temas sociales.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "a926b45d-da35-4ccf-b56a-453702cf74b0",
+    "nombre": "Willy Miranda",
+    "usuario": null,
+    "descripcion": "Periodista de investigación con enfoque en medioambiente y minería.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "7f633f9f-1aeb-48b1-b9e2-8f9faeae7062",
+    "nombre": "Fabiola Chambi",
+    "usuario": null,
+    "descripcion": "Periodista digital con enfoque en libertad de expresión y derechos digitales.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "d526684a-51e1-4708-8edb-9a6663a9380d",
+    "nombre": "Nelfi Fernández Reyes",
+    "usuario": null,
+    "descripcion": "Escritora y periodista, ex El Deber, reconocida por su narrativa periodística.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "a8e9ad73-b9a0-41df-a41c-86f46bf65a94",
+    "nombre": "Fernando Molina",
+    "usuario": null,
+    "descripcion": "Periodista y analista político, publica en medios nacionales e internacionales.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "fb659aab-7107-4152-a8af-025ff4cc048b",
+    "nombre": "Sibele Oliveira",
+    "usuario": null,
+    "descripcion": "Periodista brasileña radicada en Bolivia, colaboradora de medios internacionales.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "f7b92606-0543-416d-aed8-296f66c1cd1b",
+    "nombre": "Junior Arias",
+    "usuario": null,
+    "descripcion": "Conductor de televisión con presencia fuerte en redes; crítico de la gestión pública.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "85592f0f-efa1-4cd4-aa61-67966dbf4b9d",
+    "nombre": "Wilson García Mérida",
+    "usuario": "WGarciaMerida",
+    "descripcion": "Periodista independiente con enfoque en geopolítica y derechos indígenas.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "cb50970f-dba3-4852-99f3-e43638cb1f4d",
+    "nombre": "Roxana Lizárraga",
+    "usuario": "roxAhoracRoxana",
+    "descripcion": "Periodista y exministra; activa en medios digitales.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "401915f4-34b7-4169-8a40-c6f5f1642e2d",
+    "nombre": "Iván Ramos",
+    "usuario": null,
+    "descripcion": "Periodista de investigación, colaborador en medios alternativos.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "93b8cb41-4fcf-4035-9e7b-fb1c864cc880",
+    "nombre": "Sonia Montaño",
+    "usuario": null,
+    "descripcion": "Socióloga y periodista de opinión, con presencia en medios impresos y digitales.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "93b8cb41-4fcf-4035-9e7b-fb1c864cc881",
+    "nombre": "Brissa Pabon Flores",
+    "usuario": "brissapabon",
+    "descripcion": "Periodista, creadora digital y presentadora / 1999.",
+    "tipo": "Periodista"
+  },
+  {
+    "id": "f0471e8c-7fba-42a8-b209-f9a9b9400a2b",
+    "nombre": "Rafael Archondo",
+    "usuario": null,
+    "descripcion": "Activista por la democracia y la libertad de prensa; también periodista.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "029ce441-e72b-4205-a9a8-81b4547a703d",
+    "nombre": "María Galindo",
+    "usuario": "mujerescreando1",
+    "descripcion": "Fundadora del colectivo feminista Mujeres Creando, voz crítica del sistema patriarcal y político.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "9277bfa1-1ede-415b-bf6c-e61e38ef9908",
+    "nombre": "Ruth Alipaz Cuqui",
+    "usuario": null,
+    "descripcion": "Activista indígena y defensora del medioambiente; opuesta a megaproyectos que afectan territorios indígenas.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "ad07cdd5-1637-4ef0-b780-09ef87255312",
+    "nombre": "David Inca Apaza",
+    "usuario": null,
+    "descripcion": "Activista de derechos humanos en El Alto; defensor de víctimas de violencia estatal.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "605eca0d-7455-4011-9308-61945dc20fea",
+    "nombre": "Cecilia Moyoviri",
+    "usuario": null,
+    "descripcion": "Activista indígena de tierras bajas, defensora de los pueblos del TIPNIS.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "32bbd988-fb02-4ea5-9e62-e49c24fd6c6a",
+    "nombre": "Yuri Tórrez",
+    "usuario": null,
+    "descripcion": "Sociólogo y activista cultural, defensor del derecho a la comunicación.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "557fa7bf-2755-4f8b-bb57-23487819f2e8",
+    "nombre": "Cecilia Requena",
+    "usuario": null,
+    "descripcion": "Senadora y activista medioambiental; muy activa en debates sobre el cambio climático.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "d1f354d9-2f71-4d1e-bffb-c3bfe3e21374",
+    "nombre": "Adalid Contreras Baspineiro",
+    "usuario": null,
+    "descripcion": "Comunicador y activista por la democracia y derechos ciudadanos.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "e42fc707-28d5-4409-9a6a-c07d9065847b",
+    "nombre": "Leslie Roca",
+    "usuario": null,
+    "descripcion": "Activista LGBTIQ+, trabaja en educación y derechos de las diversidades.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "d8f9aeb7-e94f-40d8-9efd-02e8b5e1ceb8",
+    "nombre": "Franz Barrios",
+    "usuario": null,
+    "descripcion": "Defensor de los derechos humanos y activista anticorrupción.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "5d6ff2f2-71d7-452e-a455-9246f562e4f6",
+    "nombre": "Alex Villca Limaco",
+    "usuario": null,
+    "descripcion": "Activista indígena del norte paceño; defensor de áreas protegidas.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "196a21b0-521f-41dc-b3d0-c414c731527c",
+    "nombre": "Teresa Subieta",
+    "usuario": null,
+    "descripcion": "Activista religiosa comprometida con causas sociales y derechos de los pobres.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "bf5389cc-c4ce-4818-9e92-aa810b1b13d0",
+    "nombre": "Pamela Gonzales",
+    "usuario": null,
+    "descripcion": "Activista feminista y comunicadora comunitaria.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "9ef69b8d-7b2e-4e0b-be47-36a48c33874c",
+    "nombre": "Jhanisse Vaca Daza",
+    "usuario": null,
+    "descripcion": "Fundadora de Ríos de Pie, activista climática y de resistencia pacífica.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "a1aa080e-57f7-414d-90d3-267cd800ff5f",
+    "nombre": "Juan Carlos Alarcón",
+    "usuario": null,
+    "descripcion": "Activista por los derechos laborales y sindicales.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "42dcf974-8c1e-49cb-838f-91bc9d4402d0",
+    "nombre": "Patricia Galarza",
+    "usuario": null,
+    "descripcion": "Defensora de derechos de las mujeres en situación de violencia.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "27ad2662-4f58-4bc3-b656-c721ddc7735a",
+    "nombre": "Miguel Vargas",
+    "usuario": null,
+    "descripcion": "Activista por los derechos del pueblo afroboliviano.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "f17f7b77-7958-4215-bc73-2e6e2c8835f4",
+    "nombre": "Nayra Balcázar",
+    "usuario": null,
+    "descripcion": "Activista trans y defensora de los derechos LGBTIQ+.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "f4b71686-06b2-4231-a92e-1c193c75bc47",
+    "nombre": "Simón Cuba",
+    "usuario": null,
+    "descripcion": "Activista comunitario en el área de educación alternativa en zonas rurales.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "713cd8df-c652-4588-88a5-e554f20763ba",
+    "nombre": "Fátima Molina",
+    "usuario": null,
+    "descripcion": "Activista juvenil por el acceso a la educación, vinculada a movimientos estudiantiles.",
+    "tipo": "Activista"
+  },
+  {
+    "id": "713cd8df-c652-4588-88a5-e554f20763ab",
+    "nombre": "Marcelo Claure",
+    "usuario": "marceloclaure",
+    "descripcion": "Empresario boliviano que radica en EE.UU.",
+    "tipo": "Otros"
+  }
+]

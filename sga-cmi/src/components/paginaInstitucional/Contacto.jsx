@@ -21,7 +21,7 @@ export const Contacto = () => {
           size="xl"
           mb={12}
           textAlign="center"
-          color="gray.200"
+          color="gray.600"
           fontWeight="medium"
         >
           Contacto
@@ -34,7 +34,7 @@ export const Contacto = () => {
                 as="h3"
                 size="lg"
                 mb={6}
-                color="gray.200"
+                color="gray.600"
                 fontWeight="medium"
               >
                 Información de Contacto
@@ -69,12 +69,12 @@ export const Contacto = () => {
           </GridItem>
 
           <GridItem>
-            <Box p={6} borderRadius="lg" border="1px" borderColor="gray.200">
+            <Box p={6} borderRadius="lg" border="1px" borderColor="gray.600">
               <Heading
                 as="h3"
                 size="lg"
                 mb={6}
-                color="gray.200"
+                color="gray.600"
                 fontWeight="medium"
               >
                 Envíanos un mensaje

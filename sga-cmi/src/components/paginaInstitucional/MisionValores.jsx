@@ -18,7 +18,7 @@ export const MisionValores = () => {
           size="xl"
           mb={12}
           textAlign="center"
-          color="gray.100"
+          color="gray.600"
           fontWeight="medium"
         >
           Misión y Valores
@@ -31,7 +31,7 @@ export const MisionValores = () => {
                 as="h3"
                 size="lg"
                 mb={4}
-                color="gray.300"
+                color="gray.600"
                 fontWeight="medium"
               >
                 Nuestra Misión
@@ -53,7 +53,7 @@ export const MisionValores = () => {
                 as="h3"
                 size="lg"
                 mb={4}
-                color="gray.300"
+                color="gray.600"
                 fontWeight="medium"
               >
                 Nuestros Valores

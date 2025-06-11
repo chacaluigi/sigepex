@@ -87,7 +87,7 @@ export default function Proceso() {
           }, 500);
         }
       }
-    }, 1500); // Se actualiza cada 0.8 segundos
+    }, 500); // Se actualiza cada 0.8 segundos
   };
 
   // Función auxiliar para obtener el siguiente paso

@@ -76,8 +76,9 @@ const scrapePageLinks = async (page, url) => {
 };
 
 // 📌 Función principal para extraer enlaces de noticias y detenerse si encuentra un link repetido
+//Aqui el número de páginas de LOS TIEMPOS  explorar
 const extractNewsLinks = async (page) => {
-  const pagesToScrape = Array.from({ length: 2 }, (_, i) =>
+  const pagesToScrape = Array.from({ length: 4 }, (_, i) =>
     i === 0
       ? "https://www.lostiempos.com/ultimas-noticias"
       : `https://www.lostiempos.com/ultimas-noticias?page=${i}`

@@ -1,4 +1,64 @@
 [
+    {
+        "fuente": "El Día Bolivia",
+        "contenido": "El Banco Central de Bolivia pone en circulación los nuevos billetes de la serie B https://t.co/TEkg9HmBeG #ElDíaBolivia #BCB #NuevosBilletes #SerieB",
+        "link": "https://x.com/eldiabolivia/status/1929716669678805161",
+        "fecha_publicacion": { "$date": "2025-06-03T12:10:00Z" },
+        "imagenes": null,
+        "cantidad_replies": "N/A",
+        "cantidad_likes": "N/A",
+        "cantidad_views": "N/A"
+    },
+    {
+        "fuente": "Paulo Cuiza",
+        "contenido": "El BANCO CENTRAL DE BOLIVIA puso en circulación la SERIE “B” de la primera familia de billetes con modernas medidas de seguridad",
+        "link": "https://x.com/PauloCuiza/status/1929685743800406366",
+        "fecha_publicacion": { "$date": "2025-06-03T12:10:00Z" },
+        "imagenes": null,
+        "cantidad_replies": "N/A",
+        "cantidad_likes": "N/A",
+        "cantidad_views": "N/A"
+    },
+    {
+        "fuente": "Franz R. Barrios G.",
+        "contenido": "La emisión de la Serie “B” de billetes por parte del Banco Central de Bolivia, en un contexto en que las Reservas Internacionales Netas solo alcanzan para dos meses de importaciones, representa técnicamente una expansión monetaria no respaldada, con efectos concretos sobre la base y la masa monetaria.",
+        "link": "https://x.com/FranzRBarriosG/status/1929682508683100298",
+        "fecha_publicacion": { "$date": "2025-06-03T12:10:00Z" },
+        "imagenes": null,
+        "cantidad_replies": "N/A",
+        "cantidad_likes": "N/A",
+        "cantidad_views": "N/A"
+    },
+    {
+        "fuente": "Banco Central de Bolivia",
+        "contenido": "#BCB | Comunicado de PrensaEL BCB PONE EN CIRCULACIÓN LA SERIE “B” DE LA PRIMERA FAMILIADE BILLETES CON MODERNAS MEDIDAS DE SEGURIDAD",
+        "link": "https://x.com/BancoCentralBO/status/1929665818323046765",
+        "fecha_publicacion": { "$date": "2025-06-03T12:10:00Z" },
+        "imagenes": null,
+        "cantidad_replies": "N/A",
+        "cantidad_likes": "N/A",
+        "cantidad_views": "N/A"
+    },
+    {
+        "fuente": "RTP Bolivia",
+        "contenido": "#RTPInforma💰Una nueva forma de ahorrar: UFVs, la apuesta del Banco Central para proteger tu poder adquisitivo",
+        "link": "https://x.com/rtp_bolivia/status/1928585436210844078",
+        "fecha_publicacion": { "$date": "2025-06-03T12:10:00Z" },
+        "imagenes": null,
+        "cantidad_replies": "N/A",
+        "cantidad_likes": "N/A",
+        "cantidad_views": "N/A"
+    },
+    {
+        "fuente": "ATB Digital",
+        "contenido": "El Banco Central de #Bolivia (#BCB) puso en vigencia las políticas destinadas a facilitar a la población el ahorro en Unidades de Fomento a la Vivienda (#UFV) en el sistema financiero",
+        "link": "https://x.com/ATBDigital/status/1928475237626089953",
+        "fecha_publicacion": { "$date": "2025-06-03T12:10:00Z" },
+        "imagenes": null,
+        "cantidad_replies": "N/A",
+        "cantidad_likes": "N/A",
+        "cantidad_views": "N/A"
+    },
   {
     "fuente": "Periódico La Patria (Bolivia)",
     "contenido": "Los choferes de La Paz y del servicio de transporte interciudad declararon un cuarto intermedio en el paro indefinido que mantenían desde el martes, para evitar la promulgación de una ley que anule el incremento en el costo de pasajes.",
