@@ -1,7 +1,7 @@
-import fs from "fs/promises";
-import { JSON_FILE } from "./config.js";
+const fs = require("fs").promises;
+const { JSON_FILE } = require("./config.js");
 
-export async function loadExistingTweets() {
+async function loadExistingTweets() {
   try {
     const data = await fs.readFile(JSON_FILE, "utf8");
     return JSON.parse(data);
@@ -10,7 +10,7 @@ export async function loadExistingTweets() {
   }
 }
 
-export async function saveTweets(tweets) {
+async function saveTweets(tweets) {
   const existingTweets = await loadExistingTweets();
 
   // Filtrar tweets duplicados usando el ID
@@ -26,3 +26,8 @@ export async function saveTweets(tweets) {
     console.log("🔍 No se encontraron nuevos tweets.");
   }
 }
+
+module.exports = {
+  loadExistingTweets,
+  saveTweets,
+};

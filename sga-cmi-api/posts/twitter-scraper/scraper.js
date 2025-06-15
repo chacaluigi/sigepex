@@ -1,7 +1,7 @@
-import crypto from "crypto";
-import { SEARCH_URL } from "./config.js";
+const crypto = require("crypto");
+const { SEARCH_URL } = require("./config.js");
 
-export async function scrapeTweets(page) {
+async function scrapeTweets(page) {
   console.log("📡 Buscando tweets...");
 
   let allTweets = [];
@@ -138,3 +138,7 @@ export async function scrapeTweets(page) {
     ...tweet,
   }));
 }
+
+module.exports = {
+  scrapeTweets,
+};

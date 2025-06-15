@@ -4,6 +4,7 @@ const { filterNews } = require("../classifier/filterNews");
 const { saveUniqueReports } = require("./saveUniqueReports");
 const { spawn } = require("child_process");
 const { addReportNumber } = require("./addReportNumber");
+const { extractionPosts } = require("../posts/extractionPosts.js");
 
 const fullNewsPath = process.env.FULL_NEWS_PATH;
 
@@ -172,6 +173,9 @@ async function processNews() {
   }
 
   try {
+    // Primero ejecutar el scraping de Twitter
+    await extractionPosts();
+
     const newsData = await scrapeNews();
 
     // 📌 Filtrar solo noticias nuevas

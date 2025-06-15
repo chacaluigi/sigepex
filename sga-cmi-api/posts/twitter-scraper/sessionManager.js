@@ -1,7 +1,7 @@
-import fs from "fs/promises";
-import { SESSION_FILE } from "./config.js";
+const fs = require("fs").promises;
+const { SESSION_FILE } = require("./config.js");
 
-export async function saveSession(page) {
+async function saveSession(page) {
   try {
     const cookies = await page.cookies();
     const localStorage = await page.evaluate(() =>
@@ -17,7 +17,7 @@ export async function saveSession(page) {
   }
 }
 
-export async function loadSession(page) {
+async function loadSession(page) {
   try {
     const sessionData = JSON.parse(await fs.readFile(SESSION_FILE, "utf8"));
 
@@ -48,3 +48,8 @@ export async function loadSession(page) {
     return false;
   }
 }
+
+module.exports = {
+  saveSession,
+  loadSession,
+};

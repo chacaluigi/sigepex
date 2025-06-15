@@ -1,7 +1,7 @@
-import { LOGIN_URL, HOME_URL } from "./config.js";
-import { saveSession } from "./sessionManager.js";
+const { LOGIN_URL, HOME_URL } = require("./config.js");
+const { saveSession } = require("./sessionManager.js");
 
-export async function isLoggedIn(page) {
+async function isLoggedIn(page) {
   try {
     await page.goto(HOME_URL, { waitUntil: "networkidle2", timeout: 15000 });
 
@@ -24,7 +24,7 @@ export async function isLoggedIn(page) {
   }
 }
 
-export async function login(page) {
+async function login(page) {
   console.log("🔑 Preparando inicio de sesión en Twitter/X...");
   console.log(
     "🕒 Por favor inicia sesión MANUALMENTE en la ventana del navegador..."
@@ -51,3 +51,8 @@ export async function login(page) {
     return false;
   }
 }
+
+module.exports = {
+  isLoggedIn,
+  login,
+};

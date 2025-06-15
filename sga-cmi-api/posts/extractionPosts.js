@@ -1,10 +1,10 @@
-import puppeteer from "puppeteer";
-import { loadSession } from "./twitter-scraper/sessionManager.js";
-import { isLoggedIn, login } from "./twitter-scraper/auth.js";
-import { scrapeTweets } from "./twitter-scraper/scraper.js";
-import { saveTweets } from "./twitter-scraper/fileManager.js";
+const puppeteer = require("puppeteer");
+const { loadSession } = require("./twitter-scraper/sessionManager.js");
+const { isLoggedIn, login } = require("./twitter-scraper/auth.js");
+const { scrapeTweets } = require("./twitter-scraper/scraper.js");
+const { saveTweets } = require("./twitter-scraper/fileManager.js");
 
-async function extractPosts() {
+async function extractionPosts() {
   console.log("🚀 Iniciando navegador...");
 
   const browser = await puppeteer.launch({
@@ -43,4 +43,6 @@ async function extractPosts() {
   console.log("✅ Extracción completada.");
 }
 
-extractPosts();
+module.exports = {
+  extractionPosts,
+};
