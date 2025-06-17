@@ -1,4 +1,3 @@
-import React from 'react';
 import ListarPosts from '../../components/reportes/ListarPosts';
 import Layout from '../../components/layout/Layout';
 

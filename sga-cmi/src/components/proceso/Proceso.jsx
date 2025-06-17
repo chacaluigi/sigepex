@@ -111,10 +111,34 @@ export default function Proceso() {
 
     if (!modoPrueba) {
       try {
+        // 1. Obtener el usuario desde localStorage
+        const user = JSON.parse(localStorage.getItem('user'));
+        if (!user || !user.token) {
+          throw new Error(
+            'No hay sesión activa. Por favor inicie sesión nuevamente.'
+          );
+        }
+
         const response = await fetch('http://localhost:4000/api/proceso', {
           method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: user.token, // Usar el token del objeto user
+          },
+          body: JSON.stringify({}),
         });
-        if (!response.ok) throw new Error('Error en el servidor');
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(errorData.msg || 'Error en el servidor');
+        }
+        const result = await response.json();
+        toast({
+          title: 'Proceso exitoso',
+          description: result.message,
+          status: 'success',
+          duration: 5000,
+          isClosable: true,
+        });
       } catch (error) {
         console.error('❌ Error al procesar noticias:', error);
         toast({
@@ -124,8 +148,8 @@ export default function Proceso() {
           duration: 5000,
           isClosable: true,
         });
+      } finally {
         setLoading(false);
-        return;
       }
     }
 

@@ -5,10 +5,12 @@ const { saveUniqueReports } = require("./saveUniqueReports");
 const { spawn } = require("child_process");
 const { addReportNumber } = require("./addReportNumber");
 const { extractionPosts } = require("../posts/extractionPosts.js");
+const Solicitud = require("../models/solicitud");
+const { getCurrentUser } = require("../helpers/authHelper");
 
 const fullNewsPath = process.env.FULL_NEWS_PATH;
 
-async function processNews() {
+async function processNews(req, res) {
   const previousNews = readPreviousNews(fullNewsPath);
   const previousIDs = new Set(previousNews.map((news) => news.id));
 
@@ -87,7 +89,6 @@ async function processNews() {
 
   async function asociarReportesASolicitudes() {
     try {
-      const Solicitud = require("../models/solicitud");
       const Report = require("../models/report");
 
       console.log("🔍 Buscando solicitudes activas...");
@@ -173,8 +174,28 @@ async function processNews() {
   }
 
   try {
-    // Primero ejecutar el scraping de Twitter
-    await extractionPosts();
+    // 1. Obtener usuario actual
+    const currentUserId = req.uid;
+
+    if (!currentUserId) {
+      throw new Error("No se pudo identificar al usuario");
+    }
+
+    // 2. Buscar solicitud asignada al usuario
+    const solicitud = await Solicitud.findOne({
+      asignadoA: currentUserId,
+      estado: "Pendiente", // o "En Proceso"
+    });
+
+    if (!solicitud) {
+      throw new Error(
+        `Usuario ${currentUserId} no tiene solicitudes pendientes`
+      );
+    }
+    console.log("📋 Solicitud encontrada:", solicitud._id);
+
+    await extractionPosts(currentUserId, solicitud._id);
+    /* // Primero ejecutar el scraping de Twitter
 
     const newsData = await scrapeNews();
 
@@ -213,7 +234,7 @@ async function processNews() {
     // 📌 Asociar reportes a solicitudes
     console.log("🔗 Asociando reportes a solicitudes...");
     await asociarReportesASolicitudes();
-    console.log("✅ Asociación de reportes completada.");
+    console.log("✅ Asociación de reportes completada."); */
   } catch (error) {
     console.error("⚠️ Error en el procesamiento de noticias:", error);
   }

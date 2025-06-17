@@ -1,11 +1,17 @@
 const crypto = require("crypto");
-const { SEARCH_URL } = require("./config.js");
 
-async function scrapeTweets(page) {
+async function scrapeTweets(page, searchConfig) {
   console.log("📡 Buscando tweets...");
 
   let allTweets = [];
-  const { queries, users, sinceDate, untilDate } = SEARCH_URL;
+  const { queries, users, sinceDate, untilDate } = searchConfig;
+
+  console.log("🔍 Parámetros de búsqueda:", {
+    queries,
+    users,
+    sinceDate,
+    untilDate,
+  });
 
   // Construir la parte de usuarios para la URL
   const usersQuery = users.map((user) => `from%3A${user}`).join("%20OR%20");
