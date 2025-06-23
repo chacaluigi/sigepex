@@ -2,7 +2,6 @@ const puppeteer = require("puppeteer");
 const { loadSession } = require("./twitter-scraper/sessionManager.js");
 const { isLoggedIn, login } = require("./twitter-scraper/auth.js");
 const { scrapeTweets } = require("./twitter-scraper/scraper.js");
-const { saveTweets } = require("./twitter-scraper/fileManager.js");
 const { getSearchConfig } = require("./twitter-scraper/config.js");
 const { savePosts } = require("../controllers/post.js");
 
@@ -14,7 +13,7 @@ async function extractionPosts(currentUserId, solicitudId) {
   console.log("🔍 Configuración de búsqueda:", SEARCH_CONFIG);
 
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: "new",
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
     defaultViewport: null,
   });

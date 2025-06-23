@@ -17,6 +17,70 @@ const formatDate = (dateObj) => {
 
 async function getSearchConfig(userId) {
   try {
+    // Buscar la solicitud asignada al usuario actual con las fuentes pobladas
+    const solicitud = await Solicitud.findOne({
+      asignadoA: userId,
+      estado: "Pendiente",
+    })
+      .populate("fuentes", "usuario -_id") // Solo obtener el campo 'usuario' de las fuentes
+      .exec();
+
+    if (!solicitud) {
+      throw new Error(
+        "No se encontró una solicitud pendiente asignada al usuario."
+      );
+    }
+
+    // Verificar que exista rango de fechas
+    if (
+      !solicitud.rangoFechaHora ||
+      !solicitud.rangoFechaHora.inicio ||
+      !solicitud.rangoFechaHora.fin
+    ) {
+      throw new Error("La solicitud no tiene un rango de fechas configurado.");
+    }
+
+    // Extraer los usuarios de las fuentes, filtrando valores nulos/undefined
+    const usuariosFuentes = solicitud.fuentes
+      .map((fuente) => fuente.usuario)
+      .filter((usuario) => usuario); // Filtrar usuarios nulos o undefined
+
+    // Verificar que haya usuarios/fuentes configurados
+    if (usuariosFuentes.length === 0) {
+      throw new Error("La solicitud no tiene fuentes configuradas.");
+    }
+
+    // Verificar que haya palabras clave
+    if (!solicitud.palabrasClave || solicitud.palabrasClave.length === 0) {
+      throw new Error("La solicitud no tiene palabras clave configuradas.");
+    }
+
+    return {
+      queries: solicitud.palabrasClave,
+      users: usuariosFuentes,
+      sinceDate: formatDate(solicitud.rangoFechaHora.inicio),
+      untilDate: formatDate(solicitud.rangoFechaHora.fin),
+    };
+  } catch (error) {
+    console.error("Error al obtener configuración de búsqueda:", error.message);
+
+    // Retornar valores por defecto en caso de error
+    return {
+      queries: ["pollo", "gasolina"],
+      users: [
+        "eldiario_net",
+        "LaRazon_Bolivia",
+        "grupoeldeber",
+        "ExitoNoticias",
+      ],
+      sinceDate: "2025-06-11",
+      untilDate: "2025-06-14",
+    };
+  }
+}
+
+/* async function getSearchConfig(userId) {
+  try {
     // Buscar la solicitud asignada al usuario actual
     const solicitud = await Solicitud.findOne({
       asignadoA: userId,
@@ -57,7 +121,7 @@ async function getSearchConfig(userId) {
       untilDate: "2025-06-14",
     };
   }
-}
+} */
 
 const SESSION_FILE = "posts/twitter_session.json";
 const JSON_FILE = "posts/data/tweets.json";

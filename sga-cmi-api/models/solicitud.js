@@ -6,7 +6,14 @@ const SolicitudSchema = Schema(
     asignadoA: { type: Schema.Types.ObjectId, ref: "Usuario", required: false },
     titulo: { type: String, required: true },
     descripcion: { type: String, required: true },
-    palabrasClave: { type: [String], default: [] }, // Nuevo campo: conjunto de palabras clave
+    palabrasClave: { type: [String], default: [] },
+    fuentes: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "Fuente",
+        default: [],
+      },
+    ],
     rangoFechaHora: {
       // Nuevo campo: rango de fecha y hora
       inicio: { type: Date },

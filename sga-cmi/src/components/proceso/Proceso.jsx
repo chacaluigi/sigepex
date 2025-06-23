@@ -132,13 +132,13 @@ export default function Proceso() {
           throw new Error(errorData.msg || 'Error en el servidor');
         }
         const result = await response.json();
-        toast({
+        /* toast({
           title: 'Proceso exitoso',
           description: result.message,
           status: 'success',
           duration: 5000,
           isClosable: true,
-        });
+        }); */
       } catch (error) {
         console.error('❌ Error al procesar noticias:', error);
         toast({

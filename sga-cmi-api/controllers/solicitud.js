@@ -14,6 +14,7 @@ const getSolicitudes = async (req, res = response) => {
         .limit(perPage)
         .populate("usuario", "nombre email")
         .populate("asignadoA", "nombre email")
+        .populate("fuentes", "nombre usuario tipo") // Añade populate para fuentes
         .lean(),
       Solicitud.countDocuments(),
     ]);
@@ -40,7 +41,8 @@ const getSolicitud = async (req, res = response) => {
     const solicitud = await Solicitud.findById(id)
       .populate("usuario", "nombre email")
       .populate("asignadoA", "nombre email")
-      .populate("reportes"); // Popula los reportes asociados
+      .populate("reportes") // Popula los reportes asociados
+      .populate("fuentes", "nombre usuario tipo"); // Añade populate para fuentes
 
     if (!solicitud) {
       return res.status(404).json({
@@ -137,7 +139,8 @@ const actualizarSolicitud = async (req, res = response) => {
       new: true,
     })
       .populate("usuario", "nombre email")
-      .populate("asignadoA", "nombre email");
+      .populate("asignadoA", "nombre email")
+      .populate("fuentes", "nombre usuario tipo descripcion");
 
     if (!solicitud) {
       return res.status(404).json({
@@ -154,6 +157,7 @@ const actualizarSolicitud = async (req, res = response) => {
         descripcion: solicitud.descripcion,
         palabrasClave: solicitud.palabrasClave,
         rangoFechaHora: solicitud.rangoFechaHora,
+        fuentes: solicitud.fuentes, // Añadido fuentes a la respuesta
         estado: solicitud.estado,
         fecha_creacion: solicitud.fecha_creacion,
         fecha_finalizacion: solicitud.fecha_finalizacion,

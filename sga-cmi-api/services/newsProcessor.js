@@ -186,6 +186,7 @@ async function processNews(req, res) {
       asignadoA: currentUserId,
       estado: "Pendiente", // o "En Proceso"
     });
+    console.log(solicitud.fuentes.map);
 
     if (!solicitud) {
       throw new Error(
