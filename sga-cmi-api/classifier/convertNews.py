@@ -35,16 +35,14 @@ def transform_news_to_report(news_item, retries=3):
     """Transforma una noticia en un reporte de seguridad con ayuda de Gemini, con reintentos en caso de fallo."""
     prompt = f"""
     Convierte la siguiente noticia en un reporte de seguridad con los siguientes campos:
-    - tema: Resumen del contenido de la noticia en una oración.
-    - categoria: Mantener la misma categoría.
-    - factor: Determinar si es Político, Militar, Económico o Psicosocial (puede ser más de uno).
+    - tema: Redactar una oración que sintetice de manera clara y objetiva el contenido principal de la noticia.
+    - factor: Determinar si es Político, Militar, Económico o Psicosocial.
     - lugar: Extraer el lugar mencionado.
     - departamento: Determinar el departamento si es posible.
     - pais: Identificar el país.
     - fuentes: Extraer fuentes mencionadas o usar el autor.
     - hecho: Convertir el contenido en un informe detallado.
     - actores: Identificar actores clave con su cargo.
-    - probable_evolucion: Predecir posibles consecuencias en menos de 3 líneas.
 
     Noticia:
     Título: {news_item['title']}

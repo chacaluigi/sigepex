@@ -6,6 +6,7 @@ import moduloReducer from '../features/moduloSlice';
 import sedeReducer from '../features/sedeSlice';
 import reportReducer from '../features/reportSlice';
 import solicitudReducer from '../features/solicitudSlice';
+import postReducer from '../features/postSlice';
 
 export const store = configureStore({
   reducer: {
@@ -16,5 +17,6 @@ export const store = configureStore({
     sedes: sedeReducer,
     reports: reportReducer,
     solicitudes: solicitudReducer,
+    posts: postReducer,
   },
 });

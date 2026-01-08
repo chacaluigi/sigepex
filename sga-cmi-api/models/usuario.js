@@ -25,7 +25,7 @@ const UsuarioSchema = Schema(
     rol: {
       type: Schema.Types.ObjectId,
       ref: "Rol",
-      required: true
+      required: true,
     },
     sedes: [
       {

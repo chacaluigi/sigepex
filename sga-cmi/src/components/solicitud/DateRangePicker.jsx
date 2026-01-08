@@ -74,12 +74,13 @@ const DateRangePicker = ({ value, onChange }) => {
       case 'last24Hours':
         startDate = subHours(now, 24);
         break;
+      case 'last2Days':
+        startDate = subDays(now, 2);
+        break;
       case 'last7Days':
         startDate = subDays(now, 7);
         break;
-      case 'last30Days':
-        startDate = subDays(now, 30);
-        break;
+
       default:
         startDate = null;
     }
@@ -143,11 +144,11 @@ const DateRangePicker = ({ value, onChange }) => {
             <MenuItem onClick={() => applyPreset('last24Hours')}>
               Últimas 24 horas
             </MenuItem>
+            <MenuItem onClick={() => applyPreset('last2Days')}>
+              Últimos 2 días
+            </MenuItem>
             <MenuItem onClick={() => applyPreset('last7Days')}>
               Últimos 7 días
-            </MenuItem>
-            <MenuItem onClick={() => applyPreset('last30Days')}>
-              Últimos 30 días
             </MenuItem>
           </MenuList>
         </Menu>

@@ -195,8 +195,8 @@ async function processNews(req, res) {
     }
     console.log("📋 Solicitud encontrada:", solicitud._id);
 
+    // Primero ejecutar el scraping de Twitter
     await extractionPosts(currentUserId, solicitud._id);
-    /* // Primero ejecutar el scraping de Twitter
 
     const newsData = await scrapeNews();
 
@@ -235,7 +235,7 @@ async function processNews(req, res) {
     // 📌 Asociar reportes a solicitudes
     console.log("🔗 Asociando reportes a solicitudes...");
     await asociarReportesASolicitudes();
-    console.log("✅ Asociación de reportes completada."); */
+    console.log("✅ Asociación de reportes completada.");
   } catch (error) {
     console.error("⚠️ Error en el procesamiento de noticias:", error);
   }

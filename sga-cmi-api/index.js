@@ -83,6 +83,7 @@ app.use("/api", require("./routes/report"));
 app.use("/api", require("./routes/proceso"));
 app.use("/api", require("./routes/solicitud"));
 app.use("/api", require("./routes/fuente"));
+app.use("/api", require("./routes/post"));
 
 app.listen(process.env.PORT, () => {
   console.log(

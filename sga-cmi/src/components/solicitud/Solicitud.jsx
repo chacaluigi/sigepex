@@ -46,8 +46,8 @@ const Solicitudes = () => {
     }
     dispatch(getSolicitudes({ page: currentPage, perPage }));
     if (isError) {
-      ToastChakra('Error', message, 'error', 1500);
-      console.error(message);
+      //ToastChakra('Error', message, 'error', 1500);
+      //console.error(message);
     }
     return () => {
       dispatch(reset());

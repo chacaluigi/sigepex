@@ -22,8 +22,8 @@ const PostSchema = Schema(
     collection: "posts",
     timestamps: true,
     versionKey: false,
-    toJSON: { virtuals: true },
-    toObject: { virtuals: true },
+    //toJSON: { virtuals: true },
+    //toObject: { virtuals: true },
   }
 );
 

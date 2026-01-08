@@ -11,6 +11,12 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
+  Button,
+  Tabs,
+  TabList,
+  Tab,
+  TabPanels,
+  TabPanel,
 } from '@chakra-ui/react';
 import DataTable from 'react-data-table-component';
 import DataTableExtensions from 'react-data-table-component-extensions';
@@ -31,6 +37,7 @@ import { ModalDetallesReporte } from './ModalDetallesReporte';
 import { ModalDescargar } from './ModalDescargar';
 import { format, parseISO } from 'date-fns';
 import { es } from 'date-fns/locale';
+import { getPostsBySolicitud } from '../../features/postSlice';
 
 const Reportes = () => {
   const navigate = useNavigate();
@@ -47,8 +54,6 @@ const Reportes = () => {
     currentPage,
     totalRows,
   } = useSelector(state => state.reports);
-
-  const { solicitudes } = useSelector(state => state.solicitudes);
 
   const [perPage, setPerPage] = useState(40);
   const [page, setPage] = useState(1);
@@ -153,13 +158,14 @@ const Reportes = () => {
       name: 'TEMA',
       selector: row => row.tema,
       sortable: true,
+      wrap: true,
       minWidth: '200px',
     },
     {
       name: 'FACTOR',
       selector: row => (Array.isArray(row.factor) ? row.factor.join(', ') : ''),
       sortable: false,
-      center: true,
+      wrap: true,
       width: '180px',
     },
     {
@@ -191,11 +197,76 @@ const Reportes = () => {
     setViewMode(viewMode === 'all' ? 'bySolicitud' : 'all');
   };
 
-  // Datos para la tabla normal
+  // Datos para la tabla normalf
   const tableData = {
     columns,
     data: reports?.reports || [],
   };
+
+  const { posts, isLoading: isLoadingPosts } = useSelector(
+    state => state.posts
+  );
+
+  // Función para cargar posts cuando se expande un acordeón
+  const handleAccordionChange = async solicitudId => {
+    try {
+      console.log(`Cargando posts para solicitud: ${solicitudId}`);
+      const response = await dispatch(getPostsBySolicitud(solicitudId));
+
+      // Accede a los datos correctamente desde el payload de la acción
+      console.log('Posts cargados:', response.payload.posts);
+    } catch (error) {
+      ToastChakra('Error', 'No se pudieron cargar los posts', 'error', 1500);
+    }
+  };
+  // Columnas para la tabla de posts
+  const postColumns = [
+    {
+      name: 'FECHA',
+      selector: row => formatDateTime(row.time || row.createdAt).date,
+      sortable: true,
+      width: '120px',
+    },
+    {
+      name: 'USUARIO',
+      selector: row => row.user,
+      sortable: true,
+      wrap: true,
+      width: '180px',
+    },
+    {
+      name: 'CONTENIDO',
+      selector: row => row.content,
+      sortable: false,
+      wrap: true,
+      cell: row => (
+        <Text noOfLines={2} title={row.content}>
+          {row.content}
+        </Text>
+      ),
+    },
+    {
+      name: 'VISUALIZACIONES',
+      selector: row => row.views,
+      sortable: true,
+      width: '100px',
+      center: true,
+    },
+    {
+      name: 'ACCIONES',
+      cell: row => (
+        <Button
+          size="sm"
+          colorScheme="blue"
+          onClick={() => window.open(row.link, '_blank')}
+        >
+          Ver
+        </Button>
+      ),
+      width: '100px',
+      center: true,
+    },
+  ];
 
   if (isLoading) {
     return <Loading />;
@@ -315,6 +386,7 @@ const Reportes = () => {
                       _hover: { bg: 'primary.900' },
                       bg: 'primary.900',
                     }}
+                    onClick={() => handleAccordionChange(group.solicitudId)} // Añade esto
                   >
                     <Box
                       flex="1"
@@ -334,17 +406,52 @@ const Reportes = () => {
                     bg="white"
                     _dark={{ bg: 'primary.800' }}
                   >
-                    <DataTable
-                      columns={columns}
-                      data={group.reports}
-                      customStyles={customStyles}
-                      theme={themeTable} // Asegúrate de pasar themeTable
-                      noDataComponent={
-                        <Text color="gray.600" _dark={{ color: 'gray.300' }}>
-                          No hay reportes para esta solicitud
-                        </Text>
-                      }
-                    />
+                    <Tabs variant="enclosed" isLazy>
+                      <TabList>
+                        <Tab>Reportes ({group.reports.length})</Tab>
+                        <Tab>Posts de X</Tab>
+                      </TabList>
+
+                      <TabPanels>
+                        <TabPanel p={0}>
+                          <DataTable
+                            columns={columns}
+                            data={group.reports}
+                            customStyles={customStyles}
+                            theme={themeTable}
+                            noDataComponent={
+                              <Text
+                                color="gray.600"
+                                _dark={{ color: 'gray.300' }}
+                              >
+                                No hay reportes para esta solicitud
+                              </Text>
+                            }
+                          />
+                        </TabPanel>
+
+                        <TabPanel p={0}>
+                          {isLoadingPosts ? (
+                            <Loading />
+                          ) : (
+                            <DataTable
+                              columns={postColumns}
+                              data={posts}
+                              customStyles={customStyles}
+                              theme={themeTable}
+                              noDataComponent={
+                                <Text
+                                  color="gray.600"
+                                  _dark={{ color: 'gray.300' }}
+                                >
+                                  No hay posts para esta solicitud
+                                </Text>
+                              }
+                            />
+                          )}
+                        </TabPanel>
+                      </TabPanels>
+                    </Tabs>
                   </AccordionPanel>
                 </AccordionItem>
               ))}

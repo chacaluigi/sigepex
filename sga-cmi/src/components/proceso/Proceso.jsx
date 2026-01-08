@@ -196,8 +196,8 @@ export default function Proceso() {
           Análisis de Datos
         </Heading>
         <Text fontSize="lg" color="gray.500">
-          Ejecuta el proceso completo de extracción, limpieza, análisis y
-          generación de reportes de los posts de redes sociales.
+          Ejecutar el proceso completo de extracción, limpieza, análisis y
+          generación de reportes de posts de la red social X.
         </Text>
       </Box>
 

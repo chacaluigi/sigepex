@@ -1,5 +1,5 @@
-const Post = require("../models/post");
 const { response } = require("express");
+const Post = require("../models/post");
 
 // 📌 Guardar múltiples posts con ID de solicitud
 const savePosts = async (posts, solicitudId) => {
@@ -90,17 +90,14 @@ const getPosts = async (req, res = response) => {
 };
 
 // 📌 Obtener posts por solicitud
+// controllers/post.js
 const getPostsBySolicitud = async (req, res = response) => {
   try {
     const { solicitudId } = req.params;
-    const { processed } = req.query;
 
-    const filter = { solicitud: solicitudId };
-    if (processed !== undefined) {
-      filter.processed = processed === "true";
-    }
-
-    const posts = await Post.find(filter).sort({ createdAt: -1 }).lean();
+    const posts = await Post.find({ solicitud: solicitudId })
+      .sort({ createdAt: -1 })
+      .lean();
 
     res.json({
       ok: true,
@@ -111,10 +108,36 @@ const getPostsBySolicitud = async (req, res = response) => {
     console.error(error);
     res.status(500).json({
       ok: false,
-      msg: "⚠️ Error al obtener los posts por solicitud",
+      msg: "Error al obtener los posts",
     });
   }
 };
+
+/* const getPostsBySolicitud = async (req, res = response) => {
+  try {
+    const { solicitudId } = req.params;
+
+    const posts = await Post.find({ solicitud: solicitudId })
+      .sort({ createdAt: -1 })
+      .lean()
+      .map((post) => ({
+        ...post,
+        solicitud: post.solicitud.toString(), // Convertir ObjectId a string
+      }));
+
+    res.json({
+      ok: true,
+      posts,
+      count: posts.length,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      ok: false,
+      msg: "Error al obtener los posts",
+    });
+  }
+}; */
 
 module.exports = {
   savePosts,

@@ -22,14 +22,16 @@ const Home = () => {
           <div className="dashboard-icon">
             <i className="bx bxs-user"></i>
           </div>
-          <div className="dashboard-text">Usuarios</div>
+          <div className="dashboard-text">Gestión de Usuarios</div>
         </a>
 
         <a href="/" className="dashboard-item">
           <div className="dashboard-icon">
             <i className="bx bx-search-alt"></i>
           </div>
-          <div className="dashboard-text">Criterios de Búsqueda</div>
+          <div className="dashboard-text">
+            Gestión de Solicitudes de Análisis
+          </div>
         </a>
 
         <a href="/" className="dashboard-item">
@@ -43,7 +45,7 @@ const Home = () => {
           <div className="dashboard-icon">
             <i className="bx bxs-report"></i>
           </div>
-          <div className="dashboard-text">Reportes</div>
+          <div className="dashboard-text">Gestión de Reportes</div>
         </a>
       </div>
     </main>
