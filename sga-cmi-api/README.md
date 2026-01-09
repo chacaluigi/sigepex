@@ -1,2 +1,3 @@
-# sga-cmi-api
-API - Sistema de Gestión Administrativa - Colegio María Inmaculada Arequipa
+# sigepex
+
+API - Sistema para la Gestión de Posts de la Red Social X
