@@ -1,24 +1,24 @@
-const { response } = require("express");
-const bcrypt = require("bcryptjs");
-const { generarJWT } = require("../helpers/jwt");
-const Usuario = require("../models/usuario");
-const { getMenuFrontEnd } = require("../helpers/menu-frontend");
-const crypto = require("crypto");
-const nodemailer = require("nodemailer");
-const { emailConfig } = require("../helpers/emailSend");
-const moment = require("moment");
+const { response } = require('express');
+const bcrypt = require('bcryptjs');
+const { generarJWT } = require('../helpers/jwt');
+const Usuario = require('../models/usuario');
+const { getMenuFrontEnd } = require('../helpers/menu-frontend');
+const crypto = require('crypto');
+const nodemailer = require('nodemailer');
+const { emailConfig } = require('../helpers/emailSend');
+const moment = require('moment');
 
 const login = async (req, res = response) => {
   try {
     const { correo, password } = req.body;
 
     const usuarioDB = await Usuario.findOne({ correo })
-      .populate("sedes", "nombre slug")
+      .populate('sedes', 'nombre slug')
       .populate({
-        path: "rol",
+        path: 'rol',
         populate: {
-          path: "modulos",
-          model: "Modulo",
+          path: 'modulos',
+          model: 'Modulo',
           options: { sort: { position: 1 } },
         },
       });
@@ -26,7 +26,7 @@ const login = async (req, res = response) => {
     if (!usuarioDB) {
       return res.status(404).json({
         ok: false,
-        msg: "Email no encontrado",
+        msg: 'Email no encontrado',
       });
     }
 
@@ -35,7 +35,7 @@ const login = async (req, res = response) => {
     if (!validPassword) {
       return res.status(400).json({
         ok: false,
-        msg: "Credenciales incorrectas",
+        msg: 'Credenciales incorrectas',
       });
     }
 
@@ -44,7 +44,7 @@ const login = async (req, res = response) => {
     if (!usuarioDB.estado) {
       return res.status(404).json({
         ok: false,
-        msg: "Usuario Inactivo, Hable con el administrador",
+        msg: 'Usuario Inactivo, Hable con el administrador',
       });
     }
 
@@ -53,7 +53,7 @@ const login = async (req, res = response) => {
 
     res.json({
       ok: true,
-      msg: "login",
+      msg: 'login',
       usuario: {
         id: usuarioDB._id,
         nombre: usuarioDB.nombre,
@@ -70,7 +70,7 @@ const login = async (req, res = response) => {
     console.log(error);
     res.status(500).json({
       ok: false,
-      msg: "Hable con el administrador",
+      msg: 'Hable con el administrador',
     });
   }
 };
@@ -84,7 +84,7 @@ const register = async (req, res = response) => {
     if (existeEmail) {
       return res.status(400).json({
         ok: false,
-        msg: "El correo ya existe",
+        msg: 'El correo ya existe',
       });
     }
 
@@ -114,7 +114,7 @@ const register = async (req, res = response) => {
     console.log(error);
     res.status(500).json({
       ok: false,
-      msg: "Hable con el administrador",
+      msg: 'Hable con el administrador',
     });
   }
 };
@@ -130,7 +130,7 @@ const updateProfile = async (req, res = response) => {
     if (!usuario) {
       return res.status(404).json({
         ok: false,
-        msg: "No existe un usuario con ese id",
+        msg: 'No existe un usuario con ese id',
       });
     }
 
@@ -139,7 +139,7 @@ const updateProfile = async (req, res = response) => {
       if (existeEmail) {
         return res.status(400).json({
           ok: false,
-          msg: "Ya existe un usuario con ese correo",
+          msg: 'Ya existe un usuario con ese correo',
         });
       }
 
@@ -166,15 +166,15 @@ const updateProfile = async (req, res = response) => {
     const usuarioData = await Usuario.findByIdAndUpdate(id, data, {
       new: true,
     }).populate({
-      path: "rol",
-      populate: { path: "modulos" }, // Si "modulos" es otro ObjectID dentro de "rol"
+      path: 'rol',
+      populate: { path: 'modulos' }, // Si "modulos" es otro ObjectID dentro de "rol"
     });
 
     const token = await generarJWT(id);
 
     res.json({
       ok: true,
-      msg: "Perfil Actualizado",
+      msg: 'Perfil Actualizado',
       usuario: {
         id: usuarioData._id,
         nombre: usuarioData.nombre,
@@ -191,7 +191,7 @@ const updateProfile = async (req, res = response) => {
     console.log(error);
     res.status(500).json({
       ok: false,
-      msg: "Hable con el administrador",
+      msg: 'Hable con el administrador',
     });
   }
 };
@@ -204,10 +204,10 @@ let codigosRecuperacion = {
 const obtenerFechaActualFormateada = () => {
   const fecha = new Date();
   const year = fecha.getFullYear();
-  const month = String(fecha.getMonth() + 1).padStart(2, "0"); // Los meses en JavaScript se indexan desde 0
-  const day = String(fecha.getDate()).padStart(2, "0");
-  const hour = String(fecha.getHours()).padStart(2, "0");
-  const minutes = String(fecha.getMinutes()).padStart(2, "0");
+  const month = String(fecha.getMonth() + 1).padStart(2, '0'); // Los meses en JavaScript se indexan desde 0
+  const day = String(fecha.getDate()).padStart(2, '0');
+  const hour = String(fecha.getHours()).padStart(2, '0');
+  const minutes = String(fecha.getMinutes()).padStart(2, '0');
   const fechaFormateada = `${year}/${month}/${day} ${hour}:${minutes} GMT`;
   return fechaFormateada;
 };
@@ -218,7 +218,7 @@ function generateEmailHTML(userData, ipAddress, codigoRecuperacion) {
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Recuperación de contraseña - SGA-MI</title>
+            <title>Recuperación de contraseña - SIGEPEX</title>
         <style>
                 /* Estilos CSS personalizados */
             body {
@@ -310,11 +310,11 @@ function generateEmailHTML(userData, ipAddress, codigoRecuperacion) {
 
 const obtenerDireccionIP = async () => {
   try {
-    const response = await fetch("https://api.ipify.org/?format=json");
+    const response = await fetch('https://api.ipify.org/?format=json');
     const data = await response.json();
     return data.ip;
   } catch (error) {
-    console.error("Error al obtener la dirección IP:", error);
+    console.error('Error al obtener la dirección IP:', error);
     return null;
   }
 };
@@ -330,7 +330,7 @@ const recuperarContrasena = async (req, res) => {
     if (!usuarioDB) {
       return res.json({
         ok: false,
-        msg: "Email no encontrado",
+        msg: 'Email no encontrado',
       });
     }
 
@@ -350,7 +350,7 @@ const recuperarContrasena = async (req, res) => {
     const mailOptions = {
       from: process.env.EMAIL_SEND,
       to: correo,
-      subject: "Código de validación para Recuperación de contraseña",
+      subject: 'Código de validación para Recuperación de contraseña',
       html: generateEmailHTML(usuarioDB, ipAddress, codigoRecuperacion),
     };
 
@@ -363,12 +363,12 @@ const recuperarContrasena = async (req, res) => {
         console.log(error);
         res.json({
           ok: false,
-          msg: "Error al enviar el correo electrónico",
+          msg: 'Error al enviar el correo electrónico',
         });
       } else {
         res.json({
           ok: true,
-          msg: "Correo electrónico enviado",
+          msg: 'Correo electrónico enviado',
           correo,
           emailToken: token,
           response: info.response,
@@ -376,10 +376,10 @@ const recuperarContrasena = async (req, res) => {
       }
     });
   } catch (error) {
-    console.error("Error al recuperar la contraseña:", error);
+    console.error('Error al recuperar la contraseña:', error);
     res.json({
       ok: false,
-      msg: "Error al recuperar la contraseña",
+      msg: 'Error al recuperar la contraseña',
     });
   }
 };
@@ -395,7 +395,7 @@ const resetPassword = async (req, res) => {
     if (!usuarioDB) {
       return res.json({
         ok: false,
-        msg: "Email no encontrado",
+        msg: 'Email no encontrado',
       });
     }
 
@@ -404,7 +404,7 @@ const resetPassword = async (req, res) => {
     if (codigoRecuperacion !== codigosRecuperacion.codigo) {
       return res.json({
         ok: false,
-        msg: "Código de recuperación inválido",
+        msg: 'Código de recuperación inválido',
       });
     }
 
@@ -412,12 +412,12 @@ const resetPassword = async (req, res) => {
 
     const fechaEnvidada = moment(codigosRecuperacion.fechaEnvidada);
     const fechaActual = moment(new Date());
-    const difFechas = fechaActual.diff(fechaEnvidada, "minutes");
+    const difFechas = fechaActual.diff(fechaEnvidada, 'minutes');
 
     if (difFechas > 2) {
       return res.json({
         ok: false,
-        msg: "Código de recuperación ha expirado, intente de nuevo",
+        msg: 'Código de recuperación ha expirado, intente de nuevo',
       });
     }
 
@@ -432,13 +432,13 @@ const resetPassword = async (req, res) => {
     // Enviar la respuesta
     res.json({
       ok: true,
-      msg: "Contraseña actualizada",
+      msg: 'Contraseña actualizada',
     });
   } catch (error) {
-    console.error("Error al actualizar la contraseña:", error);
+    console.error('Error al actualizar la contraseña:', error);
     res.status(500).json({
       ok: false,
-      msg: "Error al actualizar la contraseña",
+      msg: 'Error al actualizar la contraseña',
     });
   }
 };
@@ -449,7 +449,7 @@ const generarCodigoRecuperacion = () => {
       if (err) {
         reject(err);
       } else {
-        const codigo = buffer.toString("hex").toUpperCase();
+        const codigo = buffer.toString('hex').toUpperCase();
         resolve(codigo);
       }
     });
